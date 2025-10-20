@@ -51,7 +51,6 @@ window.addEventListener('resize', () => {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
 });
-
 // === Video Modal ===
 document.addEventListener('DOMContentLoaded', () => {
   const playButtons = document.querySelectorAll('.btn-play-center');
@@ -59,12 +58,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
 
+  // Ambil carousel
+  const carousel = document.querySelector('#picsumCarousel');
+  const carouselInstance = bootstrap.Carousel.getOrCreateInstance(carousel);
+
   // Fungsi buka modal
   function openVideo(videoId) {
     const videoURL = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&disablekb=1`;
     iframe.src = videoURL;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Hentikan autoplay carousel saat modal dibuka
+    carouselInstance.pause();
   }
 
   // Fungsi tutup modal
@@ -72,6 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.remove('active');
     iframe.src = "";
     document.body.style.overflow = 'auto';
+
+    // Lanjutkan autoplay carousel setelah modal ditutup
+    carouselInstance.cycle();
   }
 
   // Klik tombol Play
@@ -89,6 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
 
 // === Character Interaction ===
 const charTrack = document.querySelector('.character-track');
