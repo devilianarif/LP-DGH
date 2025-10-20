@@ -1,3 +1,4 @@
-git add .cpanel.yml
-git commit -m "add cpanel deployment config"
-git push
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dibj6185/public_html/
+    - /bin/cp -R * $DEPLOYPATH
