@@ -51,70 +51,62 @@ window.addEventListener('resize', () => {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
 });
-// === Video Modal ===
+// === Video Modal + Carousel Control ===
 document.addEventListener('DOMContentLoaded', () => {
   const playButtons = document.querySelectorAll('.btn-play-center');
   const modal = document.getElementById('videoModal');
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
-  const carouselEl = document.querySelector('#picsumCarousel');
+  const carouselEl = document.getElementById('picsumCarousel');
+
+  // Ambil instance Bootstrap Carousel
   const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
 
-  let wasRunning = false;
+  // Fungsi: Paksa berhenti carousel total
+  function stopCarousel() {
+    // Hentikan autoplay
+    carousel.pause();
 
-  // Fungsi paksa hentikan carousel
-  function forceStopCarousel() {
-    if (!carouselEl) return;
-    wasRunning = true;
-
-    // Hentikan interval internal Bootstrap
+    // Hapus interval internal
     if (carousel._interval) {
       clearInterval(carousel._interval);
       carousel._interval = null;
     }
 
-    // Nonaktifkan semua listener bawaan
-    carouselEl.removeAttribute('data-bs-ride');
-    carouselEl.setAttribute('data-bs-interval', 'false');
-
-    // Nonaktifkan transisi otomatis
-    carouselEl.querySelectorAll('[data-bs-slide]').forEach(btn => btn.disabled = true);
+    // Hapus event ride agar tidak jalan otomatis
+    carouselEl.removeAttribute("data-bs-ride");
+    carouselEl.removeAttribute("data-bs-interval");
   }
 
-  // Fungsi aktifkan kembali carousel
+  // Fungsi: Lanjutkan carousel kembali
   function resumeCarousel() {
-    if (!carouselEl) return;
-
-    carouselEl.setAttribute('data-bs-ride', 'carousel');
-    carouselEl.setAttribute('data-bs-interval', '4000');
-    carouselEl.querySelectorAll('[data-bs-slide]').forEach(btn => btn.disabled = false);
-
-    // Jalankan ulang interval internal Bootstrap
+    carouselEl.setAttribute("data-bs-ride", "carousel");
+    carouselEl.setAttribute("data-bs-interval", "4000"); // interval normal
     carousel.cycle();
-    wasRunning = false;
   }
 
-  // Fungsi buka modal
+  // Fungsi buka modal video
   function openVideo(videoId) {
-    iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0`;
+    const videoURL = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0`;
+    iframe.src = videoURL;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    // Paksa berhenti carousel
-    forceStopCarousel();
+    // === Paksa berhenti carousel saat modal muncul ===
+    stopCarousel();
   }
 
-  // Fungsi tutup modal
+  // Fungsi tutup modal video
   function closeVideo() {
     modal.classList.remove('active');
-    iframe.src = '';
+    iframe.src = "";
     document.body.style.overflow = 'auto';
 
-    // Aktifkan kembali carousel
+    // === Jalankan lagi carousel ===
     resumeCarousel();
   }
 
-  // Klik tombol Play
+  // Klik tombol Play → buka modal & stop carousel
   playButtons.forEach(btn => {
     btn.addEventListener('click', () => {
       const videoId = btn.getAttribute('data-video');
@@ -122,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Klik luar modal atau tombol X
+  // Klik luar modal atau tombol X → tutup & resume
   modal.addEventListener('click', (e) => {
     if (e.target === modal || e.target === closeBtn) {
       closeVideo();
