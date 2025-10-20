@@ -306,3 +306,32 @@ document.addEventListener("click", function(e) {
     ripple.addEventListener("animationend", () => ripple.remove());
   }
 });
+
+// === Pause and Resume Carousel on Modal Interaction ===
+document.addEventListener('DOMContentLoaded', () => {
+  const carousel = document.querySelector('#picsumCarousel');
+  const modal = document.getElementById('videoModal');
+
+  // Function to pause the carousel
+  function pauseCarousel() {
+    const carouselInstance = bootstrap.Carousel.getInstance(carousel);
+    if (carouselInstance) {
+      carouselInstance.pause();
+    }
+  }
+
+  // Function to resume the carousel with a slower interval
+  function resumeCarousel() {
+    const carouselInstance = bootstrap.Carousel.getInstance(carousel);
+    if (carouselInstance) {
+      carouselInstance._config.interval = 7000; // Set slower interval (7 seconds)
+      carouselInstance.cycle();
+    }
+  }
+
+  // Pause carousel when modal is opened
+  modal.addEventListener('show.bs.modal', pauseCarousel);
+
+  // Resume carousel when modal is closed
+  modal.addEventListener('hidden.bs.modal', resumeCarousel);
+});
