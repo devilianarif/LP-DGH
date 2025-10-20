@@ -53,6 +53,7 @@ window.addEventListener('resize', () => {
 });
 
 
+
 // === Character Interaction ===
 const charTrack = document.querySelector('.character-track');
 const carCard = document.querySelectorAll('.kartu-character');
