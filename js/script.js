@@ -57,42 +57,61 @@ document.addEventListener('DOMContentLoaded', () => {
   const modal = document.getElementById('videoModal');
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
-
-  // Ambil carousel instance
   const carouselEl = document.querySelector('#picsumCarousel');
   const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
 
-  let carouselWasRunning = false;
+  let wasRunning = false;
 
-  // Fungsi buka modal
-  function openVideo(videoId) {
-    const videoURL = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&disablekb=1`;
-    iframe.src = videoURL;
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
+  // Fungsi paksa hentikan carousel
+  function forceStopCarousel() {
+    if (!carouselEl) return;
+    wasRunning = true;
 
-    // Hentikan slide otomatis sepenuhnya
-    if (carouselEl.dataset.bsInterval !== "false") {
-      carouselWasRunning = true;
-      carousel.pause();
-      carouselEl.setAttribute("data-bs-interval", "false");
+    // Hentikan interval internal Bootstrap
+    if (carousel._interval) {
       clearInterval(carousel._interval);
       carousel._interval = null;
     }
+
+    // Nonaktifkan semua listener bawaan
+    carouselEl.removeAttribute('data-bs-ride');
+    carouselEl.setAttribute('data-bs-interval', 'false');
+
+    // Nonaktifkan transisi otomatis
+    carouselEl.querySelectorAll('[data-bs-slide]').forEach(btn => btn.disabled = true);
+  }
+
+  // Fungsi aktifkan kembali carousel
+  function resumeCarousel() {
+    if (!carouselEl) return;
+
+    carouselEl.setAttribute('data-bs-ride', 'carousel');
+    carouselEl.setAttribute('data-bs-interval', '4000');
+    carouselEl.querySelectorAll('[data-bs-slide]').forEach(btn => btn.disabled = false);
+
+    // Jalankan ulang interval internal Bootstrap
+    carousel.cycle();
+    wasRunning = false;
+  }
+
+  // Fungsi buka modal
+  function openVideo(videoId) {
+    iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0`;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+
+    // Paksa berhenti carousel
+    forceStopCarousel();
   }
 
   // Fungsi tutup modal
   function closeVideo() {
     modal.classList.remove('active');
-    iframe.src = "";
+    iframe.src = '';
     document.body.style.overflow = 'auto';
 
-    // Lanjutkan autoplay hanya jika sebelumnya aktif
-    if (carouselWasRunning) {
-      carouselEl.setAttribute("data-bs-interval", "4000"); // durasi asli
-      carousel.cycle();
-      carouselWasRunning = false;
-    }
+    // Aktifkan kembali carousel
+    resumeCarousel();
   }
 
   // Klik tombol Play
