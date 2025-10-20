@@ -74,20 +74,30 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = 'auto';
   }
 
-// Klik tombol Play
-playButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const videoId = btn.getAttribute('data-video');
-    
-    // === Matikan slide otomatis carousel ===
-    const carouselEl = document.querySelector('#picsumCarousel');
-    const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
-    carousel.pause(); // hentikan autoplay langsung
+  // Klik tombol Play
+  playButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const videoId = btn.getAttribute('data-video');
 
-    openVideo(videoId);
+      // === Matikan slide otomatis carousel ===
+      const carouselEl = document.querySelector('#picsumCarousel');
+      const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
+
+      // hentikan autoplay langsung
+      carousel.pause();
+
+      // pastikan interval internal Bootstrap benar-benar berhenti
+      if (carousel._interval) {
+        clearInterval(carousel._interval);
+        carousel._interval = null;
+      }
+
+      // hapus atribut ride agar tidak hidup lagi otomatis
+      carouselEl.removeAttribute('data-bs-ride');
+
+      openVideo(videoId);
+    });
   });
-});
-
 
   // Klik luar modal atau tombol X
   modal.addEventListener('click', (e) => {
