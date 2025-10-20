@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Mulai auto-slide setiap 4 detik
   function startAutoSlide() {
     stopAutoSlide(); // pastikan gak dobel
-    autoSlide = setInterval(nextSlide, 4000);
+    autoSlide = setInterval(nextSlide, 8000);
   }
 
   // Berhenti auto-slide
