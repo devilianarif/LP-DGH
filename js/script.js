@@ -51,30 +51,62 @@ window.addEventListener('resize', () => {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
 });
-
-// === Video Modal ===
+// === Video Modal + Carousel Control ===
 document.addEventListener('DOMContentLoaded', () => {
   const playButtons = document.querySelectorAll('.btn-play-center');
   const modal = document.getElementById('videoModal');
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
+  const carouselEl = document.getElementById('picsumCarousel');
 
-  // Fungsi buka modal
+  // Ambil instance Bootstrap Carousel
+  const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
+
+  // Fungsi: Paksa berhenti carousel total
+  function stopCarousel() {
+    // Hentikan autoplay
+    carousel.pause();
+
+    // Hapus interval internal
+    if (carousel._interval) {
+      clearInterval(carousel._interval);
+      carousel._interval = null;
+    }
+
+    // Hapus event ride agar tidak jalan otomatis
+    carouselEl.removeAttribute("data-bs-ride");
+    carouselEl.removeAttribute("data-bs-interval");
+  }
+
+  // Fungsi: Lanjutkan carousel kembali
+  function resumeCarousel() {
+    carouselEl.setAttribute("data-bs-ride", "carousel");
+    carouselEl.setAttribute("data-bs-interval", "4000"); // interval normal
+    carousel.cycle();
+  }
+
+  // Fungsi buka modal video
   function openVideo(videoId) {
-    const videoURL = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&disablekb=1`;
+    const videoURL = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0`;
     iframe.src = videoURL;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // === Paksa berhenti carousel saat modal muncul ===
+    stopCarousel();
   }
 
-  // Fungsi tutup modal
+  // Fungsi tutup modal video
   function closeVideo() {
     modal.classList.remove('active');
     iframe.src = "";
     document.body.style.overflow = 'auto';
+
+    // === Jalankan lagi carousel ===
+    resumeCarousel();
   }
 
-  // Klik tombol Play
+  // Klik tombol Play → buka modal & stop carousel
   playButtons.forEach(btn => {
     btn.addEventListener('click', () => {
       const videoId = btn.getAttribute('data-video');
@@ -82,13 +114,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Klik luar modal atau tombol X
+  // Klik luar modal atau tombol X → tutup & resume
   modal.addEventListener('click', (e) => {
     if (e.target === modal || e.target === closeBtn) {
       closeVideo();
     }
   });
 });
+
 
 // === Character Interaction ===
 const charTrack = document.querySelector('.character-track');
@@ -307,4 +340,3 @@ document.addEventListener("click", function(e) {
   }
 });
 
-i
