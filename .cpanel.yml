@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dibj6185/public_html/
+    - /bin/cp -R * $DEPLOYPATH
