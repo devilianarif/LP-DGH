@@ -1766,7 +1766,7 @@ margin-top: -59px;
   }
 
   .video-wrapper{
-    
+    transform: scale();
   }
   .video-wrapper iframe {
     width: 80%;
