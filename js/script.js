@@ -74,13 +74,20 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = 'auto';
   }
 
-  // Klik tombol Play
-  playButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const videoId = btn.getAttribute('data-video');
-      openVideo(videoId);
-    });
+// Klik tombol Play
+playButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const videoId = btn.getAttribute('data-video');
+    
+    // === Matikan slide otomatis carousel ===
+    const carouselEl = document.querySelector('#picsumCarousel');
+    const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
+    carousel.pause(); // hentikan autoplay langsung
+
+    openVideo(videoId);
   });
+});
+
 
   // Klik luar modal atau tombol X
   modal.addEventListener('click', (e) => {
