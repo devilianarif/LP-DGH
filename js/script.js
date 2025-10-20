@@ -58,9 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
 
-  // Ambil carousel
-  const carousel = document.querySelector('#picsumCarousel');
-  const carouselInstance = bootstrap.Carousel.getOrCreateInstance(carousel);
+  // Ambil carousel instance
+  const carouselEl = document.querySelector('#picsumCarousel');
+  const carousel = bootstrap.Carousel.getOrCreateInstance(carouselEl);
+
+  let carouselWasRunning = false;
 
   // Fungsi buka modal
   function openVideo(videoId) {
@@ -69,8 +71,14 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    // Hentikan autoplay carousel saat modal dibuka
-    carouselInstance.pause();
+    // Hentikan slide otomatis sepenuhnya
+    if (carouselEl.dataset.bsInterval !== "false") {
+      carouselWasRunning = true;
+      carousel.pause();
+      carouselEl.setAttribute("data-bs-interval", "false");
+      clearInterval(carousel._interval);
+      carousel._interval = null;
+    }
   }
 
   // Fungsi tutup modal
@@ -79,8 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
     iframe.src = "";
     document.body.style.overflow = 'auto';
 
-    // Lanjutkan autoplay carousel setelah modal ditutup
-    carouselInstance.cycle();
+    // Lanjutkan autoplay hanya jika sebelumnya aktif
+    if (carouselWasRunning) {
+      carouselEl.setAttribute("data-bs-interval", "4000"); // durasi asli
+      carousel.cycle();
+      carouselWasRunning = false;
+    }
   }
 
   // Klik tombol Play
