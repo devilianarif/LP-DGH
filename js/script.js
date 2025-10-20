@@ -306,5 +306,3 @@ document.addEventListener("click", function(e) {
     ripple.addEventListener("animationend", () => ripple.remove());
   }
 });
-
-// === Pause and Resume Carousel on Modal Interaction ===
