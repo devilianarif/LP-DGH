@@ -783,7 +783,7 @@ body::after {
   object-fit: cover; /* atau contain tergantung bentuk */
   margin-left: 10px;
   transform: scale(1);
-  margin-top: 280px;
+  margin-top: 20px;
   clip-path: inset(0 0 w0px 0); /* potong bagian bawah 40px, bisa sesuaikan */
 }
 
