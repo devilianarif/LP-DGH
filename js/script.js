@@ -347,7 +347,8 @@ const characterData = [
   { id: 2, bg: "url('aset/bg_arya.png')", name: "Arya / Raya" },
   { id: 3, bg: "url('aset/bg_bijo.png')", name: "Bijo" },
   { id: 4, bg: "url('aset/bg_owo.png')", name: "Owo" },
-]
+];
+
 
 // drag support
 let startX = 0;
