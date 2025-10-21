@@ -271,7 +271,14 @@ function updateCharacterDetails(characterId) {
   document.querySelector(".bschara-right h3").textContent = character.name;
   document.querySelector(".bschara-right p").textContent = character.background;
   document.querySelector("#backgroundcharacter").style.backgroundImage = `url(${character.backgroundImage})`;
-}
+}// Tambahkan event listener pada setiap kartu karakter
+carCard.forEach((card, index) => {
+  card.addEventListener("click", () => {
+    currentCharacter = index; // Perbarui karakter aktif
+    updateCharacter(); // Perbarui tampilan kartu
+    updateCharacterDetails(index); // Perbarui detail dan background
+  });
+});
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
