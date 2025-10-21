@@ -769,7 +769,7 @@ body::after {
   top: 50px;
   left: 0;
   width: auto;
-  height: 100px;
+  height: auto;
   z-index: 1;
   padding-bottom: 20px;
 }
