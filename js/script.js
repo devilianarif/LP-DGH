@@ -334,3 +334,189 @@ document.addEventListener("click", function(e) {
 });
 
 
+// === CHARACTER INTERACTION FINAL REVISED ===
+
+// Elemen utama
+const charTrack = document.querySelector('.character-track');
+const carCard = document.querySelectorAll('.kartu-character');
+const sectionCharacters = document.getElementById('characters');
+let currentCharacter = 2;
+let isDragging = false;
+let startX = 0;
+
+// === Data karakter dengan dua jenis gambar ===
+const characterDetails = [
+  {
+    id: 0,
+    name: "Si Gadis Jubah Kuning",
+    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
+    race: "Manusia",
+    trait: "Penyayang, misterius, dan penuh teka-teki.",
+    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
+    imageDetail: "aset/nara3.png",              // untuk .dtchara-center
+    imageBackground: "aset/nara_render1.png",   // untuk .bschara-left
+  },
+  {
+    id: 1,
+    name: "Dinda",
+    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
+    race: "Manusia",
+    trait: "Cerdas, peduli, dan penuh semangat.",
+    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
+    imageDetail: "aset/dindad.png",
+    imageBackground: "aset/dinda_render1.png",
+  },
+  {
+    id: 2,
+    name: "Arya / Raya",
+    description: "Pria muda yang menghadapi masa lalunya.",
+    race: "Manusia",
+    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
+    background: "Arya adalah simbol perjalanan menuju pemulihan.",
+    imageDetail: "aset/aryad.png",
+    imageBackground: "aset/Arya kecil render 1.png",
+  },
+  {
+    id: 3,
+    name: "Bijo",
+    description: "Makhluk gaib yang penuh misteri.",
+    race: "Makhluk Gaib",
+    trait: "Licik, cerdas, dan manipulatif.",
+    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
+    imageDetail: "aset/bijod.png",
+    imageBackground: "aset/bijo_render1.png",
+  },
+  {
+    id: 4,
+    name: "Owo",
+    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
+    race: "Makhluk Gaib",
+    trait: "Tenang, bijaksana, dan penuh rahasia.",
+    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
+    imageDetail: "aset/owod.png",
+    imageBackground: "aset/owo_render1.png",
+  },
+];
+
+// === Fungsi update posisi kartu ===
+function updateCharacter() {
+  const cardWidth = carCard[0].offsetWidth + 30;
+  const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
+  charTrack.style.transform = `translateX(${offset}px)`;
+
+  carCard.forEach((card, index) => {
+    const distance = Math.abs(currentCharacter - index);
+    card.classList.toggle('aktif', index === currentCharacter);
+    card.style.transform = index === currentCharacter
+      ? 'scale(1.1) translateY(-10px)'
+      : distance === 1
+      ? 'scale(0.9) translateY(5px)'
+      : 'scale(0.8) translateY(15px)';
+    card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
+  });
+}
+
+// === Fungsi update detail & gambar ===
+function updateCharacterDetails(characterId) {
+  const c = characterDetails[characterId];
+  if (!c) return;
+
+  // update teks
+  document.querySelector(".dtchara-left h2").textContent = c.name;
+  document.querySelector(".dtchara-left p").textContent = c.description;
+  document.querySelector("#right-desc p").textContent = c.description;
+  document.querySelector("#right-race p").textContent = c.race;
+  document.querySelector("#right-trait p").textContent = c.trait;
+
+  // update gambar tengah
+  const centerImg = document.querySelector(".dtchara-center .dtchara-img");
+  if (centerImg) {
+    centerImg.style.opacity = "0";
+    setTimeout(() => {
+      centerImg.src = c.imageDetail;
+      centerImg.style.opacity = "1";
+      centerImg.style.transform = "scale(1.05)";
+      setTimeout(() => (centerImg.style.transform = "scale(1)"), 400);
+    }, 200);
+  }
+
+  // update gambar kiri bawah
+  const bgLeftImg = document.querySelector(".bschara-left .char-img");
+  if (bgLeftImg) {
+    bgLeftImg.style.opacity = "0";
+    setTimeout(() => {
+      bgLeftImg.src = c.imageBackground;
+      bgLeftImg.style.opacity = "1";
+    }, 200);
+  }
+
+  // update teks bawah
+  document.querySelector(".bschara-right h3").textContent = c.name;
+  document.querySelector(".bschara-right p").textContent = c.background;
+
+  // scroll halus ke detail
+  document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
+}
+
+// === Klik kartu ===
+carCard.forEach((card, index) => {
+  card.addEventListener("click", () => {
+    currentCharacter = index;
+    updateCharacter();
+    updateCharacterDetails(index);
+  });
+});
+
+// === Drag Desktop ===
+charTrack.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.pageX;
+});
+
+window.addEventListener("mouseup", () => {
+  isDragging = false;
+});
+
+window.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+  const diff = e.pageX - startX;
+  if (Math.abs(diff) > 60) {
+    if (diff < 0 && currentCharacter < carCard.length - 1) {
+      currentCharacter++;
+    } else if (diff > 0 && currentCharacter > 0) {
+      currentCharacter--;
+    }
+    updateCharacter();
+    startX = e.pageX;
+  }
+});
+
+// === Drag Sentuh (Mobile) ===
+charTrack.addEventListener("touchstart", (e) => {
+  isDragging = true;
+  startX = e.touches[0].clientX;
+});
+
+charTrack.addEventListener("touchend", () => {
+  isDragging = false;
+});
+
+charTrack.addEventListener("touchmove", (e) => {
+  if (!isDragging) return;
+  const diff = e.touches[0].clientX - startX;
+  if (Math.abs(diff) > 60) {
+    if (diff < 0 && currentCharacter < carCard.length - 1) {
+      currentCharacter++;
+    } else if (diff > 0 && currentCharacter > 0) {
+      currentCharacter--;
+    }
+    updateCharacter();
+    startX = e.touches[0].clientX;
+  }
+});
+
+// === Nonaktifkan scroll wheel ===
+sectionCharacters.addEventListener("wheel", (e) => e.preventDefault(), { passive: false });
+
+// === Inisialisasi awal ===
+updateCharacter();
