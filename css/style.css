@@ -749,7 +749,7 @@ body::after {
 .kartu-character {
   position: relative;
   min-width: 220px;
-  height: 7px;
+  height: 27px;
   margin: 0 15px;
   border-radius: 16px;
   overflow: hidden;
