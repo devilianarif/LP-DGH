@@ -1026,7 +1026,6 @@ body::after {
   padding-top: 20px;
 }
 
-/* === TENGAH === */
 .dtchara-center {
   flex: 1;
   display: flex;
@@ -1037,13 +1036,10 @@ body::after {
   top: 70px;
   left: 8px;
 
+  height: 600px; /* tinggi area tampilan */
+  overflow: hidden; /* bagian bawah (dan atas) terpotong */
 }
 
-.dtchara-img {
-  width: 800px;
-  max-height: none;
-  transform: scale(1.20) !important; /* opsional buat nambahin skala */
-}
 
 
 /* === KANAN === */
