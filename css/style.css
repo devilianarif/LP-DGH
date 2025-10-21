@@ -779,6 +779,7 @@ body::after {
   height: 227px;
   object-fit: cover;
   transform: scale(1.6);
+  top: 20px;
   
 }
 .kartu-character .bingkai-frame {
