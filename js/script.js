@@ -202,6 +202,9 @@ carCard.forEach((card, index) => {
 // inisialisasi awal
 updateCharacter();
 
+
+
+
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
 
