@@ -786,7 +786,7 @@ body::after {
 .kartu-character .bingkai-frame {
   position: absolute;
   top: -18px;
-  left: 0;
+  left: 30px;
   width: 181%;
   height: 228%;
   background: url('../aset/card 1.png') no-repeat center;
