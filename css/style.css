@@ -785,7 +785,7 @@ body::after {
 }
 
 /* Bingkai di atas gambar */
-.kartu-character::after {
+.lapisancard{
   content: "";
   position: absolute;
   top: 0;
