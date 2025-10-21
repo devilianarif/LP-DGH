@@ -134,7 +134,7 @@ const characterDetails = [
     trait: "Penyayang, misterius, dan penuh teka-teki.",
     background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
     image: "aset/nara3.png",
-    backgroundImage: "aset/bg_nara.png",
+
   },
   {
     id: 1,
