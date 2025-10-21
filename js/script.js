@@ -203,7 +203,59 @@ carCard.forEach((card, index) => {
 updateCharacter();
 
 
-
+// Data untuk setiap karakter
+const characterDetails = [
+  {
+    id: 0,
+    name: "Si Gadis Jubah Kuning",
+    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
+    race: "Manusia",
+    trait: "Penyayang, misterius, dan penuh teka-teki.",
+    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
+    image: "aset/nara3.png",
+    backgroundImage: "aset/bg_nara.png",
+  },
+  {
+    id: 1,
+    name: "Dinda",
+    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
+    race: "Manusia",
+    trait: "Cerdas, peduli, dan penuh semangat.",
+    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
+    image: "aset/dinda1.png",
+    backgroundImage: "aset/bg_dinda.png",
+  },
+  {
+    id: 2,
+    name: "Arya / Raya",
+    description: "Pria muda yang menghadapi masa lalunya.",
+    race: "Manusia",
+    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
+    background: "Arya adalah simbol perjalanan menuju pemulihan.",
+    image: "aset/arya1.png",
+    backgroundImage: "aset/bg_arya.png",
+  },
+  {
+    id: 3,
+    name: "Bijo",
+    description: "Makhluk gaib yang penuh misteri.",
+    race: "Makhluk Gaib",
+    trait: "Licik, cerdas, dan manipulatif.",
+    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
+    image: "aset/bijo1.png",
+    backgroundImage: "aset/bg_bijo.png",
+  },
+  {
+    id: 4,
+    name: "Owo",
+    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
+    race: "Makhluk Gaib",
+    trait: "Tenang, bijaksana, dan penuh rahasia.",
+    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
+    image: "aset/owo1.png",
+    backgroundImage: "aset/bg_owo.png",
+  },
+];
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
