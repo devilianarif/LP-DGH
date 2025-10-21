@@ -762,26 +762,26 @@ body::after {
   opacity: 1;
 }
 
-
-/* Gambar karakter di belakang */
 .kartu-character .img-wrap {
-  position: static;
-  top: 50px;
+  position: absolute;
+  top: 0;
   left: 0;
-  width: 100px;
-  height: 200px;
+  width: 100%;
+  height: 220px;        /* tinggi area tampilan gambar */
+  overflow: hidden;     /* penting! potong gambar di luar area */
   z-index: 1;
-  margin-top: 70px;
-  margin-left: 60px;
 }
 
+/* gambar di dalamnya */
 .kartu-character .img-wrap img {
   width: 100px;
-    height: 220px;
-    object-fit: cover;
-    transform: scale(1.6);
-    margin-top: 90px;
+  height: 220px;
+  object-fit: cover;
+  transform: scale(1.6);
+  margin-top: 90px;     /* geser gambar ke atas */
+  clip-path: inset(0 0 40px 0); /* opsional: potong bawah 40px tambahan */
 }
+
 
 /* Bingkai di atas gambar */
 .kartu-character::after {
