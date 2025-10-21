@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
       startAutoSlide();
     }
   });
-})
+});
 
 
 // === Character Interaction ===
