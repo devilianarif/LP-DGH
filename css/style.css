@@ -920,7 +920,7 @@ body::after {
   aspect-ratio: 1920 / 600; /* sesuaikan dengan ukuran asli gambar */
   background: url('../aset/genangan\ halte\ 2.png') center bottom / 100% auto no-repeat;
   z-index: 5;
-  top: px;
+  top: 85px;
 }
 
 /* ==== gen bawah ==== */
