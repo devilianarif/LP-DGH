@@ -1007,7 +1007,9 @@ body::after {
   margin-left: 0;
 }
 
-.dtchara-line-left-top
+.dtchara-line-left-top{
+  
+}
 .dtchara-line-left-bottom {
   display: block;
   width: 100%;
