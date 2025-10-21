@@ -2047,8 +2047,7 @@ top: 75px;
   .dtchara-right {
     left: -210px;
     top: 80px;
-  }
-  #detailcharacter .rumput.atas {
+  }  #detailcharacter .rumput.atas {
     transform: scale(1.5);
     top: 250px;
   }
