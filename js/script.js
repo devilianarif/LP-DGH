@@ -174,7 +174,6 @@ const characterDetails = [
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
     image: "aset/owo1.png",
-    backgroundImage: "aset/bg_owo.png",
   },
 ];
 
