@@ -779,7 +779,7 @@ body::after {
   height: 227px;
   object-fit: cover;
   transform: scale(1.6);
-  margin-top: 0px;
+  margin-top:10px;
   padding-bottom: 20px;
 }
 
