@@ -986,7 +986,7 @@ body::after {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  marg
+  margin-bottom: 200px;
 }
 
 /* === KIRI === */
