@@ -341,7 +341,7 @@ const characterDetails = [
     race: "Manusia",
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
     background: "Arya adalah simbol perjalanan menuju pemulihan.",
-    imageDetail: "aset/aryad.png",
+    imageDetail: "aset/arya3.png",
     imageBackground: "aset/Arya kecil render 1.png",
   },
   {
