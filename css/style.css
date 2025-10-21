@@ -2095,11 +2095,7 @@ top: 75px;
   .char-img {
     max-width: 220px;
   }
-  /* ==== Pipa Atas & Bawah ==== */
-  #backgroundcharacter .pipa.atas {
-    aspect-ratio: 1920 / 500;
-    top: 183px;
-  }
+
   #showcasegalery .pipa.bawah {
     aspect-ratio: 1920 / 500;
     top: 90px;
