@@ -2254,7 +2254,10 @@ top: 75px;
     transform: scale(1.4);
     margin-top: -300px;
   }
-  .showcase-dot
+  .showcase-dots {
+    left: -1150px;
+    width: 150vw;
+  }
 
   #footer {
     padding: 75px 0;
