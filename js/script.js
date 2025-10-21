@@ -426,6 +426,7 @@ function updateCharacterDetails(characterId) {
   document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
 }
 
+
 // === Klik kartu ===
 carCard.forEach((card, index) => {
   card.addEventListener("click", () => {
