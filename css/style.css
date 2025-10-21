@@ -1040,7 +1040,7 @@ body::after {
 }
 
 .dtchara-img {
-  width: 200px;
+  width: 100px;
   transform: scale(1.2);
   object-fit: cover;
   clip-path: inset(0 0 100px 0); /* potong 100px dari bawah */
