@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
+document.addEventListener("DOMContentLoaded", () => {
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
