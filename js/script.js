@@ -255,7 +255,23 @@ const characterDetails = [
     image: "aset/owo1.png",
     backgroundImage: "aset/bg_owo.png",
   },
-];
+];// Fungsi untuk memperbarui konten detail dan background
+function updateCharacterDetails(characterId) {
+  const character = characterDetails.find((char) => char.id === characterId);
+
+  // Update Detail Section
+  document.querySelector(".dtchara-left h2").textContent = character.name;
+  document.querySelector(".dtchara-left p").textContent = character.description;
+  document.querySelector("#right-desc p").textContent = character.description;
+  document.querySelector("#right-race p").textContent = character.race;
+  document.querySelector("#right-trait p").textContent = character.trait;
+
+  // Update Background Section
+  document.querySelector(".bschara-left img").src = character.image;
+  document.querySelector(".bschara-right h3").textContent = character.name;
+  document.querySelector(".bschara-right p").textContent = character.background;
+  document.querySelector("#backgroundcharacter").style.backgroundImage = `url(${character.backgroundImage})`;
+}
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
