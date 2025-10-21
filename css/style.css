@@ -796,46 +796,70 @@ body::after {
   z-index: 3; /* pastikan di atas gambar */
   pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
 }
-
-/* Teks di atas bingkai */
 .kartu-character h3,
 .kartu-character p {
   position: relative;
   z-index: 4;
-  color: #fff;
+  color: #ffeb8a; /* kuning lembut, bukan neon */
   margin: 8px 0 0 20px;
   top: 179px;
   left: -14px;
   font-size: 10px;
-  text-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 20px #00eaff;
-  animation: neonFlicker 3s infinite ease-in-out;
+  letter-spacing: 0.5px;
+  text-shadow:
+    0 0 2px rgba(255, 235, 138, 0.4),
+    0 0 6px rgba(255, 200, 50, 0.3);
+  animation: wantedFade 4s ease-in-out infinite;
 }
 
-/* Efek neon berkedip acak */
-@keyframes neonFlicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    opacity: 1;
+/* Efek fade lembut ala lampu jalan/hujan */
+@keyframes wantedFade {
+  0%, 100% {
+    opacity: 0.9;
     text-shadow:
-      0 0 5px #00eaff,
-      0 0 10px #00eaff,
-      0 0 20px #00eaff,
-      0 0 40px #00eaff;
+      0 0 2px rgba(255, 235, 138, 0.4),
+      0 0 6px rgba(255, 200, 50, 0.3),
+      0 0 12px rgba(255, 190, 30, 0.2);
   }
-  20%, 24%, 55% {
-    opacity: 0.6;
+  50% {
+    opacity: 0.5;
     text-shadow:
-      0 0 2px #7b6800,
-      0 0 5px #ffd500,
-      0 0 10px #00eaff;
-  }
-  80% {
-    opacity: 0.85;
-    text-shadow:
-      0 0 5px #ffae00,
-      0 0 15px #ffa600,
-      0 0 25px #ffb700;
+      0 0 1px rgba(255, 235, 138, 0.2),
+      0 0 3px rgba(255, 200, 50, 0.15);
   }
 }
+
+/* Efek cahaya lembut turun seperti pantulan hujan */
+.kartu-character h3::after,
+.kartu-character p::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    rgba(255, 240, 150, 0.15),
+    rgba(255, 200, 60, 0.05),
+    transparent
+  );
+  opacity: 0;
+  animation: rainGlow 6s infinite ease-in-out;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+@keyframes rainGlow {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  50% {
+    opacity: 0.25;
+    transform: translateY(10%);
+  }
+}
+
 
 /* Tambahan efek hujan kilau lembut di teks */
 .kartu-character h3::after,
