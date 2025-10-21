@@ -134,7 +134,7 @@ for (let i = 0; i < halterCount; i++) {
 
   document.querySelector(".halter-container").appendChild(line);
 }
-document.addEventListener("DOMContentLoaded", () => {
+
   const makeDtchaRain = () => {
     document.querySelectorAll(".dtcharain").forEach(el => el.innerHTML = "");
 
