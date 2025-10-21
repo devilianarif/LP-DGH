@@ -116,38 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// === Character Interaction ===
-const charTrack = document.querySelector('.character-track');
-const carCard = document.querySelectorAll('.kartu-character');
-let currentCharacter = 2; // posisi tengah awal
-
-function updateCharacter() {
-  const cardWidth = carCard[0].offsetWidth + 30;
-  const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
-  charTrack.style.transform = `translateX(${offset}px)`;
-
-  carCard.forEach((card, index) => {
-    const distance = Math.abs(currentCharacter - index);
-    card.classList.toggle('aktif', index === currentCharacter);
-    card.style.transform = index === currentCharacter
-      ? 'scale(1.1)'
-      : distance === 1
-      ? 'scale(0.9)'
-      : 'scale(0.8)';
-    card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
-  });
-}
-
-// klik kartu untuk pindah ke tengah
-carCard.forEach((card, index) => {
-  card.addEventListener('click', () => {
-    currentCharacter = index;
-    updateCharacter();
-  });
-});
-
-// inisialisasi awal
-updateCharacter();
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
