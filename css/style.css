@@ -1308,6 +1308,7 @@ transform: scale(1.3);
   width: 270px;
   height: 310px;
   object-fit: cover;
+  margin-top: 20px;
 }
 
 /* Sisi kanan teks */
