@@ -781,6 +781,20 @@ body::after {
   margin-top: 90px;     /* geser gambar ke atas */
   clip-path: inset(0 0 40px 0); /* opsional: potong bawah 40px tambahan */
 }
+.character-track {
+  transition: transform 0.5s ease;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.kartu-character {
+  transition: transform 0.5s ease, opacity 0.4s ease;
+}
+
+.dtchara-img,
+.char-img {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
 
 
 /* Bingkai di atas gambar */
