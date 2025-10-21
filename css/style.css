@@ -1386,6 +1386,23 @@ text-align: justify;
   filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
 }
 
+.bschara-right h3 {
+  font-size: 1.4rem;
+  color: #ffea9e; /* kuning hangat */
+  text-shadow:
+    0 0 3px rgba(255, 240, 150, 0.6),
+    0 0 8px rgba(255, 200, 60, 0.3),
+    0 0 15px rgba(255, 200, 60, 0.15);
+}
+
+.bschara-right p {
+  font-size: 0.95rem;
+  max-width: 460px;
+  color: #fff8dc; /* putih kekuningan */
+  text-shadow:
+    0 0 2px rgba(255, 230, 120, 0.4),
+    0 0 5px rgba(255, 200, 80, 0.2);
+}
 
 /* === Overlay Utama === */
 .dtcharain-container {
