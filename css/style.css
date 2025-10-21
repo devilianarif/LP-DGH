@@ -786,7 +786,7 @@ body::after {
   position: absolute;
   top: -18px;
   left: 30px;
-  width: 100%;
+  width: 100px;
   height: 90%;
   background: url('../aset/card 1.png') no-repeat center;
   background-size: cover;
