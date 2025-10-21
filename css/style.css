@@ -2031,7 +2031,9 @@ top: 75px;
     margin-left: -250px;
   }
   .bschara-container:hover
-  
+  {
+    transform: scale();
+  }
 
   .bschara-right p {
     font-size: 1rem;
