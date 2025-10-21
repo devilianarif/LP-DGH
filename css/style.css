@@ -2418,7 +2418,7 @@ top: 75px;
 
   /* [7] SECTION 6 — SHOWCASE GALLERY */
   #showcasegalery {
-    min-height: 50vh;
+    min-height: 20vh;
     background-size: cover;
   }
 
