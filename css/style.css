@@ -2017,7 +2017,7 @@ top: 75px;
   .bschara-container {
     gap: 60px;
     bottom: 200px;
-    transform: scale(120px);
+    transform: scale(1);
    
   }
   .bschara-left {
