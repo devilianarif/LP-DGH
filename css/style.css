@@ -771,7 +771,7 @@ body::after {
   width: 100%;
   height: 100%;
   z-index: 1;
-  paddi
+  padding-bottom: 20px;
 }
 
 .kartu-character .img-wrap img {
