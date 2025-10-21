@@ -807,6 +807,68 @@ body::after {
   top: 179px;
   left: -14px;
   font-size: 10px;
+  text-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 20px #00eaff;
+  animation: neonFlicker 3s infinite ease-in-out;
+}
+
+/* Efek neon berkedip acak */
+@keyframes neonFlicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    opacity: 1;
+    text-shadow:
+      0 0 5px #00eaff,
+      0 0 10px #00eaff,
+      0 0 20px #00eaff,
+      0 0 40px #00eaff;
+  }
+  20%, 24%, 55% {
+    opacity: 0.6;
+    text-shadow:
+      0 0 2px #007b7b,
+      0 0 5px #00eaff,
+      0 0 10px #00eaff;
+  }
+  80% {
+    opacity: 0.85;
+    text-shadow:
+      0 0 5px #009fff,
+      0 0 15px #00eaff,
+      0 0 25px #00eaff;
+  }
+}
+
+/* Tambahan efek hujan kilau lembut di teks */
+.kartu-character h3::after,
+.kartu-character p::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 80%
+  );
+  animation: rainFlash 5s infinite linear;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+@keyframes rainFlash {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
 }
 
 
