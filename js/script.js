@@ -114,143 +114,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-// === CHARACTER INTERACTION FINAL ===
 
-// Elemen utama
-const charTrack = document.querySelector('.character-track');
-const carCard = document.querySelectorAll('.kartu-character');
+
+// === Scroll & Drag Navigasi ===
+
+// Elemen section
 const sectionCharacters = document.getElementById('characters');
-let currentCharacter = 2; // posisi tengah awal
-let isDragging = false;
-let startX = 0;
 
-// === Data karakter ===
-const characterDetails = [
-  {
-    id: 0,
-    name: "Si Gadis Jubah Kuning",
-    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
-    race: "Manusia",
-    trait: "Penyayang, misterius, dan penuh teka-teki.",
-    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
-    image: "aset/nara3.png",
-    backgroundImage: "aset/bg_nara.png",
-  },
-  {
-    id: 1,
-    name: "Dinda",
-    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
-    race: "Manusia",
-    trait: "Cerdas, peduli, dan penuh semangat.",
-    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
-    image: "aset/dinda1.png",
-    backgroundImage: "aset/bg_dinda.png",
-  },
-  {
-    id: 2,
-    name: "Arya / Raya",
-    description: "Pria muda yang menghadapi masa lalunya.",
-    race: "Manusia",
-    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
-    background: "Arya adalah simbol perjalanan menuju pemulihan.",
-    image: "aset/arya1.png",
-    backgroundImage: "aset/bg_arya.png",
-  },
-  {
-    id: 3,
-    name: "Bijo",
-    description: "Makhluk gaib yang penuh misteri.",
-    race: "Makhluk Gaib",
-    trait: "Licik, cerdas, dan manipulatif.",
-    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
-    image: "aset/bijo1.png",
-    backgroundImage: "aset/bg_bijo.png",
-  },
-  {
-    id: 4,
-    name: "Owo",
-    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
-    race: "Makhluk Gaib",
-    trait: "Tenang, bijaksana, dan penuh rahasia.",
-    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
-    image: "aset/owo1.png",
-    backgroundImage: "aset/bg_owo.png",
-  },
+// Simpan data background dan detail tiap karakter
+const characterData = [
+  { id: 0, bg: "url('aset/bg_nara.png')", name: "Si Gadis Jubah Kuning" },
+  { id: 1, bg: "url('aset/bg_dinda.png')", name: "Dinda" },
+  { id: 2, bg: "url('aset/bg_arya.png')", name: "Arya / Raya" },
+  { id: 3, bg: "url('aset/bg_bijo.png')", name: "Bijo" },
+  { id: 4, bg: "url('aset/bg_owo.png')", name: "Owo" },
 ];
 
-// === Fungsi update posisi kartu ===
-function updateCharacter() {
-  const cardWidth = carCard[0].offsetWidth + 30;
-  const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
-  charTrack.style.transform = `translateX(${offset}px)`;
 
-  carCard.forEach((card, index) => {
-    const distance = Math.abs(currentCharacter - index);
-    card.classList.toggle('aktif', index === currentCharacter);
-    card.style.transform = index === currentCharacter
-      ? 'scale(1.1) translateY(-10px)' // karakter aktif naik sedikit
-      : distance === 1
-      ? 'scale(0.9) translateY(5px)'
-      : 'scale(0.8) translateY(15px)';
-    card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
-  });
-}
+// drag support
+let startX = 0;
+let isDragging = false;
 
-// === Fungsi update detail dan background ===
-function updateCharacterDetails(characterId) {
-  const c = characterDetails[characterId];
-  if (!c) return;
-
-  // Update teks
-  document.querySelector(".dtchara-left h2").textContent = c.name;
-  document.querySelector(".dtchara-left p").textContent = c.description;
-  document.querySelector("#right-desc p").textContent = c.description;
-  document.querySelector("#right-race p").textContent = c.race;
-  document.querySelector("#right-trait p").textContent = c.trait;
-
-  // Gambar tengah (detailcharacter)
-  const centerImg = document.querySelector(".dtchara-center .dtchara-img");
-  if (centerImg) {
-    centerImg.style.opacity = "0";
-    setTimeout(() => {
-      centerImg.src = c.image;
-      centerImg.style.opacity = "1";
-      centerImg.style.transform = "scale(1.05)";
-      setTimeout(() => (centerImg.style.transform = "scale(1)"), 400);
-    }, 200);
-  }
-
-  // Gambar kiri bawah (backgroundcharacter)
-  const bgLeftImg = document.querySelector(".bschara-left .char-img");
-  if (bgLeftImg) {
-    bgLeftImg.style.opacity = "0";
-    setTimeout(() => {
-      bgLeftImg.src = c.image;
-      bgLeftImg.style.opacity = "1";
-    }, 200);
-  }
-
-  // Update teks backgroundcharacter
-  document.querySelector(".bschara-right h3").textContent = c.name;
-  document.querySelector(".bschara-right p").textContent = c.background;
-
-  // Update background belakang
-  document.querySelector("#backgroundcharacter").style.backgroundImage = `url(${c.backgroundImage})`;
-
-  // Scroll halus ke detail karakter
-  document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
-}
-
-// === Klik kartu ===
-carCard.forEach((card, index) => {
-  card.addEventListener("click", () => {
-    currentCharacter = index;
-    updateCharacter();
-    updateCharacterDetails(index);
-  });
-});
-
-// === Drag Desktop ===
 charTrack.addEventListener("mousedown", (e) => {
   isDragging = true;
   startX = e.pageX;
@@ -263,7 +147,7 @@ window.addEventListener("mouseup", () => {
 window.addEventListener("mousemove", (e) => {
   if (!isDragging) return;
   const diff = e.pageX - startX;
-  if (Math.abs(diff) > 60) {
+  if (Math.abs(diff) > 50) {
     if (diff < 0 && currentCharacter < carCard.length - 1) {
       currentCharacter++;
     } else if (diff > 0 && currentCharacter > 0) {
@@ -274,35 +158,51 @@ window.addEventListener("mousemove", (e) => {
   }
 });
 
-// === Drag Sentuh (Mobile) ===
-charTrack.addEventListener("touchstart", (e) => {
-  isDragging = true;
-  startX = e.touches[0].clientX;
-});
-
-charTrack.addEventListener("touchend", () => {
-  isDragging = false;
-});
-
-charTrack.addEventListener("touchmove", (e) => {
-  if (!isDragging) return;
-  const diff = e.touches[0].clientX - startX;
-  if (Math.abs(diff) > 60) {
-    if (diff < 0 && currentCharacter < carCard.length - 1) {
-      currentCharacter++;
-    } else if (diff > 0 && currentCharacter > 0) {
-      currentCharacter--;
-    }
-    updateCharacter();
-    startX = e.touches[0].clientX;
+// scroll wheel navigasi
+sectionCharacters.addEventListener("wheel", (e) => {
+  if (e.deltaY > 0 && currentCharacter < carCard.length - 1) {
+    currentCharacter++;
+  } else if (e.deltaY < 0 && currentCharacter > 0) {
+    currentCharacter--;
   }
+  updateCharacter();
 });
 
-// === Nonaktifkan scroll wheel di section karakter ===
-sectionCharacters.addEventListener("wheel", (e) => e.preventDefault(), { passive: false });
 
-// === Inisialisasi awal ===
+// === Character Interaction ===
+const charTrack = document.querySelector('.character-track');
+const carCard = document.querySelectorAll('.kartu-character');
+let currentCharacter = 2; // posisi tengah awal
+
+function updateCharacter() {
+  const cardWidth = carCard[0].offsetWidth + 30;
+  const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
+  charTrack.style.transform = `translateX(${offset}px)`;
+
+  carCard.forEach((card, index) => {
+    const distance = Math.abs(currentCharacter - index);
+    card.classList.toggle('aktif', index === currentCharacter);
+    card.style.transform = index === currentCharacter
+      ? 'scale(1.1)'
+      : distance === 1
+      ? 'scale(0.9)'
+      : 'scale(0.8)';
+    card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
+  });
+}
+
+// klik kartu untuk pindah ke tengah
+carCard.forEach((card, index) => {
+  card.addEventListener('click', () => {
+    currentCharacter = index;
+    updateCharacter();
+  });
+});
+
+// inisialisasi awal
 updateCharacter();
+
+
 
 
 // === Halter Rain Effect ===
