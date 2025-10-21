@@ -776,11 +776,11 @@ body::after {
 
 .kartu-character .img-wrap img {
   width: 100px;
-  height: 227px;
-  object-fit: cover;
-  transform: scale(1.6);
-  margin-top:-90px;
-  padding-bottom: 90px;
+    height: 140px;
+    object-fit: cover;
+    transform: scale(1.6);
+    margin-top: -90px;
+    padding-bottom: 90px;
 }
 
 /* Bingkai di atas gambar */
