@@ -116,59 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// === Scroll & Drag Navigasi ===
-
-// Elemen section
-const sectionCharacters = document.getElementById('characters');
-
-// Simpan data background dan detail tiap karakter
-const characterData = [
-  { id: 0, bg: "url('aset/bg_nara.png')", name: "Si Gadis Jubah Kuning" },
-  { id: 1, bg: "url('aset/bg_dinda.png')", name: "Dinda" },
-  { id: 2, bg: "url('aset/bg_arya.png')", name: "Arya / Raya" },
-  { id: 3, bg: "url('aset/bg_bijo.png')", name: "Bijo" },
-  { id: 4, bg: "url('aset/bg_owo.png')", name: "Owo" },
-];
-
-
-// drag support
-let startX = 0;
-let isDragging = false;
-
-charTrack.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  startX = e.pageX;
-});
-
-window.addEventListener("mouseup", () => {
-  isDragging = false;
-});
-
-window.addEventListener("mousemove", (e) => {
-  if (!isDragging) return;
-  const diff = e.pageX - startX;
-  if (Math.abs(diff) > 50) {
-    if (diff < 0 && currentCharacter < carCard.length - 1) {
-      currentCharacter++;
-    } else if (diff > 0 && currentCharacter > 0) {
-      currentCharacter--;
-    }
-    updateCharacter();
-    startX = e.pageX;
-  }
-});
-
-// scroll wheel navigasi
-sectionCharacters.addEventListener("wheel", (e) => {
-  if (e.deltaY > 0 && currentCharacter < carCard.length - 1) {
-    currentCharacter++;
-  } else if (e.deltaY < 0 && currentCharacter > 0) {
-    currentCharacter--;
-  }
-  updateCharacter();
-});
-
-
 // === Character Interaction ===
 const charTrack = document.querySelector('.character-track');
 const carCard = document.querySelectorAll('.kartu-character');
@@ -201,9 +148,6 @@ carCard.forEach((card, index) => {
 
 // inisialisasi awal
 updateCharacter();
-
-
-
 
 // === Halter Rain Effect ===
 const halterCount = 100; // jumlah garis hujan
