@@ -769,7 +769,6 @@ body::after {
   top: 50px;
   left: 0;
   width: auto;
-  height: auto;
   z-index: 1;
   padding-bottom: 20px;
 }
