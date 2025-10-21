@@ -342,7 +342,7 @@ const characterDetails = [
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
     background: "Arya adalah simbol perjalanan menuju pemulihan.",
     imageDetail: "aset/arya3.png",
-    imageBackground: "aset/Aryakbg.png",
+    imageBackground: "aset/aryakbg.png",
   },
   {
     id: 3,
