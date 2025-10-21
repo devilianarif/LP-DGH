@@ -2425,7 +2425,7 @@ top: 75px;
   .showcase-container {
     gap: 25px;
     margin-top: -500px;
-    transform: scale(1.7);
+    transform: scale(1.);
   }
 
   .showcase-paper {
@@ -2476,19 +2476,20 @@ top: 75px;
   }
 }
 
+
+
 /* ================================================================
-   RESPONSIVE STYLING — 2048x1536 (QXGA, 4:3 MONITOR)
+   RESPONSIVE STYLING — DESKTOP / PC (MIN 1200PX / MAX 1920PX) — Full HD
    ================================================================ */
-@media screen and (min-width: 2030px) and (max-width: 2060px)
-       and (min-height: 1500px) and (max-height: 1560px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
 
   /* [1] BODY */
   body {
-    font-size: 17px;
+    font-size: 16px;
     overflow-x: hidden;
   }
 
-  /* [2] BANNER HEADER */
+  /* [2] SECTION 1 — BANNER HEADER */
   #BannerHeader {
     min-height: 100vh;
     background-position: center top;
@@ -2496,172 +2497,1363 @@ top: 75px;
   }
 
   #BannerHeader .awan.atas {
-    bottom: 8vh !important;
-    height: 0vh;
-    background-size: 101% auto;
-    transform: scale(1.05);
+    bottom: -25vh;
+    height: 75vh;
+    background-size: 100% auto;
+    transform: scale(1.3);
   }
 
   #about .awan.bawah {
-    top: -28vh;
-    transform: scale(1.05);
+    top: -25vh;
+    transform: scale(1.3);
+    background-size: 100% auto;
   }
 
   #picsumCarousel {
-    height: 93vh;
+    height: 85vh;
   }
 
   .btn-play-center {
-    width: 170px;
-    height: 170px;
-    font-size: 7.5rem;
+    width: 90px;
+    height: 90px;
+    font-size: 2.2rem;
   }
 
-  .modal-content {
-    transform: scale(1.6);
+  .carousel-caption h5 {
+    font-size: 1.4rem;
   }
 
   .video-wrapper iframe {
-    width: 75%;
+    width: 85%;
     height: 75%;
-    top: 60px;
+    top: 50px;
     left: 80px;
   }
 
-  /* [3] ABOUT */
+  /* [3] SECTION 2 — ABOUT */
   #about {
     padding-top: 90px;
-    padding-bottom: 140px;
+    padding-bottom: 120px;
+  }
+  .about-container {
+    gap: 32px;
+    margin-top: 18px;
+    margin-bottom: 24px;
   }
 
   #about h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 
   #about p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     max-width: 600px;
   }
 
   #gmbrkiriatas {
-    width: 160%;
-    left: -900px;
+    width: 140%;
+    left: -700px;
   }
-
   #gmbrkananatas {
-    width: 160%;
+    width: 140%;
+    right: -700px;
+  }
+  #gmbrkiribawah{
+    width: 150%;
+    left: -900px;
+    top: 800px;
+  }
+  #gmbrkananbawah {
+    width: 150%;
+    top: 800px;
     right: -900px;
   }
 
-  #gmbrkiribawah {
-    width: 170%;
-    left: -1050px;
-    top: 1000px;
+  #about .air.atas {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: 14vh;
+  }
+  #characters .air.bawah {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: -13vh;
   }
 
-  #gmbrkananbawah {
-    width: 170%;
-    top: 1000px;
-    right: -1050px;
-  }
-
-  /* [4] CHARACTERS */
+  /* [4] SECTION 3 — CHARACTERS */
   #characters {
-    min-height: 85vh;
+    min-height: 70vh;
     padding: 50px 0;
   }
 
+  .halter-container {
+    transform: scale(1.8);
+  }
   .halte-container {
-    transform: scale(2);
-    top: -500px;
+    top: -540px;
+    gap: 36px;
+  }
+
+  .halte-text {
+    font-size: 1.6rem;
+  }
+  #logohalte {
+    transform: scale(1.8);
   }
 
   .character-wrapper {
-    transform: scale(2.3);
-    top: -300px;
+    transform: scale(2);
+    top: -220px;
   }
+  
 
   .kartu-character {
-    transform: scale(2);
+    min-width: 180px;
+    height: 230px;
+    transform: scale(1.8);
   }
+ .kartu-character h3,
+.kartu-character p {
+  top: 140px;
+  left: -10px;
+}
 
   #characters .gen.atas {
-    top: 60px;
+    top: 20px;
+  }
+  #detailcharacter .gen.bawah {
+    top: -60px;
   }
 
-  /* [5] DETAIL CHARACTER */
+  /* [5] SECTION 4 — DETAIL CHARACTER */
   #detailcharacter {
-    min-height: 105vh;
+    min-height: 95vh;
   }
 
   .dtchara-wrap {
-    transform: scale(1.35);
-    margin-top: -600px;
-    gap: 40px;
+    gap: 36px;
+    margin-top: 300px;
+    transform: scale(1.55);
   }
-
   .dtchara-section h1 {
-    font-size: 3.8rem;
-    margin-top: -580px;
-  }
-
-  .dtchara-left {
-    margin-top: 650px;
-    padding-right: 40px;
+    font-size: 3rem;
+    margin-top: -380px;
   }
 
   .dtchara-left h2 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
   }
 
   .dtchara-left p {
-    font-size: 1.2rem;
-    padding-top: 20px;
+    font-size: 1rem;
   }
 
   .dtchara-img {
-    width: 760px;
-    transform: scale(1.1) !important;
+    width: 680px;
+    transform: scale(1.05) !important;
   }
 
   .dtchara-right {
-    left: -170px;
-    top: 70px;
+    left: -252px;
+    top: -250px;
+  }
+  #detailcharacter .rumput.atas {
+    transform: scale(1.30);
+    top: 260px;
+  }
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.30);
+    top: -250px;
   }
 
-  /* [6] BACKGROUND CHARACTER */
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 120vh;
+  }
+
   .bschara-container {
+    gap: 40px;
+    bottom: 140px;
+  }
+  .bschara-left {
+    transform: scale(1.4);
+  }
+
+  .bschara-right h3 {
+    font-size: 1.4rem;
+  }
+
+  .bschara-right p {
+    font-size: 0.95rem;
+    max-width: 460px;
+  }
+
+  .char-img {
+    max-width: 180px;
+  }
+
+  /* ==== Pipa Atas & Bawah ==== */
+  #backgroundcharacter .pipa.atas {
+    aspect-ratio: 1920 / 500;
+    top: 130px;
+  }
+  #showcasegalery .pipa.bawah {
+    aspect-ratio: 1920 / 500;
+    top: -580px;
+  }
+
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 75vh;
+    background-size: cover;
+  }
+
+  .showcase-container {
+    gap: 22px;
+    margin-top: -500px;
+    transform: scale(1.60);
+  }
+
+  .showcase-paper {
+    width: 420px;
+    height: 320px;
+  }
+
+  .showcase-dots {
+    left: -750px;
+    width: 110vw;
+  }
+
+  .ripple-overlay {
+    height: 85vh;
+    top: 220px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
+  #footer {
+    padding: 60px 0;
+    height: 15vh;
+    font-size: 15px;
+  }
+  .footer-logos {
+    margin-top: -60px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 0.95rem;
+  }
+
+  /* [9] GENERAL FIX */
+  .ripple-overlay,
+  .dtcharain-container,
+  .halter-container {
+    z-index: 7;
+  }
+
+  .air.atas, .air.bawah,
+  .gen.atas, .gen.bawah,
+  .rumput.atas, .rumput.bawah,
+  .pipa.atas, .pipa.bawah {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+}
+/* ================================================================
+   RESPONSIVE STYLING — LAPTOP / NOTEBOOK (MIN 1025PX — MAX 1366PX)
+   ================================================================ */
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+  /* [1] BODY */
+  body {
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+
+  /* [2] SECTION 1 — BANNER HEADER */
+  #BannerHeader {
+    min-height: 100vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -50vh;
+    height: 70vh;
+    background-size: 100% auto;
+    transform: scale(1.18);
+  }
+
+  #about .awan.bawah {
+    top: -40vh;
+    transform: scale(1.18);
+    background-size: 100% auto;
+  }
+
+  #picsumCarousel {
+    height: 82vh;
+  }
+
+  .btn-play-center {
+    width: 82px;
+    height: 82px;
+    font-size: 2rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+
+  .video-wrapper iframe {
+        width: 75%;
+        height: 78%;
+        top: 69px;
+        left: 109px;
+    
+  }
+
+  /* [3] SECTION 2 — ABOUT */
+  #about {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .about-container {
+    gap: 28px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  #about h1 {
+    font-size: 3.1rem;
+  }
+
+  #about p {
+    font-size: 1.12rem;
+    max-width: 510px;
+  }
+
+  #gmbrkiriatas {
+    width: 100%;
+    left: -460px;
+  }
+  #gmbrkananatas {
+    width: 100%;
+    right: -460px;
+  }
+  #gmbrkiribawah{
+    width: 90%;
+    left: -500px;
+    top: 640px;
+  }
+  #gmbrkananbawah {
+    width: 90%;
+    top: 640px;
+    right: -500px;
+  }
+
+  #about .air.atas {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: 22vh;
+  }
+  #characters .air.bawah {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: -22vh;
+  }
+
+  /* [4] SECTION 3 — CHARACTERS */
+  #characters {
+    min-height: 65vh;
+    padding: 45px 0;
+  }
+
+  .halter-container {
+    transform: scale(1.6);
+  }
+  .halte-container {
+    top: -420px;
+    gap: 30px;
+  }
+
+  .halte-text {
+    font-size: 1.45rem;
+  }
+  #logohalte {
+    transform: scale(1.2);
+  }
+
+  .character-wrapper {
+    transform: scale(1.75);
+    top: -260px;
+  }
+
+  .kartu-character {
+    min-width: 160px;
+    height: 210px;
+    transform: scale(1.6);
+  }
+
+  .kartu-character h3,
+  .kartu-character p {
+    top: 125px;
+    left: -10px;
+  }
+
+  #characters .gen.atas {
+    top: 55px;
+  }
+  #detailcharacter .gen.bawah {
+    top: -65px;
+  }
+
+  /* [5] SECTION 4 — DETAIL CHARACTER */
+  #detailcharacter {
+    min-height: 99vh;
+  }
+
+  .dtchara-wrap {
+    gap: 20px;
+    margin-top: 0px;
+    transform: scale(1.33);
+  }
+  .dtchara-section h1 {
+    font-size: 2.6rem;
+    margin-top: -320px;
+  }
+
+  .dtchara-left h2 {
+    font-size: 2rem;
+    margin-left: 55px;
+    margin-bottom: -10px;
+  }
+
+  .dtchara-left p {
+    font-size: 0.75rem;
+    max-width: 200px;
+    margin-left:55px;
+    margin-bottom: 0px;
+   }
+  .dtchara-left{
+    left: 90px;
+    transform: scale(0.1);
+  }
+  .dtchara-line-left-bottom, .dtchara-line-left-top {
+    left: 15px;
+    transform: scale(0.80);
+  }
+  .dtchara-img {
+    width: 560px;
+    transform: scale(1.02) !important;
+  }
+
+  .dtchara-right {
+    left: -200px;
+    top: -200px;
+  
+  }
+  .dtchara-right h2 {
+    font-size: 1.2rem;
+  }
+  #right-trait{
+    top: 410px;
+  }
+  .dtchara-right p {
+    font-size: 0.7rem;
+    max-width: 190px !important;
+  }
+  #detailcharacter .rumput.atas {
+    transform: scale(1.28);
+    top: 230px;
+  }
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.28);
+    top: -160px;
+  }
+
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 110vh;
+  }
+
+  .bschara-container {
+    gap: 34px;
+    bottom: 210px;
+  }
+  .bschara-left {
     transform: scale(1.3);
-    bottom: 180px;
+  }
+
+  .bschara-right h3 {
+    font-size: 1.25rem;
+  }
+
+  .bschara-right p {
+    font-size: 0.9rem;
+    max-width: 420px;
+  }
+
+  .char-img {
+    max-width: 160px;
+  }
+
+  /* ==== Pipa Atas & Bawah ==== */
+  #backgroundcharacter .pipa.atas {
+    aspect-ratio: 1920 / 500;
+    top: 60px;
+  }
+  #showcasegalery .pipa.bawah {
+    aspect-ratio: 1920 / 500;
+    top: -295px;
+  }
+
+  .dtcharain-container
+  {
+    top: 160px;
+  }
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 70vh;
+    background-size: cover;
+  }
+
+  .showcase-container {
+    gap: 18px;
+    margin-top: -360px;
+    transform: scale(1);
+  }
+
+  .showcase-paper {
+    width: 360px;
+    height: 300px;
+  }
+  .showcase-paper img {
+    width: 320px;
+  }
+
+  
+
+  .showcase-dots {
+    left: -590px;
+    width: 125vw;
+  }
+
+  .ripple-overlay {
+    height: 89vh;
+    top: 180px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
+  #footer {
+    padding: 50px 0;
+    height: 30vh;
+    font-size: 14px;
+  }
+  .footer-logos {
+    margin-top: -48px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 0.9rem;
+  }
+
+  /* [9] GENERAL FIX */
+  .ripple-overlay,
+  .dtcharain-container,
+  .halter-container {
+    z-index: 7;
+  }
+
+  .air.atas, .air.bawah,
+  .gen.atas, .gen.bawah,
+  .rumput.atas, .rumput.bawah,
+  .pipa.atas, .pipa.bawah {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+}
+/* ================================================================
+   RESPONSIVE STYLING — TABLET LANDSCAPE / LAPTOP KECIL (MAX 1024PX)
+   ================================================================ */
+@media (max-width: 1024px) {
+
+  /* [1] BODY */
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  /* [2] SECTION 1 — BANNER HEADER */
+  #BannerHeader {
+    min-height: 98vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -36vh;
+    height: 65vh;
+    background-size: 100% auto;
+    transform: scale(1.1);
+  }
+
+  #about .awan.bawah {
+    top: -30vh;
+    transform: scale(1.1);
+    background-size: 100% auto;
+  }
+
+  #picsumCarousel {
+    height: 75vh;
+  }
+
+  .btn-play-center {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.1rem;
+  }
+
+  .video-wrapper iframe {
+    width: 88%;
+    height: 68%;
+    top: 40px;
+    left: 40px;
+  }
+  #picsumCarousel .carousel-indicators{
+    bottom: -50px;
+  }
+
+  /* [3] SECTION 2 — ABOUT */
+  #about {
+    padding-top: 70px;
+    padding-bottom: 160px;
+  }
+  .about-container {
+    gap: 24px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+  }
+
+  #about h1 {
+    font-size: 1.8rem;
+  }
+
+  #about p {
+    font-size: 0.90rem;
+    max-width: 380px;
+  }
+
+  #gmbrkiriatas {
+    width: 80%;
+    left: -250px;
+  }
+  #gmbrkananatas {
+    width: 80%;
+    right: -250px;
+  }
+  #gmbrkiribawah {
+    width: 85%;
+    left: -300px;
+    top: 520px;
+  }
+  #gmbrkananbawah {
+    width: 85%;
+    top: 520px;
+    right: -300px;
+  }
+
+  #about .air.atas {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: 31vh;
+  }
+  #characters .air.bawah {
+    aspect-ratio: 1920 / 500;
+    background-size: 100% auto;
+    top: -18vh;
+  }
+
+  /* [4] SECTION 3 — CHARACTERS */
+  #characters {
+    min-height: 70vh;
+    padding: 40px 0;
+  }
+
+  .halter-container {
+    transform: scale(1.4);
+  }
+  .halte-container {
+    top: -340px;
+    gap: 26px;
+  }
+
+  .halte-text {
+    font-size: 1.6rem;
+  }
+  #logohalte {
+    transform: scale(1);
+  }
+
+  .character-wrapper {
+    transform: scale(1.5);
+    top: -220px;
+  }
+
+  .kartu-character {
+    min-width: 150px;
+    height: 190px;
+    transform: scale(1.4);
+  }
+
+  .kartu-character h3,
+  .kartu-character p {
+    top: 110px;
+    left: -8px;
+  }
+
+  #characters .gen.atas {
+    top: 50px;
+  }
+  #detailcharacter .gen.bawah {
+    top: -62px;
+  }
+
+  /* [5] SECTION 4 — DETAIL CHARACTER */
+  #detailcharacter {
+    min-height: 90vh;
+  }
+
+  .dtchara-wrap {
+    gap: 16px;
+    margin-top: -100px;
+    transform: scale(1);
+    margin-left: -60px;
+
+    margin-bottom: 40px;
+  }
+  .dtchara-section h1 {
+    font-size: 2.4rem;
+    margin-top: -280px;
+  }
+
+  .dtchara-left h2 {
+    font-size: 1.6rem;
+    margin-left: 0;
+  }
+
+  .dtchara-left p {
+    font-size: 0.75rem;
+    max-width: 200px;
+    margin-left: 0;
+  }
+  .dtchara-left {
+    left: 60px;
+    transform: scale(0.9);
+  }
+  .dtchara-line-left-bottom,
+  .dtchara-line-left-top {
+    left: -30px;
+    transform: scale(0.9);
+
+  }
+   .dtchara-line-left-bottom{
+    top: -20px;
+   }
+
+
+  .dtchara-img {
+    width: 500px;
+    transform: scale(1) !important;
+  }
+  /* efek hover seluruh section karakter */
+.dtchara-section:hover .dtchara-center .dtchara-img {
+  transform: scale(1.1) !important; /* mencuat keluar */
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+}
+
+  .dtchara-right {
+    left: -170px;
+    top: -130px;
+  }
+  .dtchara-right h2 {
+    font-size: 1.1rem;
+  }
+  #right-trait {
+    top: 330px;
+  }
+  .dtchara-right p {
+    font-size: 0.7rem;
+    max-width: 170px !important;
+  }
+
+  #detailcharacter .rumput.atas {
+    transform: scale(1.3);
+    top: 160px;
+  }
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.3);
+    top: -150px;
+  }
+
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 100vh;
+  }
+
+  .bschara-container {
+    gap: 28px;
+    bottom: 220px;
+  }
+  .bschara-left {
+    transform: scale(1.2);
+  }
+
+  .bschara-right h3 {
+    font-size: 1.1rem;
+  }
+
+  .bschara-right p {
+    font-size: 0.85rem;
+    max-width: 380px;
+  }
+
+  .char-img {
+    max-width: 140px;
+  }
+
+  /* ==== Pipa Atas & Bawah ==== */
+  #backgroundcharacter .pipa.atas {
+    aspect-ratio: 1920 / 500;
+    top: 80px;
+  }
+  #showcasegalery .pipa.bawah {
+    aspect-ratio: 1920 / 500;
+    top: -300px;
+  }
+
+  .dtcharain-container {
+    top: 140px;
+  }
+
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 65vh;
+    background-size: cover;
+  }
+
+  .showcase-container {
+    gap: 16px;
+    margin-top: -300px;
+    transform: scale(0.9);
+  }
+
+  .showcase-paper {
+    width: 320px;
+    height: 260px;
+  }
+
+  .showcase-paper img {
+    width: 280px;
+  }
+
+  .showcase-dots {
+    left: -560px;
+    width: 140vw;
+  }
+
+  .ripple-overlay {
+    height: 85vh;
+    top: 160px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
+  #footer {
+    padding: 40px 0;
+    height: 28vh;
+    font-size: 13px;
+  }
+  .footer-logos {
+    margin-top: -50px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 0.85rem;
+  }
+
+  /* [9] GENERAL FIX */
+  .ripple-overlay,
+  .dtcharain-container,
+  .halter-container {
+    z-index: 7;
+  }
+
+  .air.atas, .air.bawah,
+  .gen.atas, .gen.bawah,
+  .rumput.atas, .rumput.bawah,
+  .pipa.atas, .pipa.bawah {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+}
+/* ================================================================
+   RESPONSIVE STYLING — TABLET PORTRAIT (MAX WIDTH 768PX)
+   ================================================================ */
+@media (max-width: 768px) {
+  /* [1] BODY */
+  body {
+    font-size: 13px;
+    overflow-x: hidden;
+  }
+
+  /* [2] SECTION 1 — BANNER HEADER */
+  #BannerHeader {
+    min-height: 90vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -30vh;
+    height: 60vh;
+    background-size: 100% auto;
+    transform: scale(1);
+  }
+
+  #about .awan.bawah {
+    top: -25vh;
+    transform: scale(1);
+    background-size: 100% auto;
+  }
+
+  #picsumCarousel {
+    height: 70vh;
+  }
+
+  .btn-play-center {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+
+  .video-wrapper iframe {
+    width: 90%;
+    height: 60%;
+    top: 30px;
+    left: 20px;
+  }
+
+  /* [3] SECTION 2 — ABOUT */
+  #about {
+    padding-top: 60px;
+    padding-bottom: 140px;
+  }
+
+  .about-container {
+    gap: 20px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+  #about h1 {
+    font-size: 1.6rem;
+  }
+
+  #about p {
+    font-size: 0.85rem;
+    max-width: 340px;
+  }
+
+  /* [4] SECTION 3 — CHARACTERS */
+  #characters {
+    min-height: 60vh;
+    padding: 30px 0;
+  }
+
+  .halter-container {
+    transform: scale(1.2);
+  }
+
+  .halte-container {
+    top: -300px;
+    gap: 20px;
+  }
+
+  .halte-text {
+    font-size: 1.4rem;
+  }
+
+  .character-wrapper {
+    transform: scale(1.3);
+    top: -200px;
+  }
+
+  .kartu-character {
+    min-width: 140px;
+    height: 180px;
+    transform: scale(1.3);
+  }
+
+  .kartu-character h3,
+  .kartu-character p {
+    top: 100px;
+    left: -5px;
+  }
+
+  /* [5] SECTION 4 — DETAIL CHARACTER */
+  #detailcharacter {
+    min-height: 85vh;
+  }
+
+  .dtchara-wrap {
+    gap: 12px;
+    margin-top: -80px;
+    transform: scale(0.9);
+  }
+
+  .dtchara-section h1 {
+    font-size: 2rem;
+    margin-top: -240px;
+  }
+
+  .dtchara-left h2 {
+    font-size: 1.4rem;
+  }
+
+  .dtchara-left p {
+    font-size: 0.7rem;
+    max-width: 180px;
+  }
+
+  .dtchara-img {
+    width: 450px;
+    transform: scale(0.9) !important;
+  }
+
+  .dtchara-right {
+    left: -150px;
+    top: -100px;
+  }
+
+  .dtchara-right h2 {
+    font-size: 1rem;
+  }
+
+  .dtchara-right p {
+    font-size: 0.65rem;
+    max-width: 150px !important;
+  }
+
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 90vh;
+  }
+
+  .bschara-container {
+    gap: 24px;
+    bottom: 200px;
   }
 
   .bschara-left {
     transform: scale(1.1);
-    margin-left: 250px;
   }
 
-  .bschara-right {
-    margin-left: -200px;
+  .bschara-right h3 {
+    font-size: 1rem;
   }
 
-  /* [7] SHOWCASE */
+  .bschara-right p {
+    font-size: 0.8rem;
+    max-width: 340px;
+  }
+
+  .char-img {
+    max-width: 120px;
+  }
+
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 60vh;
+    background-size: cover;
+  }
+
   .showcase-container {
-    transform: scale(1.3);
-    margin-top: -260px;
+    gap: 14px;
+    margin-top: -280px;
+    transform: scale(0.8);
   }
 
   .showcase-paper {
-    width: 450px;
-    height: 320px;
+    width: 300px;
+    height: 240px;
   }
 
-  /* [8] FOOTER */
+  .showcase-paper img {
+    width: 260px;
+  }
+
+  .showcase-dots {
+    left: -500px;
+    width: 120vw;
+  }
+
+  .ripple-overlay {
+    height: 80vh;
+    top: 140px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
   #footer {
-    padding: 70px 0;
-    height: 14vh;
+    padding: 30px 0;
+    height: 25vh;
+    font-size: 12px;
   }
 
   .footer-logos {
-    margin-top: -70px;
+    margin-top: -40px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 0.8rem;
+  }
+}
+
+/* ================================================================
+   RESPONSIVE STYLING — MOBILE (MAX WIDTH 480PX)
+   ================================================================ */
+@media (max-width: 480px) {
+  /* [1] BODY */
+  body {
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+
+  /* [2] SECTION 1 — BANNER HEADER */
+  #BannerHeader {
+    min-height: 85vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -20vh;
+    height: 50vh;
+    background-size: 100% auto;
+    transform: scale(0.9);
+  }
+
+  #about .awan.bawah {
+    top: -20vh;
+    transform: scale(0.9);
+    background-size: 100% auto;
+  }
+
+  #picsumCarousel {
+    height: 65vh;
+  }
+
+  .btn-play-center {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 0.9rem;
+  }
+
+  .video-wrapper iframe {
+    width: 95%;
+    height: 55%;
+    top: 20px;
+    left: 10px;
+  }
+
+  /* [3] SECTION 2 — ABOUT */
+  #about {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+
+  .about-container {
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+
+  #about h1 {
+    font-size: 1.4rem;
+  }
+
+  #about p {
+    font-size: 0.75rem;
+    max-width: 300px;
+  }
+
+  /* [4] SECTION 3 — CHARACTERS */
+  #characters {
+    min-height: 55vh;
+    padding: 20px 0;
+  }
+
+  .halter-container {
+    transform: scale(1);
+  }
+
+  .halte-container {
+    top: -250px;
+    gap: 16px;
+  }
+
+  .halte-text {
+    font-size: 1.2rem;
+  }
+
+  .character-wrapper {
+    transform: scale(1.1);
+    top: -180px;
+  }
+
+  .kartu-character {
+    min-width: 120px;
+    height: 160px;
+    transform: scale(1.1);
+  }
+
+  .kartu-character h3,
+  .kartu-character p {
+    top: 90px;
+    left: -3px;
+  }
+
+  /* [5] SECTION 4 — DETAIL CHARACTER */
+  #detailcharacter {
+    min-height: 80vh;
+  }
+
+  .dtchara-wrap {
+    gap: 10px;
+    margin-top: -60px;
+    transform: scale(0.8);
+  }
+
+  .dtchara-section h1 {
+    font-size: 1.8rem;
+    margin-top: -200px;
+  }
+
+  .dtchara-left h2 {
+    font-size: 1.2rem;
+  }
+
+  .dtchara-left p {
+    font-size: 0.65rem;
+    max-width: 160px;
+  }
+
+  .dtchara-img {
+    width: 400px;
+    transform: scale(0.8) !important;
+  }
+
+  .dtchara-right {
+    left: -120px;
+    top: -80px;
+  }
+
+  .dtchara-right h2 {
+    font-size: 0.9rem;
+  }
+
+  .dtchara-right p {
+    font-size: 0.6rem;
+    max-width: 140px !important;
+  }
+
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 80vh;
+  }
+
+  .bschara-container {
+    gap: 20px;
+    bottom: 180px;
+  }
+
+  .bschara-left {
+    transform: scale(1);
+  }
+
+  .bschara-right h3 {
+    font-size: 0.9rem;
+  }
+
+  .bschara-right p {
+    font-size: 0.7rem;
+    max-width: 300px;
+  }
+
+  .char-img {
+    max-width: 100px;
+  }
+
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 50vh;
+    background-size: cover;
+  }
+
+  .showcase-container {
+    gap: 12px;
+    margin-top: -240px;
+    transform: scale(0.7);
+  }
+
+  .showcase-paper {
+    width: 280px;
+    height: 220px;
+  }
+
+  .showcase-paper img {
+    width: 240px;
+  }
+
+  .showcase-dots {
+    left: -400px;
+    width: 100vw;
+  }
+
+  .ripple-overlay {
+    height: 70vh;
+    top: 120px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
+  #footer {
+    padding: 20px 0;
+    height: 20vh;
+    font-size: 11px;
+  }
+
+  .footer-logos {
+    margin-top: -30px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 0.7rem;
   }
 }
