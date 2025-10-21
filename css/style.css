@@ -783,7 +783,7 @@ body::after {
   margin-top: 50px;
   
 }
-.kartu-character .bingkai-frame {
+ .bingkai-frame {
   position: absolute;
   top: 30px;
   left: 20px;
