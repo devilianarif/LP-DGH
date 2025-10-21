@@ -230,9 +230,6 @@ function updateCharacterDetails(characterId) {
   document.querySelector(".bschara-right h3").textContent = c.name;
   document.querySelector(".bschara-right p").textContent = c.background;
 
-  // Update background belakang
-  document.querySelector("#backgroundcharacter").style.backgroundImage = `url(${c.backgroundImage})`;
-
   // Scroll halus ke detail karakter
   document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
 }
