@@ -768,6 +768,7 @@ body::after {
   position: absolute;
   top: 50px;
   left: 0;
+  bo
   width: auto;
   height: auto;
   z-index: 1;
