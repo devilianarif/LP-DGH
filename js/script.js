@@ -484,8 +484,7 @@ charTrack.addEventListener("touchmove", (e) => {
   }
 });
 
-// === Nonaktifkan scroll wheel ===
-sectionCharacters.addEventListener("wheel", (e) => e.preventDefault(), { passive: false });
+
 
 // === Inisialisasi awal ===
 updateCharacter();
