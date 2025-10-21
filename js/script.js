@@ -338,7 +338,6 @@ document.addEventListener("click", function(e) {
 
 // Elemen section
 const sectionCharacters = document.getElementById('characters');
-const sectionDetail = document.getElementById('detailcharacter');
 
 // Simpan data background dan detail tiap karakter
 const characterData = [
