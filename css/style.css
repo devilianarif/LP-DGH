@@ -796,7 +796,7 @@ body::after {
   background-size: cover;
   z-index: 3; /* pastikan di atas gambar */
   pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
-  tra
+  transform: scale();
 }
 
 /* Teks di atas bingkai */
