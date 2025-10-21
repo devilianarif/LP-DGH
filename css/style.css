@@ -779,6 +779,7 @@ body::after {
   height: 100px;
   object-fit: cover;
   transform: scale(1.6);
+  margin-top: ;
 }
 
 /* Bingkai di atas gambar */
