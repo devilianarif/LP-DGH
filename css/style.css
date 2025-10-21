@@ -785,7 +785,7 @@ body::after {
 }
 .kartu-character .bingkai-frame {
   position: absolute;
-  top: 0;
+  top: -18px;
   left: 0;
   width: 181%;
   height: 228%;
