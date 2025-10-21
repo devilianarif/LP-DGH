@@ -767,7 +767,7 @@ body::after {
 /* Gambar karakter di belakang */
 .kartu-character .img-wrap {
   position: absolute;
-  top: 20px;
+  top: 70px;
   left: 0;
   width: 100%;
   height: calc(100% - 30px); /* potong tinggi sedikit */
