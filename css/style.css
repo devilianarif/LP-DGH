@@ -2019,7 +2019,14 @@ top: 75px;
     bottom: 200px;
    
   }
+  .bschara-left {
+    transform: scale(1.8);
+  }
 
+  .bschara-right
+  {
+    transform: scale(1.8);
+  }
   .bschara-right h3 {
     font-size: 1.8rem;
   }
