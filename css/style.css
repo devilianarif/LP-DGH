@@ -775,7 +775,7 @@ body::after {
 }
 
 .kartu-character .img-wrap img {
-  width: 300px;
+  width: 100px;
   height: 100px;
   object-fit: contain;
   margin-left: 10px;
