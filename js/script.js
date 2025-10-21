@@ -134,38 +134,39 @@ for (let i = 0; i < halterCount; i++) {
 
   document.querySelector(".halter-container").appendChild(line);
 }
+document.addEventListener("DOMContentLoaded", () => {
+  const makeDtchaRain = () => {
+    document.querySelectorAll(".dtcharain").forEach(el => el.innerHTML = "");
 
-// === Dtcha Rain Effect ===
-const makeDtchaRain = () => {
-  document.querySelectorAll(".dtcharain").forEach(el => el.innerHTML = "");
+    let increment = 0;
+    let drops = "";
+    let backDrops = "";
 
-  let increment = 0;
-  let drops = "";
-  let backDrops = "";
+    while (increment < 100) {
+      let randoHundo = Math.floor(Math.random() * 98) + 1;
+      let randoFiver = Math.floor(Math.random() * 4) + 2;
+      increment += randoFiver;
 
-  while (increment < 100) {
-    let randoHundo = Math.floor(Math.random() * 97) + 1;
-    let randoFiver = Math.floor(Math.random() * 4) + 2;
-    increment += randoFiver;
+      drops += `
+        <div class="dtcharain-drop" style="left:${increment}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
+          <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+          <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+        </div>`;
 
-    drops += `
-      <div class="dtcharain-drop" style="left:${increment}%;bottom:${randoFiver + 100}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
-        <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
-        <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
-      </div>`;
+      backDrops += `
+        <div class="dtcharain-drop" style="right:${increment}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
+          <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+          <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+        </div>`;
+    }
 
-    backDrops += `
-      <div class="dtcharain-drop" style="right:${increment}%;bottom:${randoFiver + 100}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
-        <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
-        <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
-      </div>`;
-  }
+    document.querySelector(".dtcharain.front-row").innerHTML = drops;
+    document.querySelector(".dtcharain.back-row").innerHTML = backDrops;
+  };
 
-  document.querySelector(".dtcharain.front-row").innerHTML = drops;
-  document.querySelector(".dtcharain.back-row").innerHTML = backDrops;
-};
+  makeDtchaRain();
+});
 
-makeDtchaRain();
 
 // === Showcase Section ===
 document.addEventListener("DOMContentLoaded", () => {
