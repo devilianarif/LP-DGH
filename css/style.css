@@ -962,6 +962,7 @@ body::after {
   color: white;
   box-sizing: border-box;
   position: relative;
+  left: 20;
 }
 
 /* Judul utama di atas kiri */
