@@ -768,7 +768,7 @@ body::after {
   position: absolute;
   top: 50px;
   left: 0;
-  width: 100px;
+  width: auto;
   height: 100px;
   z-index: 1;
   padding-bottom: 20px;
