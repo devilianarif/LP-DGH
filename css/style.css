@@ -2496,7 +2496,7 @@ top: 75px;
   }
 
   #BannerHeader .awan.atas {
-    bottom: -8vh !important;
+    bottom: 8vh !important;
     height: 80vh;
     background-size: 101% auto;
     transform: scale(1.05);
