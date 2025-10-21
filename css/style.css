@@ -2227,7 +2227,9 @@ top: 75px;
     transform: scale(1.2);
     margin-top: -700px;
   }
-  .rumput.atas
+  .rumput.atas {
+    transform: scale(1.4);
+  }
 
   .bschara-container {
     transform: scale(1.4);
