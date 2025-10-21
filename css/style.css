@@ -778,6 +778,7 @@ body::after {
   height: auto;
   object-fit: contain;
   transform: scale(1.4);
+  
 }
 
 /* Bingkai depan */
