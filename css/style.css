@@ -775,7 +775,7 @@ body::after {
 /* gambar di dalamnya */
 .kartu-character .img-wrap img {
   width: 100px;
-  height: 220px;
+  height: 320px;
   object-fit: cover;
   transform: scale(1.6);
   margin-top: 90px;     /* geser gambar ke atas */
