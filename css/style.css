@@ -783,10 +783,7 @@ body::after {
   padding-bottom: 90px;
   padding-top: 30px;
 }
-
-/* Bingkai di atas gambar */
-.kartu-character::after {
-  content: "";
+.kartu-character .bingkai-frame {
   position: absolute;
   top: 0;
   left: 0;
@@ -794,10 +791,9 @@ body::after {
   height: 100%;
   background: url('../aset/card 1.png') no-repeat center;
   background-size: cover;
-  z-index: 3; /* pastikan di atas gambar */
-  pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
+  z-index: 3; /* tetap di atas gambar */
+  pointer-events: none;
 }
-
 /* Teks di atas bingkai */
 .kartu-character h3,
 .kartu-character p {
