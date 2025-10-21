@@ -114,15 +114,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-// === Character Interaction & Navigation ===
+// === CHARACTER INTERACTION FINAL ===
 
 // Elemen utama
 const charTrack = document.querySelector('.character-track');
 const carCard = document.querySelectorAll('.kartu-character');
 const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2; // posisi tengah awal
+let isDragging = false;
+let startX = 0;
 
-// === Data karakter lengkap ===
+// === Data karakter ===
 const characterDetails = [
   {
     id: 0,
@@ -176,8 +178,7 @@ const characterDetails = [
   },
 ];
 
-
-// === Fungsi Update Posisi Kartu ===
+// === Fungsi update posisi kartu ===
 function updateCharacter() {
   const cardWidth = carCard[0].offsetWidth + 30;
   const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
@@ -187,39 +188,60 @@ function updateCharacter() {
     const distance = Math.abs(currentCharacter - index);
     card.classList.toggle('aktif', index === currentCharacter);
     card.style.transform = index === currentCharacter
-      ? 'scale(1.1)'
+      ? 'scale(1.1) translateY(-10px)' // karakter aktif naik sedikit
       : distance === 1
-      ? 'scale(0.9)'
-      : 'scale(0.8)';
+      ? 'scale(0.9) translateY(5px)'
+      : 'scale(0.8) translateY(15px)';
     card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
   });
 }
 
-
-// === Fungsi Update Detail Karakter ===
+// === Fungsi update detail dan background ===
 function updateCharacterDetails(characterId) {
   const c = characterDetails[characterId];
   if (!c) return;
 
-  // Update isi section detail
+  // Update teks
   document.querySelector(".dtchara-left h2").textContent = c.name;
   document.querySelector(".dtchara-left p").textContent = c.description;
   document.querySelector("#right-desc p").textContent = c.description;
   document.querySelector("#right-race p").textContent = c.race;
   document.querySelector("#right-trait p").textContent = c.trait;
 
-  // Update background & bagian bawah
-  document.querySelector(".bschara-left img").src = c.image;
+  // Gambar tengah (detailcharacter)
+  const centerImg = document.querySelector(".dtchara-center .dtchara-img");
+  if (centerImg) {
+    centerImg.style.opacity = "0";
+    setTimeout(() => {
+      centerImg.src = c.image;
+      centerImg.style.opacity = "1";
+      centerImg.style.transform = "scale(1.05)";
+      setTimeout(() => (centerImg.style.transform = "scale(1)"), 400);
+    }, 200);
+  }
+
+  // Gambar kiri bawah (backgroundcharacter)
+  const bgLeftImg = document.querySelector(".bschara-left .char-img");
+  if (bgLeftImg) {
+    bgLeftImg.style.opacity = "0";
+    setTimeout(() => {
+      bgLeftImg.src = c.image;
+      bgLeftImg.style.opacity = "1";
+    }, 200);
+  }
+
+  // Update teks backgroundcharacter
   document.querySelector(".bschara-right h3").textContent = c.name;
   document.querySelector(".bschara-right p").textContent = c.background;
+
+  // Update background belakang
   document.querySelector("#backgroundcharacter").style.backgroundImage = `url(${c.backgroundImage})`;
 
-  // Smooth scroll ke detail
+  // Scroll halus ke detail karakter
   document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
 }
 
-
-// === Event: Klik kartu ===
+// === Klik kartu ===
 carCard.forEach((card, index) => {
   card.addEventListener("click", () => {
     currentCharacter = index;
@@ -228,26 +250,20 @@ carCard.forEach((card, index) => {
   });
 });
 
-
-// === Drag Support ===
-let startX = 0;
-let isDragging = false;
-
+// === Drag Desktop ===
 charTrack.addEventListener("mousedown", (e) => {
   isDragging = true;
   startX = e.pageX;
-  charTrack.style.cursor = "grabbing";
 });
 
 window.addEventListener("mouseup", () => {
   isDragging = false;
-  charTrack.style.cursor = "grab";
 });
 
 window.addEventListener("mousemove", (e) => {
   if (!isDragging) return;
   const diff = e.pageX - startX;
-  if (Math.abs(diff) > 60) { // sensitivitas geser
+  if (Math.abs(diff) > 60) {
     if (diff < 0 && currentCharacter < carCard.length - 1) {
       currentCharacter++;
     } else if (diff > 0 && currentCharacter > 0) {
@@ -258,19 +274,34 @@ window.addEventListener("mousemove", (e) => {
   }
 });
 
-
-// === Scroll Wheel Navigasi ===
-sectionCharacters.addEventListener("wheel", (e) => {
-  if (e.deltaY > 0 && currentCharacter < carCard.length - 1) {
-    currentCharacter++;
-  } else if (e.deltaY < 0 && currentCharacter > 0) {
-    currentCharacter--;
-  }
-  updateCharacter();
+// === Drag Sentuh (Mobile) ===
+charTrack.addEventListener("touchstart", (e) => {
+  isDragging = true;
+  startX = e.touches[0].clientX;
 });
 
+charTrack.addEventListener("touchend", () => {
+  isDragging = false;
+});
 
-// === Inisialisasi Awal ===
+charTrack.addEventListener("touchmove", (e) => {
+  if (!isDragging) return;
+  const diff = e.touches[0].clientX - startX;
+  if (Math.abs(diff) > 60) {
+    if (diff < 0 && currentCharacter < carCard.length - 1) {
+      currentCharacter++;
+    } else if (diff > 0 && currentCharacter > 0) {
+      currentCharacter--;
+    }
+    updateCharacter();
+    startX = e.touches[0].clientX;
+  }
+});
+
+// === Nonaktifkan scroll wheel di section karakter ===
+sectionCharacters.addEventListener("wheel", (e) => e.preventDefault(), { passive: false });
+
+// === Inisialisasi awal ===
 updateCharacter();
 
 
