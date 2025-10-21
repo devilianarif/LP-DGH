@@ -773,7 +773,7 @@ body::after {
   height: calc(170% - 30px); /* potong tinggi sedikit */
   overflow: hidden;
   z-index: 1;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 
