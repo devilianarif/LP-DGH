@@ -1041,9 +1041,11 @@ body::after {
 
 .dtchara-img {
   width: 800px;
-  max-height: none;
-  transform: scale(1.20) !important; /* opsional buat nambahin skala */
+  transform: scale(1.2);
+  object-fit: cover;
+  clip-path: inset(0 0 100px 0); /* potong 100px dari bawah */
 }
+
 
 
 /* === KANAN === */
