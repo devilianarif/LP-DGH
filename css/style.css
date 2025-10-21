@@ -765,7 +765,7 @@ body::after {
 
 /* Gambar karakter di belakang */
 .kartu-character .img-wrap {
-  position: s;
+  position: static;
   top: 50px;
   left: 0;
   width: 100px;
