@@ -1144,7 +1144,7 @@ body::after {
 
 #right-trait h2, #right-trait p {
   top: 56px;
-  left: 1020px;
+  left: -20px;
   max-width: 250px;
   text-align: justify;
 
@@ -2048,7 +2048,6 @@ top: 75px;
     left: -210px;
     top: 80px;
   }
-  
   
   #detailcharacter .rumput.atas {
     transform: scale(1.5);
