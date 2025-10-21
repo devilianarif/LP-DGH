@@ -134,7 +134,7 @@ const characterDetails = [
     trait: "Penyayang, misterius, dan penuh teka-teki.",
     background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
     image: "aset/nara3.png",
-
+    backgroundImage: "aset/bg_nara.png",
   },
   {
     id: 1,
@@ -144,6 +144,7 @@ const characterDetails = [
     trait: "Cerdas, peduli, dan penuh semangat.",
     background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
     image: "aset/dinda1.png",
+    backgroundImage: "aset/bg_dinda.png",
   },
   {
     id: 2,
@@ -153,6 +154,7 @@ const characterDetails = [
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
     background: "Arya adalah simbol perjalanan menuju pemulihan.",
     image: "aset/arya1.png",
+    backgroundImage: "aset/bg_arya.png",
   },
   {
     id: 3,
@@ -162,6 +164,7 @@ const characterDetails = [
     trait: "Licik, cerdas, dan manipulatif.",
     background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
     image: "aset/bijo1.png",
+    backgroundImage: "aset/bg_bijo.png",
   },
   {
     id: 4,
@@ -171,6 +174,7 @@ const characterDetails = [
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
     image: "aset/owo1.png",
+    backgroundImage: "aset/bg_owo.png",
   },
 ];
 
