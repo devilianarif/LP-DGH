@@ -2241,7 +2241,10 @@ top: 75px;
     margin-left: -100px;
   }
 
-  backgrk
+  backgrkoundcharacter .pipa.atas {
+    transform: scale(1.3);
+    top: 150px;
+  }
 
   .showcase-container {
     transform: scale(1.4);
