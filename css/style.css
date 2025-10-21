@@ -780,7 +780,7 @@ body::after {
     height: 220px;
     object-fit: cover;
     transform: scale(1.6);
-    margin-top: 0px;
+    margin-top: 20px;
     padding-bottom: 90px;
 }
 
