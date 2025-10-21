@@ -746,7 +746,6 @@ body::after {
  
   
 }
-
 .kartu-character {
   position: relative;
   min-width: 220px;
@@ -767,24 +766,22 @@ body::after {
 /* Gambar karakter di belakang */
 .kartu-character .img-wrap {
   position: absolute;
-  top: 100px;
-  left: -10px;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: calc(190% - 0px); /* potong tinggi sedikit */
-  overflow: hidden;
+  height: 100%;
   z-index: 1;
   padding-bottom: 20px;
 }
 
-
 .kartu-character .img-wrap img {
   width: 100%;
-  height:20%;
-  object-fit: cover; /* atau contain tergantung bentuk */
+  height: 100%;
+  object-fit: contain;
   margin-left: 10px;
-  transform: scale(1);
-  margin-top: 20px;
-  clip-path: inset(0 0 w0px 0); /* potong bagian bawah 40px, bisa sesuaikan */
+  margin-top: 60px;
+  transform: scale(1.6);
+  
 }
 
 /* Bingkai di atas gambar */
@@ -794,7 +791,7 @@ body::after {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 100%;
   background: url('../aset/card 1.png') no-repeat center;
   background-size: cover;
   z-index: 3; /* pastikan di atas gambar */
