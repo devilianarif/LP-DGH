@@ -334,22 +334,6 @@ document.addEventListener("click", function(e) {
 });
 
 
-// === Scroll & Drag Navigasi Karakter + Transition ke Detail ===
-
-// Elemen section
-const sectionCharacters = document.getElementById('characters');
-const sectionDetail = document.getElementById('detailcharacter');
-
-// Simpan data background dan detail tiap karakter
-const characterData = [
-  { id: 0, bg: "url('aset/bg_nara.png')", name: "Si Gadis Jubah Kuning" },
-  { id: 1, bg: "url('aset/bg_dinda.png')", name: "Dinda" },
-  { id: 2, bg: "url('aset/bg_arya.png')", name: "Arya / Raya" },
-  { id: 3, bg: "url('aset/bg_bijo.png')", name: "Bijo" },
-  { id: 4, bg: "url('aset/bg_owo.png')", name: "Owo" },
-];
-
-
 // drag support
 let startX = 0;
 let isDragging = false;
