@@ -770,7 +770,7 @@ body::after {
   top: 0px;
   left: -10px;
   width: 100%;
-  height: calc(100% - 0px); /* potong tinggi sedikit */
+  height: calc(100% 0px); /* potong tinggi sedikit */
   overflow: hidden;
   z-index: 1;
   padding-bottom: 20px;
