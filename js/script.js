@@ -164,7 +164,6 @@ const characterDetails = [
     trait: "Licik, cerdas, dan manipulatif.",
     background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
     image: "aset/bijo1.png",
-    backgroundImage: "aset/bg_bijo.png",
   },
   {
     id: 4,
