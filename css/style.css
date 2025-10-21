@@ -785,7 +785,7 @@ body::after {
   margin-top: 60px;
   transform: scale(1);
   margin-top: 20px;
-  clip-path: inset(0 0 40px 0); /* potong bagian bawah 40px, bisa sesuaikan */
+  clip-path: inset(0 0 q0px 0); /* potong bagian bawah 40px, bisa sesuaikan */
 }
 
 /* Bingkai di atas gambar */
