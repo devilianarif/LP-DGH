@@ -768,7 +768,7 @@ body::after {
 .kartu-character .img-wrap {
   position: absolute;
   top: 30px;
-  left: 20px;
+  left: 10px;
   width: 100%;
   height: calc(100% - 30px); /* potong tinggi sedikit */
   overflow: hidden;
