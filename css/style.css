@@ -2028,7 +2028,7 @@ top: 75px;
     font-size: 1.8rem;
   }
   .bschara-right{
-    margin-left: 80px;
+    margin-left: -80px;
   }
 
   .bschara-right p {
