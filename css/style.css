@@ -781,7 +781,7 @@ body::after {
   transform: scale(1.6);
   margin-left: 70px;
   margin-top: 50px;
-  pad
+  padding-bottom: 30px;
 }
 .kartu-character .bingkai-frame {
   position: absolute;
