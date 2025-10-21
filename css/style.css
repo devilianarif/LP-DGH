@@ -770,7 +770,7 @@ body::after {
   left: 0;
   bottom: 20px;
   width: auto;
-  height: auto;
+  height: 200px;
   z-index: 1;
 }
 
