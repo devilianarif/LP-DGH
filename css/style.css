@@ -2425,7 +2425,7 @@ top: 75px;
   .showcase-container {
     gap: 25px;
     margin-top: -500px;
-    transform: scale(1.4);
+    transform: scale(1.5);
   }
 
   .showcase-paper {
