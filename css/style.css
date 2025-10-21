@@ -1008,7 +1008,13 @@ body::after {
 }
 
 .dtchara-line-left-top{
-  
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: -20px;
+  position: relative;
+  left: -10px;
+  top: 10px;
 }
 .dtchara-line-left-bottom {
   display: block;
