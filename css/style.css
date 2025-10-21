@@ -2496,14 +2496,14 @@ top: 75px;
   }
 
   #BannerHeader .awan.atas {
-    bottom: vh;
+    bottom: -28vh;
     height: 80vh;
     background-size: 101% auto;
     transform: scale(1.05);
   }
 
   #about .awan.bawah {
-    top: 8vh;
+    top: -28vh;
     transform: scale(1.05);
   }
 
