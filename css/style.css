@@ -778,6 +778,7 @@ body::after {
   width: 100px;
   height: 100px;
   object-fit: contain;
+  top: ;
   transform: scale(1.6);
 }
 
