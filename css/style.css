@@ -2166,6 +2166,315 @@ top: 75px;
   }
 }
 
+/* ================================================================
+   RESPONSIVE STYLING — TAMPILAN KHUSUS 2560x1440 (2K SCREEN)
+   ================================================================ */
+@media screen and (min-width: 2550px) and (max-width: 2600px) {
+
+  /* [1] BODY */
+  body {
+    font-size: 17px;
+    overflow-x: hidden;
+  }
+
+  /* [2] SECTION 1 — BANNER HEADER */
+  #BannerHeader {
+    min-height: 100vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -30vh;
+    height: 80vh;
+    background-size: 101% auto;
+    transform: scale(1.06);
+  }
+
+  #about .awan.bawah {
+    top: -30vh;
+    transform: scale(1.06);
+    background-size: 101% auto;
+  }
+
+  #picsumCarousel {
+    height: 94vh;
+  }
+
+  .btn-play-center {
+    width: 180px;
+    height: 180px;
+    font-size: 8rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.7rem;
+  }
+
+  .modal-content {
+    transform: scale(1.75);
+  }
+
+  .video-wrapper iframe {
+    width: 75%;
+    height: 75%;
+    top: 60px;
+    left: 90px;
+  }
+
+  /* [3] SECTION 2 — ABOUT */
+  #about {
+    padding-top: 90px;
+    padding-bottom: 150px;
+  }
+
+  .about-container {
+    gap: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  #about h1 {
+    font-size: 4.2rem;
+  }
+
+  #about p {
+    font-size: 1.9rem;
+    max-width: 620px;
+  }
+
+  #gmbrkiriatas {
+    width: 165%;
+    left: -950px;
+  }
+
+  #gmbrkananatas {
+    width: 165%;
+    right: -950px;
+  }
+
+  #gmbrkiribawah {
+    width: 180%;
+    left: -1150px;
+    top: 1100px;
+  }
+
+  #gmbrkananbawah {
+    width: 180%;
+    top: 1100px;
+    right: -1150px;
+  }
+
+  #about .air.atas {
+    aspect-ratio: 1920 / 500;
+    background-size: 104% auto;
+    top: 14vh;
+  }
+
+  #characters .air.bawah {
+    aspect-ratio: 1920 / 500;
+    background-size: 104% auto;
+    top: -15vh;
+  }
+
+  /* [4] SECTION 3 — CHARACTERS */
+  #characters {
+    min-height: 80vh;
+    padding: 60px 0;
+  }
+
+  .halter-container {
+    transform: scale(2.2);
+  }
+
+  .halte-container {
+    top: -600px;
+    gap: 45px;
+  }
+
+  .halte-text {
+    font-size: 2rem;
+  }
+
+  #logohalte {
+    transform: scale(2.3);
+  }
+
+  .character-wrapper {
+    transform: scale(2.5);
+    top: -320px;
+  }
+
+  .kartu-character {
+    min-width: 220px;
+    height: 280px;
+    transform: scale(2.2);
+  }
+
+  #characters .gen.atas {
+    top: 70px;
+  }
+
+  #detailcharacter .gen.bawah {
+    top: -60px;
+  }
+
+  /* [5] SECTION 4 — DETAIL CHARACTER */
+  #detailcharacter {
+    min-height: 110vh;
+  }
+
+  .dtchara-wrap {
+    gap: 45px;
+    margin-top: -700px;
+    transform: scale(1.4);
+  }
+
+  .dtchara-section h1 {
+    font-size: 3.8rem;
+    margin-top: -650px;
+  }
+
+  .dtchara-left {
+    margin-top: 700px;
+    padding-right: 45px;
+  }
+
+  .dtchara-left h2 {
+    font-size: 2.4rem;
+  }
+
+  .dtchara-left p {
+    font-size: 1.25rem;
+    padding-top: 22px;
+  }
+
+  .dtchara-img {
+    width: 800px;
+    transform: scale(1.15) !important;
+  }
+
+  .dtchara-right {
+    left: -190px;
+    top: 75px;
+  }
+
+  #detailcharacter .rumput.atas {
+    transform: scale(1.4);
+    top: 230px;
+  }
+
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.4);
+    top: -350px;
+  }
+
+  /* [6] SECTION 5 — BACKGROUND CHARACTER */
+  #backgroundcharacter {
+    max-height: 135vh;
+  }
+
+  .bschara-container {
+    gap: 10px;
+    bottom: 190px;
+    transform: scale(1.4);
+  }
+
+  .bschara-left {
+    transform: scale(1.15);
+    margin-left: 280px;
+  }
+
+  .bschara-right {
+    margin-left: -230px;
+  }
+
+  .bschara-right h3 {
+    font-size: 1.7rem;
+  }
+
+  .bschara-right p {
+    font-size: 1rem;
+    max-width: 500px;
+  }
+
+  .bschara-container:hover {
+    transform: scale(1.7);
+  }
+
+  .char-img {
+    max-width: 210px;
+  }
+
+  #backgroundcharacter .pipa.atas {
+    aspect-ratio: 1920 / 500;
+    top: 170px;
+  }
+
+  #showcasegalery .pipa.bawah {
+    aspect-ratio: 1920 / 500;
+    top: -620px;
+  }
+
+  /* [7] SECTION 6 — SHOWCASE GALLERY */
+  #showcasegalery {
+    min-height: 90vh;
+    background-size: cover;
+  }
+
+  .showcase-container {
+    gap: 25px;
+    margin-top: -300px;
+    transform: scale(1.4);
+  }
+
+  .showcase-paper {
+    width: 480px;
+    height: 340px;
+  }
+
+  .showcase-dots {
+    left: -1250px;
+    width: 120vw;
+  }
+
+  .ripple-overlay {
+    height: 100vh;
+    top: 280px;
+  }
+
+  /* [8] SECTION 7 — FOOTER */
+  #footer {
+    padding: 75px 0;
+    height: 14vh;
+    font-size: 16px;
+  }
+
+  .footer-logos {
+    margin-top: -80px;
+  }
+
+  #footer h3,
+  #footer p {
+    font-size: 1rem;
+  }
+
+  /* [9] GENERAL FIX */
+  .ripple-overlay,
+  .dtcharain-container,
+  .halter-container {
+    z-index: 7;
+  }
+
+  .air.atas, .air.bawah,
+  .gen.atas, .gen.bawah,
+  .rumput.atas, .rumput.bawah,
+  .pipa.atas, .pipa.bawah {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+}
 
 
 
