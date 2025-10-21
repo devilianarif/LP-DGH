@@ -787,7 +787,7 @@ body::after {
 .kartu-character::after {
   content: "";
   position: absolute;
-  top: 0p;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
