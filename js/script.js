@@ -488,3 +488,6 @@ sectionCharacters.addEventListener("wheel", (e) => e.preventDefault(), { passive
 
 // === Inisialisasi awal ===
 updateCharacter();
+const rightBox = document.querySelector(".bschara-right");
+rightBox.classList.remove("show");
+setTimeout(() => rightBox.classList.add("show"), 50);
