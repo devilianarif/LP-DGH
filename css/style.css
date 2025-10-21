@@ -1012,7 +1012,7 @@ body::after {
   display: block;
   width: 100%;
   height: auto;
-  bottom: 20px;
+  bottom: 10px;
   
   position: relative;
   left: -10px;
