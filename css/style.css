@@ -766,7 +766,7 @@ body::after {
 /* Gambar karakter di belakang */
 .kartu-character .img-wrap {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 0;
   width: 100px;
   height: 100px;
@@ -779,7 +779,7 @@ body::after {
   height: 227px;
   object-fit: cover;
   transform: scale(1.6);
-
+  
 }
 .kartu-character .bingkai-frame {
   position: absolute;
