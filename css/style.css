@@ -2166,3 +2166,409 @@ top: 75px;
   }
 }
 
+/* ================================================================
+   RESPONSIVE STYLING — FINAL UNIVERSAL VERSION (LAPTOP / TABLET / HP)
+   ================================================================ */
+
+/* ================================================================
+   [1] ULTRA WIDE / 2K–3K SCREEN (2560px ke atas)
+   ================================================================ */
+@media screen and (min-width: 2560px) {
+
+  body {
+    font-size: 17px;
+    overflow-x: hidden;
+  }
+
+  #BannerHeader {
+    min-height: 100vh;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -35vh;
+    height: 85vh;
+    background-size: 102% auto;
+    transform: scale(1.09);
+  }
+
+  #about .awan.bawah {
+    top: -35vh;
+    transform: scale(1.09);
+    background-size: 102% auto;
+  }
+
+  #picsumCarousel {
+    height: 95vh;
+  }
+
+  .btn-play-center {
+    width: 200px;
+    height: 200px;
+    font-size: 8.5rem;
+  }
+
+  .modal-content {
+    transform: scale(2);
+  }
+
+  .video-wrapper iframe {
+    width: 78%;
+    height: 78%;
+    top: 70px;
+    left: 100px;
+  }
+
+  #about {
+    padding-top: 100px;
+    padding-bottom: 160px;
+  }
+
+  #about h1 {
+    font-size: 4.6rem;
+  }
+
+  #about p {
+    font-size: 2rem;
+    max-width: 635px;
+  }
+
+  .character-wrapper {
+    transform: scale(2.8);
+    top: -350px;
+  }
+
+  .kartu-character {
+    transform: scale(2.4);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.5);
+    margin-top: -800px;
+  }
+
+  .bschara-container {
+    transform: scale(1.5);
+  }
+
+  .showcase-container {
+    transform: scale(1.5);
+    margin-top: -320px;
+  }
+
+  #footer {
+    padding: 80px 0;
+    font-size: 16px;
+  }
+}
+
+/* ================================================================
+   [2] FULL HD – 2K UMUM (1920–2559px)
+   ================================================================ */
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+
+  body {
+    font-size: 16.5px;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -30vh;
+    height: 80vh;
+    transform: scale(1.06);
+  }
+
+  #about .awan.bawah {
+    top: -30vh;
+    transform: scale(1.06);
+  }
+
+  .btn-play-center {
+    width: 180px;
+    height: 180px;
+    font-size: 8rem;
+  }
+
+  .modal-content {
+    transform: scale(1.8);
+  }
+
+  .video-wrapper iframe {
+    width: 75%;
+    height: 75%;
+    top: 60px;
+    left: 90px;
+  }
+
+  #about h1 {
+    font-size: 4.2rem;
+  }
+
+  #about p {
+    font-size: 1.9rem;
+  }
+
+  .character-wrapper {
+    transform: scale(2.5);
+    top: -320px;
+  }
+
+  .kartu-character {
+    transform: scale(2.2);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.4);
+    margin-top: -700px;
+  }
+
+  .bschara-container {
+    transform: scale(1.4);
+  }
+
+  .showcase-container {
+    transform: scale(1.4);
+    margin-top: -300px;
+  }
+
+  #footer {
+    padding: 75px 0;
+  }
+}
+
+/* ================================================================
+   [3] MID RESOLUTION LAPTOP (1536–1919px)
+   ================================================================ */
+@media screen and (min-width: 1536px) and (max-width: 1919px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -25vh;
+    height: 75vh;
+    transform: scale(1.05);
+  }
+
+  .btn-play-center {
+    width: 160px;
+    height: 160px;
+    font-size: 7.5rem;
+  }
+
+  .modal-content {
+    transform: scale(1.6);
+  }
+
+  .video-wrapper iframe {
+    width: 72%;
+    height: 72%;
+    top: 55px;
+    left: 80px;
+  }
+
+  #about h1 {
+    font-size: 3.8rem;
+  }
+
+  #about p {
+    font-size: 1.7rem;
+  }
+
+  .character-wrapper {
+    transform: scale(2.2);
+    top: -280px;
+  }
+
+  .kartu-character {
+    transform: scale(2);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.3);
+    margin-top: -600px;
+  }
+
+  .bschara-container {
+    transform: scale(1.3);
+  }
+
+  .showcase-container {
+    transform: scale(1.3);
+    margin-top: -260px;
+  }
+
+  #footer {
+    padding: 70px 0;
+  }
+}
+
+/* ================================================================
+   [4] SMALL LAPTOP (1366–1535px)
+   ================================================================ */
+@media screen and (min-width: 1366px) and (max-width: 1535px) {
+
+  body {
+    font-size: 15.5px;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -25vh;
+    transform: scale(1.03);
+  }
+
+  .btn-play-center {
+    width: 140px;
+    height: 140px;
+    font-size: 6.5rem;
+  }
+
+  .modal-content {
+    transform: scale(1.4);
+  }
+
+  #about h1 {
+    font-size: 3.5rem;
+  }
+
+  #about p {
+    font-size: 1.5rem;
+  }
+
+  .character-wrapper {
+    transform: scale(2);
+    top: -250px;
+  }
+
+  .kartu-character {
+    transform: scale(1.8);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.2);
+    margin-top: -500px;
+  }
+
+  .bschara-container {
+    transform: scale(1.2);
+  }
+
+  .showcase-container {
+    transform: scale(1.2);
+    margin-top: -240px;
+  }
+
+  #footer {
+    padding: 60px 0;
+  }
+}
+
+/* ================================================================
+   [5] TABLET MODE (768–1365px)
+   ================================================================ */
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  #BannerHeader {
+    min-height: 80vh;
+    background-position: center;
+  }
+
+  .btn-play-center {
+    width: 130px;
+    height: 130px;
+    font-size: 6rem;
+  }
+
+  #about {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  #about h1 {
+    font-size: 3rem;
+  }
+
+  #about p {
+    font-size: 1.3rem;
+    max-width: 500px;
+  }
+
+  .character-wrapper,
+  .dtchara-wrap,
+  .bschara-container,
+  .showcase-container {
+    transform: scale(1);
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .kartu-character {
+    transform: scale(1);
+  }
+
+  #footer {
+    padding: 50px 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* ================================================================
+   [6] MOBILE / SMARTPHONE (max 767px)
+   ================================================================ */
+@media screen and (max-width: 767px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  #BannerHeader {
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .btn-play-center {
+    width: 100px;
+    height: 100px;
+    font-size: 4.5rem;
+  }
+
+  #about {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  #about h1 {
+    font-size: 2.2rem;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+  }
+
+  .character-wrapper,
+  .dtchara-wrap,
+  .bschara-container,
+  .showcase-container {
+    transform: scale(0.9);
+    flex-direction: column;
+    margin-top: 0;
+    gap: 20px;
+  }
+
+  .kartu-character {
+    width: 180px;
+    height: 240px;
+  }
+
+  #footer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
