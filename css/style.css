@@ -2032,7 +2032,7 @@ top: 75px;
   }
   .bschara-container:hover
   {
-    transform: scale();
+    transform: scale(1.);
   }
 
   .bschara-right p {
