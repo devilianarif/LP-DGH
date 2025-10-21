@@ -347,24 +347,7 @@ const characterData = [
   { id: 2, bg: "url('aset/bg_arya.png')", name: "Arya / Raya" },
   { id: 3, bg: "url('aset/bg_bijo.png')", name: "Bijo" },
   { id: 4, bg: "url('aset/bg_owo.png')", name: "Owo" },
-];
-
-// fungsi ganti section
-function goToDetail(index) {
-  const data = characterData[index] || characterData[0];
-  sectionDetail.scrollIntoView({ behavior: "smooth" });
-  sectionDetail.style.backgroundImage = data.bg;
-  // bisa juga update nama atau konten di section detail di sini
-}
-
-// klik kartu → pindah section
-carCard.forEach((card, index) => {
-  card.addEventListener("click", () => {
-    currentCharacter = index;
-    updateCharacter();
-    goToDetail(index);
-  });
-});
+]
 
 // drag support
 let startX = 0;
