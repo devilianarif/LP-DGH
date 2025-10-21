@@ -994,7 +994,7 @@ body::after {
   flex: 1;
   position: relative;
   z-index: 3; /* teks tetap paling depan */
-  min-width: 280px;
+  min-width: 320px;
   text-align: justify;
   padding-right: 30px;
   margin-top: 600px;
