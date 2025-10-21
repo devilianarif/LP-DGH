@@ -779,7 +779,7 @@ body::after {
   object-fit: contain;
   margin-left: 10px;
   margin-top: 10px;
-  transform: scale(3);
+  transform: scale(1);
 }
 
 /* Bingkai di atas gambar */
