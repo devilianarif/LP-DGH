@@ -1034,7 +1034,7 @@ body::after {
   align-items: center;
   position: relative;
   pointer-events: none;
-  top: 50px;
+  top: 90px;
   left: 8px;
 
 }
