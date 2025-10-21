@@ -781,6 +781,7 @@ body::after {
   margin-left: 10px;
   margin-top: 60px;
   transform: scale(1.6);
+  padding: 20px;
 }
 
 /* Bingkai di atas gambar */
