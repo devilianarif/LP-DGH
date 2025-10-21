@@ -339,7 +339,6 @@ document.addEventListener("click", function(e) {
 // Elemen section
 const sectionCharacters = document.getElementById('characters');
 
-
 // Simpan data background dan detail tiap karakter
 const characterData = [
   { id: 0, bg: "url('aset/bg_nara.png')", name: "Si Gadis Jubah Kuning" },
