@@ -144,7 +144,6 @@ const characterDetails = [
     trait: "Cerdas, peduli, dan penuh semangat.",
     background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
     image: "aset/dinda1.png",
-    backgroundImage: "aset/bg_dinda.png",
   },
   {
     id: 2,
