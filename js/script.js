@@ -334,7 +334,7 @@ document.addEventListener("click", function(e) {
 });
 
 
-// === Scroll & Drag Navigasi Karakter + Transition ke Detail ===
+// === Scroll & Drag Navigasi Karakter + Transition ke  ===
 
 // Elemen section
 const sectionCharacters = document.getElementById('characters');
