@@ -825,7 +825,7 @@ body::after {
     opacity: 0.6;
     text-shadow:
       0 0 2px #7b6800,
-      0 0 5px #00eaff,
+      0 0 5px #ffd500,
       0 0 10px #00eaff;
   }
   80% {
