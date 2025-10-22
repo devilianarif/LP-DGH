@@ -2263,3 +2263,343 @@ top: 75px;
     padding: 75px 0;
   }
 }
+/* ================================================================
+   [3] MID RESOLUTION LAPTOP (1536–1919px)
+   ================================================================ */
+@media screen and (min-width: 1536px) and (max-width: 1919px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -28vh;
+    height: 78vh;
+    transform: scale(1.05);
+  }
+
+  #about .awan.bawah {
+    top: -28vh;
+    transform: scale(1.05);
+  }
+
+  .btn-play-center {
+    width: 160px;
+    height: 160px;
+    font-size: 7rem;
+  }
+
+  .modal-content {
+    transform: scale(1.6);
+  }
+
+  .video-wrapper iframe {
+    width: 72%;
+    height: 72%;
+    top: 50px;
+    left: 80px;
+  }
+
+  #about h1 {
+    font-size: 3.8rem;
+  }
+
+  #about p {
+    font-size: 1.7rem;
+    max-width: 600px;
+  }
+
+  .character-wrapper {
+    transform: scale(2.1);
+    top: -270px;
+  }
+
+  .kartu-character {
+    transform: scale(1.9);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.18);
+    margin-top: -80px;
+  }
+
+  #detailcharacter .rumput.atas {
+    transform: scale(1.25);
+    top: 180px;
+  }
+
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.25);
+    top: -280px;
+  }
+
+  .bschara-container {
+    transform: scale(1.3);
+    margin-left: -80px;
+  }
+
+  #backgroundcharacter .pipa.atas {
+    transform: scale(1.25);
+    top: 85px;
+  }
+
+  #showcasegalery .pipa.bawah {
+    transform: scale(1.25);
+    top: -540px;
+  }
+
+  .showcase-container {
+    transform: scale(1.3);
+    margin-top: -260px;
+  }
+
+  .showcase-dots {
+    left: -1000px;
+    width: 140vw;
+  }
+
+  #footer {
+    padding: 70px 0;
+  }
+}
+
+/* ================================================================
+   [4] SMALL LAPTOP (1366–1535px)
+   ================================================================ */
+@media screen and (min-width: 1366px) and (max-width: 1535px) {
+
+  body {
+    font-size: 15.5px;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -25vh;
+    height: 75vh;
+    transform: scale(1.04);
+  }
+
+  #about .awan.bawah {
+    top: -25vh;
+    transform: scale(1.04);
+  }
+
+  .btn-play-center {
+    width: 140px;
+    height: 140px;
+    font-size: 6.5rem;
+  }
+
+  .modal-content {
+    transform: scale(1.4);
+  }
+
+  .video-wrapper iframe {
+    width: 70%;
+    height: 70%;
+    top: 45px;
+    left: 70px;
+  }
+
+  #about h1 {
+    font-size: 3.5rem;
+  }
+
+  #about p {
+    font-size: 1.5rem;
+    max-width: 550px;
+  }
+
+  .character-wrapper {
+    transform: scale(1.9);
+    top: -240px;
+  }
+
+  .kartu-character {
+    transform: scale(1.7);
+  }
+
+  .dtchara-wrap {
+    transform: scale(1.1);
+    margin-top: -60px;
+  }
+
+  #detailcharacter .rumput.atas {
+    transform: scale(1.2);
+    top: 160px;
+  }
+
+  #backgroundcharacter .rumput.bawah {
+    transform: scale(1.2);
+    top: -250px;
+  }
+
+  .bschara-container {
+    transform: scale(1.2);
+    margin-left: -60px;
+  }
+
+  #backgroundcharacter .pipa.atas {
+    transform: scale(1.2);
+    top: 75px;
+  }
+
+  #showcasegalery .pipa.bawah {
+    transform: scale(1.2);
+    top: -520px;
+  }
+
+  .showcase-container {
+    transform: scale(1.2);
+    margin-top: -240px;
+  }
+
+  .showcase-dots {
+    left: -880px;
+    width: 130vw;
+  }
+
+  #footer {
+    padding: 65px 0;
+  }
+}
+
+/* ================================================================
+   [5] TABLET MODE (768–1365px)
+   ================================================================ */
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  #BannerHeader {
+    min-height: 80vh;
+    background-position: center;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -20vh;
+    transform: scale(1.02);
+  }
+
+  .btn-play-center {
+    width: 120px;
+    height: 120px;
+    font-size: 5.5rem;
+  }
+
+  #about {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  #about h1 {
+    font-size: 3rem;
+  }
+
+  #about p {
+    font-size: 1.3rem;
+    max-width: 480px;
+  }
+
+  .character-wrapper,
+  .dtchara-wrap,
+  .bschara-container,
+  .showcase-container {
+    transform: scale(1);
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  #detailcharacter .rumput.atas,
+  #backgroundcharacter .rumput.bawah,
+  #backgroundcharacter .pipa.atas,
+  #showcasegalery .pipa.bawah {
+    transform: scale(1);
+    top: auto;
+  }
+
+  .kartu-character {
+    transform: scale(1);
+  }
+
+  .showcase-dots {
+    width: 120vw;
+    left: -700px;
+  }
+
+  #footer {
+    padding: 50px 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* ================================================================
+   [6] MOBILE / SMARTPHONE (max 767px)
+   ================================================================ */
+@media screen and (max-width: 767px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  #BannerHeader {
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -18vh;
+    transform: scale(1);
+  }
+
+  .btn-play-center {
+    width: 90px;
+    height: 90px;
+    font-size: 4.5rem;
+  }
+
+  #about {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  #about h1 {
+    font-size: 2.2rem;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+    max-width: 400px;
+  }
+
+  .character-wrapper,
+  .dtchara-wrap,
+  .bschara-container,
+  .showcase-container {
+    transform: scale(0.9);
+    flex-direction: column;
+    margin-top: 0;
+    gap: 20px;
+  }
+
+  .kartu-character {
+    width: 180px;
+    height: 240px;
+  }
+
+  #detailcharacter .rumput.atas,
+  #backgroundcharacter .rumput.bawah,
+  #backgroundcharacter .pipa.atas,
+  #showcasegalery .pipa.bawah {
+    transform: scale(1);
+    top: auto;
+  }
+
+  #footer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
