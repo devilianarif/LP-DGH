@@ -2450,7 +2450,7 @@ top: 75px;
 
   .bschara-container {
     transform: scale(1);
-    margin-left: 0px;
+    margin-left: -60px;
   }
 
   #backgroundcharacter .pipa.atas {
