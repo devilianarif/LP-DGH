@@ -2322,7 +2322,12 @@ top: 75px;
     transform: scale(1.18);
     margin-top: -80px;
   }
-  
+  #about .air.atas {
+    top: 20vh;
+  }
+    #characters .air.bawah {
+    top: -20vh;
+  }
 
   #detailcharacter .rumput.atas {
     transform: scale(1.25);
