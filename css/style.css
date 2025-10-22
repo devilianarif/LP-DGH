@@ -2453,15 +2453,11 @@ top: 75px;
     left: 20px;
   }
   .bschara-right{
-    margin-right:-800px;
+    margin-right:300px;
   }
   .bschara-left
   {
     margin-left: -400px;
-  }
-  .bschara-container:hover
-  {
-    transform: scale(1.1);
   }
 
   #backgroundcharacter .pipa.atas {
@@ -2475,12 +2471,12 @@ top: 75px;
   }
 
   .showcase-container {
-    transform: scale(1);
+    transform: scale(1.2);
     margin-top: -240px;
   }
 
   .showcase-dots {
-    left: -480px;
+    left: -880px;
     width: 130vw;
   }
 
