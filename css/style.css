@@ -2435,7 +2435,7 @@ top: 75px;
   .dtchara-wrap {
     transform: scale(0.9);
     margin-top: -60px;
-    text-outline: 0 0 #000;
+    top: 200px;
   }
 
   #detailcharacter .rumput.atas {
