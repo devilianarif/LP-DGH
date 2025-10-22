@@ -2459,7 +2459,10 @@ top: 75px;
   {
     margin-left: -400px;
   }
-  .b
+  .bschara-container:hover
+  {
+    transform: scale(1.2);
+  }
 
   #backgroundcharacter .pipa.atas {
     transform: scale(1.2);
