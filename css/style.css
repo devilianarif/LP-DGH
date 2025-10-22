@@ -2321,7 +2321,8 @@ top: 75px;
   .dtchara-wrap {
     transform: scale(1);
     margin-top: -200px;
-    margin-left: -60px;;
+    margin-left: -60px;
+    ;
   }
   #about .air.atas {
     top: 30vh;
