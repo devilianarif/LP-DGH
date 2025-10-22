@@ -2404,7 +2404,7 @@ top: 75px;
   .video-wrapper iframe {
     width: 70%;
     height: 70%;
-    top: 60px;
+    top: 0px;
     left: 70px;
   }
 
