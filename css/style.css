@@ -572,8 +572,7 @@ body::after {
   z-index: 5;
   top: 85px;
 }
-    transform: scale(1.5);
-    top: 250px;
+
 /* ==== air bawah ==== */
 #characters .air.bawah {
   position: relative;
