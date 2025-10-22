@@ -1212,14 +1212,14 @@ body::after {
 
 /* Section 4 akhir */
 #detailcharacter .rumput.atas {
-    margin-top: -385px;
+  margin-top: -385px;
   position: relative;
   width: 100%;
-  aspect-ratio: 1920 / 600; /* sesuaikan dengan ukuran asli gambar */
+  aspect-ratio: 1920 / 600;
   background: url('../aset/transisi rumput.png') center bottom / 100% auto no-repeat;
   z-index: 5;
-  top: 238px;
-transform: scale(1.3);
+  transform: scale(1.5);
+  top: 250px;
 }
 
 #backgroundcharacter .rumput.bawah {
