@@ -2489,3 +2489,169 @@ top: 75px;
     padding: 90px 0;
   }
 }
+/* ================================================================
+   RESPONSIVE — TABLET (768px–1024px)
+================================================================ */
+@media screen and (max-width: 1024px) {
+
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  /* Umum: kurangi transform besar */
+  section {
+    padding: 40px 0;
+  }
+
+  /* Banner / Carousel */
+  #picsumCarousel {
+    height: 60vh;
+  }
+  .btn-play-center {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+  #picsumCarousel .carousel-caption {
+    top: 55%;
+  }
+
+  /* About Section */
+  #about h1 {
+    font-size: 2rem;
+  }
+  #about p {
+    font-size: 0.95rem;
+    max-width: 90%;
+  }
+
+  #gmbrkiriatas,
+  #gmbrkananatas,
+  #gmbrkiribawah,
+  #gmbrkananbawah {
+    display: none; /* sembunyikan dekorasi besar */
+  }
+
+  /* Character Section */
+  .character-wrapper {
+    transform: scale(1);
+    top: 0;
+  }
+  .kartu-character {
+    min-width: 160px;
+    height: 200px;
+    transform: scale(1);
+  }
+  .halte-container {
+    top: 0;
+    transform: scale(1);
+  }
+
+  /* Detail Character */
+  .dtchara-wrap {
+    flex-direction: column;
+    margin: 0;
+    transform: scale(1);
+    align-items: center;
+  }
+  .dtchara-left, .dtchara-right {
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .dtchara-img {
+    width: 70%;
+    clip-path: none;
+  }
+
+  /* Background Character */
+  .bschara-container {
+    flex-direction: column;
+    gap: 20px;
+    bottom: 0;
+  }
+  .bschara-left::before {
+    transform: scale(1);
+  }
+  .bschara-right {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Showcase Gallery */
+  .showcase-container {
+    flex-direction: column;
+    transform: scale(1);
+    margin-top: 0;
+  }
+  .showcase-paper {
+    width: 90%;
+    height: auto;
+  }
+  .showcase-right {
+    padding: 20px;
+  }
+  .showcase-dots {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+  }
+
+  /* Footer */
+  #footer {
+    height: auto;
+    padding: 40px 0;
+  }
+  .footer-logos {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+/* ================================================================
+   RESPONSIVE — MOBILE (max-width: 767px)
+================================================================ */
+@media screen and (max-width: 767px) {
+
+  body {
+    font-size: 13px;
+  }
+
+  /* Hide heavy effects for performance */
+  .awan, .air, .gen, .rumput, .pipa {
+    display: none;
+  }
+
+  .btn-play-center {
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+
+  /* Section simplification */
+  .about-container,
+  .bschara-right,
+  .showcase-right {
+    padding: 0 15px;
+  }
+
+  .kartu-character {
+    min-width: 140px;
+    height: 180px;
+  }
+
+  #about h1 {
+    font-size: 1.6rem;
+  }
+
+  #about p,
+  .bschara-right p,
+  .showcase-right ul {
+    font-size: 0.85rem;
+  }
+
+  #footer .footer-copy {
+    font-size: 0.75rem;
+  }
+}
