@@ -2433,7 +2433,7 @@ top: 75px;
   }
 
   .dtchara-wrap {
-    transform: scale();
+    transform: scale(0.9);
     margin-top: -60px;
   }
 
