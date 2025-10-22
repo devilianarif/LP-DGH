@@ -2456,7 +2456,9 @@ top: 75px;
     margin-right: -900px;
   }
   .bschara-left
-  
+  {
+    margin-left: 200px;
+  }
 
   #backgroundcharacter .pipa.atas {
     transform: scale(1.2);
