@@ -395,7 +395,7 @@ const characterDetails = [
     id: 7,
     name: "Relta",
     description: "Roh perempuan penjaga sungai yang mengetahui rahasia kelahiran Owo.",
-    race: "Arwah Alam / Penjaga Air",
+    race: "Arwah Manusia",
     trait: "Lembut, misterius, dan penuh teka-teki.",
     background:
       "Relta adalah arwah tua yang menghuni aliran sungai purba. Ia menyimpan pengetahuan tentang asal mula Owo dan cara menyeimbangkan energi antara dunia manusia dan dunia arwah.",
