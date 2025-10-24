@@ -439,7 +439,7 @@ const characterDetails = [
     id: 11,
     name: "Arya (Mode Bijo)",
     description: "Wujud gabungan antara manusia dan energi hijau purba milik Bijo.",
-    race: "Hybrid (Manusia × Makhluk Gaib)",
+    race: "",
     trait: "Kuat, emosional, dan sulit dikendalikan.",
     background:
       "Dalam pertarungan melawan Owo di Kuil Jiwa Gelap, Arya menyatu dengan energi Bijo melalui tasbih suci. Tubuhnya sebagian berubah menjadi raksasa hijau, simbol kekuatan dan amarah spiritual yang belum sepenuhnya dikendalikan.",
