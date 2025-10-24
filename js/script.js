@@ -313,60 +313,6 @@ let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
 
-// === Data karakter dengan dua jenis gambar ===
-const characterDetails = [
-  {
-    id: 0,
-    name: "Si Gadis Jubah Kuning",
-    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
-    race: "Manusia",
-    trait: "Penyayang, misterius, dan penuh teka-teki.",
-    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
-    imageDetail: "aset/nara3.png",              // untuk .dtchara-center
-    imageBackground: "aset/nara_render1.png",   // untuk .bschara-left
-  },
-  {
-    id: 1,
-    name: "Dinda",
-    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
-    race: "Manusia",
-    trait: "Cerdas, peduli, dan penuh semangat.",
-    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
-    imageDetail: "aset/dindad.png",
-    imageBackground: "aset/dinda_render1.png",
-  },
-  {
-    id: 2,
-    name: "Arya / Raya",
-    description: "Pria muda yang menghadapi masa lalunya.",
-    race: "Manusia",
-    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
-    background: "Arya adalah simbol perjalanan menuju pemulihan.",
-    imageDetail: "aset/arya3.png",
-    imageBackground: "aset/aryakbg.png",
-  },
-  {
-    id: 3,
-    name: "Bijo",
-    description: "Makhluk gaib yang penuh misteri.",
-    race: "Makhluk Gaib",
-    trait: "Licik, cerdas, dan manipulatif.",
-    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
-    imageDetail: "aset/bijod.png",
-    imageBackground: "aset/bijo_render1.png",
-  },
-  {
-    id: 4,
-    name: "Owo",
-    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
-    race: "Makhluk Gaib",
-    trait: "Tenang, bijaksana, dan penuh rahasia.",
-    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
-    imageDetail: "aset/owod.png",
-    imageBackground: "aset/owo_render1.png",
-  },
-];
-
 // === Fungsi update posisi kartu ===
 function updateCharacter() {
   const cardWidth = carCard[0].offsetWidth + 30;
