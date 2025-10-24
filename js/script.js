@@ -395,7 +395,7 @@ const characterDetails = [
     id: 7,
     name: "Bati (Banaspati)",
     description: "Dua bentuk dari entitas api dan bayangan — makhluk yang lahir dari energi dendam manusia.",
-    race: "Makhluk Gaib (Elemen Api & Bayangan)",
+    race: "Makhluk Gaib",
     trait: "Panas, destruktif, dan sulit dikendalikan.",
     background:
       "Banaspati adalah wujud bola api hasil ajian hitam. Saat energi apinya mengeras, ia berubah menjadi Bati, entitas bersayap hitam yang mengintai dari langit. Keduanya adalah dua sisi dari unsur api: terang dan kegelapan, ciptaan amarah manusia.",
