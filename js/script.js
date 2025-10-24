@@ -362,7 +362,7 @@ const characterDetails = [
     id: 4,
     name: "Owo",
     description: "Entitas kegelapan yang lahir dari rasa takut dan trauma manusia.",
-    race: "Makhluk Gaib (Energi Gelap)",
+    race: "Makhluk Gaib",
     trait: "Manipulatif, sadis, berwibawa dalam kegelapan.",
     background:
       "Owo adalah manifestasi dari sisi gelap manusia—ketakutan, dendam, dan rasa bersalah. Ia mencerminkan sisi terdalam dari jiwa Arya dan berusaha menariknya ke dalam dunia kegelapan.",
