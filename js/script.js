@@ -384,7 +384,7 @@ const characterDetails = [
     id: 6,
     name: "Tuyul",
     description: "Roh anak kecil penggoda yang mencuri energi manusia yang kehilangan arah.",
-    race: "Makhluk Gaib",
+    race: "Arwah Manusia",
     trait: "Usil, lincah, tapi sebenarnya kesepian.",
     background:
       "Tuyul dalam dunia ini bukan sekadar pencuri uang, melainkan simbol jiwa muda yang mati sebelum waktunya. Ia berinteraksi dengan Arya, menampakkan sisi lain dunia gaib yang tak selalu jahat.",
