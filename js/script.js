@@ -312,139 +312,58 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-// === Data karakter lengkap (update terbaru) ===
+
+// === Data karakter dengan dua jenis gambar ===
 const characterDetails = [
   {
     id: 0,
-    name: "Si Gadis Jubah Kuning (Nara)",
-    description: "Sosok berpayung kuning yang hadir di tengah hujan, menjadi jembatan antara dunia hidup dan arwah.",
-    race: "Arwah Manusia",
-    trait: "Lembut, misterius, penuh kasih dan kesedihan.",
-    background:
-      "Nara adalah teman masa kecil Arya yang meninggal karena tekanan batin dan pengkhianatan. Setelah kematiannya, jiwanya terjebak di antara dunia arwah dan manusia. Ia hadir kembali sebagai roh penuntun yang membantu Arya menghadapi masa lalunya.",
-    imageDetail: "aset/nara3.png",
-    imageBackground: "aset/nara_render1.png",
+    name: "Si Gadis Jubah Kuning",
+    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
+    race: "Manusia",
+    trait: "Penyayang, misterius, dan penuh teka-teki.",
+    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
+    imageDetail: "aset/nara3.png",              // untuk .dtchara-center
+    imageBackground: "aset/nara_render1.png",   // untuk .bschara-left
   },
   {
     id: 1,
     name: "Dinda",
-    description: "Teman masa kecil Arya yang dihantui rasa bersalah dan ingin menebus masa lalu.",
+    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
     race: "Manusia",
-    trait: "Cerdas, penyayang, rapuh secara emosional.",
-    background:
-      "Dinda menyaksikan penderitaan Nara tanpa berani menolong. Kini di masa dewasa, ia kembali dekat dengan Arya dan ikut terlibat dalam misteri hujan yang membuka kembali luka lama.",
+    trait: "Cerdas, peduli, dan penuh semangat.",
+    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
     imageDetail: "aset/dindad.png",
     imageBackground: "aset/dinda_render1.png",
   },
   {
     id: 2,
     name: "Arya / Raya",
-    description: "Pria muda yang terjebak antara masa lalu dan dunia spiritual.",
+    description: "Pria muda yang menghadapi masa lalunya.",
     race: "Manusia",
-    trait: "Pendiam, introspektif, penuh rasa bersalah.",
-    background:
-      "Dikenal sebagai Arya di masa kecil dan Raya setelah diadopsi, ia berjuang melawan rasa bersalah terhadap kematian Nara. Hujan menjadi simbol dari kenangan dan pengampunan yang belum selesai.",
+    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
+    background: "Arya adalah simbol perjalanan menuju pemulihan.",
     imageDetail: "aset/arya3.png",
     imageBackground: "aset/aryakbg.png",
   },
   {
     id: 3,
-    name: "Bijo (Penjaga Kota)",
-    description: "Entitas besar berkulit hijau, penjaga keseimbangan antara dunia manusia dan gaib.",
+    name: "Bijo",
+    description: "Makhluk gaib yang penuh misteri.",
     race: "Makhluk Gaib",
-    trait: "Bijaksana, kuat, tapi mudah murka bila keseimbangan terganggu.",
-    background:
-      "Bijo adalah penjaga dimensi antara dunia manusia dan dunia arwah. Ia tidak jahat, tetapi menghancurkan siapapun yang melanggar hukum alam. Ia menjadi ujian bagi Arya untuk memahami batas antara terang dan gelap.",
+    trait: "Licik, cerdas, dan manipulatif.",
+    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
     imageDetail: "aset/bijod.png",
     imageBackground: "aset/bijo_render1.png",
   },
   {
     id: 4,
     name: "Owo",
-    description: "Entitas kegelapan yang lahir dari rasa takut dan trauma manusia.",
+    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
     race: "Makhluk Gaib",
-    trait: "Manipulatif, sadis, berwibawa dalam kegelapan.",
-    background:
-      "Owo adalah manifestasi dari sisi gelap manusia—ketakutan, dendam, dan rasa bersalah. Ia mencerminkan sisi terdalam dari jiwa Arya dan berusaha menariknya ke dalam dunia kegelapan.",
+    trait: "Tenang, bijaksana, dan penuh rahasia.",
+    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
     imageDetail: "aset/owod.png",
     imageBackground: "aset/owo_render1.png",
-  },
-  {
-    id: 5,
-    name: "Sulong",
-    description: "Pemimpin roh penjaga hujan yang menjaga gerbang dunia arwah.",
-    race: "Arwah Manusia",
-    trait: "Tenang, disiplin, dan memiliki aura tua.",
-    background:
-      "Sulong adalah roh penjaga air yang menjaga keseimbangan hujan di dunia spiritual. Ia menjadi sosok yang menuntun Arya dalam memahami peran hujan sebagai penghubung antar dunia.",
-    imageDetail: "aset/sulongd.png",
-    imageBackground: "aset/sulong_render1.png",
-  },
-  {
-    id: 6,
-    name: "Tuyul",
-    description: "Roh anak kecil penggoda yang mencuri energi manusia yang kehilangan arah.",
-    race: "Arwah Manusia",
-    trait: "Usil, lincah, tapi sebenarnya kesepian.",
-    background:
-      "Tuyul dalam dunia ini bukan sekadar pencuri uang, melainkan simbol jiwa muda yang mati sebelum waktunya. Ia berinteraksi dengan Arya, menampakkan sisi lain dunia gaib yang tak selalu jahat.",
-    imageDetail: "aset/tuyuld.png",
-    imageBackground: "aset/tuyul_render1.png",
-  },
-  {
-    id: 7,
-    name: "Relta",
-    description: "Roh perempuan penjaga sungai yang mengetahui rahasia kelahiran Owo.",
-    race: "Arwah Manusia",
-    trait: "Lembut, misterius, dan penuh teka-teki.",
-    background:
-      "Relta adalah arwah tua yang menghuni aliran sungai purba. Ia menyimpan pengetahuan tentang asal mula Owo dan cara menyeimbangkan energi antara dunia manusia dan dunia arwah.",
-    imageDetail: "aset/reltad.png",
-    imageBackground: "aset/relta_render1.png",
-  },
-  {
-    id: 8,
-    name: "Arya Mode Bijo",
-    description: "Wujud gabungan antara manusia dan energi hijau purba Bijo.",
-    race: "Hybrid (Manusia × Makhluk Gaib)",
-    trait: "Kuat, emosional, dan hampir tak terkendali.",
-    background:
-      "Ketika menghadapi Owo di Kuil Jiwa Gelap, Arya menyatu dengan energi Bijo melalui tasbih suci. Tubuhnya berubah sebagian menjadi makhluk hijau raksasa, mewakili kekuatan dan amarah yang belum terkontrol.",
-    imageDetail: "aset/aryabijod.png",
-    imageBackground: "aset/aryabijo_render1.png",
-  },
-  {
-    id: 9,
-    name: "Kuyang",
-    description: "Makhluk wanita malam yang haus darah, melambangkan dendam yang tak terampuni.",
-    race: "Makhluk Gaib (Kutukan)",
-    trait: "Licik, menyeramkan, dan tragis.",
-    background:
-      "Kuyang adalah arwah wanita yang mati karena pengkhianatan dan kini berkeliaran mencari balas. Ia menjadi pengingat bagi Arya bahwa kebencian hanya memperpanjang penderitaan jiwa.",
-    imageDetail: "aset/kuyangd.png",
-    imageBackground: "aset/kuyang_render1.png",
-  },
-  {
-    id: 10,
-    name: "Tianak",
-    description: "Roh bayi terkutuk yang menangis di hutan untuk menjerat pelancong.",
-    race: "Makhluk Gaib (Arwah Terikat)",
-    trait: "Menangis, memohon, tapi berbahaya.",
-    background:
-      "Tianak adalah simbol kepolosan yang hilang. Ia bukan jahat sepenuhnya—menangis bukan untuk menakuti, tetapi sebagai panggilan agar jiwanya dibebaskan dari ikatan masa lalu.",
-    imageDetail: "aset/tianakd.png",
-    imageBackground: "aset/tianak_render1.png",
-  },
-  {
-    id: 11,
-    name: "Bati",
-    description: "Makhluk terbang bertubuh hitam dengan sayap lebar, pengintai dari dunia gaib.",
-    race: "Makhluk Gaib / Bayangan",
-    trait: "Cepat, memburu, dan penuh pengamatan.",
-    background:
-      "Bati adalah pengintai dunia Owo, terbang di atas kota manusia untuk memantau batas dimensi. Ia menjadi simbol dari rasa takut yang selalu mengawasi di kejauhan, menunggu manusia jatuh ke dalam kegelapan.",
-    imageDetail: "aset/batid.png",
-    imageBackground: "aset/bati_render1.png",
   },
 ];
 
