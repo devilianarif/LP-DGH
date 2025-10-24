@@ -373,7 +373,7 @@ const characterDetails = [
     id: 5,
     name: "Kuyang",
     description: "Makhluk mistis asal Kalimantan yang mengejar darah wanita hamil dan bayi.",
-    race: "Makhluk Gaib",
+    race: "A,
     trait: "Licik, haus darah, dan berwujud menyeramkan di malam hari.",
     background:
       "Kuyang berasal dari perempuan yang mempelajari ilmu hitam untuk tetap muda dan abadi. Saat malam, tubuhnya lepas dan hanya kepala melayang dengan organ tubuh menggantung. Ia menyamar sebagai perempuan biasa di siang hari dan berburu darah segar di malam hari.",
