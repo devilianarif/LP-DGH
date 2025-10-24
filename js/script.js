@@ -290,7 +290,6 @@ document.addEventListener("click", function(e) {
     if (small) ripple.classList.add("small");
 
     ripple.style.left = `${x}px`;
-    ripple.style.top = `${y}px`;
 
     const size = small ? 40 + Math.random() * 20 : 70 + Math.random() * 40;
     ripple.style.width = `${size}px`;
@@ -332,7 +331,7 @@ const characterDetails = [
     race: "Manusia",
     trait: "Cerdas, peduli, dan penuh semangat.",
     background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
-    imageDetail: "aset/dindad.png",
+    imageDetail: "aset/dinda3.png",
     imageBackground: "aset/dinda_render1.png",
   },
   {
@@ -352,7 +351,7 @@ const characterDetails = [
     race: "Makhluk Gaib",
     trait: "Licik, cerdas, dan manipulatif.",
     background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
-    imageDetail: "aset/bijod.png",
+    imageDetail: "aset/bijo2.png",
     imageBackground: "aset/bijo_render1.png",
   },
   {
@@ -362,7 +361,7 @@ const characterDetails = [
     race: "Makhluk Gaib",
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
-    imageDetail: "aset/owod.png",
+    imageDetail: "aset/owo3.png",
     imageBackground: "aset/owo_render1.png",
   },
 ];
