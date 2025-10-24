@@ -349,7 +349,7 @@ const characterDetails = [
   },
   {
     id: 3,
-    name: "Bijo (Penjaga Kota / Buto Ijo)",
+    name: "Bijo (Penjaga Kota)",
     description: "Entitas besar berkulit hijau, penjaga keseimbangan antara dunia manusia dan gaib.",
     race: "Makhluk Gaib",
     trait: "Bijaksana, kuat, tapi mudah murka bila keseimbangan terganggu.",
