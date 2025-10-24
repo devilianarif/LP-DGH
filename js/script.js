@@ -406,7 +406,7 @@ const characterDetails = [
     id: 8,
     name: "Sulong (Sundel Bolong)",
     description: "Roh perempuan dengan punggung berlubang yang berevolusi menjadi penjaga dunia arwah.",
-    race: "Arwah Wanita (Bereinkarnasi)",
+    race: "Arwah Manusia",
     trait: "Diam, penyayang, dan membawa cahaya setelah dendamnya sirna.",
     background:
       "Sundel Bolong adalah roh perempuan korban kekerasan yang mati melahirkan. Setelah menuntaskan dendamnya, arwahnya berubah menjadi Sulong — penjaga gerbang antara dunia manusia dan dunia arwah. Ia menuntun roh-roh tersesat menuju kedamaian, menjelma dari kegelapan menuju pencerahan.",
