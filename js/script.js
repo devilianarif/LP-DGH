@@ -373,7 +373,7 @@ const characterDetails = [
     id: 5,
     name: "Sulong",
     description: "Pemimpin roh penjaga hujan yang menjaga gerbang dunia arwah.",
-    race: "Makhluk Gaib",
+    race: "Arwah Manusia",
     trait: "Tenang, disiplin, dan memiliki aura tua.",
     background:
       "Sulong adalah roh penjaga air yang menjaga keseimbangan hujan di dunia spiritual. Ia menjadi sosok yang menuntun Arya dalam memahami peran hujan sebagai penghubung antar dunia.",
