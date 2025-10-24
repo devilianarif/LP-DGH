@@ -317,7 +317,7 @@ let startX = 0;
 const characterDetails = [
   {
     id: 0,
-    name: "Si Gadis Jubah Kuning (Nara)",
+    name: "Si Gadis Jubah Kuning",
     description: "Sosok misterius berpayung kuning yang muncul di tengah hujan, membawa pesan dari masa lalu.",
     race: "Arwah Manusia",
     trait: "Lembut, tenang, dan menyimpan kesedihan yang dalam.",
