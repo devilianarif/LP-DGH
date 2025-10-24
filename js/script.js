@@ -312,7 +312,7 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-// === Data Karakter Lengkap — Versi Promosi Sinematik (Final) ===
+// === Data Karakter Lengkap  ===
 const characterDetails = [
   {
     id: 0,
