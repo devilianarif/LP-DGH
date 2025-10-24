@@ -393,7 +393,7 @@ const characterDetails = [
   },
   {
     id: 7,
-    name: "Banaspati ()",
+    name: "Bati (Banaspati ()",
     description: "Dua bentuk dari entitas api dan bayangan — makhluk yang lahir dari energi dendam manusia.",
     race: "Makhluk Gaib (Elemen Api & Bayangan)",
     trait: "Panas, destruktif, dan sulit dikendalikan.",
