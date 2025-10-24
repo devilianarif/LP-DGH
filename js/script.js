@@ -384,7 +384,7 @@ const characterDetails = [
     id: 6,
     name: "Tianak (Kuntilanak)",
     description: "Dua roh dalam satu tubuh: ibu dan anak yang terikat oleh kematian yang tragis.",
-    race: "Arwah Wanita dan Anak",
+    race: "Arwah Manusia",
     trait: "Sedih, penuh dendam, dan merindukan keadilan.",
     background:
       "Kuntilanak adalah roh wanita yang meninggal saat hamil. Bayinya, Tianak, tak pernah lahir dan menjadi bagian dari jeritannya. Kuntilanak sering muncul sambil menangis, sementara suara tangis Tianak menandakan kehadirannya. Mereka melambangkan kehilangan dan keinginan untuk diselamatkan.",
