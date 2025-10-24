@@ -312,56 +312,61 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-
-// === Data karakter dengan dua jenis gambar ===
+// === Data karakter lengkap "Di Balik Guyur Hujan" ===
+// Format: dua jenis gambar (detail & background)
 const characterDetails = [
   {
     id: 0,
-    name: "Si Gadis Jubah Kuning",
-    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
-    race: "Manusia",
-    trait: "Penyayang, misterius, dan penuh teka-teki.",
-    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
-    imageDetail: "aset/nara3.png",              // untuk .dtchara-center
-    imageBackground: "aset/nara_render1.png",   // untuk .bschara-left
+    name: "Si Gadis Jubah Kuning (Nara)",
+    description: "Sosok misterius berpayung kuning yang muncul di tengah hujan, membawa pesan dari masa lalu.",
+    race: "Arwah Manusia",
+    trait: "Lembut, tenang, dan menyimpan kesedihan yang dalam.",
+    background:
+      "Dahulu gadis ceria yang menjadi sahabat masa kecil Arya. Setelah kematiannya yang tragis, jiwanya terjebak antara dunia manusia dan dunia arwah. Kini ia hadir kembali sebagai roh penuntun, membawa pesan harapan sekaligus penyesalan bagi mereka yang meninggalkannya.",
+    imageDetail: "aset/nara3.png",             // tampilan fokus (close-up)
+    imageBackground: "aset/nara_render1.png",  // tampilan di adegan atau background
   },
   {
     id: 1,
     name: "Dinda",
-    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
+    description: "Teman lama Arya yang dihantui rasa bersalah masa lalu dan kini terseret dalam misteri hujan.",
     race: "Manusia",
-    trait: "Cerdas, peduli, dan penuh semangat.",
-    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
+    trait: "Cerdas, empatik, namun mudah diliputi rasa cemas.",
+    background:
+      "Dinda adalah rekan kerja sekaligus teman masa kecil Arya. Di masa lalu, ia menyaksikan penderitaan Nara tanpa mampu menolong. Kini, ia berusaha menebus kesalahannya dengan membantu Arya mengungkap kebenaran di balik kemunculan sosok berpayung kuning.",
     imageDetail: "aset/dindad.png",
     imageBackground: "aset/dinda_render1.png",
   },
   {
     id: 2,
     name: "Arya / Raya",
-    description: "Pria muda yang menghadapi masa lalunya.",
+    description: "Pria muda yang terjebak antara dunia nyata dan bayangan masa lalunya.",
     race: "Manusia",
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
-    background: "Arya adalah simbol perjalanan menuju pemulihan.",
+    background:
+      "Seorang pekerja kantoran yang hidupnya kehilangan arah setelah tragedi masa kecil. Dulu ia dikenal sebagai Arya, tapi setelah diadopsi ia berganti nama menjadi Raya. Pertemuannya kembali dengan sosok Nara di tengah hujan membuka luka lama dan memaksanya menghadapi trauma yang selama ini ia pendam.",
     imageDetail: "aset/arya3.png",
     imageBackground: "aset/aryakbg.png",
   },
   {
     id: 3,
-    name: "Bijo",
-    description: "Makhluk gaib yang penuh misteri.",
+    name: "Bijo (Penjaga Kota / Buto Ijo)",
+    description: "Makhluk gaib besar berkulit hijau yang menjaga keseimbangan antara dunia manusia dan dunia arwah.",
     race: "Makhluk Gaib",
-    trait: "Licik, cerdas, dan manipulatif.",
-    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
+    trait: "Kuat, bijaksana, tapi mudah murka bila keseimbangan dilanggar.",
+    background:
+      "Bijo adalah entitas purba yang lahir dari energi bumi dan penderitaan manusia. Ia tidak benar-benar jahat, namun bertugas menjaga agar batas antara hidup dan mati tetap terpisah. Ketika Arya dan Nara mulai mengusik hukum alam, Bijo muncul sebagai ujian dan penjaga gerbang menuju dunia spiritual terdalam.",
     imageDetail: "aset/bijod.png",
     imageBackground: "aset/bijo_render1.png",
   },
   {
     id: 4,
     name: "Owo",
-    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
-    race: "Makhluk Gaib",
-    trait: "Tenang, bijaksana, dan penuh rahasia.",
-    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
+    description: "Makhluk kegelapan yang lahir dari trauma dan rasa takut manusia.",
+    race: "Makhluk Gaib (Energi Gelap)",
+    trait: "Licik, manipulatif, dan berwibawa dalam keheningan.",
+    background:
+      "Owo adalah entitas gelap yang terbentuk dari rasa bersalah dan ketakutan terdalam manusia — terutama milik Arya. Ia bukan sekadar musuh, melainkan cerminan sisi tergelap dari jiwa manusia. Owo berusaha menarik Arya ke dunia kegelapan agar ia menerima bahwa rasa sakit bisa menjadi kekuatan, bukan kelemahan.",
     imageDetail: "aset/owod.png",
     imageBackground: "aset/owo_render1.png",
   },
