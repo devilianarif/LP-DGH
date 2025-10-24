@@ -404,7 +404,7 @@ const characterDetails = [
   },
   {
     id: 8,
-    name: "SulongSundel Bolong)",
+    name: "Sulong(Sundel Bolong)",
     description: "Roh perempuan dengan punggung berlubang yang berevolusi menjadi penjaga dunia arwah.",
     race: "Arwah Wanita (Bereinkarnasi)",
     trait: "Diam, penyayang, dan membawa cahaya setelah dendamnya sirna.",
