@@ -428,7 +428,7 @@ const characterDetails = [
     id: 10,
     name: "Tuyul (Bocil Kematian)",
     description: "Jin kecil hasil pesugihan yang dipelihara manusia untuk mencuri uang.",
-    race: "Makhluk Gaib)",
+    race: "Makhluk Gaib",
     trait: "Usil, lincah, dan polos tapi jahat bila dikendalikan.",
     background:
       "Tuyul adalah jin kecil yang menyerupai anak-anak. Ia hasil perjanjian pesugihan manusia yang ingin kaya cepat. Tuyul sering terlihat di malam hari, tertawa kecil sambil mencuri uang. Ia takut jarum, kaca pecah, dan bawang putih.",
