@@ -421,7 +421,7 @@ const characterDetails = [
     trait: "Kuat, emosional, dan dipenuhi konflik batin.",
     background: "Dalam pertempuran terakhir, Arya memanggil kekuatan Bijo.",
     imageDetail: "./images/aryai3.webp",
-    imageBackground: "./images/bijo-card.webp",
+    imageBackground: "./images/aryai1.webp",
   },
 ];
 
