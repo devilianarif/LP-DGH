@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1.webp",
       title: "Season 1 — Di Balik Guyur Hujan",
       list: [
-        ""
+        "Ketika hujan menjadi saksi, dan masa lalu kembali mengetuk. Arya, seorang pria muda yang hidupnya tenggelam dalam rutinitas dan kehampaan, bertemu dengan seorang gadis berpayung kuning di tengah hujan deras. Pertemuan itu seolah sederhana, namun perlahan menguak misteri masa lalu yang terkubur. Gadis itu bukan sembarang orang asing—melainkan sosok dari masa kecilnya, yang ternyata telah pergi untuk selamanya tiga tahun lalu. Seiring hujan yang terus mengguyur, kenangan lama, rasa bersalah, dan luka pengkhianatan mulai terungkap. Bersama Dinda, teman lamanya, Arya menelusuri jejak masa lalu yang penuh rahasia. Season ini menjadi perjalanan emosional menuju penebusan, ketika mereka menyadari bahwa untuk berdamai dengan masa depan, mereka harus terlebih dahulu menatap bayangan yang tersembunyi… di balik guyur hujan."
       ]
     },
     {
