@@ -416,7 +416,7 @@ const characterDetails = [
   imageBackground: "./images/rianbg.webp",
 },
 {
-  id: 12,
+  id: 7,
   name: "Sultan",
   description:
     "Sultan adalah jiwa pemberontak yang menolak diam. Ia tumbuh dalam kekerasan dan kehilangan, menjadikan dunia sebagai lawan yang harus ditaklukkan. Namun di balik kekasarannya, tersembunyi hati yang terluka dan kerinduan akan penerimaan. Ia melihat hidup sebagai medan perang, dan setiap manusia sebagai musuh yang bisa mengkhianatinya kapan saja. Tetapi jauh di dalam dirinya, ada bagian kecil yang masih percaya pada kebaikan — bagian yang Arya coba bangkitkan kembali.",
