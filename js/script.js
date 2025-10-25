@@ -400,7 +400,7 @@ const characterDetails = [
     imageBackground: "./images/aryaibg.webp",
   },
 {
-  id: 1,
+  id: 17,
   name: "Rian",
   description:
     "Rian adalah simbol dari kebebasan yang hilang. Seorang pria yang dahulu berjiwa petualang, namun kini terjebak dalam rutinitas dan kesepian kota. Ia hidup dengan wajah yang selalu tersenyum, tetapi matanya menyimpan hujan yang tak pernah reda. Di balik tawa, ada kerinduan pada masa muda — masa di mana ia, Arya, dan Dinda bermimpi tentang dunia yang lebih luas sebelum semuanya hancur oleh waktu dan pilihan.",
