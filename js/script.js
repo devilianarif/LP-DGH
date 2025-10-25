@@ -511,7 +511,7 @@ const characterDetails = [
       "Sundel Bolong dulunya seorang wanita hamil yang mati dalam kehinaan. Arwahnya menuntut balas selama ratusan tahun, hingga akhirnya ia menemukan ketenangan melalui kasih pada roh-roh lain. Ia bereinkarnasi sebagai Sulong, sang penjaga gerbang arwah. Dalam bentuk barunya, ia menjadi cahaya bagi roh yang hilang, mengajarkan bahwa bahkan dari penderitaan terdalam, pengampunan masih bisa tumbuh.",
     imageDetail: "./images/darahp1.webp",
     imageBackground: "./images/card1.webp",
-//   },
+  },
 //   {
 //   id: 13,
 //   name: "Tuyul (Bocil Kematian)",
