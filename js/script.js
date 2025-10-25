@@ -311,8 +311,7 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-
-// === Data karakter dengan dua jenis gambar ===
+// === Data Karakter Lengkap  ===
 const characterDetails = [
   {
     id: 0,
@@ -327,7 +326,8 @@ const characterDetails = [
   {
     id: 1,
     name: "Dinda",
-    description: "Teman lama Arya yang terlibat dalam misteri hujan.",
+    description:
+      "Wanita yang mencoba menebus kesalahan masa lalu di bawah hujan yang sama tempat segalanya bermula.",
     race: "Manusia",
     trait: "Cerdas, peduli, dan penuh semangat.",
     background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
@@ -337,7 +337,8 @@ const characterDetails = [
   {
     id: 2,
     name: "Arya / Raya",
-    description: "Pria muda yang menghadapi masa lalunya.",
+    description:
+      "Pria yang kehilangan dirinya di antara masa lalu, penyesalan, dan panggilan dari dunia lain.",
     race: "Manusia",
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
     background: "Arya adalah simbol perjalanan menuju pemulihan.",
@@ -346,8 +347,9 @@ const characterDetails = [
   },
   {
     id: 3,
-    name: "Bijo",
-    description: "Makhluk gaib yang penuh misteri.",
+    name: "Bijo (Penjaga Kota)",
+    description:
+      "Entitas hijau purba — penjaga batas antara dunia manusia dan dunia gaib, penguji setiap jiwa yang melangkah terlalu jauh.",
     race: "Makhluk Gaib",
     trait: "Licik, cerdas, dan manipulatif.",
     background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
@@ -357,14 +359,100 @@ const characterDetails = [
   {
     id: 4,
     name: "Owo",
-    description: "Makhluk gaib yang menjadi penghubung dunia manusia.",
+    description:
+      "Manifestasi dari kegelapan manusia — bayangan yang tumbuh dari rasa takut, dendam, dan penyesalan.",
     race: "Makhluk Gaib",
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
     imageDetail: "./images/owo1.webp",
     imageBackground: "./images/owokbg.webp",
   },
+  {
+    id: 5,
+    name: "Kuyang",
+    description:
+      "Makhluk malam dari Kalimantan — kepala melayang dengan organ menggantung, pemburu darah kehidupan.",
+    race: "Arwah Manusia",
+    trait: "Licik, tak kenal ampun, dan haus keabadian.",
+    background:
+      "Kuyang adalah perempuan yang menukar kemanusiaannya demi keabadian. Saat malam, ia terbang mencari darah bayi untuk menjaga kecantikannya. Di siang hari, ia kembali menjadi manusia... tapi matanya tak pernah bisa berbohong.",
+    imageDetail: "aset/kuyangd.png",
+    imageBackground: "aset/kuyang_render1.png",
+  },
+  {
+    id: 6,
+    name: "Tianak (Kuntilanak)",
+    description:
+      "Dua roh yang tak terpisahkan — ibu dan anak yang mati bersama, kini menjerit bersama di setiap malam sunyi.",
+    race: "Arwah Manusia",
+    trait: "Sedih, pendendam, dan haus pengakuan.",
+    background:
+      "Kuntilanak adalah ibu yang mati melahirkan, dan Tianak adalah anak yang tak pernah sempat bernafas. Tangisan mereka menyatu dalam satu tubuh, menjadi nyanyian maut yang memanggil jiwa-jiwa bersalah.",
+    imageDetail: "aset/kuntilanakd.png",
+    imageBackground: "aset/kuntilanak_render1.png",
+  },
+  {
+    id: 7,
+    name: "Bati (Banaspati)",
+    description:
+      "Roh api dan bayangan — lahir dari dendam manusia dan terbakar oleh amarahnya sendiri.",
+    race: "Makhluk Gaib",
+    trait: "Panas, destruktif, dan tak mengenal belas kasihan.",
+    background:
+      "Banaspati adalah bola api yang menyambar siapa pun yang dipenuhi kebencian. Ketika energi apinya mengeras, ia menjelma menjadi Bati, sosok bersayap hitam yang terbang di atas kota, mencari dosa untuk dibakar.",
+    imageDetail: "aset/banaspatid.png",
+    imageBackground: "aset/bati_render1.png",
+  },
+  {
+    id: 8,
+    name: "Sulong (Sundel Bolong)",
+    description:
+      "Roh perempuan dengan punggung berlubang, kini bereinkarnasi menjadi penjaga gerbang dunia arwah.",
+    race: "Arwah Manusia",
+    trait: "Tenang, lembut, namun membawa bayangan penderitaan lama.",
+    background:
+      "Sundel Bolong dulunya arwah pendendam yang mati melahirkan. Setelah menebus dosanya, ia berevolusi menjadi Sulong — penjaga cahaya yang menuntun arwah tersesat menuju kedamaian. Dari kegelapan, ia kini menjadi terang.",
+    imageDetail: "aset/sundeld.png",
+    imageBackground: "aset/sulong_render1.png",
+  },
+  {
+    id: 9,
+    name: "Relta (Penunggu Rel / Setan Budek)",
+    description:
+      "Arwah diam di rel-rel sunyi, mencuri suara agar manusia tak lagi mendengar panggilan hidup.",
+    race: "Arwah Manusia",
+    trait: "Hening, menyeramkan, dan abadi di antara dua dunia.",
+    background:
+      "Relta adalah roh korban kecelakaan kereta yang terjebak di rel tanpa palang. Ia membungkam dunia di sekitarnya agar tak seorang pun bisa mendengar bahaya — kecuali ia sendiri yang masih menunggu... di ujung rel yang sama.",
+    imageDetail: "aset/reltad.png",
+    imageBackground: "aset/relta_render1.png",
+  },
+  {
+    id: 10,
+    name: "Tuyul (Bocil Kematian)",
+    description:
+      "Jin kecil polos dengan tawa mengerikan, pencuri uang dari perjanjian manusia dengan kegelapan.",
+    race: "Makhluk Gaib",
+    trait: "Usil, cepat, dan tak terlihat bila tak diinginkan.",
+    background:
+      "Tuyul adalah hasil dari keserakahan manusia. Ia hanya patuh pada tuannya, namun tak memiliki rasa benar atau salah. Dalam tawa kecilnya, tersimpan bisikan dosa yang tak bisa ditebus dengan uang apa pun.",
+    imageDetail: "aset/tuyuld.png",
+    imageBackground: "aset/tuyul_render1.png",
+  },
+  {
+    id: 11,
+    name: "Arya (Mode Bijo)",
+    description:
+      "Wujud transendental di mana manusia menyatu dengan energi purba, mengaburkan batas antara daging dan roh.",
+    race: "Tasbih Mode",
+    trait: "Kuat, emosional, dan dipenuhi konflik batin.",
+    background:
+      "Dalam pertempuran terakhir, Arya memanggil kekuatan Bijo melalui tasbih suci. Tubuhnya berubah sebagian menjadi makhluk hijau, simbol bahwa amarah bisa menjadi kekuatan... atau kehancuran, tergantung siapa yang memegang kendali.",
+    imageDetail: "aset/aryabijod.png",
+    imageBackground: "aset/aryabijo_render1.png",
+  },
 ];
+
 
 // === Fungsi update posisi kartu ===
 function updateCharacter() {
