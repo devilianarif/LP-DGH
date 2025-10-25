@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
      {
       img: "../images/s1.webp",
-      title: "Season 4 — Perburuan Roh",
+      title: "Season 5 — Perburuan Roh",
       list: [
         "At vero eos et accusamus et iusto odio dignissimos ducimus.",
         "Et harum quidem rerum facilis est et expedita distinctio.",
