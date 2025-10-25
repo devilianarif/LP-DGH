@@ -445,7 +445,7 @@ const characterDetails = [
     description:
       "Roh api yang lahir dari amarah manusia — nyala dendam yang tak bisa dipadamkan oleh air, hanya oleh keikhlasan.",
     race:
-      "Makhluk Gaib — entitas energi panas yang terbentuk dari kebencian manusia, bebas saat keseimbangan spiritual terganggu.",
+        "Makhluk Gaib — entitas energi panas yang terbentuk dari kebencian manusia, bebas saat keseimbangan spiritual terganggu.",»
     trait:
       "Menyala, garang, namun tidak jahat. Ia hanya menjalankan kehendak dari amarah yang menciptakannya.",
     background:
