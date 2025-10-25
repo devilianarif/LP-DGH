@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "../images/s2.webp",
-      title: "Judul 2",
+      title: "Season 2 — Jalan Tanpa Ujung",
       list: [
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
         "Accusantium doloremque laudantium, totam rem aperiam.",
