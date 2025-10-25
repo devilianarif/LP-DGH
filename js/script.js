@@ -182,9 +182,9 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s2.webp",
       title: "Season 2 — Jalan Tanpa Ujung",
       list: [
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        ""Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
         "Accusantium doloremque laudantium, totam rem aperiam.",
-        "Eaque ipsa quae ab illo inventore veritatis."
+        "Eaque ipsa quae ab illo inventore veritatis.""
       ]
     },
     {
