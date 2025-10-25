@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Et harum quidem rerum facilis est et expedita distinctio.",
         "Nam libero tempore, cum soluta nobis est eligendi optio."
       ]
-    }
+    };
      {
       img: "../images/s1.webp",
       title: "Season 4 — Perburuan Roh",
