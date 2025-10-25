@@ -381,7 +381,7 @@ const characterDetails = [
     trait: "Licik, tak kenal ampun, dan haus keabadian.",
     background: "Kuyang adalah perempuan yang menukar kemanusiaannya demi keabadian.",
     imageDetail: "./images/kuyang2.webp",
-    imageBackground: "./images/kuyang3.webp",
+    imageBackground: "./images/kuyangbg.webp",
   },
   {
     id: 7,
