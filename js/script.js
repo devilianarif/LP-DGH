@@ -405,7 +405,7 @@ const characterDetails = [
     imageBackground: "./images/reltb-render.webp",
   },
   {
-    id: 7,
+    id: 9,
     name: "Bati (Banaspati)",
     description: "Roh api dan bayangan — lahir dari dendam manusia dan terbakar oleh amarahnya sendiri.",
     race: "Makhluk Gaib",
