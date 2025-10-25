@@ -374,7 +374,7 @@ const characterDetails = [
     imageBackground: "./images/aryai1.webp",
   },
   {
-    id: 5,
+    id: 6,
     name: "Kuyang",
     description: "Makhluk malam dari Kalimantan — kepala melayang dengan organ menggantung, pemburu darah kehidupan.",
     race: "Arwah Manusia",
