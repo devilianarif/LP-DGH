@@ -428,7 +428,7 @@ const characterDetails = [
     "Keras, impulsif, dan protektif. Meski kasar, ia rela mengorbankan dirinya untuk orang yang ia anggap keluarga.",
   background:
     "Sultan dibesarkan di lingkungan keras, di mana kekuatan menentukan hidup dan mati. Ia menjadi simbol manusia yang kehilangan arah karena terlalu lama bertarung melawan dunia. Dalam perjalanan bersama Arya, Sultan menjadi pelindung yang garang namun juga teman yang jujur. Ia mengajarkan bahwa meski masa lalu tidak bisa dihapus, manusia selalu punya kesempatan untuk berubah. Di akhir cerita, ia adalah satu-satunya yang memilih berdiri melawan Owo tanpa motif pribadi — hanya karena ia tak ingin melihat temannya tenggelam dalam kegelapan yang sama.",
-  imageDetail: "./images/sultan.webp",
+  imageDetail: "./images/sultanp.webp",
   imageBackground: "./images/sultanbg.webp",
 },
 {
