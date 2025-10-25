@@ -464,7 +464,7 @@ const characterDetails = [
     imageDetail: "./images/kuyang2.webp",
     imageBackground: "./images/kuyangbg.webp",
   },
-  
+  {}
    id: 9,
     name: "Tianak (Kuntilanak)",
     description:
