@@ -481,7 +481,7 @@ const characterDetails = [
   //   imageBackground: "./images/reltb-render.webp",
   // },
   {
-    id: 11,
+    id: 10,
     name: "Relta (Penunggu Rel)",
     description:
       "Relta muncul di antara kabut malam, di rel-rel sunyi yang tak lagi dilalui manusia. Ia adalah sosok tanpa suara, roh yang menghantui perlintasan kereta. Dalam kematiannya, ia kehilangan kemampuan untuk berteriak, dan kini, ia membuat dunia ikut sunyi bersamanya. Suaranya dicuri oleh roda besi, dan kini ia mencuri suara dari siapa pun yang mendekat.",
