@@ -301,7 +301,6 @@ document.addEventListener("click", function(e) {
   }
 });
 
-
 // === CHARACTER INTERACTION FINAL REVISED ===
 
 // Elemen utama
@@ -311,29 +310,207 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-// === Data Karakter Lengkap (Versi Naratif Setara Arya) ===
-const characterDetails = [
-  
 
+// === Data Karakter Lengkap (11 karakter naratif setara Arya) ===
+const characterDetails = [
+  {
+    id: 0,
+    name: "Si Gadis Jubah Kuning",
+    description:
+      "Di bawah derasnya hujan, ia berdiri — sosok berpayung kuning yang menjadi lambang antara pengampunan dan kesedihan. Ia bukan sekadar roh, melainkan gema dari rasa yang tak sempat terucap. Nara, nama yang pernah disebut dalam hangatnya masa kecil, kini hanya tinggal dalam tetes air yang jatuh di setiap langkahnya. Setiap tatapan matanya memantulkan kenangan, setiap senyum samar menyimpan duka yang belum reda. Ia hadir bukan untuk menakut-nakuti, melainkan untuk mengingatkan: bahkan roh yang lembut pun bisa tersesat dalam penantian. Dalam keheningan hujan, Nara menuntun jiwa-jiwa yang mencari arti pulang, sekaligus menjadi penawar bagi hati yang telah lama kehilangan dirinya sendiri.",
+    rightDesc:
+      "Sosok arwah berpayung kuning, muncul di bawah hujan membawa kedamaian dan pesan dari masa lalu.",
+    race:
+      "Arwah Manusia — entitas yang hidup di antara dua dunia; tidak lagi manusia namun belum siap meninggalkan dunia fana karena ikatan perasaan yang belum terselesaikan.",
+    trait:
+      "Penyayang, bijak, dan misterius. Tatapannya membawa ketenangan sekaligus kepedihan, seolah tahu rahasia setiap hati yang menatapnya.",
+    background:
+      "Nara dulunya adalah gadis ceria yang dikenal oleh semua anak di kampungnya, terutama oleh Arya dan Dinda. Namun di balik senyum lembutnya, ia menyimpan tekanan yang tumbuh dari pengkhianatan dan kesepian. Setelah kematiannya yang tragis, arwahnya tak pernah benar-benar pergi. Ia memilih bertahan di dunia manusia untuk menuntun mereka yang masih hidup agar tak mengulangi kesalahannya. Kini, di setiap hujan yang turun, bayangan jubah kuningnya terlihat samar di tikungan jalan — bukan sebagai kutukan, tapi sebagai doa agar mereka yang menyesal dapat menemukan pengampunan.",
+    imageDetail: "./images/nara3.webp",
+    imageBackground: "./images/narakbg.webp",
+  },
+  {
+    id: 1,
+    name: "Dinda",
+    description:
+      "Hujan selalu mengingatkan Dinda pada satu hal — hari di mana ia memilih untuk diam. Ia yang dulu ceria, kini hidup dalam bayang rasa bersalah. Dalam setiap langkahnya, ada kenangan yang menjerat, dalam setiap senyumnya ada tangisan yang tertahan. Dinda bukan sekadar manusia biasa; ia adalah simbol dari penyesalan yang tumbuh bersama waktu. Di antara gemericik hujan dan dinginnya malam, ia mencari arti pengampunan, bukan dari orang lain, tapi dari dirinya sendiri. Meskipun hatinya retak, ia bertekad untuk tidak lagi menjadi saksi diam dalam tragedi yang berulang.",
+    rightDesc:
+      "Wanita yang hidup dengan bayangan masa lalu, mencoba menebus diamnya di masa remaja.",
+    race:
+      "Manusia — makhluk yang menyeberangi batas spiritual dan realitas, dikuasai oleh emosi, dan terus mencari keseimbangan antara luka dan harapan.",
+    trait:
+      "Cerdas, penuh empati, tapi rapuh. Dinda menutupi rasa bersalah dengan tawa, padahal di baliknya ada jiwa yang tak kunjung pulih.",
+    background:
+      "Dinda tumbuh bersama Arya dan Nara dalam persahabatan yang sederhana. Namun ketika dunia mereka mulai berubah, Dinda gagal menjadi penopang bagi sahabatnya. Ia menyaksikan bagaimana Nara hancur, dan dalam ketakutannya, ia memilih berdiam diri. Bertahun kemudian, Dinda kembali ke kota asalnya, hanya untuk disambut oleh kenangan yang menuntut pertanggungjawaban. Ia sadar bahwa menebus masa lalu bukan dengan kata maaf, tapi dengan keberanian untuk menghadapi kebenaran yang dulu ia tolak.",
+    imageDetail: "./images/dinda3.webp",
+    imageBackground: "./images/dindakbg.webp",
+  },
+  {
+    id: 2,
+    name: "Arya / Raya",
+    description:
+      "Arya adalah representasi manusia yang tenggelam dalam rutinitas, kehilangan makna hidup, dan dibayang-bayangi oleh rasa bersalah masa lalu. Pertemuannya dengan perempuan berpayung kuning membuka luka lama yang selama ini ia tekan. Dalam dirinya terjadi perang batin antara rasionalitas dan spiritualitas, realitas dan ilusi. Ia adalah simbol perjalanan menuju pemulihan — seseorang yang harus menghadapi sisi tergelap dari dirinya sendiri untuk menemukan kembali cahaya dan alasan untuk hidup.",
+    rightDesc:
+      "Pria muda dengan kepribadian tenang dan introspektif, sering digambarkan membawa beban batin dari masa lalunya.",
+    race:
+      "Manusia — pusat keseimbangan antara cahaya dan kegelapan; setiap keputusan menentukan nasib dunia spiritual di sekitarnya.",
+    trait:
+      "Pendiam, introspektif, dan sering terjebak dalam pikirannya sendiri. Ia mencari makna hidup di antara dosa dan pengampunan.",
+    background:
+      "Arya adalah seorang pria muda yang hidupnya tampak tenang di luar namun porak-poranda di dalam. Di masa kecilnya, ia pernah menjadi bagian dari kelompok sahabat yang akrab — Dinda, R, S, B, dan Nara — hingga satu kejadian di masa remaja membuatnya menyaksikan kehancuran seseorang yang tak mampu ia selamatkan. Rasa takut dan diamnya saat Nara dihina dan tersingkir berubah menjadi penyesalan yang menghantuinya bertahun-tahun kemudian. Setelah kehilangan orang tuanya dan diadopsi oleh keluarga baru, ia hidup dengan nama “Raya,” tapi pergantian identitas itu tak mampu menghapus luka lamanya. Kini, setiap tetes hujan yang turun selalu membawanya kembali pada masa lalu yang ia coba lupakan — masa di mana satu keputusan untuk diam mengubah segalanya.",
+    imageDetail: "./images/arya3.webp",
+    imageBackground: "./images/aryakbg.webp",
+  },
+  {
+    id: 3,
+    name: "Bijo (Penjaga Kota)",
+    description:
+      "Makhluk hijau berwujud raksasa dengan sorot mata seperti batu giok purba. Ia bukan iblis, melainkan penjaga — pengawas yang menjaga hukum antara manusia dan dunia roh. Dalam diamnya, ia menilai manusia yang menodai alam, memberi peringatan dengan kekuatan yang tak terukur. Bijo adalah manifestasi kehendak bumi, lahir dari doa dan tangisan para leluhur yang pernah memohon keseimbangan dunia.",
+    rightDesc:
+      "Entitas penjaga keseimbangan yang menilai setiap jiwa yang berani menantang hukum alam.",
+    race:
+      "Makhluk Gaib — lahir dari energi alam yang murni, bukan dari kegelapan melainkan dari kehendak bumi itu sendiri.",
+    trait:
+      "Tegas, penuh wibawa, dan bijaksana. Ia tidak mengenal amarah manusia, hanya keseimbangan yang harus ditegakkan.",
+    background:
+      "Bijo telah ada jauh sebelum manusia memahami arti waktu. Ia muncul setiap kali batas antara dunia manusia dan arwah mulai kabur. Saat keseimbangan terganggu, ia turun tangan untuk menimbang siapa yang pantas hidup dan siapa yang harus kembali pada tanah. Dalam pertemuannya dengan Arya, Bijo menjadi cermin bagi kemanusiaan: kekuatan sejati tidak datang dari penguasaan, tapi dari kesediaan untuk mengakui sisi gelap dalam diri.",
+    imageDetail: "./images/bijo2.webp",
+    imageBackground: "./images/bijokbg.webp",
+  },
+  {
+    id: 4,
+    name: "Owo",
+    description:
+      "Owo adalah kegelapan yang lahir dari manusia — bayangan yang mengikuti di mana cahaya ada. Ia tidak diciptakan, melainkan tumbuh dari setiap penyesalan, kebencian, dan ketakutan manusia. Saat seseorang menolak memaafkan diri, Owo berwujud, menampakkan dirinya sebagai penguasa kegelapan dalam bentuk manusia yang tak berwajah. Ia adalah bisikan di malam hari, penolak cahaya yang hidup dari luka batin manusia.",
+    rightDesc:
+      "Manifestasi kegelapan manusia, tumbuh dari rasa bersalah dan kebencian yang tak terselesaikan.",
+    race:
+      "Makhluk Gaib — energi hidup dari sisi tergelap kesadaran manusia yang terpisah dan membentuk entitas sendiri.",
+    trait:
+      "Tenang, licik, dan menyesatkan. Ia menawarkan solusi bagi penderitaan, namun setiap bantuan memiliki harga yang tak terbayar.",
+    background:
+      "Owo dulunya adalah entitas tak bernama yang muncul setiap kali seseorang menolak pengampunan. Ia memberi kekuatan kepada manusia yang putus asa, namun menagih jiwa mereka sebagai imbalan. Dalam perjalanan Arya, Owo menjadi lawan utama — perwujudan dari sisi terdalam jiwanya yang ingin menyerah. Dalam menghadapi Owo, Arya tidak melawan musuh luar, melainkan dirinya sendiri.",
+    imageDetail: "./images/owo2.webp",
+    imageBackground: "./images/owokbg.webp",
+  },
+  {
+    id: 5,
+    name: "Arya (Mode Bijo)",
+    description:
+      "Saat dunia spiritual dan dunia manusia bertabrakan, Arya menemukan dirinya di ambang kehancuran. Dalam keputusasaan melawan Owo, ia memanggil kekuatan dari Tasbih Al-Muqayyad — artefak kuno yang mengikat energi Bijo. Tubuhnya berubah: uratnya bersinar hijau, matanya berpendar seperti zamrud. Mode ini bukan hanya kekuatan, tapi ujian — karena setiap amarah yang ia keluarkan, mengikis sisi manusianya sedikit demi sedikit.",
+    rightDesc:
+      "Wujud transendental Arya ketika kekuatan Bijo membanjiri tubuh dan jiwanya.",
+    race:
+      "Tasbih Mode — perpaduan energi manusia dan makhluk penjaga, wujud paling murni dari kehendak alam yang melebur dengan jiwa manusia.",
+    trait:
+      "Kuat, emosional, dan kehilangan batas antara manusia dan roh. Ia bisa menjadi penyelamat atau kehancuran.",
+    background:
+      "Dalam pertarungan terakhir di Kuil Jiwa Gelap, Arya melepaskan segel tasbih yang mengikat kekuatan Bijo. Tubuhnya setengah manusia, setengah roh penjaga. Setiap langkahnya mengguncang bumi, setiap teriakannya membelah langit. Namun di balik kekuatan itu, ada sisi rapuh yang terus berteriak untuk berhenti. Mode Bijo adalah perwujudan manusia yang melampaui batasnya, tapi juga pengingat bahwa kekuatan tanpa kendali bisa menelan jiwanya sendiri.",
+    imageDetail: "./images/aryai3.webp",
+    imageBackground: "./images/aryaibg.webp",
+  },
+  {
+    id: 6,
+    name: "Kuyang",
+    description:
+      "Kuyang melayang di malam hari, membawa aroma darah dan keheningan. Ia dulunya manusia, seorang perempuan yang menolak tua, menukar jiwanya demi keindahan abadi. Kini, hanya kepala dan organ tubuhnya yang tersisa, berkelana mencari darah segar untuk bertahan hidup. Di balik teriakannya yang menyeramkan, tersimpan kesepian panjang dari jiwa yang kehilangan makna kemanusiaannya.",
+    rightDesc:
+      "Perempuan yang menukar jiwanya demi keabadian, kini hanya kepala dan organ yang melayang di malam hari.",
+    race:
+      "Arwah Manusia — hasil kutukan dari ilmu hitam, entitas yang kehilangan tubuh namun masih terikat pada dunia fana.",
+    trait:
+      "Licik, haus darah, namun penuh kesedihan. Ia menangis di malam hari, bukan karena lapar, tapi karena tak bisa mati.",
+    background:
+      "Kuyang dulunya seorang tabib muda yang haus akan kecantikan dan kekuasaan. Ia menolak waktu dan menolak takdir. Setelah melakukan ritual hitam untuk mempertahankan usia mudanya, tubuhnya terlepas dari jiwa. Kini, setiap malam ia berburu darah segar untuk mempertahankan wujudnya. Namun dalam keabadiannya, ia menanggung kesepian tanpa batas, menjadi simbol bahwa keindahan yang dipaksakan hanya melahirkan penderitaan abadi.",
+    imageDetail: "./images/kuyang2.webp",
+    imageBackground: "./images/kuyangbg.webp",
+  },
+  {
+    id: 7,
+    name: "Relta (Penunggu Rel)",
+    description:
+      "Relta muncul di antara kabut malam, di rel-rel sunyi yang tak lagi dilalui manusia. Ia adalah sosok tanpa suara, roh yang menghantui perlintasan kereta. Dalam kematiannya, ia kehilangan kemampuan untuk berteriak, dan kini, ia membuat dunia ikut sunyi bersamanya. Suaranya dicuri oleh roda besi, dan kini ia mencuri suara dari siapa pun yang mendekat.",
+    rightDesc:
+      "Roh tanpa suara yang menghantui rel kereta, mencuri pendengaran manusia agar merasakan kematiannya.",
+    race:
+      "Arwah Manusia — jiwa yang mati secara tragis dan terjebak di lokasi kematian tanpa arah untuk pergi.",
+    trait:
+      "Diam, menakutkan, namun tidak jahat. Ia hanya ingin orang lain mendengar kesepiannya.",
+    background:
+      "Relta dulunya seorang perempuan muda yang menunggu kekasihnya di rel kereta setiap malam. Suatu malam, ia tertabrak tanpa sempat menjerit. Kini, ia menghantui tempat yang sama, membuat orang kehilangan pendengaran seketika. Suara roda kereta bergema di kepala mereka, seolah mengingatkan bahwa waktu tak memberi kesempatan kedua. Dalam kisah Arya, Relta menjadi simbol dari rasa bersalah yang membungkam hati manusia.",
+    imageDetail: "./images/relta2.webp",
+    imageBackground: "./images/reltabg.webp",
+  },
+  {
+    id: 8,
+    name: "Sulong (Sundel Bolong)",
+    description:
+      "Roh wanita bergaun putih dengan punggung berlubang, dulunya korban kejahatan manusia. Namun, waktu mengubah dendamnya menjadi kekuatan spiritual. Kini, ia menjaga batas antara hidup dan mati, menuntun arwah yang tersesat menuju cahaya.",
+    rightDesc:
+      "Penjaga gerbang arwah yang dulunya mati melahirkan dalam derita dan penghinaan.",
+    race:
+      "Arwah Manusia — roh yang menebus dosanya sendiri, melewati siklus dendam dan pencerahan untuk menjadi cahaya.",
+    trait:
+      "Tenang, penyayang, dan bijak. Di balik luka punggungnya yang menganga, ia menyimpan kekuatan pengampunan.",
+    background:
+      "Sundel Bolong dulunya seorang wanita hamil yang mati dalam kehinaan. Arwahnya menuntut balas selama ratusan tahun, hingga akhirnya ia menemukan ketenangan melalui kasih pada roh-roh lain. Ia bereinkarnasi sebagai Sulong, sang penjaga gerbang arwah. Dalam bentuk barunya, ia menjadi cahaya bagi roh yang hilang, mengajarkan bahwa bahkan dari penderitaan terdalam, pengampunan masih bisa tumbuh.",
+    imageDetail: "./images/darahp1.webp",
+    imageBackground: "./images/card1.webp",
+  },
+  {
+    id: 9,
+    name: "Tianak (Kuntilanak)",
+    description:
+      "Di tengah malam yang sunyi, terdengar tangisan bayi dari balik pepohonan. Tianak bukan sekadar arwah anak kecil, melainkan dua jiwa dalam satu tubuh — sang ibu dan bayi yang mati bersamaan. Kuntilanak menangis mencari anaknya, dan Tianak tertawa di pelukannya, terjebak dalam lingkaran kematian yang abadi.",
+    rightDesc:
+      "Roh ibu dan anak yang mati bersamaan, menangis mencari satu sama lain di malam sunyi.",
+    race:
+      "Arwah Manusia — roh wanita dan anaknya yang terikat karena kematian yang tak adil.",
+    trait:
+      "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu yang abadi.",
+    background:
+      "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan. Tangis Kuntilanak menandakan kematian, tawa Tianak adalah panggilan pada jiwa yang akan pergi. Dalam dunia hujan, mereka adalah simbol kehilangan yang tak pernah selesai — cinta yang bahkan kematian pun tak bisa pisahkan.",
+    imageDetail: "./images/relt3a.webp",
+    imageBackground: "./images/reltb-render.webp",
+  },
+  {
+    id: 10,
+    name: "Bati (Banaspati)",
+    description:
+      "Bola api merah membara melayang di langit malam — itu Bati, roh yang lahir dari amarah manusia. Ia bukan api biasa, melainkan nyala kebencian yang tak bisa padam. Ketika dendam manusia mencapai puncaknya, Bati muncul untuk membakar sumber kebencian itu, sekaligus dirinya sendiri.",
+    rightDesc:
+      "Roh api yang lahir dari dendam manusia, terbakar oleh amarah yang menciptakannya.",
+    race:
+      "Makhluk Gaib — entitas elemen api yang muncul dari ritual terlarang dan emosi kebencian manusia.",
+    trait:
+      "Panas, destruktif, tapi tidak jahat. Ia membakar hanya yang menolak memaafkan.",
+    background:
+      "Banaspati dulunya diciptakan melalui ajian hitam untuk membalas dendam. Namun energi kebencian yang menelannya membuatnya hidup tanpa kendali. Kini ia menjelma sebagai Bati, sosok berapi dengan mata bara, berkelana membakar kebencian manusia. Dalam kisah Arya, Bati menjadi lambang pembersihan — bahwa kadang api diperlukan untuk memusnahkan kegelapan sebelum cahaya bisa lahir kembali.",
+    imageDetail: "./images/bg4.webp",
+    imageBackground: "./images/bg23.webp",
+  },
+];
 
 // === Fungsi update posisi kartu ===
 function updateCharacter() {
   const cardWidth = carCard[0].offsetWidth + 30;
-  const offset = (charTrack.offsetWidth / 2) - (cardWidth / 2) - (currentCharacter * cardWidth);
+  const offset =
+    charTrack.offsetWidth / 2 - cardWidth / 2 - currentCharacter * cardWidth;
   charTrack.style.transform = `translateX(${offset}px)`;
 
   carCard.forEach((card, index) => {
     const distance = Math.abs(currentCharacter - index);
-    card.classList.toggle('aktif', index === currentCharacter);
-    card.style.transform = index === currentCharacter
-      ? 'scale(1.1) translateY(-10px)'
-      : distance === 1
-      ? 'scale(0.9) translateY(5px)'
-      : 'scale(0.8) translateY(15px)';
-    card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
+    card.classList.toggle("aktif", index === currentCharacter);
+    card.style.transform =
+      index === currentCharacter
+        ? "scale(1.1) translateY(-10px)"
+        : distance === 1
+        ? "scale(0.9) translateY(5px)"
+        : "scale(0.8) translateY(15px)";
+    card.style.opacity = index === currentCharacter ? "1" : distance === 1 ? "0.6" : "0.3";
   });
 }
-  
+
 // === Fungsi update detail & gambar ===
 function updateCharacterDetails(characterId) {
   const c = characterDetails[characterId];
@@ -342,7 +519,7 @@ function updateCharacterDetails(characterId) {
   // update teks
   document.querySelector(".dtchara-left h2").textContent = c.name;
   document.querySelector(".dtchara-left p").textContent = c.description;
-  document.querySelector("#right-desc p").textContent = c.description;
+  document.querySelector("#right-desc p").textContent = c.rightDesc;
   document.querySelector("#right-race p").textContent = c.race;
   document.querySelector("#right-trait p").textContent = c.trait;
 
@@ -375,7 +552,6 @@ function updateCharacterDetails(characterId) {
   // scroll halus ke detail
   document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
 }
-
 
 // === Klik kartu ===
 carCard.forEach((card, index) => {
@@ -434,10 +610,9 @@ charTrack.addEventListener("touchmove", (e) => {
   }
 });
 
-
-
 // === Inisialisasi awal ===
 updateCharacter();
+updateCharacterDetails(currentCharacter);
 const rightBox = document.querySelector(".bschara-right");
 rightBox.classList.remove("show");
 setTimeout(() => rightBox.classList.add("show"), 50);
