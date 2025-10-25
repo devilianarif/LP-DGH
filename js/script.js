@@ -373,7 +373,6 @@ const characterDetails = [
     imageDetail: "./images/kuyang2.webp",
     imageBackground: "./images/kuyang3.webp",
   },
-
   {
     id: 9,
     name: "Relta (Penunggu Rel)",
