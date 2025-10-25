@@ -444,7 +444,7 @@ const characterDetails = [
     "Bijak, sabar, dan penuh teka-teki. Ucapannya sedikit, namun setiap kata mengandung makna yang dalam.",
   background:
     "Burhan pernah menjadi bagian dari sekte penjaga Tasbih Al-Muqayyad, artefak yang kemudian terikat pada Arya. Di masa mudanya, ia melakukan kesalahan besar yang menyebabkan terbukanya celah antara dunia manusia dan roh. Selama puluhan tahun, ia berkelana menebus dosanya dengan membantu arwah yang tersesat. Saat bertemu Arya, Burhan tahu waktunya telah tiba — bukan untuk menebus masa lalunya, tetapi untuk memastikan generasi berikutnya tidak mengulang kesalahan yang sama. Dalam kata-kata terakhirnya, ia berpesan: 'Keseimbangan bukan tentang siapa yang menang, tapi siapa yang berani mengampuni.'",
-  imageDetail: "./images/burhan.webp",
+  imageDetail: "./images/burhanp.webp",
   imageBackground: "./images/burhanbg.webp",
 },
 
