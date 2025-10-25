@@ -530,7 +530,7 @@ const characterDetails = [
 // },
 
   {
-    id: 13,
+    id: 12,
     name: "Bati (Banaspati)",
     description:
       "Bola api merah membara melayang di langit malam — itu Bati, roh yang lahir dari amarah manusia. Ia bukan api biasa, melainkan nyala kebencian yang tak bisa padam. Ketika dendam manusia mencapai puncaknya, Bati muncul untuk membakar sumber kebencian itu, sekaligus dirinya sendiri.",
