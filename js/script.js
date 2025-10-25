@@ -203,9 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1.webp",
       title: "Season 5 — Perang Tak Beraturan",
       list: [
-        "At vero eos et accusamus et iusto odio dignissimos ducimus.",
-        "Et harum quidem rerum facilis est et expedita distinctio.",
-        "Nam libero tempore, cum soluta nobis est eligendi optio."
+        "Keseimbangan dunia hancur. Bati dan Owo memicu perang antara roh dan manusia, membawa kekacauan hingga kesurupan massal. Bersama sekutu baru, Arya berhadapan dengan makhluk-makhluk legenda: Relta, Sulong, dan Tuyul. Saat kebenaran terungkap—Arya dan Owo berasal dari sumber yang sama—dunia diselamatkan dengan satu harga: kemanusiaan Arya sendiri."
       ]
     }
   ];
