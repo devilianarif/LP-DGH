@@ -395,7 +395,7 @@ const characterDetails = [
   },
 
     {
-    id: 6,
+    id: 8,
     name: "Tianak (Kuntilanak)",
     description: "Dua roh yang tak terpisahkan — ibu dan anak yang mati bersama, kini menjerit bersama di setiap malam sunyi.",
     race: "Arwah Manusia",
