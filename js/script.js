@@ -182,9 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s2.webp",
       title: "Season 2 — Jalan Tanpa Ujung",
       list: [
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
-        "Accusantium doloremque laudantium, totam rem aperiam.",
-        "Eaque ipsa quae ab illo inventore veritatis."
+        Terseret ke dunia roh, Arya menghadapi sisi tergelap dalam dirinya. Bersama Dinda dan gadis payung kuning, ia berjuang menyeimbangkan dunia spiritual yang dikendalikan entitas dendam bernama Gundorowo. Namun saat kembali, ia tak tahu apakah dunia yang ia injak masih nyata… atau hanya bayangan roh.
       ]
     },
     {
