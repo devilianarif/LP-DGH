@@ -399,6 +399,57 @@ const characterDetails = [
     imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/aryaibg.webp",
   },
+  // === LANJUTAN: Karakter Tambahan (Rian, Sultan, Burhan) ===
+
+{
+  id: 11,
+  name: "Rian",
+  description:
+    "Rian adalah simbol dari kebebasan yang hilang. Seorang pria yang dahulu berjiwa petualang, namun kini terjebak dalam rutinitas dan kesepian kota. Ia hidup dengan wajah yang selalu tersenyum, tetapi matanya menyimpan hujan yang tak pernah reda. Di balik tawa, ada kerinduan pada masa muda — masa di mana ia, Arya, dan Dinda bermimpi tentang dunia yang lebih luas sebelum semuanya hancur oleh waktu dan pilihan.",
+  rightDesc:
+    "Pria ceria yang menyembunyikan kesedihan di balik senyum, sahabat lama Arya yang kini terjebak dalam rutinitas tanpa arah.",
+  race:
+    "Manusia — pengembara yang kehilangan arah, terjebak antara nostalgia masa lalu dan realitas yang pahit.",
+  trait:
+    "Riang di luar, namun rapuh di dalam. Setia, mudah berempati, tapi takut menghadapi kebenaran.",
+  background:
+    "Rian adalah sahabat dekat Arya sejak kecil. Ia selalu menjadi sosok penengah yang membuat kelompok mereka tetap utuh. Namun setelah tragedi yang menimpa Nara, ia menjauh dan mencoba melupakan semuanya. Bertahun-tahun kemudian, Rian kembali bertemu Arya dalam situasi yang sama — di tengah hujan, di kota yang sama. Ia menyadari bahwa pelariannya selama ini tak menghapus rasa bersalah, melainkan menumbuhkan kehampaan. Rian belajar bahwa beberapa luka hanya bisa sembuh ketika dihadapi, bukan dilupakan.",
+  imageDetail: "./images/rian.webp",
+  imageBackground: "./images/rianbg.webp",
+},
+{
+  id: 12,
+  name: "Sultan",
+  description:
+    "Sultan adalah jiwa pemberontak yang menolak diam. Ia tumbuh dalam kekerasan dan kehilangan, menjadikan dunia sebagai lawan yang harus ditaklukkan. Namun di balik kekasarannya, tersembunyi hati yang terluka dan kerinduan akan penerimaan. Ia melihat hidup sebagai medan perang, dan setiap manusia sebagai musuh yang bisa mengkhianatinya kapan saja. Tetapi jauh di dalam dirinya, ada bagian kecil yang masih percaya pada kebaikan — bagian yang Arya coba bangkitkan kembali.",
+  rightDesc:
+    "Pria keras kepala dan berjiwa pemberontak, membawa amarah dari masa kecil yang penuh luka.",
+  race:
+    "Manusia — sisi liar dari kemanusiaan yang lahir dari penderitaan dan kehilangan arah.",
+  trait:
+    "Keras, impulsif, dan protektif. Meski kasar, ia rela mengorbankan dirinya untuk orang yang ia anggap keluarga.",
+  background:
+    "Sultan dibesarkan di lingkungan keras, di mana kekuatan menentukan hidup dan mati. Ia menjadi simbol manusia yang kehilangan arah karena terlalu lama bertarung melawan dunia. Dalam perjalanan bersama Arya, Sultan menjadi pelindung yang garang namun juga teman yang jujur. Ia mengajarkan bahwa meski masa lalu tidak bisa dihapus, manusia selalu punya kesempatan untuk berubah. Di akhir cerita, ia adalah satu-satunya yang memilih berdiri melawan Owo tanpa motif pribadi — hanya karena ia tak ingin melihat temannya tenggelam dalam kegelapan yang sama.",
+  imageDetail: "./images/sultan.webp",
+  imageBackground: "./images/sultanbg.webp",
+},
+{
+  id: 13,
+  name: "Burhan",
+  description:
+    "Burhan adalah suara nurani yang terlambat disadari. Guru tua yang mengenal dunia spiritual lebih dalam dari siapa pun, namun menyembunyikan rahasia masa mudanya yang kelam. Ia adalah penjaga keseimbangan yang memilih diam daripada berperang, hingga akhirnya menyadari bahwa diam pun bisa menjadi bentuk dosa. Ia adalah guru bagi Arya, pembimbing dalam memahami perbatasan antara dunia manusia dan dunia roh.",
+  rightDesc:
+    "Orang tua bijak yang menjadi pembimbing spiritual bagi Arya, menyimpan rahasia masa lalu yang masih menghantui.",
+  race:
+    "Manusia — manusia yang telah melampaui batas spiritual, hidup di ambang antara dunia roh dan dunia nyata.",
+  trait:
+    "Bijak, sabar, dan penuh teka-teki. Ucapannya sedikit, namun setiap kata mengandung makna yang dalam.",
+  background:
+    "Burhan pernah menjadi bagian dari sekte penjaga Tasbih Al-Muqayyad, artefak yang kemudian terikat pada Arya. Di masa mudanya, ia melakukan kesalahan besar yang menyebabkan terbukanya celah antara dunia manusia dan roh. Selama puluhan tahun, ia berkelana menebus dosanya dengan membantu arwah yang tersesat. Saat bertemu Arya, Burhan tahu waktunya telah tiba — bukan untuk menebus masa lalunya, tetapi untuk memastikan generasi berikutnya tidak mengulang kesalahan yang sama. Dalam kata-kata terakhirnya, ia berpesan: 'Keseimbangan bukan tentang siapa yang menang, tapi siapa yang berani mengampuni.'",
+  imageDetail: "./images/burhan.webp",
+  imageBackground: "./images/burhanbg.webp",
+},
+
   {
     id: 6,
     name: "Kuyang",
