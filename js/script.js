@@ -513,7 +513,7 @@ const characterDetails = [
     imageBackground: "./images/card1.webp",
   },
   {
-  id: 8.5, // bisa ubah jadi posisi real 9 kalau urutan di file diatur ulang
+  id: 8.5,
   name: "Tuyul (Bocil Kematian)",
   description:
     "Makhluk kecil berkulit kelabu yang lahir dari perjanjian manusia dengan kekayaan terlarang. Tuyul tidak mengenal moral — hanya tawa kecil di malam sunyi, saat tangan mungilnya mengambil rezeki yang bukan miliknya. Ia adalah hasil dari keserakahan manusia, wujud polos namun jahat, pengingat bahwa kekayaan tanpa berkah hanyalah kutukan dalam bentuk tawa anak-anak.",
