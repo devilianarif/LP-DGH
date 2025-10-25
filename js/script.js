@@ -172,7 +172,7 @@ for (let i = 0; i < halterCount; i++) {
 document.addEventListener("DOMContentLoaded", () => {
   const data = [
     {
-      img: "../aset/s1.png",
+      img: "../images/s1.webp",
       title: "Judul 1",
       list: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s2.png",
+      img: "../images/s2.webp",
       title: "Judul 2",
       list: [
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s3.png",
+      img: "../images/s3.webp",
       title: "Judul 3",
       list: [
         "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s1.png",
+      img: "../images/s1.webp",
       title: "Judul 4",
       list: [
         "At vero eos et accusamus et iusto odio dignissimos ducimus.",
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s2.png",
+      img: "../images/s2.webp",
       title: "Judul 5",
       list: [
         "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
@@ -290,7 +290,6 @@ document.addEventListener("click", function(e) {
     if (small) ripple.classList.add("small");
 
     ripple.style.left = `${x}px`;
-    ripple.style.top = `${y}px`;
 
     const size = small ? 40 + Math.random() * 20 : 70 + Math.random() * 40;
     ripple.style.width = `${size}px`;
@@ -316,15 +315,13 @@ let startX = 0;
 const characterDetails = [
   {
     id: 0,
-    name: "Si Gadis Jubah Kuning (Nara)",
-    description:
-      "Sosok misterius berpayung kuning yang muncul di tengah guyuran hujan — membawa pesan dari dunia yang tak terlihat.",
-    race: "Arwah Manusia",
-    trait: "Lembut, misterius, dan penuh kasih dalam kesedihan.",
-    background:
-      "Nara, sahabat masa kecil Arya, meninggal karena pengkhianatan yang tak pernah ditebus. Jiwanya kini terjebak di antara dua dunia, membawa pesan yang akan mengubah takdir Arya selamanya.",
-    imageDetail: "aset/nara3.png",
-    imageBackground: "aset/nara_render1.png",
+    name: "Si Gadis Jubah Kuning",
+    description: "Gadis misterius yang membawa pesan harapan di tengah hujan.",
+    race: "Manusia",
+    trait: "Penyayang, misterius, dan penuh teka-teki.",
+    background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
+    imageDetail: "./images/nara3.webp",              // untuk .dtchara-center
+    imageBackground: "./images/narakbg.webp",   // untuk .bschara-left
   },
   {
     id: 1,
@@ -332,11 +329,10 @@ const characterDetails = [
     description:
       "Wanita yang mencoba menebus kesalahan masa lalu di bawah hujan yang sama tempat segalanya bermula.",
     race: "Manusia",
-    trait: "Cerdas, penuh empati, namun rapuh di balik keteguhan.",
-    background:
-      "Dinda adalah teman lama yang menyimpan rasa bersalah mendalam atas kematian Nara. Kini ia berdiri di sisi Arya, berusaha menutup luka yang tak pernah kering di antara dunia manusia dan dunia arwah.",
-    imageDetail: "aset/dindad.png",
-    imageBackground: "aset/dinda_render1.png",
+    trait: "Cerdas, peduli, dan penuh semangat.",
+    background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
+    imageDetail: "./images/dinda3.webp",
+    imageBackground: "./images/dindakbg.webp",
   },
   {
     id: 2,
@@ -344,11 +340,10 @@ const characterDetails = [
     description:
       "Pria yang kehilangan dirinya di antara masa lalu, penyesalan, dan panggilan dari dunia lain.",
     race: "Manusia",
-    trait: "Pendiam, introspektif, dan penuh bayang-bayang rasa bersalah.",
-    background:
-      "Dikenal sebagai Arya di masa kecil dan Raya setelah diadopsi, ia berjuang melawan kenangan dan dosa yang tak termaafkan. Di bawah hujan, ia menemukan kembali arti kehilangan dan pengampunan.",
-    imageDetail: "aset/arya3.png",
-    imageBackground: "aset/aryakbg.png",
+    trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
+    background: "Arya adalah simbol perjalanan menuju pemulihan.",
+    imageDetail: "./images/arya3.webp",
+    imageBackground: "./images/aryakbg.webp",
   },
   {
     id: 3,
@@ -356,11 +351,10 @@ const characterDetails = [
     description:
       "Entitas hijau purba — penjaga batas antara dunia manusia dan dunia gaib, penguji setiap jiwa yang melangkah terlalu jauh.",
     race: "Makhluk Gaib",
-    trait: "Bijaksana, kuat, dan penuh amarah suci.",
-    background:
-      "Bijo bukan makhluk jahat, melainkan penjaga keseimbangan alam. Ia menilai siapa yang pantas menembus dunia arwah, dan siapa yang harus dikembalikan ke bumi dengan kutukan.",
-    imageDetail: "aset/bijod.png",
-    imageBackground: "aset/bijo_render1.png",
+    trait: "Licik, cerdas, dan manipulatif.",
+    background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
+    imageDetail: "./images/bijo2.webp",
+    imageBackground: "./images/bijokbg.webp",
   },
   {
     id: 4,
@@ -368,11 +362,10 @@ const characterDetails = [
     description:
       "Manifestasi dari kegelapan manusia — bayangan yang tumbuh dari rasa takut, dendam, dan penyesalan.",
     race: "Makhluk Gaib",
-    trait: "Manipulatif, karismatik, dan haus kekuasaan.",
-    background:
-      "Owo adalah cerminan sisi terdalam manusia, lahir dari dosa yang disembunyikan. Ia tak ingin dunia tenang — karena dalam kekacauan, ia menjadi Tuhan.",
-    imageDetail: "aset/owod.png",
-    imageBackground: "aset/owo_render1.png",
+    trait: "Tenang, bijaksana, dan penuh rahasia.",
+    background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
+    imageDetail: "./images/owo1.webp",
+    imageBackground: "./images/owokbg.webp",
   },
   {
     id: 5,
