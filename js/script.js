@@ -487,7 +487,7 @@ function updateCharacter() {
     card.style.opacity = index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
   });
 }
-
+  
 // === Fungsi update detail & gambar ===
 function updateCharacterDetails(characterId) {
   const c = characterDetails[characterId];
