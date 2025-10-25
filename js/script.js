@@ -360,7 +360,7 @@ const characterDetails = [
     race: "Makhluk Gaib",
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
-    imageDetail: "./images/owo1.webp",
+    imageDetail: "./images/owo2.webp",
     imageBackground: "./images/owokbg.webp",
   },
   {
