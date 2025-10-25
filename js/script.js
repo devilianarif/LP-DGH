@@ -196,9 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1.webp",
       title: "Season 4 — Perburuan Roh",
       list: [
-        "At vero eos et accusamus et iusto odio dignissimos ducimus.",
-        "Et harum quidem rerum facilis est et expedita distinctio.",
-        "Nam libero tempore, cum soluta nobis est eligendi optio."
+        "Sebuah proyek di Kalimantan membawa Arya, Dinda, dan Nara ke wilayah roh yang haus jiwa. Batu Segitiga Arya memanggil entitas lama—Kuyang dan Tianak—yang bangkit mencari asal kekuatan mereka. Semakin dalam perburuan berlangsung, semakin jelas bahwa sumber kekacauan ada dalam diri Arya sendiri."
       ]
     },
      {
