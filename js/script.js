@@ -425,48 +425,7 @@ const characterDetails = [
     imageDetail: "./images/relta2.webp",
     imageBackground: "./images/reltabg.webp",
   },
-  {
-    id: 8,
-    name: "Tianak (Kuntilanak)",
-    description:
-      "Dua roh yang tak terpisahkan — ibu dan anak yang mati bersama, menangis di setiap malam untuk cinta yang tak sempat disampaikan.",
-    race:
-      "Arwah Manusia — roh wanita yang meninggal melahirkan bersama anaknya, kini menyatu sebagai satu entitas.",
-    trait:
-      "Lemah lembut tapi tragis. Ia menangis bukan untuk menakuti, tapi untuk didengar.",
-    background:
-      "Kuntilanak dulunya seorang wanita muda yang wafat saat melahirkan, dan Tianak adalah bayi yang tak pernah sempat menangis. Jiwa mereka menyatu, membentuk roh yang menjerit di malam hari, mencari kasih yang tak pernah sempat ada. Dalam mitologi dunia hujan, Tianak adalah pengingat bahwa cinta yang mati tetap mencari jalan pulang. Tangisnya adalah doa, dan setiap orang yang mendengarnya akan dihadapkan pada luka yang belum mereka hadapi sendiri.",
-    imageDetail: "./images/relt3a.webp",
-    imageBackground: "./images/reltb-render.webp",
-  },
-  {
-    id: 9,
-    name: "Bati (Banaspati)",
-    description:
-      "Roh api yang lahir dari amarah manusia — nyala dendam yang tak bisa dipadamkan oleh air, hanya oleh keikhlasan.",
-    race:
-      "Makhluk Gaib — entitas energi panas yang terbentuk dari kebencian manusia, bebas saat keseimbangan spiritual terganggu.",
-    trait:
-      "Menyala, garang, namun tidak jahat. Ia hanya menjalankan kehendak dari amarah yang menciptakannya.",
-    background:
-      "Banaspati adalah roh api hasil ajian hitam yang diciptakan manusia untuk menyerang. Namun seiring waktu, energi dendam itu kehilangan tuannya dan berubah menjadi makhluk hidup — Bati, sang penjelajah malam berapi yang membakar apa pun yang menyimpan kebencian. Ketika Arya menghadapi Bati, ia menyadari bahwa api tidak selalu berarti kehancuran — kadang, ia adalah cara alam untuk menghapus yang busuk dan memberi kesempatan untuk tumbuh kembali.",
-    imageDetail: "./images/bg4.webp",
-    imageBackground: "./images/bg23.webp",
-  },
-  {
-    id: 10,
-    name: "Sulong (Sundel Bolong)",
-    description:
-      "Roh perempuan yang menebus dosanya sendiri — dari arwah pendendam menjadi penjaga cahaya bagi jiwa-jiwa yang tersesat.",
-    race:
-      "Arwah Manusia — roh wanita yang telah bereinkarnasi setelah melewati siklus dendam dan pencerahan.",
-    trait:
-      "Tenang, bijak, dan menyimpan luka yang dalam. Ia membawa cahaya di punggung yang dulu berlubang.",
-    background:
-      "Sundel Bolong dulunya adalah korban kejahatan manusia, mati melahirkan dalam penderitaan dan penghinaan. Namun setelah ratusan tahun, ia menebus amarahnya dan bereinkarnasi sebagai Sulong — penjaga gerbang dunia arwah. Kini ia membantu arwah lain untuk melepaskan dendam mereka. Dalam dirinya, kegelapan dan cahaya berdampingan, mengajarkan bahwa bahkan dari penderitaan paling kelam, manusia masih bisa menjadi cahaya bagi yang lain.",
-    imageDetail: "./images/darahp1.webp",
-    imageBackground: "./images/card1.webp",
-  },
+»
 ];
 
 
