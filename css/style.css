@@ -45,7 +45,7 @@ body::after {
   height: 100vh;
 
   /* Tambahkan baris di bawah ini */
-  background-image: url("../aset/bg 1.png");
+  background-image: url("../images/bg 1.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center top; /* posisi gambar di atas supaya berkesinambungan */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -56,7 +56,7 @@ body::after {
   position: absolute;
   inset: 0; /* covers the container without overflow */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../aset/efeksec1.png") center top / cover no-repeat;
+    url("../images/efeksec1.webp") center top / cover no-repeat;
   width: 100%;
   z-index: -2;
 
@@ -342,7 +342,8 @@ body::after {
   left: 0;
   width: 100%;
   height: 390px;
-  background: url("../aset/transisi\ awan.png") center bottom / cover no-repeat;
+  background: url("../images/transisi\ awan.webp") center bottom / cover
+    no-repeat;
   z-index: 5;
 }
 
@@ -361,7 +362,7 @@ body::after {
   overflow: hidden;
 
   /* Tambahkan baris di bawah ini */
-  background-image: url("../aset/bg 2.png");
+  background-image: url("../images/bg 2.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -372,7 +373,7 @@ body::after {
   position: absolute;
   inset: 0; /* covers the container without overflow */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../aset/efeksec2.png") center top / cover no-repeat;
+    url("../images/efeksec2.webp") center top / cover no-repeat;
   opacity: 0.9; /* bisa disesuaikan */
   z-index: -3;
   pointer-events: none;
@@ -386,7 +387,8 @@ body::after {
   left: 0;
   width: 100%;
   height: 390px;
-  background: url("../aset/transisi\ awan.png") center bottom / cover no-repeat;
+  background: url("../images/transisi\ awan.webp") center bottom / cover
+    no-repeat;
   z-index: 5;
 }
 
@@ -399,6 +401,7 @@ body::after {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 #about h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -408,9 +411,9 @@ body::after {
 }
 
 #about p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
-  max-width: 3000px;
+  max-width: 600px;
   margin: 0 auto 20px;
   text-align: center;
   position: relative;
@@ -475,12 +478,8 @@ body::after {
 #gmbrkiriatas {
   position: absolute;
   top: 10%;
-  left: -8%;
-  width: 50%;
-  aspect-ratio: 3 / 2;
-  background: url("../aset/payung 3.png") no-repeat center;
-  background-size: contain;
-  transform: translateX(-25%);
+  left: 0;
+  width: 20%;
   z-index: -2;
   animation: mengambang 6s ease-in-out infinite;
 }
@@ -488,13 +487,9 @@ body::after {
 /* ==== KIRI BAWAH ==== */
 #gmbrkiribawah {
   position: absolute;
-  bottom: 18%;
-  left: -8%;
-  width: 40%;
-  aspect-ratio: 3 / 2;
-  background: url("../aset/payung 4.png") no-repeat center;
-  background-size: contain;
-  transform: translateX(-20%);
+  bottom: 10%;
+  left: 0%;
+  width: 15%;
   z-index: -2;
   animation: mengambang 7s ease-in-out infinite;
 }
@@ -503,12 +498,8 @@ body::after {
 #gmbrkananatas {
   position: absolute;
   top: 10%;
-  right: -7%;
-  width: 50%;
-  aspect-ratio: 3 / 2;
-  background: url("../aset/payung 2.png") no-repeat center;
-  background-size: contain;
-  transform: translateX(-25%);
+  right: 0;
+  width: 20%;
   z-index: -2;
   animation: mengambang 5.5s ease-in-out infinite reverse;
 }
@@ -516,13 +507,9 @@ body::after {
 /* ==== KANAN BAWAH ==== */
 #gmbrkananbawah {
   position: absolute;
-  bottom: 18%;
-  right: -7%;
-  width: 40%;
-  aspect-ratio: 3 / 2;
-  background: url("../aset/payung 1.png") no-repeat center;
-  background-size: contain;
-  transform: translateX(-20%);
+  bottom: 10%;
+  right: 0%;
+  width: 15%;
   z-index: -2;
   animation: mengambang 8s ease-in-out infinite alternate;
 }
@@ -536,7 +523,7 @@ body::after {
   bottom: -40px;
   width: 100%;
   height: 150px;
-  background: url("../aset/transisi halte.png") center / cover no-repeat;
+  background: url("../images/transisi halte.webp") center / cover no-repeat;
   z-index: 5;
 }
 
@@ -547,7 +534,7 @@ body::after {
   top: -110px;
   width: 100%;
   height: 150px;
-  background: url("../aset/transisi halte.png") center / cover no-repeat;
+  background: url("../images/transisi halte.webp") center / cover no-repeat;
   z-index: 5;
 }
 
@@ -567,7 +554,7 @@ body::after {
   display: block;
 
   /* background */
-  background-image: url("../aset/bg2.png");
+  background-image: url("../images/bg2.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -578,7 +565,7 @@ body::after {
   position: absolute;
   inset: 0; /* covers the container without overflow */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../aset/bg23.png") center top / cover no-repeat;
+    url("../images/bg23.webp") center top / cover no-repeat;
   opacity: 0.8;
   z-index: -3;
   pointer-events: none;
@@ -737,12 +724,11 @@ body::after {
 
 /* gambar di dalamnya */
 .kartu-character .img-wrap img {
-  width: 100px;
-  height: 320px;
+  width: 100%;
+  height: 220px;
   object-fit: cover;
-  transform: scale(1.6);
-  margin-top: 90px; /* geser gambar ke atas */
-  clip-path: inset(0 0 40px 0); /* opsional: potong bawah 40px tambahan */
+  object-position: top;
+  margin-top: 20px;
 }
 .character-track {
   transition: transform 0.5s ease;
@@ -767,7 +753,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../aset/card 1.png") no-repeat center;
+  background: url("../images/card 1.webp") no-repeat center;
   background-size: cover;
   z-index: 3; /* pastikan di atas gambar */
   pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
@@ -879,7 +865,7 @@ body::after {
   bottom: -0;
   width: 100%;
   height: 120px;
-  background: url("../aset/genangan\ halte\ 2.png") center bottom / cover
+  background: url("../images/genangan\ halte\ 2.webp") center bottom / cover
     no-repeat;
   z-index: 5;
 }
@@ -891,7 +877,7 @@ body::after {
   top: 0;
   width: 100%;
   height: 64px;
-  background: url("../aset/genangan\ halte\ 2b.png") center top / 100% auto
+  background: url("../images/genangan\ halte\ 2b.webp") center top / 100% auto
     no-repeat;
   z-index: 5;
 }
@@ -909,7 +895,7 @@ body::after {
   padding-top: 30px;
 
   /* background */
-  background-image: url("../aset/bgp4.png");
+  background-image: url("../images/bgp4.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -1002,10 +988,10 @@ body::after {
 
 .dtchara-img {
   width: 100%;
-  transform: scale(1.2);
-  object-fit: cover;
+  transform: scale(1.1);
+  /* object-fit: cover; */
   object-position: top;
-  height: 1200px;
+  height: auto;
 }
 
 /* === KANAN === */
@@ -1074,7 +1060,7 @@ body::after {
 
 /* efek hover seluruh section karakter */
 .dtchara-section:hover .dtchara-center .dtchara-img {
-  transform: scale(1.3) !important;
+  transform: scale(1.2) !important;
   filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
 }
 
@@ -1110,7 +1096,7 @@ body::after {
   height: 396px;
   left: 0;
   bottom: -166px;
-  background: url("../aset/transisi rumput.png") center / 100% no-repeat;
+  background: url("../images/transisi rumput.webp") center / 100% no-repeat;
   z-index: 5;
 }
 #backgroundcharacter .rumput.bawah {
@@ -1119,7 +1105,7 @@ body::after {
   height: 396px;
   left: 0;
   top: -230px;
-  background: url("../aset/transisi rumput.png") center / 100% no-repeat;
+  background: url("../images/transisi rumput.webp") center / 100% no-repeat;
   z-index: 5;
 }
 /* Section 5 awal */
@@ -1133,7 +1119,8 @@ body::after {
   width: 100%;
   overflow: hidden;
   /* Make section visible even if empty */
-  min-height: 100vh;
+  min-height: 800px;
+  padding: 100px auto;
 
   display: flex;
   flex-direction: column;
@@ -1141,7 +1128,7 @@ body::after {
   justify-content: center;
 
   /* background */
-  background-image: url("../aset/bg8.png");
+  background-image: url("../images/bg8.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -1188,7 +1175,7 @@ body::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../aset/8dbf.png");
+  background-image: url("../images/8dbf.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1200,9 +1187,12 @@ body::after {
 .char-img {
   position: relative;
   z-index: 2;
-  width: 100%;
-  height: auto;
+  width: 270px;
+  height: 240px;
   object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #b8f1ef, #ddddb8);
 }
 
 /* sisi tengah */
@@ -1399,7 +1389,7 @@ body::after {
   height: 220px;
   left: 0;
   bottom: -110px;
-  background: url("../aset/transisi\ pipa.png") center / 100% no-repeat;
+  background: url("../images/transisi\ pipa.webp") center / 100% no-repeat;
   z-index: 5;
 }
 #showcasegalery .pipa.bawah {
@@ -1408,7 +1398,7 @@ body::after {
   height: 220px;
   left: 0;
   top: -110px;
-  background: url("../aset/transisi\ pipa.png") center / 100% no-repeat;
+  background: url("../images/transisi\ pipa.webp") center / 100% no-repeat;
   z-index: 5;
 }
 /* Section 6 awal */
@@ -1431,7 +1421,7 @@ body::after {
   align-items: center;
   justify-content: center;
   /* background */
-  background-image: url("../aset/bg9.png");
+  background-image: url("../images/bg9.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
@@ -1519,7 +1509,7 @@ body::after {
   position: relative; /* penting agar img absolute tetap di dalam frame */
   width: 520px;
   height: 380px;
-  background: url("../aset/koran 2.png") center/cover no-repeat;
+  background: url("../images/koran 2.webp") center/cover no-repeat;
 
   overflow: hidden;
 }
@@ -1634,7 +1624,7 @@ body::after {
 
 #footer {
   position: relative;
-  background: url("../aset/footer pattern.png") center/cover no-repeat;
+  background: url("../images/footer pattern.webp") center/cover no-repeat;
   background-color: #000;
   text-align: center;
   overflow: hidden;
@@ -1656,7 +1646,7 @@ body::after {
   left: 0;
   width: 150px;
   height: 250px; /* tinggi harus ditentukan */
-  background-image: url("../aset/darahp1.png");
+  background-image: url("../images/darahp1.webp");
   background-size: contain; /* supaya proporsional */
   background-repeat: no-repeat;
   background-position: top left;
@@ -1671,7 +1661,7 @@ body::after {
   right: 20px;
   width: 140px;
   height: 140px;
-  background-image: url("../aset/button up.png");
+  background-image: url("../images/button up.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1747,7 +1737,7 @@ body::after {
 /* ================================================================
    RESPONSIVE STYLING — MAX WIDTH 2560PX (LAPTOP BESAR / 2K SCREEN)
    ================================================================ */
-@media (max-width: 2560px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
   /* [1] BODY */
   body {
     font-size: 17px;
@@ -1772,11 +1762,21 @@ body::after {
   }
 
   .video-wrapper {
-    max-width: 1000px;
+    max-width: 1500px;
   }
 
   .carousel-caption h5 {
     font-size: 1.8rem;
+  }
+
+  #BannerHeader .awan.atas {
+    bottom: -250px;
+    height: 550px;
+  }
+
+  #about .awan.bawah {
+    height: 550px;
+    top: -300px;
   }
 
   /* [3] SECTION 2 — ABOUT */
@@ -1785,9 +1785,8 @@ body::after {
     padding-bottom: 160px;
   }
   .about-container {
-    gap: 40px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    position: relative;
+    max-width: 1000px;
   }
 
   #about h1 {
@@ -1796,38 +1795,34 @@ body::after {
 
   #about p {
     font-size: 2rem;
-    max-width: 635px;
+    max-width: 900px;
   }
 
   #gmbrkiriatas {
-    width: 180%;
-    left: -1100px;
+    left: -20%;
   }
   #gmbrkananatas {
-    width: 180%;
-    right: -1100px;
+    right: -20%;
   }
   #gmbrkiribawah {
-    width: 200%;
-    left: -1300px;
-    top: 1300px;
+    left: -20%;
   }
   #gmbrkananbawah {
-    width: 200%;
-    top: 1300px;
-    right: -1300px;
+    right: -20%;
   }
 
   /* [4] SECTION 3 — CHARACTERS */
   #characters {
     min-height: 80vh;
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
-  .kartu-character {
-    min-width: 220px;
-    height: 280px;
-    transform: scale(2.4);
+  #logohalte img {
+    transform: scale(1.5);
+  }
+
+  .halte-text {
+    font-size: 100px;
   }
 
   /* [5] SECTION 4 — DETAIL CHARACTER */
@@ -1835,30 +1830,56 @@ body::after {
     min-height: 110vh;
   }
 
+  .dtchara-section {
+    max-width: 1600px;
+  }
+
+  .dtchara-section h1 {
+    padding-left: 0;
+    font-size: 64px;
+  }
+
   .dtchara-left h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .dtchara-left p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     padding-top: 25px;
   }
 
   /* [6] SECTION 5 — BACKGROUND CHARACTER */
   #backgroundcharacter {
-    max-height: 140vh;
+    min-height: 100vh;
   }
-  .bschara-right h3 {
-    font-size: 1.8rem;
+  .dtchara-right h2 {
+    font-size: 3rem;
   }
 
-  .bschara-right p {
-    font-size: 1rem;
+  .dtchara-right p {
+    font-size: 1.8rem;
     max-width: 520px;
   }
 
   .char-img {
     max-width: 220px;
+  }
+
+  .bschara-container {
+    transform: scale(2);
+  }
+
+  .showcase-container {
+    transform: scale(1.5);
+  }
+
+  #detailcharacter .rumput.atas {
+    height: 500px;
+    bottom: -270px;
+  }
+  #backgroundcharacter .rumput.bawah {
+    height: 500px;
+    top: -230px;
   }
 
   /* [7] SECTION 6 — SHOWCASE GALLERY */
@@ -1880,46 +1901,33 @@ body::after {
     width: 100%;
     height: auto;
   }
-}
 
-/* ================================================================
-   RESPONSIVE STYLING — FINAL UNIVERSAL VERSION (LAPTOP / TABLET / HP)
-   ================================================================ */
-/* ================================================================
-   [2] FULL HD – 2K UMUM (1920–2559px)
-   ================================================================ */
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
-  body {
-    font-size: 16.5px;
+  .darah-kiri {
+    width: 200px;
+    height: 300px;
   }
 
-  .btn-play-center {
-    width: 180px;
-    height: 180px;
-    font-size: 8rem;
+  .darah-kanan {
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
   }
 
-  .video-wrapper {
-    max-width: 1000px;
+  .footer-logos img {
+    width: auto;
+    height: 150px;
   }
 
-  #about h1 {
-    font-size: 4.2rem;
+  .footer-line {
+    width: 90%;
   }
 
-  #about p {
-    font-size: 1.9rem;
-  }
-
-  /* .character-wrapper { */
-  /* transform: scale(2.5); */
-  /* top: -320px; */
-  /* } */
-
-  .kartu-character {
-    transform: scale(2.2);
+  .footer-copy {
+    font-size: 24px;
   }
 }
+
 /* ================================================================
    [3] MID RESOLUTION LAPTOP (1536–1919px)
    ================================================================ */
@@ -2053,11 +2061,7 @@ body::after {
   }
 
   .dtchara-wrap {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "left"
-      "right"
-      "center";
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
   .dtchara-left h2 {
@@ -2084,7 +2088,15 @@ body::after {
   }
 
   .dtchara-right .dtchara-line-right {
-    display: none;
+    width: 50px;
+  }
+
+  #right-trait .dtchara-line-right {
+    width: 30px;
+  }
+
+  #right-trait .dtchara-text {
+    padding-top: 10px !important;
   }
 
   .dtchara-right .dtchara-text p {
@@ -2096,14 +2108,10 @@ body::after {
   }
 
   .dtchara-img {
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 800px;
-  }
-
-  .dtchara-section:hover .dtchara-center .dtchara-img {
-    transform: scale(1) !important;
-    filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+    transform: scale(1.15);
+    padding-left: 0;
+    padding-right: 0;
+    object-position: top;
   }
 
   .dtchara-section:hover .dtchara-left {
@@ -2116,6 +2124,10 @@ body::after {
 
   .dtchara-section:hover .dtchara-right {
     transform: translateX(0);
+  }
+
+  #characters {
+    padding: 40px 0;
   }
 
   #characters .gen.atas {
@@ -2200,17 +2212,29 @@ body::after {
     flex-direction: column;
   }
 
+  .halte-text {
+    font-size: 54px;
+  }
+
   .kartu-character {
     width: 180px;
     height: 240px;
   }
 
-  
+  .kartu-character h3,
+  .kartu-character p {
+    top: 170px;
+    margin-top: 0;
+  }
+
+  #detailcharacter {
+    max-height: 150vh;
+  }
 
   .dtchara-section h1 {
     font-size: 32px;
     padding-top: 50px;
-    padding-left: 20px;
+    padding-left: 110px;
   }
 
   .dtchara-wrap {
@@ -2219,6 +2243,16 @@ body::after {
       "left"
       "right"
       "center";
+  }
+
+  .dtchara-left,
+  .dtchara-right {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .dtchara-right {
+    margin-bottom: 60px;
   }
 
   .dtchara-left h2 {
@@ -2259,7 +2293,7 @@ body::after {
   .dtchara-img {
     padding-left: 20px;
     padding-right: 20px;
-    height: 400px;
+    /* height: 400px; */
   }
 
   .dtchara-section:hover .dtchara-center .dtchara-img {
@@ -2277,6 +2311,10 @@ body::after {
 
   .dtchara-section:hover .dtchara-right {
     transform: translateX(0);
+  }
+
+  #characters {
+    padding: 40px 0;
   }
 
   #characters .gen.atas {
@@ -2307,6 +2345,15 @@ body::after {
     width: 360px;
     height: 210px;
     margin-bottom: 20px;
+  }
+
+  #detailcharacter .rumput.atas {
+    height: 200px;
+    bottom: -100px;
+  }
+  #backgroundcharacter .rumput.bawah {
+    height: 200px;
+    top: -100px;
   }
 
   .bschara-middle {
@@ -2397,16 +2444,30 @@ body::after {
     margin-bottom: 100px;
   }
 
-  #logohalte {
-    width: 80%;
+  #logohalte img {
+    width: 60%;
   }
 
   .halte-text {
-    font-size: 40px;
+    font-size: 28px;
+  }
+
+  #about .air.atas {
+    bottom: -32px;
+    height: 80px;
+    background-size: 100%;
+  }
+
+  /* ==== air bawah ==== */
+  #characters .air.bawah {
+    top: -48px;
+    height: 80px;
+    background-size: 100%;
   }
 
   #characters {
     min-height: auto;
+    padding: 20px;
   }
 
   .character-wrapper {
@@ -2497,7 +2558,7 @@ body::after {
   .dtchara-img {
     padding-left: 20px;
     padding-right: 20px;
-    height: 400px;
+    /* height: 400px; */
   }
 
   .dtchara-section:hover .dtchara-center .dtchara-img {

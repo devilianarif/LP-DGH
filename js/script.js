@@ -172,7 +172,7 @@ for (let i = 0; i < halterCount; i++) {
 document.addEventListener("DOMContentLoaded", () => {
   const data = [
     {
-      img: "../aset/s1.png",
+      img: "../images/s1.webp",
       title: "Judul 1",
       list: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s2.png",
+      img: "../images/s2.webp",
       title: "Judul 2",
       list: [
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s3.png",
+      img: "../images/s3.webp",
       title: "Judul 3",
       list: [
         "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s1.png",
+      img: "../images/s1.webp",
       title: "Judul 4",
       list: [
         "At vero eos et accusamus et iusto odio dignissimos ducimus.",
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
-      img: "../aset/s2.png",
+      img: "../images/s2.webp",
       title: "Judul 5",
       list: [
         "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
@@ -321,8 +321,8 @@ const characterDetails = [
     race: "Manusia",
     trait: "Penyayang, misterius, dan penuh teka-teki.",
     background: "Arya bertemu dengannya di tengah hujan, membawa pesan yang mengubah hidupnya.",
-    imageDetail: "aset/nara3.png",              // untuk .dtchara-center
-    imageBackground: "aset/nara_render1.png",   // untuk .bschara-left
+    imageDetail: "./images/nara3.webp",              // untuk .dtchara-center
+    imageBackground: "./images/narakbg.webp",   // untuk .bschara-left
   },
   {
     id: 1,
@@ -331,8 +331,8 @@ const characterDetails = [
     race: "Manusia",
     trait: "Cerdas, peduli, dan penuh semangat.",
     background: "Dinda adalah teman masa kecil Arya yang mencoba mengungkap misteri bersama.",
-    imageDetail: "aset/dinda3.png",
-    imageBackground: "aset/dinda_render1.png",
+    imageDetail: "./images/dinda3.webp",
+    imageBackground: "./images/dindakbg.webp",
   },
   {
     id: 2,
@@ -341,8 +341,8 @@ const characterDetails = [
     race: "Manusia",
     trait: "Pendiam, introspektif, dan penuh rasa bersalah.",
     background: "Arya adalah simbol perjalanan menuju pemulihan.",
-    imageDetail: "aset/arya3.png",
-    imageBackground: "aset/aryakbg.png",
+    imageDetail: "./images/arya3.webp",
+    imageBackground: "./images/aryakbg.webp",
   },
   {
     id: 3,
@@ -351,8 +351,8 @@ const characterDetails = [
     race: "Makhluk Gaib",
     trait: "Licik, cerdas, dan manipulatif.",
     background: "Bijo adalah makhluk gaib yang memiliki hubungan dengan masa lalu Arya.",
-    imageDetail: "aset/bijo2.png",
-    imageBackground: "aset/bijo_render1.png",
+    imageDetail: "./images/bijo2.webp",
+    imageBackground: "./images/bijokbg.webp",
   },
   {
     id: 4,
@@ -361,8 +361,8 @@ const characterDetails = [
     race: "Makhluk Gaib",
     trait: "Tenang, bijaksana, dan penuh rahasia.",
     background: "Owo adalah makhluk gaib yang membantu Arya memahami misteri hujan.",
-    imageDetail: "aset/owo3.png",
-    imageBackground: "aset/owo_render1.png",
+    imageDetail: "./images/owo1.webp",
+    imageBackground: "./images/owokbg.webp",
   },
 ];
 
