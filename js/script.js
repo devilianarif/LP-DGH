@@ -415,7 +415,7 @@ const characterDetails = [
     imageBackground: "./images/bg23.webp",
   },
   {
-    id: 8,
+    id: 10,
     name: "Sulong (Sundel Bolong)",
     description: "Roh perempuan dengan punggung berlubang, kini bereinkarnasi menjadi penjaga gerbang dunia arwah.",
     race: "Arwah Manusia",
