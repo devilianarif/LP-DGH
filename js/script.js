@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "../images/s3.webp",
-      title: "Judul 3",
+      title: "Season 3 — Jejak Kematian & Dunia Terbelah",
       list: [
         "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
         "Quis autem vel eum iure reprehenderit qui in ea voluptate velit.",
