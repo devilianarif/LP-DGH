@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const data = [
     {
       img: "../images/s1.webp",
-      title: "Judul 1",
+      title: "Season 1 — Di Balik Guyur Hujan",
       list: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "Vivamus vel orci et urna vestibulum malesuada.",
