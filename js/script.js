@@ -511,23 +511,23 @@ const characterDetails = [
       "Sundel Bolong dulunya seorang wanita hamil yang mati dalam kehinaan. Arwahnya menuntut balas selama ratusan tahun, hingga akhirnya ia menemukan ketenangan melalui kasih pada roh-roh lain. Ia bereinkarnasi sebagai Sulong, sang penjaga gerbang arwah. Dalam bentuk barunya, ia menjadi cahaya bagi roh yang hilang, mengajarkan bahwa bahkan dari penderitaan terdalam, pengampunan masih bisa tumbuh.",
     imageDetail: "./images/darahp1.webp",
     imageBackground: "./images/card1.webp",
-  },
-  {
-  id: 13,
-  name: "Tuyul (Bocil Kematian)",
-  description:
-    "Makhluk kecil berkulit kelabu yang lahir dari perjanjian manusia dengan kekayaan terlarang. Tuyul tidak mengenal moral — hanya tawa kecil di malam sunyi, saat tangan mungilnya mengambil rezeki yang bukan miliknya. Ia adalah hasil dari keserakahan manusia, wujud polos namun jahat, pengingat bahwa kekayaan tanpa berkah hanyalah kutukan dalam bentuk tawa anak-anak.",
-  rightDesc:
-    "Jin kecil hasil pesugihan, suka mencuri uang dan menebar kesialan pada tuannya sendiri.",
-  race:
-    "Makhluk Gaib — entitas bawah yang lahir dari perjanjian manusia untuk kekayaan instan.",
-  trait:
-    "Usil, licik, dan lincah. Tuyul punya sifat seperti anak kecil: polos tapi berbahaya bila dikendalikan manusia tamak.",
-  background:
-    "Tuyul dikenal sebagai jin pesugihan yang sering dipelihara manusia serakah. Ia diciptakan dari energi kelahiran yang dibatalkan, menjadikannya entitas yang selalu kekurangan kasih sayang. Tuyul takut pada bawang putih, kaca pecah, dan doa malam hari. Dalam dunia 'Di Balik Guyur Hujan', Tuyul menjadi simbol keserakahan modern — di mana manusia masih rela menjual jiwanya hanya demi secarik uang.",
-  imageDetail: "./images/tuyuld.png",
-  imageBackground: "./images/tuyulbg.webp",
-},
+//   },
+//   {
+//   id: 13,
+//   name: "Tuyul (Bocil Kematian)",
+//   description:
+//     "Makhluk kecil berkulit kelabu yang lahir dari perjanjian manusia dengan kekayaan terlarang. Tuyul tidak mengenal moral — hanya tawa kecil di malam sunyi, saat tangan mungilnya mengambil rezeki yang bukan miliknya. Ia adalah hasil dari keserakahan manusia, wujud polos namun jahat, pengingat bahwa kekayaan tanpa berkah hanyalah kutukan dalam bentuk tawa anak-anak.",
+//   rightDesc:
+//     "Jin kecil hasil pesugihan, suka mencuri uang dan menebar kesialan pada tuannya sendiri.",
+//   race:
+//     "Makhluk Gaib — entitas bawah yang lahir dari perjanjian manusia untuk kekayaan instan.",
+//   trait:
+//     "Usil, licik, dan lincah. Tuyul punya sifat seperti anak kecil: polos tapi berbahaya bila dikendalikan manusia tamak.",
+//   background:
+//     "Tuyul dikenal sebagai jin pesugihan yang sering dipelihara manusia serakah. Ia diciptakan dari energi kelahiran yang dibatalkan, menjadikannya entitas yang selalu kekurangan kasih sayang. Tuyul takut pada bawang putih, kaca pecah, dan doa malam hari. Dalam dunia 'Di Balik Guyur Hujan', Tuyul menjadi simbol keserakahan modern — di mana manusia masih rela menjual jiwanya hanya demi secarik uang.",
+//   imageDetail: "./images/tuyuld.png",
+//   imageBackground: "./images/tuyulbg.webp",
+// },
 
   {
     id: 13,
