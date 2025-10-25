@@ -311,18 +311,19 @@ const sectionCharacters = document.getElementById('characters');
 let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
-// === Data Karakter Lengkap (Versi Final – Sinkron Screenshot + Naratif Panjang) ===
+// === Data Karakter Lengkap (Versi Naratif Setara Arya) ===
 const characterDetails = [
   {
     id: 0,
     name: "Si Gadis Jubah Kuning",
     description:
-      "Gadis misterius yang selalu muncul di tengah hujan, membawa pesan harapan di antara langit kelabu dan kenangan yang belum reda.",
-    race: "Manusia / Arwah Penuntun",
+      "Sosok berpayung kuning yang muncul di bawah hujan — menjadi penghubung antara dunia manusia dan arwah, membawa pesan pengampunan bagi jiwa yang tersesat.",
+    race:
+      "Arwah Manusia — makhluk yang berada di antara dua dunia, tidak lagi hidup namun belum siap meninggalkan rasa yang tertinggal di bumi.",
     trait:
-      "Lembut, penyayang, misterius, dan memiliki aura ketenangan yang tak biasa. Tatapannya seolah menyimpan duka masa lalu yang belum sempat diucapkan.",
+      "Lembut, penuh kasih, misterius, dan bijak dalam kesunyian. Tatapannya selalu teduh namun sarat makna, seolah memahami segala kesedihan manusia.",
     background:
-      "Arya pertama kali melihatnya di perempatan kota saat hujan turun paling deras. Gadis itu berdiri di bawah payung kuning, tersenyum tenang di tengah gemuruh petir. Ia bukan sekadar sosok asing — tapi gema dari masa lalu yang ingin diperbaiki. Kehadirannya mengubah arah hidup Arya, menuntunnya untuk berdamai dengan rasa bersalah yang selama ini ia pendam.",
+      "Nara adalah gadis yang meninggal karena tekanan batin dan pengkhianatan orang-orang terdekatnya. Namun arwahnya tak pergi jauh — ia terperangkap di antara dua dunia, terikat oleh rasa ingin menolong mereka yang juga tersesat oleh rasa bersalah. Dalam bentuknya yang berpayung kuning, ia muncul di tengah hujan sebagai penuntun bagi mereka yang hampir kehilangan diri. Setiap langkahnya membawa ketenangan, tapi juga peringatan bahwa tidak semua luka bisa disembuhkan oleh waktu. Bagi Arya, ia adalah kenangan, sekaligus pengampunan yang datang dalam bentuk paling indah dan menyakitkan.",
     imageDetail: "./images/nara3.webp",
     imageBackground: "./images/narakbg.webp",
   },
@@ -330,12 +331,13 @@ const characterDetails = [
     id: 1,
     name: "Dinda",
     description:
-      "Wanita yang mencoba menebus kesalahan masa lalu di bawah hujan yang sama, saat kenangan dan kenyataan mulai saling berbaur.",
-    race: "Manusia",
+      "Wanita yang hidup di antara penyesalan dan harapan, mencoba menebus dosa masa lalu di bawah hujan yang sama tempat semuanya bermula.",
+    race:
+      "Manusia — makhluk yang menjadi jembatan antara dunia spiritual dan dunia nyata, berjuang menyeimbangkan logika dan perasaan.",
     trait:
-      "Cerdas, penyayang, namun rentan diseret oleh rasa bersalah. Ia berusaha tampak kuat, tapi hatinya rapuh oleh kenangan yang tak mau pergi.",
+      "Cerdas, hangat, tapi rapuh secara batin. Ia tampak kuat di luar, namun selalu takut kehilangan kepercayaan orang yang ia sayangi.",
     background:
-      "Dinda adalah teman masa kecil Arya yang turut menyaksikan penderitaan Nara, tapi tak mampu berbuat apa pun. Bertahun-tahun kemudian, mereka dipertemukan kembali oleh takdir. Kini Dinda menolak untuk diam lagi — ia bertekad menguak misteri di balik hujan, berharap penebusannya bisa membawa ketenangan bagi arwah sahabat yang dulu ia khianati dalam diam.",
+      "Dinda adalah teman masa kecil Arya yang menyaksikan penderitaan Nara tanpa berani menolong. Sejak hari itu, rasa bersalah menjadi bayangan yang selalu mengikutinya. Bertahun kemudian, saat hujan kembali turun dan masa lalu mengetuk pintu, Dinda bertekad menghadapi ketakutannya. Ia ingin menebus apa yang dulu ia biarkan terjadi, meski itu berarti membuka kembali luka yang belum sembuh. Dalam dirinya, ia belajar bahwa memaafkan orang lain tak akan berarti jika belum memaafkan diri sendiri.",
     imageDetail: "./images/dinda3.webp",
     imageBackground: "./images/dindakbg.webp",
   },
@@ -343,12 +345,13 @@ const characterDetails = [
     id: 2,
     name: "Arya / Raya",
     description:
-      "Pria muda yang kehilangan dirinya di antara masa lalu dan dunia spiritual, berjalan dalam hujan untuk mencari arti pengampunan.",
-    race: "Manusia",
+      "Pria muda yang hidup dalam keheningan panjang, dihantui masa lalu yang tak bisa ia ubah, dan berjuang menemukan arti pengampunan.",
+    race:
+      "Manusia — pusat keseimbangan antara cahaya dan kegelapan; setiap keputusan menentukan nasib dunia spiritual di sekitarnya.",
     trait:
-      "Pendiam, introspektif, dan mudah terjebak dalam pikirannya sendiri. Di balik ketenangannya, tersimpan badai rasa bersalah yang tak pernah padam.",
+      "Pendiam, introspektif, dan sering terjebak dalam pikirannya sendiri. Ia mencari makna hidup di antara dosa dan pengampunan.",
     background:
-      "Dulu ia hanyalah anak laki-laki biasa yang takut bersuara saat kebenaran dihancurkan. Setelah tragedi itu, ia kehilangan segalanya — nama, keluarga, bahkan dirinya sendiri. Kini, dengan nama baru ‘Raya’, ia menjalani hidup kosong di kota, sampai hujan dan sosok berpayung kuning membangkitkan kembali masa lalu yang telah lama ia kubur. Dalam perjalanannya menembus dunia arwah, Arya belajar bahwa pengampunan bukan datang dari orang lain... tapi dari dirinya sendiri.",
+      "Arya pernah menjadi saksi kehancuran seseorang yang tak sempat ia selamatkan. Ketakutannya untuk berbicara di masa lalu menjelma menjadi penyesalan yang menghantuinya di masa kini. Kini, dengan identitas baru sebagai Raya, ia mencoba melupakan semuanya — hingga sosok gadis berpayung kuning muncul kembali dalam hidupnya. Hujan, yang dulu ia benci, kini menjadi panggilan spiritual yang menuntunnya menghadapi sisi tergelap dirinya. Arya adalah cermin manusia modern: hampa, tapi terus berjalan, mencari cahaya di tengah badai yang ia buat sendiri.",
     imageDetail: "./images/arya3.webp",
     imageBackground: "./images/aryakbg.webp",
   },
@@ -356,12 +359,13 @@ const characterDetails = [
     id: 3,
     name: "Bijo (Penjaga Kota)",
     description:
-      "Entitas hijau purba yang menjaga batas antara dunia manusia dan dunia gaib. Ia bukan musuh, tapi ujian bagi mereka yang berani menatap ke dalam diri sendiri.",
-    race: "Makhluk Gaib",
+      "Entitas hijau purba, penjaga keseimbangan antara dunia manusia dan dunia gaib — penguji setiap jiwa yang berani melanggar hukum alam.",
+    race:
+      "Makhluk Gaib — penjaga dimensi spiritual yang lahir dari energi bumi, bukan dari kegelapan tapi dari keseimbangan alam itu sendiri.",
     trait:
-      "Bijaksana, kuat, namun mudah murka bila keseimbangan terganggu. Ia berbicara dalam simbol, menilai hati, bukan tindakan.",
+      "Bijaksana, kuat, dan tegas. Ia tidak mengenal kasih, tapi mengenal keadilan yang murni tanpa sisi manusia.",
     background:
-      "Bijo sudah ada jauh sebelum manusia mengenal nama. Ia adalah penjaga yang diciptakan dari amarah bumi dan air mata langit, ditugaskan untuk menilai jiwa-jiwa yang melintasi batas alam. Bagi Arya, Bijo bukan lawan — melainkan cermin. Saat dunia mulai runtuh, hanya dengan menerima amarahnya sendiri, Arya bisa melewati ujian yang Bijo berikan.",
+      "Bijo telah ada sejak sebelum manusia mengenal waktu. Ia adalah perwujudan dari kehendak alam untuk menjaga keseimbangan antara yang hidup dan yang mati. Ketika batas antara dua dunia mulai kabur akibat kekacauan spiritual, Bijo bangkit untuk menilai jiwa yang berani melintas. Bagi Arya, Bijo bukan musuh, tapi refleksi — makhluk yang memperlihatkan bahwa kekuatan sejati datang dari keberanian menerima kegelapan dalam diri tanpa harus dikuasai olehnya.",
     imageDetail: "./images/bijo2.webp",
     imageBackground: "./images/bijokbg.webp",
   },
@@ -369,12 +373,13 @@ const characterDetails = [
     id: 4,
     name: "Owo",
     description:
-      "Bayangan abadi yang tumbuh dari ketakutan dan penyesalan manusia. Ia tak memiliki bentuk tetap, karena wujudnya adalah sisi gelap setiap jiwa.",
-    race: "Makhluk Gaib",
+      "Bayangan hidup dari sisi tergelap manusia — entitas yang tumbuh dari penyesalan, ketakutan, dan kebencian yang tak terselesaikan.",
+    race:
+      "Makhluk Gaib — entitas kesadaran gelap yang terbentuk dari emosi manusia, bukan diciptakan tapi lahir dari rasa bersalah kolektif.",
     trait:
-      "Tenang, karismatik, namun menipu dengan kata-kata lembut. Ia tahu cara berbicara dengan hati manusia, bukan hanya pikirannya.",
+      "Tenang, manipulatif, dan karismatik dalam kegelapan. Ia berbicara dengan lembut, tapi setiap kata adalah belenggu.",
     background:
-      "Owo bukan makhluk luar — ia adalah refleksi dari kegelapan dalam diri setiap manusia. Saat seseorang tenggelam dalam rasa bersalah, Owo lahir dari dalam pikirannya dan menjadi nyata. Ia menawarkan pemahaman, tapi menuntut kendali. Dalam dunia hujan yang suram, Owo berdiri sebagai lawan sejati Arya — bukan karena kebencian, tapi karena mereka berasal dari sumber yang sama: penyesalan.",
+      "Owo adalah cerminan dari sisi tergelap manusia. Ia tak memiliki bentuk tetap, karena wujudnya adalah bayangan dari hati yang berdosa. Saat seseorang menolak untuk memaafkan dirinya, Owo tumbuh dan memperkuat dirinya dari energi itu. Ia berbisik di telinga manusia, meyakinkan mereka bahwa penderitaan adalah takdir. Dalam perjalanannya, Arya menyadari bahwa Owo bukan musuh yang harus dimusnahkan, tapi bagian dari dirinya yang harus ia terima dan kendalikan.",
     imageDetail: "./images/owo2.webp",
     imageBackground: "./images/owokbg.webp",
   },
@@ -382,12 +387,13 @@ const characterDetails = [
     id: 5,
     name: "Arya (Mode Bijo)",
     description:
-      "Perwujudan ketika manusia dan energi purba bersatu — antara amarah dan pencerahan, antara kemanusiaan dan kekuatan alam.",
-    race: "Tasbih Mode",
+      "Perwujudan spiritual di mana manusia dan kekuatan alam bersatu — antara amarah dan kesadaran, antara kehancuran dan kebangkitan.",
+    race:
+      "Tasbih Mode — manifestasi energi spiritual yang tersambung dengan Bijo melalui tasbih sakral pengendali dimensi.",
     trait:
-      "Kuat, emosional, dan penuh konflik batin. Dalam kekuatannya, tersimpan ketakutan akan kehilangan kendali.",
+      "Kuat, emosional, namun kehilangan batas antara manusia dan roh. Ia bisa menjadi penyelamat atau kehancuran.",
     background:
-      "Dalam pertempuran terakhir di Kuil Jiwa Gelap, Arya memanggil kekuatan Bijo melalui tasbih suci peninggalan dunia arwah. Tubuhnya berubah sebagian menjadi makhluk hijau bercahaya — gabungan antara manusia dan penjaga alam. Dalam bentuk ini, ia memikul beban dua dunia: menjadi jembatan antara mereka yang hidup dan yang telah pergi. Namun setiap kali ia berubah, sebagian kemanusiaannya hilang sedikit demi sedikit.",
+      "Ketika pertarungan melawan Owo mencapai puncak, Arya memanggil kekuatan Bijo melalui Tasbih Al-Muqayyad, artefak kuno yang mengikat makhluk spiritual. Tubuhnya mulai berubah, sebagian menjadi hijau bercahaya — wujud gabungan manusia dan penjaga kota. Dalam mode ini, setiap amarah yang ia lepaskan menjadi kekuatan besar, tapi setiap kekuatan yang ia keluarkan mengikis sisi manusianya. Arya Mode Bijo adalah bentuk tertinggi dari konflik spiritual: antara kekuasaan dan kehilangan diri.",
     imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/aryaibg.webp",
   },
@@ -395,12 +401,13 @@ const characterDetails = [
     id: 6,
     name: "Kuyang",
     description:
-      "Makhluk malam yang melepaskan tubuhnya untuk terbang mencari darah — simbol dari manusia yang kehilangan batas demi keabadian.",
-    race: "Arwah Manusia",
+      "Makhluk malam yang haus darah, terlahir dari ambisi manusia yang ingin menolak waktu dan kematian.",
+    race:
+      "Arwah Manusia — roh perempuan yang kehilangan tubuhnya setelah menukar jiwanya demi keabadian.",
     trait:
-      "Licik, dingin, namun tragis di balik kutukannya. Ia masih ingat masa ketika ia disebut manusia.",
+      "Licik, haus darah, tapi menyimpan kesedihan terdalam tentang apa artinya menjadi manusia.",
     background:
-      "Kuyang dulunya seorang perempuan yang takut kehilangan kecantikannya. Dalam keputusasaan, ia mempelajari ilmu hitam agar awet muda, namun sihir itu memisahkan tubuh dan jiwanya. Kini ia hanya kepala melayang dengan organ menggantung, terbang rendah di atas rumah para ibu hamil. Di balik keganasannya, tersisa rasa rindu pada kehidupan yang ia tinggalkan — dan dosa yang tak pernah bisa ia tebus.",
+      "Kuyang dulunya adalah seorang perempuan yang tak rela menua. Ia belajar ilmu hitam untuk tetap muda, tapi membayar mahal dengan jiwanya sendiri. Kini, hanya kepala dan organ tubuhnya yang tersisa, melayang di malam hari mencari darah segar ibu hamil dan bayi. Ia adalah simbol dari obsesi manusia terhadap keindahan dan ketakutan akan kematian. Dalam dunia hujan, Kuyang bukan hanya momok — tapi peringatan tentang harga dari keserakahan dan penolakan terhadap takdir.",
     imageDetail: "./images/kuyang2.webp",
     imageBackground: "./images/kuyangbg.webp",
   },
@@ -408,49 +415,60 @@ const characterDetails = [
     id: 7,
     name: "Relta (Penunggu Rel)",
     description:
-      "Arwah yang berdiri di rel sunyi, membungkam dunia agar manusia tak lagi mendengar panggilan hidupnya sendiri.",
-    race: "Arwah Manusia",
+      "Arwah bisu di perlintasan kereta — mencuri suara agar manusia tak lagi mendengar panggilan hidupnya sendiri.",
+    race:
+      "Arwah Manusia — jiwa korban yang terjebak di antara hidup dan mati, tertinggal di lokasi kematiannya.",
     trait:
-      "Tenang, menyeramkan, dan tanpa emosi. Ia hanya diam — tapi keheningannya bisa membunuh.",
+      "Tenang, menyeramkan, tapi tidak jahat. Ia hanya ingin dunia merasakan keheningan yang ia alami selamanya.",
     background:
-      "Relta adalah korban kecelakaan kereta yang tidak pernah pergi. Arwahnya menunggu di perlintasan tanpa palang, menipu pendengaran manusia agar tak mendengar suara kereta yang mendekat. Ia tak jahat — hanya terjebak dalam waktu yang berhenti di detik kematiannya. Saat Arya bertemu dengannya, Relta memperlihatkan bahwa kadang sunyi adalah bentuk penyesalan yang paling keras di dunia arwah.",
+      "Relta adalah arwah seorang wanita yang tewas tertabrak kereta di perlintasan sunyi. Sejak saat itu, suaranya hilang, tapi bisunya menjadi kutukan bagi siapa pun yang melewati tempat itu. Orang-orang yang mendekat mengaku tidak mendengar suara apa pun — bahkan kereta yang melaju cepat di belakang mereka. Ia disebut 'Setan Budek' karena mencuri pendengaran manusia agar tak ada lagi yang bisa menjerit. Dalam kisah Arya, Relta menjadi peringatan bahwa kesunyian pun bisa membunuh, terutama jika yang hening adalah hati manusia itu sendiri.",
     imageDetail: "./images/relta2.webp",
     imageBackground: "./images/reltabg.webp",
   },
-
-  
-
-  //   {
-  //   id: 8,
-  //   name: "Tianak (Kuntilanak)",
-  //   description: "Dua roh yang tak terpisahkan — ibu dan anak yang mati bersama, kini menjerit bersama di setiap malam sunyi.",
-  //   race: "Arwah Manusia",
-  //   trait: "Sedih, pendendam, dan haus pengakuan.",
-  //   background: "Tangisan mereka menyatu dalam satu tubuh, menjadi nyanyian maut yang memanggil jiwa-jiwa bersalah.",
-  //   imageDetail: "./images/relt3a.webp",
-  //   imageBackground: "./images/reltb-render.webp",
-  // },
-  // {
-  //   id: 9,
-  //   name: "Bati (Banaspati)",
-  //   description: "Roh api dan bayangan — lahir dari dendam manusia dan terbakar oleh amarahnya sendiri.",
-  //   race: "Makhluk Gaib",
-  //   trait: "Panas, destruktif, dan tak mengenal belas kasihan.",
-  //   background: "Banaspati adalah bola api yang menyambar siapa pun yang dipenuhi kebencian.",
-  //   imageDetail: "./images/bg4.webp",
-  //   imageBackground: "./images/bg23.webp",
-  // },
-  // {
-  //   id: 10,
-  //   name: "Sulong (Sundel Bolong)",
-  //   description: "Roh perempuan dengan punggung berlubang, kini bereinkarnasi menjadi penjaga gerbang dunia arwah.",
-  //   race: "Arwah Manusia",
-  //   trait: "Tenang, lembut, namun membawa bayangan penderitaan lama.",
-  //   background: "Sundel Bolong dulunya arwah pendendam yang mati melahirkan.",
-  //   imageDetail: "./images/darahp1.webp",
-  //   imageBackground: "./images/card1.webp",
-  // },
+  {
+    id: 8,
+    name: "Tianak (Kuntilanak)",
+    description:
+      "Dua roh yang tak terpisahkan — ibu dan anak yang mati bersama, menangis di setiap malam untuk cinta yang tak sempat disampaikan.",
+    race:
+      "Arwah Manusia — roh wanita yang meninggal melahirkan bersama anaknya, kini menyatu sebagai satu entitas.",
+    trait:
+      "Lemah lembut tapi tragis. Ia menangis bukan untuk menakuti, tapi untuk didengar.",
+    background:
+      "Kuntilanak dulunya seorang wanita muda yang wafat saat melahirkan, dan Tianak adalah bayi yang tak pernah sempat menangis. Jiwa mereka menyatu, membentuk roh yang menjerit di malam hari, mencari kasih yang tak pernah sempat ada. Dalam mitologi dunia hujan, Tianak adalah pengingat bahwa cinta yang mati tetap mencari jalan pulang. Tangisnya adalah doa, dan setiap orang yang mendengarnya akan dihadapkan pada luka yang belum mereka hadapi sendiri.",
+    imageDetail: "./images/relt3a.webp",
+    imageBackground: "./images/reltb-render.webp",
+  },
+  {
+    id: 9,
+    name: "Bati (Banaspati)",
+    description:
+      "Roh api yang lahir dari amarah manusia — nyala dendam yang tak bisa dipadamkan oleh air, hanya oleh keikhlasan.",
+    race:
+      "Makhluk Gaib — entitas energi panas yang terbentuk dari kebencian manusia, bebas saat keseimbangan spiritual terganggu.",
+    trait:
+      "Menyala, garang, namun tidak jahat. Ia hanya menjalankan kehendak dari amarah yang menciptakannya.",
+    background:
+      "Banaspati adalah roh api hasil ajian hitam yang diciptakan manusia untuk menyerang. Namun seiring waktu, energi dendam itu kehilangan tuannya dan berubah menjadi makhluk hidup — Bati, sang penjelajah malam berapi yang membakar apa pun yang menyimpan kebencian. Ketika Arya menghadapi Bati, ia menyadari bahwa api tidak selalu berarti kehancuran — kadang, ia adalah cara alam untuk menghapus yang busuk dan memberi kesempatan untuk tumbuh kembali.",
+    imageDetail: "./images/bg4.webp",
+    imageBackground: "./images/bg23.webp",
+  },
+  {
+    id: 10,
+    name: "Sulong (Sundel Bolong)",
+    description:
+      "Roh perempuan yang menebus dosanya sendiri — dari arwah pendendam menjadi penjaga cahaya bagi jiwa-jiwa yang tersesat.",
+    race:
+      "Arwah Manusia — roh wanita yang telah bereinkarnasi setelah melewati siklus dendam dan pencerahan.",
+    trait:
+      "Tenang, bijak, dan menyimpan luka yang dalam. Ia membawa cahaya di punggung yang dulu berlubang.",
+    background:
+      "Sundel Bolong dulunya adalah korban kejahatan manusia, mati melahirkan dalam penderitaan dan penghinaan. Namun setelah ratusan tahun, ia menebus amarahnya dan bereinkarnasi sebagai Sulong — penjaga gerbang dunia arwah. Kini ia membantu arwah lain untuk melepaskan dendam mereka. Dalam dirinya, kegelapan dan cahaya berdampingan, mengajarkan bahwa bahkan dari penderitaan paling kelam, manusia masih bisa menjadi cahaya bagi yang lain.",
+    imageDetail: "./images/darahp1.webp",
+    imageBackground: "./images/card1.webp",
+  },
 ];
+
 
 // === Fungsi update posisi kartu ===
 function updateCharacter() {
