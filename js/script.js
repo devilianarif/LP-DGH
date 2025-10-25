@@ -203,6 +203,15 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nam libero tempore, cum soluta nobis est eligendi optio."
       ]
     }
+     {
+      img: "../images/s1.webp",
+      title: "Season 4 — Perburuan Roh",
+      list: [
+        "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+        "Et harum quidem rerum facilis est et expedita distinctio.",
+        "Nam libero tempore, cum soluta nobis est eligendi optio."
+      ]
+    }
   ];
 
   let index = 0;
