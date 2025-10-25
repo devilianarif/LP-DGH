@@ -420,7 +420,7 @@ const characterDetails = [
     race: "Tasbih Mode",
     trait: "Kuat, emosional, dan dipenuhi konflik batin.",
     background: "Dalam pertempuran terakhir, Arya memanggil kekuatan Bijo.",
-    imageDetail: "./images/arya-ijo-Copy.webp",
+    imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/bijo-card.webp",
   },
 ];
