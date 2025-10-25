@@ -189,9 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s3.webp",
       title: "Season 3 — Jejak Kematian & Dunia Terbelah",
       list: [
-        "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
-        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit.",
-        "Temporibus autem quibusdam et aut officiis debitis."
+        "Nara, gadis berpayung kuning, ternyata tidak mati—melainkan terjebak di antara dua dunia. Saat Arya dan Dinda mencoba menyelamatkannya, masa lalu mulai menghapus batas logika. Nara kembali, tapi bukan lagi manusia. Di balik semua itu, sosok misterius mulai mengawasi mereka dari jauh."
       ]
     },
     {
