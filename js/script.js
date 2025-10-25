@@ -542,7 +542,7 @@ const characterDetails = [
       "Panas, destruktif, tapi tidak jahat. Ia membakar hanya yang menolak memaafkan.",
     background:
       "Banaspati dulunya diciptakan melalui ajian hitam untuk membalas dendam. Namun energi kebencian yang menelannya membuatnya hidup tanpa kendali. Kini ia menjelma sebagai Bati, sosok berapi dengan mata bara, berkelana membakar kebencian manusia. Dalam kisah Arya, Bati menjadi lambang pembersihan — bahwa kadang api diperlukan untuk memusnahkan kegelapan sebelum cahaya bisa lahir kembali.",
-    imageDetail: "./images/bat.webp",
+    imageDetail: "./images/batip.webp",
     imageBackground: "./images/bg23.webp",
   },
 ];
