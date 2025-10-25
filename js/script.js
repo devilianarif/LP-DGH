@@ -175,9 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1.webp",
       title: "Season 1 — Di Balik Guyur Hujan",
       list: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Vivamus vel orci et urna vestibulum malesuada.",
-        "Aliquam erat volutpat. Nulla facilisi."
+        ""
       ]
     },
     {
