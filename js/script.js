@@ -384,7 +384,7 @@ const characterDetails = [
     imageBackground: "./images/kuyang3.webp",
   },
   {
-    id: 6,
+    id: 7,
     name: "Relta (Penunggu Rel)",
     description: "Arwah diam di rel-rel sunyi, mencuri suara agar manusia tak lagi mendengar panggilan hidup.",
     race: "Arwah Manusia",
