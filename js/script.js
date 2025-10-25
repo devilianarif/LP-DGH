@@ -364,6 +364,16 @@ const characterDetails = [
     imageBackground: "./images/owokbg.webp",
   },
   {
+    id: 7,
+    name: "Arya (Mode Bijo)",
+    description: "Wujud transendental di mana manusia menyatu dengan energi purba.",
+    race: "Tasbih Mode",
+    trait: "Kuat, emosional, dan dipenuhi konflik batin.",
+    background: "Dalam pertempuran terakhir, Arya memanggil kekuatan Bijo.",
+    imageDetail: "./images/aryai3.webp",
+    imageBackground: "./images/aryai1.webp",
+  },
+  {
     id: 5,
     name: "Kuyang",
     description: "Makhluk malam dari Kalimantan — kepala melayang dengan organ menggantung, pemburu darah kehidupan.",
