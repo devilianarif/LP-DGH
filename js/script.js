@@ -432,7 +432,7 @@ const characterDetails = [
   imageBackground: "./images/sultanbg.webp",
 },
 {
-  id: 13,
+  id: 8,
   name: "Burhan",
   description:
     "Burhan adalah suara nurani yang terlambat disadari. Guru tua yang mengenal dunia spiritual lebih dalam dari siapa pun, namun menyembunyikan rahasia masa mudanya yang kelam. Ia adalah penjaga keseimbangan yang memilih diam daripada berperang, hingga akhirnya menyadari bahwa diam pun bisa menjadi bentuk dosa. Ia adalah guru bagi Arya, pembimbing dalam memahami perbatasan antara dunia manusia dan dunia roh.",
