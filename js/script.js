@@ -384,7 +384,7 @@ const characterDetails = [
     imageBackground: "./images/relta3.webp",
   },
   {
-    id: 10,
+    id: 7,
     name: "Arya (Mode Bijo)",
     description: "Wujud transendental di mana manusia menyatu dengan energi purba.",
     race: "Tasbih Mode",
