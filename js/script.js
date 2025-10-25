@@ -410,7 +410,7 @@ const characterDetails = [
     race: "Arwah Manusia",
     trait: "Hening, menyeramkan, dan abadi di antara dua dunia.",
     background: "Relta adalah roh korban kecelakaan kereta yang terjebak di rel tanpa palang.",
-    imageDetail: "./images/relta.webp",
+    imageDetail: "./images/relta2.webp",
     imageBackground: "./images/relt3.webp",
   },
   {
