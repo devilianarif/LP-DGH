@@ -465,7 +465,7 @@ const characterDetails = [
     imageBackground: "./images/kuyangbg.webp",
   },
   {
-   id: 9,
+   id: 10,
     name: "Tianak (Kuntilanak)",
     description:
       "Di tengah malam yang sunyi, terdengar tangisan bayi dari balik pepohonan. Tianak bukan sekadar arwah anak kecil, melainkan dua jiwa dalam satu tubuh — sang ibu dan bayi yang mati bersamaan. Kuntilanak menangis mencari anaknya, dan Tianak tertawa di pelukannya, terjebak dalam lingkaran kematian yang abadi.",
