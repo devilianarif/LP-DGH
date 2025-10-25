@@ -412,7 +412,7 @@ const characterDetails = [
     "Riang di luar, namun rapuh di dalam. Setia, mudah berempati, tapi takut menghadapi kebenaran.",
   background:
     "Rian adalah sahabat dekat Arya sejak kecil. Ia selalu menjadi sosok penengah yang membuat kelompok mereka tetap utuh. Namun setelah tragedi yang menimpa Nara, ia menjauh dan mencoba melupakan semuanya. Bertahun-tahun kemudian, Rian kembali bertemu Arya dalam situasi yang sama — di tengah hujan, di kota yang sama. Ia menyadari bahwa pelariannya selama ini tak menghapus rasa bersalah, melainkan menumbuhkan kehampaan. Rian belajar bahwa beberapa luka hanya bisa sembuh ketika dihadapi, bukan dilupakan.",
-  imageDetail: "./images/rianp.webp",
+  imageDetail: "./images/rian2.webp",
   imageBackground: "./images/rianbg.webp",
 },
 {
