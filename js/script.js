@@ -399,8 +399,6 @@ const characterDetails = [
     imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/aryaibg.webp",
   },
-  // === LANJUTAN: Karakter Tambahan (Rian, Sultan, Burhan) ===
-
 {
   id: 11,
   name: "Rian",
