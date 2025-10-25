@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "../images/s1.webp",
-      title: "Judul 4",
+      title: "Season 4 — Perburuan Roh",
       list: [
         "At vero eos et accusamus et iusto odio dignissimos ducimus.",
         "Et harum quidem rerum facilis est et expedita distinctio.",
