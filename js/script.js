@@ -364,7 +364,7 @@ const characterDetails = [
     imageBackground: "./images/owokbg.webp",
   },
   {
-    id: 7,
+    id: 5,
     name: "Arya (Mode Bijo)",
     description: "Wujud transendental di mana manusia menyatu dengan energi purba.",
     race: "Tasbih Mode",
