@@ -512,6 +512,7 @@ const characterDetails = [
     imageDetail: "./images/darahp1.webp",
     imageBackground: "./images/card1.webp",
   },
+  
 
   {
     id: 13,
