@@ -417,7 +417,6 @@ const characterDetails = [
     imageDetail: "./images/relta2.webp",
     imageBackground: "./images/reltabg.webp",
   },
-];
 
   
 
