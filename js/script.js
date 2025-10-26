@@ -463,23 +463,23 @@ const characterDetails = [
       "Kuyang dulunya seorang tabib muda yang haus akan kecantikan dan kekuasaan. Ia menolak waktu dan menolak takdir. Setelah melakukan ritual hitam untuk mempertahankan usia mudanya, tubuhnya terlepas dari jiwa. Kini, setiap malam ia berburu darah segar untuk mempertahankan wujudnya. Namun dalam keabadiannya, ia menanggung kesepian tanpa batas, menjadi simbol bahwa keindahan yang dipaksakan hanya melahirkan penderitaan abadi.",
     imageDetail: "./images/kuyang2.webp",
     imageBackground: "./images/kuyangbg.webp",
-  },
-  // {
-  //  id: 10,
-  //   name: "Tianak (Kuntilanak)",
-  //   description:
-  //     "Di tengah malam yang sunyi, terdengar tangisan bayi dari balik pepohonan. Tianak bukan sekadar arwah anak kecil, melainkan dua jiwa dalam satu tubuh — sang ibu dan bayi yang mati bersamaan. Kuntilanak menangis mencari anaknya, dan Tianak tertawa di pelukannya, terjebak dalam lingkaran kematian yang abadi.",
-  //   rightDesc:
-  //     "Roh ibu dan anak yang mati bersamaan, menangis mencari satu sama lain di malam sunyi.",
-  //   race:
-  //     "Arwah Manusia — roh wanita dan anaknya yang terikat karena kematian yang tak adil.",
-  //   trait:
-  //     "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu yang abadi.",
-  //   background:
-  //     "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan. Tangis Kuntilanak menandakan kematian, tawa Tianak adalah panggilan pada jiwa yang akan pergi. Dalam dunia hujan, mereka adalah simbol kehilangan yang tak pernah selesai — cinta yang bahkan kematian pun tak bisa pisahkan.",
-  //   imageDetail: "./images/relt3a.webp",
-  //   imageBackground: "./images/reltb-render.webp",
   // },
+  // // {
+  // //  id: 10,
+  // //   name: "Tianak (Kuntilanak)",
+  // //   description:
+  // //     "Di tengah malam yang sunyi, terdengar tangisan bayi dari balik pepohonan. Tianak bukan sekadar arwah anak kecil, melainkan dua jiwa dalam satu tubuh — sang ibu dan bayi yang mati bersamaan. Kuntilanak menangis mencari anaknya, dan Tianak tertawa di pelukannya, terjebak dalam lingkaran kematian yang abadi.",
+  // //   rightDesc:
+  // //     "Roh ibu dan anak yang mati bersamaan, menangis mencari satu sama lain di malam sunyi.",
+  // //   race:
+  // //     "Arwah Manusia — roh wanita dan anaknya yang terikat karena kematian yang tak adil.",
+  // //   trait:
+  // //     "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu yang abadi.",
+  // //   background:
+  // //     "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan. Tangis Kuntilanak menandakan kematian, tawa Tianak adalah panggilan pada jiwa yang akan pergi. Dalam dunia hujan, mereka adalah simbol kehilangan yang tak pernah selesai — cinta yang bahkan kematian pun tak bisa pisahkan.",
+  // //   imageDetail: "./images/relt3a.webp",
+  // //   imageBackground: "./images/reltb-render.webp",
+  // // },
   {
     id: 10,
     name: "Relta (Penunggu Rel)",
