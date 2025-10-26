@@ -497,7 +497,7 @@ const characterDetails = [
     imageBackground: "./images/reltabg.webp",
   },
   {
-    id: 11,
+    id: 12,
     name: "Sulong (Sundel Bolong)",
     description:
       "Roh wanita bergaun putih dengan punggung berlubang, dulunya korban kejahatan manusia. Namun, waktu mengubah dendamnya menjadi kekuatan spiritual. Kini, ia menjaga batas antara hidup dan mati, menuntun arwah yang tersesat menuju cahaya.",
