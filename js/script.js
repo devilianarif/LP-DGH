@@ -477,7 +477,7 @@ const characterDetails = [
       "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu yang abadi.",
     background:
       "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan. Tangis Kuntilanak menandakan kematian, tawa Tianak adalah panggilan pada jiwa yang akan pergi. Dalam dunia hujan, mereka adalah simbol kehilangan yang tak pernah selesai — cinta yang bahkan kematian pun tak bisa pisahkan.",
-    imageDetail: "./images/relt3a.webp",
+    imageDetail: "./images/tianakp.webp",
     imageBackground: "./images/reltb-render.webp",
   },
   {
