@@ -525,7 +525,7 @@ const characterDetails = [
     "Usil, licik, dan lincah. Tuyul punya sifat seperti anak kecil: polos tapi berbahaya bila dikendalikan manusia tamak.",
   background:
     "Tuyul dikenal sebagai jin pesugihan yang sering dipelihara manusia serakah. Ia diciptakan dari energi kelahiran yang dibatalkan, menjadikannya entitas yang selalu kekurangan kasih sayang. Tuyul takut pada bawang putih, kaca pecah, dan doa malam hari. Dalam dunia 'Di Balik Guyur Hujan', Tuyul menjadi simbol keserakahan modern — di mana manusia masih rela menjual jiwanya hanya demi secarik uang.",
-  imageDetail: "./images/tuyulp.we",
+  imageDetail: "./images/tuyulp.webp",
   imageBackground: "./images/tuyulbg.webp",
 },
 
