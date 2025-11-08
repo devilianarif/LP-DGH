@@ -554,7 +554,7 @@ body::after {
   pointer-events: none;
   mix-blend-mode: multiply; 
 }
-/* === Overlay Utama === */
+
 .halter-container {
   position: fixed;
   top: 0;
