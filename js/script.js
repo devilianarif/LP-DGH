@@ -336,7 +336,7 @@ const characterDetails = [
     description:
       "Kehidupan yang monoton membuat Arya harus mengulanginya terus menerus, tidur, berangkat kerja, lembur, pulang malam, dan seterusnya, hingga suatu hari ia sempat lapar dan mengunjungi sebuah warung untuk makan, usai makan hujan deras mengguyur, membuat Arya terpaksa berlari mencari tempat berteduh yaitu sebuah halte.",
     rightDesc:
-      "Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya teman merepotkan, di balik rutinitasnya ia terpaksa harus bergadang membuat matanya menjadi lebam, namun ia pun tetap menerimanya dan berharap bisa mati dengan cepat, karena ia tidak mempunyai alasan untuk hidup, hingga pertemuaanya dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang mulanya monoton kini menjadi menegangkan, hingga hasrat untuk mati, berubah menjadi hasrat untuk hidup.",
+      "",
     race:
       "Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh dengan emosi, dan esensi untuk penasaran.",
     trait:
@@ -363,7 +363,7 @@ const characterDetails = [
     imageBackground: "./images/bijokbg.webp",
   },
 
-  
+
   {
     id: 4,
     name: "Owo",
