@@ -1488,7 +1488,7 @@ body::after {
   margin-left: 80px;
 }
 .showcase-paper {
-  position: relative; /* penting agar img absolute tetap di dalam frame */
+  position: relative; 
   width: 520px;
   height: 380px;
   background: url("../images/koran 2.webp") center/cover no-repeat;
