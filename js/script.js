@@ -307,7 +307,7 @@ const characterDetails = [
     rightDesc:
       "Bermula muncul di tengah malam dekat warung kecil di tengah jalanan sepi sekitar halte, sedang menunggu seseorang yang mungkin bisa membantunya menghentikan para pemakan roh penasaran, seseorang yang sangat ia percayai, dan selalu baik padanya orang tersebut menjadi alasan kuat sebelum gadis jubah kuning ini menghilang untuk selamanya.",
     race:
-      "Arwah Manusia — entitas yang hidup di antara dua dunia; tidak lagi manusia namun belum siap meninggalkan dunia fana karena ikatan perasaan yang belum terselesaikan.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
       "Penyayang, bijak, dan misterius. Tatapannya membawa ketenangan sekaligus kepedihan, seolah tahu rahasia setiap hati yang menatapnya.",
     background:
