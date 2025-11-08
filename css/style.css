@@ -1627,7 +1627,7 @@ body::after {
   top: 0;
   left: 0;
   width: 150px;
-  height: 250px; /* tinggi harus ditentukan */
+  height: 250px; 
   background-image: url("../images/darahp1.webp");
   background-size: contain; 
   background-repeat: no-repeat;
