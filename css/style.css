@@ -901,7 +901,7 @@ body::after {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-align: left; /* pastikan teks rata kiri */
+  text-align: left;
   line-height: 1.4; /* biar jarak antar baris pas */
 }
 
