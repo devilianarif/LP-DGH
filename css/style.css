@@ -1697,7 +1697,6 @@ body::after {
   transform: scale(1.05);
 }
 
-/* Garis bawah */
 .footer-line {
   width: 80%;
   height: 1.5px;
