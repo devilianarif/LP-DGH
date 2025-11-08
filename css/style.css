@@ -438,7 +438,7 @@ body::after {
   overflow: hidden;
 }
 
-/*DESKTOP  (patokan 1366×768)  */
+/*DESKTOP(patokan 1366×768)  */
 @keyframes mengambang {
   0% {
     transform: translateY(0px) rotate(0deg);
