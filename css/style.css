@@ -196,7 +196,7 @@ body::after {
   width: 100%;
 }
 
-/* ===== MODAL AKTIF  */
+/*  MODAL AKTIF  */
 .custom-modal.active {
   display: flex;
 }
