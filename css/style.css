@@ -307,7 +307,7 @@ body::after {
   inset: 0;
   z-index: 3; /* di atas iframe */
   background: transparent;
-  pointer-events: none; /* biar masih bisa klik Play/Pause */
+  pointer-events: none; /
 }
 
 /* Saat modal aktif baru bisa play/pause */
