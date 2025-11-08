@@ -1540,7 +1540,6 @@ body::after {
   text-align: left;
 }
 
-/* === DOT NAVIGATION (di bawah koran, garis kiri-kanan full layar) === */
 .showcase-dots {
   position: absolute;
   bottom: -10%; 
