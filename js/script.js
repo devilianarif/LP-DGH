@@ -51,7 +51,7 @@ window.addEventListener('resize', () => {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
 });
-
+// auto slide
 document.addEventListener('DOMContentLoaded', () => {
   const carouselEl = document.querySelector('#picsumCarousel');
   const carousel = new bootstrap.Carousel(carouselEl, { interval: false }); // nonaktifkan interval internal
