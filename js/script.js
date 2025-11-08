@@ -660,7 +660,6 @@ charTrack.addEventListener("touchmove", (e) => {
   }
 });
 
-// ===  awal ===
 updateCharacter();
 updateCharacterDetails(currentCharacter);
 const rightBox = document.querySelector(".bschara-right");
