@@ -305,9 +305,9 @@ body::after {
 .video-mask {
   position: absolute;
   inset: 0;
-  z-index: 3; /* di atas iframe */
+  z-index: 3; 
   background: transparent;
-  pointer-events: none; /
+  pointer-events: none; 
 }
 
 /* Saat modal aktif baru bisa play/pause */
