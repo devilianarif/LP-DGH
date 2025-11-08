@@ -588,7 +588,7 @@ body::after {
   opacity: 0.8;
 }
 
-/* === Animasi Jatuh Miring === */
+/* === Animasi Jatuh Miring === */justify
 @keyframes halter-rain {
   from {
     transform: rotate(105deg) translateX(0);
