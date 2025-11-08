@@ -269,7 +269,6 @@ document.addEventListener("click", function(e) {
   
   createRipple(x, y, false);
 
-  // Create small ripple with slight delay
   setTimeout(() => {
     createRipple(x, y, true);
   }, 200);
