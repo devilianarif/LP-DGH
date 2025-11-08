@@ -585,7 +585,7 @@ function updateCharacterDetails(characterId) {
     }, 200);
   }
 
-  // update gambar kiri bawah
+  // update gmbt kiri bawah
   const bgLeftImg = document.querySelector(".bschara-left .char-img");
   if (bgLeftImg) {
     bgLeftImg.style.opacity = "0";
