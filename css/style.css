@@ -1565,7 +1565,7 @@ body::after {
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   border-radius: 1px;
-  width: 100vw; /* panjang penuh layar */
+  width: 100vw;
 }
 .showcase-dots::before {
   left: calc(-50vw + 50%);
