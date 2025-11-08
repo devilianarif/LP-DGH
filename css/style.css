@@ -252,7 +252,7 @@ body::after {
   width: 82%;
   height: 70%;
   border: none;
-  pointer-events: none; /* kunci klik YouTube */
+  pointer-events: none; 
   align-items: center;
   justify-content: center;
   top: 16%;
