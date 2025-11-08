@@ -876,7 +876,7 @@ body::after {
   min-height: 80vh;
   padding-top: 30px;
 
-  /* background */
+  
   background-image: url("../images/bgp4.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
