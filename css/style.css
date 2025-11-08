@@ -901,7 +901,7 @@ body::after {
   text-align: right;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
 }
 
 .dtchara-left h2 {
