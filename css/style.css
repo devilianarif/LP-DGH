@@ -759,7 +759,7 @@ body::after {
   margin-top: 0 !important;
 }
 
-/* Efek fade lembut ala lampu jalan/hujan */
+
 @keyframes wantedFade {
   0%,
   100% {
