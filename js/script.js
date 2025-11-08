@@ -360,8 +360,7 @@ const characterDetails = [
     trait:
       "Tegas, penuh wibawa, dan Amarah",
     background:
-      "
-Bijo telah ada sebelum Manusia ada, sosok Bijo di ciptakan untuk sebagai penjaga batas antara dunia Alam Roh dan makhluk gaib, namun kadang makhluk gaib berusaha mempengaruhi Bijo dan melepaskan roh jahat untuk mengambil alih roh penasaran yang nantinya bisa memasuki dunia manusia yaitu Alam Fana, disinilah Bijo bertugas menghentikan para makhluk gaib lepas atau manusia memasuki alam roh, siapapun yang menerobos akan menjadi musuhnya.
+      "Bijo telah ada sebelum Manusia ada, sosok Bijo di ciptakan untuk sebagai penjaga batas antara dunia Alam Roh dan makhluk gaib, namun kadang makhluk gaib berusaha mempengaruhi Bijo dan melepaskan roh jahat untuk mengambil alih roh penasaran yang nantinya bisa memasuki dunia manusia yaitu Alam Fana, disinilah Bijo bertugas menghentikan para makhluk gaib lepas atau manusia memasuki alam roh, siapapun yang menerobos akan menjadi musuhnya.
 ",
     imageDetail: "./images/bijo2.webp",
     imageBackground: "./images/bijokbg.webp",
