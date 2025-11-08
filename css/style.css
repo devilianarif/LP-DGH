@@ -1498,7 +1498,7 @@ body::after {
 
 .showcase-paper img {
   position: absolute;
-  top: 48%; /* posisikan di tengah vertikal */
+  top: 48%; 
   left: 50%;
   transform: translate(-50%, -50%); 
   width: 70%; 
