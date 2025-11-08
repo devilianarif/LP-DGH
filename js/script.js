@@ -542,7 +542,7 @@ const characterDetails = [
     imageBackground: "./images/batibg.webp",
   },
 ];
-// update view
+// update view karakter
 function updateCharacter() {
   const cardWidth = carCard[0].offsetWidth + 30;
   const offset =
