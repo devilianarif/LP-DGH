@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
   updateShowcase(0);
 });
 
-// === Scroll to Top ===
+// scrol to Top 
 document.getElementById("scrollTop").addEventListener("click", function(e) {
   e.preventDefault();
   window.scrollTo({
