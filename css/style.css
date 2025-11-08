@@ -774,7 +774,7 @@ body::after {
   }
 }
 
-/* Efek cahaya lembut turun seperti pantulan hujan */
+
 .kartu-character h3::after,
 .kartu-character p::after {
   content: "";
