@@ -806,7 +806,7 @@ body::after {
   }
 }
 
-/* Tambahan efek hujan kilau lembut di teks */
+
 .kartu-character h3::after,
 .kartu-character p::after {
   content: "";
