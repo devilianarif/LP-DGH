@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // run
   startAutoSlide();
 
-  //=== Integrasi dengan tombol Play & Modal 
+  //modalplay
   const playButtons = document.querySelectorAll('.btn-play-center');
   const modal = document.getElementById('videoModal');
   const iframe = document.getElementById('youtubePlayer');
