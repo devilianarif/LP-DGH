@@ -539,7 +539,7 @@ body::after {
   /* background */
   background-image: url("../images/bg2.webp");
   background-size: cover;
-  background-position: center; /* posisi gambar di tengah */
+  background-position: center;
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
 }
 
