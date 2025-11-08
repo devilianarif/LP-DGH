@@ -738,7 +738,7 @@ body::after {
   height: 100%;
   background: url("../images/card 1.webp") no-repeat center;
   background-size: cover;
-  z-index: 3; /* pastikan di atas gambar */
+  z-index: 3; 
   pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
 }
 .kartu-character h3,
