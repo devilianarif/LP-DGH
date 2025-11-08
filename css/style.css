@@ -135,8 +135,6 @@ body::after {
   transform: scale(1.15);
 }
 
-/*  Indikator Aktif  */
-
 #picsumCarousel .carousel-indicators .active {
   background-color: #fffb00 !important;
   transform: scale(1.3);
