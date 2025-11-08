@@ -467,7 +467,7 @@ body::after {
   animation: mengambang 6s ease-in-out infinite;
 }
 
-/* ==== KIRI BAWAH ==== */
+
 #gmbrkiribawah {
   position: absolute;
   bottom: 10%;
