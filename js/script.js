@@ -573,7 +573,7 @@ function updateCharacterDetails(characterId) {
   document.querySelector("#right-race p").textContent = c.race;
   document.querySelector("#right-trait p").textContent = c.trait;
 
-  // update gambar tengah
+  // update gmbr tengah
   const centerImg = document.querySelector(".dtchara-center .dtchara-img");
   if (centerImg) {
     centerImg.style.opacity = "0";
