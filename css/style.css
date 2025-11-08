@@ -552,7 +552,7 @@ body::after {
   opacity: 0.8;
   z-index: -3;
   pointer-events: none;
-  mix-blend-mode: multiply; /* smoother blending with section backgrounds */
+  mix-blend-mode: multiply; 
 }
 /* === Overlay Utama === */
 .halter-container {
