@@ -878,7 +878,7 @@ body::after {
 
   
   background-image: url("../images/bgp4.webp");
-  background-size: cover; /* supaya gambar menutupi seluruh area */
+  background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
 }
