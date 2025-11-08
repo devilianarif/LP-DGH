@@ -261,7 +261,7 @@ body::after {
   filter: brightness(1.02);
 }
 
-/* ==== Overlay hitam lembut di atas judul/channel  */
+/*  Overlay hitam lembut di atas judul/channel  */
 .yt-overlay {
   position: absolute;
   top: 0;
