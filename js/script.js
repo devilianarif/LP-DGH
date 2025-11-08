@@ -258,7 +258,7 @@ document.getElementById("scrollTop").addEventListener("click", function(e) {
   });
 });
 
-// === Ripple Overlay Effect 
+//  Ripple Overlay Effect 
 document.addEventListener("click", function(e) {
   const overlay = document.getElementById("ripple-overlay");
   if (!overlay) return;
