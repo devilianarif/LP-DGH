@@ -377,6 +377,7 @@ Bijo telah ada sebelum Manusia ada, sosok Bijo di ciptakan untuk sebagai penjaga
     imageDetail: "./images/bijo2.webp",
     imageBackground: "./images/bijokbg.webp",
   },
+  
   {
     id: 4,
     name: "Owo",
