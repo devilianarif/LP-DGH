@@ -739,7 +739,7 @@ body::after {
   background: url("../images/card 1.webp") no-repeat center;
   background-size: cover;
   z-index: 3; 
-  pointer-events: none; /* biar klik masih tembus ke elemen di bawah */
+  pointer-events: none; 
 }
 .kartu-character h3,
 .kartu-character p {
