@@ -299,7 +299,7 @@ body::after {
 }
 
 .custom-modal.active .video-wrapper iframe {
-  pointer-events: auto; /* aktifkan hanya saat play */
+  pointer-events: auto; 
 }
 
 /* Tutup semua elemen YouTube overlay (iframe overlay block trick) */
