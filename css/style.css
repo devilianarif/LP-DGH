@@ -439,7 +439,6 @@ body::after {
 }
 
 /* = DESKTOP STANDAR (patokan 1366×768) = */
-/* ==== ANIMASI MENGAMBANG BERAYUN ==== */
 @keyframes mengambang {
   0% {
     transform: translateY(0px) rotate(0deg);
