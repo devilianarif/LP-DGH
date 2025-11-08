@@ -1656,7 +1656,7 @@ body::after {
   position: absolute;
   inset: 0; /* isi seluruh area parent */
   cursor: pointer;
-  text-indent: -9999px; /* sembunyikan teks */
+  text-indent: -9999px;
 }
 
 @keyframes float {
