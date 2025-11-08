@@ -1056,7 +1056,6 @@ body::after {
   transform: translateY(-10px);
 }
 
-/* efek sisi kanan (detail-info) */
 .dtchara-section:hover .dtchara-right {
   transform: translateX(20px);
   opacity: 1;
