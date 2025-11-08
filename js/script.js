@@ -290,6 +290,7 @@ document.addEventListener("click", function(e) {
   }
 });
 
+//character section
 const charTrack = document.querySelector('.character-track');
 const carCard = document.querySelectorAll('.kartu-character');
 const sectionCharacters = document.getElementById('characters');
