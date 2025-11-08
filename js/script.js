@@ -636,7 +636,7 @@ window.addEventListener("mousemove", (e) => {
   }
 });
 
-// === Drag tock (Mobile) ===
+// === Drag tocth (Mobile) ===
 charTrack.addEventListener("touchstart", (e) => {
   isDragging = true;
   startX = e.touches[0].clientX;
