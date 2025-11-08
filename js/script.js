@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let autoSlide; //var auto-slide
   let isPaused = false;
 
-  // Fungsi untuk berpindah ke slide berikut
+ //
   function nextSlide() {
     if (!isPaused) {
       carousel.next();
