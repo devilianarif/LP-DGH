@@ -1543,7 +1543,7 @@ body::after {
 /* === DOT NAVIGATION (di bawah koran, garis kiri-kanan full layar) === */
 .showcase-dots {
   position: absolute;
-  bottom: -10%; /* ubah ini untuk atur jarak vertikal */
+  bottom: -10%; 
   left: 50%;
   transform: translateX(-50%);
   display: flex;
