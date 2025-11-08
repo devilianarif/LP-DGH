@@ -905,7 +905,7 @@ body::after {
   line-height: 1.4; 
 }
 
-/* ====== ISI FLEX ====== */
+
 .dtchara-wrap {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
