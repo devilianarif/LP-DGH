@@ -531,7 +531,7 @@ body::after {
   backdrop-filter: blur(5px);
   width: 100%;
   overflow: hidden;
-  /* Make section visible even if empty */
+  
   min-height: 80vh;
   padding: 60px 0;
   display: block;
