@@ -543,7 +543,6 @@ const characterDetails = [
   },
 ];
 
-// === Fungsi update posisi kartu ===
 function updateCharacter() {
   const cardWidth = carCard[0].offsetWidth + 30;
   const offset =
