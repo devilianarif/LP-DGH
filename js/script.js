@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Awal
+  // run
   updateShowcase(0);
 });
 
