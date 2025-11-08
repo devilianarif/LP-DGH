@@ -521,8 +521,6 @@ body::after {
   z-index: 5;
 }
 
-/* Section 3 awal */
-
 #characters {
   position: relative;
   text-align: center;
