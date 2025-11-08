@@ -266,7 +266,7 @@ document.addEventListener("click", function(e) {
   const x = e.clientX;
   const y = e.clientY;
 
-  // Create large ripple
+  
   createRipple(x, y, false);
 
   // Create small ripple with slight delay
