@@ -333,6 +333,7 @@ Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Ary
 
 
 ",
+
 imageDetail: "./images/dinda3.webp",
     imageBackground: "./images/dindakbg.webp",
   },
