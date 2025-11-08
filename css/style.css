@@ -536,7 +536,7 @@ body::after {
   padding: 60px 0;
   display: block;
 
-  /* background */
+  
   background-image: url("../images/bg2.webp");
   background-size: cover;
   background-position: center;
