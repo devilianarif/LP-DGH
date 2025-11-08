@@ -310,7 +310,6 @@ body::after {
   pointer-events: none; 
 }
 
-/* Saat modal aktif baru bisa play/pause */
 .custom-modal.active .video-wrapper iframe {
   pointer-events: auto;
 }
