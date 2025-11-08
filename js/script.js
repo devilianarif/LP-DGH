@@ -290,7 +290,6 @@ document.addEventListener("click", function(e) {
   }
 });
 
-// === CHARACTER INTERACTION FINAL REVISED ===
 
 // Elemen utama
 const charTrack = document.querySelector('.character-track');
