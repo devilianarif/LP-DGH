@@ -1143,7 +1143,6 @@ body::after {
   transform: scale(1.5);
 }
 
-/* Sisi kiri dengan frame belakang */
 .bschara-left {
   position: relative;
   display: flex;
