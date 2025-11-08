@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const carouselEl = document.querySelector('#picsumCarousel');
   const carousel = new bootstrap.Carousel(carouselEl, { interval: false }); // matikan auto 
 
-  let autoSlide; // untuk menyimpan interval custom
+  let autoSlide;
   let isPaused = false;
 
   // Fungsi untuk berpindah ke slide berikut
