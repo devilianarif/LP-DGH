@@ -433,7 +433,6 @@
     font-size: 13px;
   }
 
-  /* Hide heavy effects for performance */
   .awan, .air, .gen, .rumput, .pipa {
     display: none;
   }
