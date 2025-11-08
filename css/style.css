@@ -61,7 +61,7 @@ body::after {
   z-index: -2;
 
   pointer-events: none;
-  mix-blend-mode: multiply; /* smoother blending with section backgrounds */
+  mix-blend-mode: multiply; 
 }
 
 /*  Tinggi & Ukuran Carousel  */
