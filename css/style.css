@@ -407,7 +407,6 @@ body::after {
   text-align: center;
   position: relative;
   z-index: 10;
-  /* teks paling atas */
 }
 
 #rain-canvas {
