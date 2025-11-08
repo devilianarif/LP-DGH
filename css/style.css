@@ -404,7 +404,7 @@ body::after {
   line-height: 1.7;
   max-width: 600px;
   margin: 0 auto 20px;
-  text-align:;
+  text-align:justify;
   position: relative;
   z-index: 10;
 }
