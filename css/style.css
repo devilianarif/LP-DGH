@@ -1567,8 +1567,6 @@ body::after {
   border-radius: 1px;
   width: 100vw; /* panjang penuh layar */
 }
-
-/* garis kiri: dari kiri layar sampai sebelum titik pertama */
 .showcase-dots::before {
   left: calc(-50vw + 50%);
   right: 50%;
