@@ -1028,9 +1028,6 @@ body::after {
   padding-top: 30px;
 }
 
-/* ====== ANIMASI INTERAKTIF HOVER ====== */
-
-/* transisi dasar untuk semua elemen agar lembut */
 .dtchara-left,
 .dtchara-right,
 .dtchara-center .dtchara-img,
