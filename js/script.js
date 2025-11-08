@@ -324,11 +324,16 @@ const characterDetails = [
       "Wanita yang hidup dengan bayangan masa lalu, mencoba menebus diamnya di masa remaja.",
     race:
       "Manusia — makhluk yang menyeberangi batas spiritual dan realitas, dikuasai oleh emosi, dan terus mencari keseimbangan antara luka dan harapan.",
-    trait:
-      "Cerdas, penuh empati, tapi rapuh. Dinda menutupi rasa bersalah dengan tawa, padahal di baliknya ada jiwa yang tak kunjung pulih.",
+       trait:
+      "Penyayang, bijak, dan misterius.",
     background:
-      "Dinda tumbuh bersama Arya dan Nara dalam persahabatan yang sederhana. Namun ketika dunia mereka mulai berubah, Dinda gagal menjadi penopang bagi sahabatnya. Ia menyaksikan bagaimana Nara hancur, dan dalam ketakutannya, ia memilih berdiam diri. Bertahun kemudian, Dinda kembali ke kota asalnya, hanya untuk disambut oleh kenangan yang menuntut pertanggungjawaban. Ia sadar bahwa menebus masa lalu bukan dengan kata maaf, tapi dengan keberanian untuk menghadapi kebenaran yang dulu ia tolak.",
-    imageDetail: "./images/dinda3.webp",
+      "
+Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Arya, Dinda, Rian, Sultan, dan Burhan, namun setelah berpisah karena pindah, janji persahabatan mereka hancur, ketika Nara SMP justru dijauhi dan disakiti oleh teman-temannya sendiri, hingga suatu hari, setelah keluarganya terlilit utang demi pengobatannya, Nara kabur dari kejaran rentenir di tengah hujan deras dan tertabrak di dekat halte, dengan payung kuning koyak tergeletak di sampingnya.
+
+
+
+",
+imageDetail: "./images/dinda3.webp",
     imageBackground: "./images/dindakbg.webp",
   },
   {
