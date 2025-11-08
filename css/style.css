@@ -2183,7 +2183,7 @@ body::after {
     gap: 30px;
   }
 
-  /* .character-wrapper, */
+  
   .bschara-container {
     transform: scale(0.9);
     flex-direction: column;
