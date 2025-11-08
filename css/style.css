@@ -121,7 +121,7 @@ body::after {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ffffff !important; /* putih solid paksa */
+  background-color: #ffffff !important;
   border: 1px solid #ffffff !important;
   margin: 0 5px;
   transition: all 0.3s ease;
