@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Mulai auto-slide setiap 4 detik
+  // Mautoslide 
   function startAutoSlide() {
     stopAutoSlide(); // pastikan gak dobel
     autoSlide = setInterval(nextSlide, 8000);
