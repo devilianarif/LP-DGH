@@ -1395,7 +1395,6 @@ body::after {
   width: 100%;
   overflow: hidden;
 
-  /* Make section visible even if empty */
   min-height: 80vh;
 
   display: flex;
