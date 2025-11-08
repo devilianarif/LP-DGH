@@ -1621,7 +1621,6 @@ body::after {
   z-index: 1;
 }
 
-/* === Darah kiri (gambar menetes) === */
 .darah-kiri {
   position: absolute;
   top: 0;
