@@ -1651,7 +1651,6 @@ body::after {
   animation: float 2.5s ease-in-out infinite;
 }
 
-/* Area klik di dalam darah kanan */
 .darah-kanan a {
   position: absolute;
   inset: 0; 
