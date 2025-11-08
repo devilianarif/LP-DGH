@@ -46,9 +46,9 @@ body::after {
 
   /* Tambahkan baris di bawah ini */
   background-image: url("../images/bg 1.webp");
-  background-size: cover; /* supaya gambar menutupi seluruh area */
+  background-size: cover; 
   background-position: center top; /* posisi gambar di atas supaya berkesinambungan */
-  background-repeat: no-repeat; /* mencegah pengulangan gambar */
+  background-repeat: no-repeat; 
 }
 
 #BannerHeader::after {
