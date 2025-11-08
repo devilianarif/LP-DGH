@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Saat modal ditutup (klik X atau luar)
+  // closemodal
   modal.addEventListener('click', (e) => {
     if (e.target === modal || e.target === closeBtn) {
       modal.classList.remove('active');
