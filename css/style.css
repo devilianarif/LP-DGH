@@ -354,7 +354,7 @@ body::after {
   background-image: url("../images/bg 2.webp");
   background-size: cover; 
   background-position: center;
-  background-repeat: no-repeat; /* mencegah pengulangan gambar */
+  background-repeat: no-repeat; 
 }
 
 #about::after {
