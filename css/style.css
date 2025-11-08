@@ -918,7 +918,6 @@ body::after {
   position: relative;
 }
 
-/* === KIRI === */
 .dtchara-left {
   grid-area: left;
   position: relative;
