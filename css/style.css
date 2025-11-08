@@ -1402,7 +1402,7 @@ body::after {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background */
+
   background-image: url("../images/bg9.webp");
   background-size: cover; 
   background-position: center; 
