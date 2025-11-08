@@ -126,7 +126,7 @@ body::after {
   margin: 0 5px;
   transition: all 0.3s ease;
   cursor: pointer;
-  opacity: 1 !important; /* biar gak transparan */
+  opacity: 1 !important; 
 }
 
 /* Hover Effect */
