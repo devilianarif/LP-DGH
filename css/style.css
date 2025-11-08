@@ -1909,10 +1909,6 @@ body::after {
     font-size: 24px;
   }
 }
-
-/* ================================================================
-   [3] MID RESOLUTION LAPTOP (1536–1919px)
-   ================================================================ */
 @media screen and (min-width: 1536px) and (max-width: 1919px) {
   body {
     font-size: 16px;
