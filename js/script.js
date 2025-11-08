@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let autoSlide; //var auto-slide
   let isPaused = false;
 
- //
+ //nexts
   function nextSlide() {
     if (!isPaused) {
       carousel.next();
