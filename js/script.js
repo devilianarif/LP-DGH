@@ -334,8 +334,7 @@ const characterDetails = [
     id: 2,
     name: "Arya / Raya",
     description:
-      "
-      Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya teman merepotkan, di balik rutinitasnya ia terpaksa harus bergadang membuat matanya menjadi lebam, namun ia pun tetap menerimanya dan berharap bisa mati dengan cepat, karena ia tidak mempunyai alasan untuk hidup, hingga pertemuaanya dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang mulanya monoton kini menjadi menegangkan, hingga hasrat untuk mati, berubah menjadi hasrat untuk hidup.",
+      "Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya teman merepotkan, di balik rutinitasnya ia terpaksa harus bergadang membuat matanya menjadi lebam, namun ia pun tetap menerimanya dan berharap bisa mati dengan cepat, karena ia tidak mempunyai alasan untuk hidup, hingga pertemuaanya dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang mulanya monoton kini menjadi menegangkan, hingga hasrat untuk mati, berubah menjadi hasrat untuk hidup.",
     rightDesc:
       "",
     race:
