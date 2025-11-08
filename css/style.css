@@ -1501,7 +1501,7 @@ body::after {
   top: 48%; /* posisikan di tengah vertikal */
   left: 50%; /* posisikan di tengah horizontal */
   transform: translate(-50%, -50%); /* geser agar tepat di tengah */
-  width: 70%; /* ukuran gambar (bisa kamu atur sesuka) */
+  width: 70%; 
   height: 70%;
   border-radius: 6px;
 
