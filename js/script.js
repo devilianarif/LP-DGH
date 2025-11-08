@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       iframe.src = "";
       document.body.style.overflow = 'auto';
 
-      // Mulai lagi auto-slide
+      // run
       isPaused = false;
       startAutoSlide();
     }
