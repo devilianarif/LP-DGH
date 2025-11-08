@@ -1659,7 +1659,6 @@ body::after {
   text-indent: -9999px; /* sembunyikan teks */
 }
 
-/* Efek melayang (darah kanan) */
 @keyframes float {
   0% {
     transform: translateY(0px);
