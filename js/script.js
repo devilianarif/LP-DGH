@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     autoSlide = setInterval(nextSlide, 8000);
   }
 
-  // Berhenti auto-slide
+  // stop auto-slide
   function stopAutoSlide() {
     clearInterval(autoSlide);
     autoSlide = null;
