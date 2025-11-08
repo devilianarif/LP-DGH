@@ -1636,7 +1636,6 @@ body::after {
   pointer-events: none;
 }
 
-/* === Darah kanan (Back to Top) === */
 .darah-kanan {
   position: absolute;
   top: 20px;
