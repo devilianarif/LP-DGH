@@ -987,7 +987,6 @@ body::after {
   justify-content: center;
 }
 
-/* setiap detail kanan */
 .dtchara-detail {
   display: flex;
   align-items: flex-start;
