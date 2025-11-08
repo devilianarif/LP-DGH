@@ -1109,7 +1109,6 @@ body::after {
   align-items: center;
   justify-content: center;
 
-  /* background */
   background-image: url("../images/bg8.webp");
   background-size: cover; 
   background-position: center;
