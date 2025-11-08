@@ -302,7 +302,6 @@ body::after {
   pointer-events: auto; 
 }
 
-/* Tutup semua elemen YouTube overlay (iframe overlay block trick) */
 .video-mask {
   position: absolute;
   inset: 0;
