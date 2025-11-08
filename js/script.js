@@ -303,7 +303,7 @@ const characterDetails = [
     id: 0,
     name: "Si Gadis Jubah Kuning",
     description:
-      "Di bawah derasnya hujan, ia berdiri — sosok berpayung kuning yang menjadi lambang antara pengampunan dan kesedihan. Ia bukan sekadar roh, melainkan gema dari rasa yang tak sempat terucap. Nara, nama yang pernah disebut dalam hangatnya masa kecil, kini hanya tinggal dalam tetes air yang jatuh di setiap langkahnya. Setiap tatapan matanya memantulkan kenangan, setiap senyum samar menyimpan duka yang belum reda. Ia hadir bukan untuk menakut-nakuti, melainkan untuk mengingatkan: bahkan roh yang lembut pun bisa tersesat dalam penantian. Dalam keheningan hujan, Nara menuntun jiwa-jiwa yang mencari arti pulang, sekaligus menjadi penawar bagi hati yang telah lama kehilangan dirinya sendiri.",
+      "Simbol awal dari derasnya hujan, sosok penuh harapan yang pupus, tanpa nama, tanpa di kenal ialah Sigadis Jubah Kuning, setiap senyumannya menyimpan duka yang belum reda, terdapat secercah penantian di setiap tetes air matanya, hanya satu yang ia kejar, yaitu janji masa kecil, untuk menjadi sahabat selamanya.",
     rightDesc:
       "Sosok arwah berpayung kuning, muncul di bawah hujan membawa kedamaian dan pesan dari masa lalu.",
     race:
