@@ -237,7 +237,6 @@ body::after {
   pointer-events: none;
 }
 
-/*  VIDEO WRAPPER  */
 .video-wrapper {
   position: relative;
   width: 100%;
