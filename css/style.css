@@ -1409,7 +1409,6 @@ body::after {
   background-repeat: no-repeat; /* mencegah pengulangan gambar */
 }
 
-/* Overlay container untuk efek riak */
 .ripple-overlay {
   position: fixed;
   bottom: 0;
