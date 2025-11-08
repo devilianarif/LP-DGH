@@ -1714,11 +1714,6 @@ body::after {
   margin-bottom: 0;
 }
 
-/* Section 7 akhir */
-
-/* ================================================================
-   RESPONSIVE STYLING — MAX WIDTH 2560PX (LAPTOP BESAR / 2K SCREEN)
-   ================================================================ */
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
   /* [1] BODY */
   body {
