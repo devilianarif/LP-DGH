@@ -1421,7 +1421,6 @@ body::after {
   z-index: 7;
 }
 
-/* Elemen riak */
 .ripple {
   position: absolute;
   border-radius: 50%;
