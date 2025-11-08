@@ -298,7 +298,6 @@ let currentCharacter = 2;
 let isDragging = false;
 let startX = 0;
 
-// === Data Karakter Lengkap (11 karakter naratif setara Arya) ===
 const characterDetails = [
   {
     id: 0,
