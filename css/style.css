@@ -638,7 +638,7 @@ body::after {
   transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-/* ==== TEKS HALTE ==== */
+
 .halte-text {
   position: absolute;
   top: 50%;
