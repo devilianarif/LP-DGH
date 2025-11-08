@@ -46,7 +46,7 @@ function drawRain() {
 createRaindrops();
 drawRain();
 
-// resize canvas jika window berubah
+// resize canvas  window berubah
 window.addEventListener('resize', () => {
     width = canvas.width = window.innerWidth;
     height = canvas.height = window.innerHeight;
