@@ -1230,7 +1230,6 @@ body::after {
   filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
 }
 
-/* Text */
 .bschara-right h3 {
   font-size: 1.4rem;
   color: #ffec9c;
