@@ -208,8 +208,6 @@ body::after {
 
   animation: fadeIn 0.4s ease;
 }
-
-/*  CLOSE BUTTON  */
 .close-modal {
   position: absolute;
   top: 6px;
