@@ -1966,12 +1966,6 @@ body::after {
     max-width: 550px;
   }
 
-  /* .character-wrapper {
-    transform: scale(1.9);
-    top: -240px;
-  } */
-
-  
   .kartu-character {
     transform: scale(1.7);
   }
