@@ -168,7 +168,7 @@ for (let i = 0; i < halterCount; i++) {
 });
 
 
-// === Showcase Section 
+//Showcase Section 
 document.addEventListener("DOMContentLoaded", () => {
   const data = [
     {
