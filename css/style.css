@@ -1613,7 +1613,6 @@ body::after {
   opacity: 0.95;
 }
 
-/* Overlay hitam transparan */
 .footer-overlay {
   position: absolute;
   inset: 0;
