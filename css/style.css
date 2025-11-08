@@ -1679,7 +1679,6 @@ body::after {
   padding: 20px;
 }
 
-/* Logo tengah */
 .footer-logos {
   display: flex;
   justify-content: center;
