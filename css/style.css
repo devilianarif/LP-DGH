@@ -281,7 +281,7 @@ body::after {
   top: -33px; 
   left: 50%; 
   transform: translateX(-50%);
-  z-index: 4; /* di atas video & overlay */
+  z-index: 4; /
   pointer-events: none; /* tidak bisa diklik */
 }
 
