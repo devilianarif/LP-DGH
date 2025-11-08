@@ -902,7 +902,7 @@ body::after {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: left;
-  line-height: 1.4; /* biar jarak antar baris pas */
+  line-height: 1.4; 
 }
 
 /* ====== ISI FLEX ====== */
