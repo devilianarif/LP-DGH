@@ -1933,10 +1933,6 @@ body::after {
     max-width: 600px;
   }
 
-  /* .character-wrapper {
-    transform: scale(2.1);
-    top: -270px;
-  } */
 
   .kartu-character {
     transform: scale(1.9);
