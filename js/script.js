@@ -54,7 +54,7 @@ window.addEventListener('resize', () => {
 // auto slide 
 document.addEventListener('DOMContentLoaded', () => {
   const carouselEl = document.querySelector('#picsumCarousel');
-  const carousel = new bootstrap.Carousel(carouselEl, { interval: false }); 
+  const carousel = new bootstrap.Carousel(carouselEl, { interval: false }); // 
 
   let autoSlide; // untuk menyimpan interval custom
   let isPaused = false;
