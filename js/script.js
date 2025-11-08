@@ -308,11 +308,16 @@ const characterDetails = [
       "Bermula muncul di tengah malam dekat warung kecil di tengah jalanan sepi sekitar halte, sedang menunggu seseorang yang mungkin bisa membantunya menghentikan para pemakan roh penasaran, seseorang yang sangat ia percayai, dan selalu baik padanya orang tersebut menjadi alasan kuat sebelum gadis jubah kuning ini menghilang untuk selamanya.",
     race:
       "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
-    trait:
-      "Penyayang, bijak, dan misterius. Tatapannya membawa ketenangan sekaligus kepedihan, seolah tahu rahasia setiap hati yang menatapnya.",
+   trait:
+      "Penyayang, bijak, dan misterius.",
     background:
-      "Nara dulunya adalah gadis ceria yang dikenal oleh semua anak di kampungnya, terutama oleh Arya dan Dinda. Namun di balik senyum lembutnya, ia menyimpan tekanan yang tumbuh dari pengkhianatan dan kesepian. Setelah kematiannya yang tragis, arwahnya tak pernah benar-benar pergi. Ia memilih bertahan di dunia manusia untuk menuntun mereka yang masih hidup agar tak mengulangi kesalahannya. Kini, di setiap hujan yang turun, bayangan jubah kuningnya terlihat samar di tikungan jalan — bukan sebagai kutukan, tapi sebagai doa agar mereka yang menyesal dapat menemukan pengampunan.",
-    imageDetail: "./images/nara3.webp",
+      "
+Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Arya, Dinda, Rian, Sultan, dan Burhan, namun setelah berpisah karena pindah, janji persahabatan mereka hancur, ketika Nara SMP justru dijauhi dan disakiti oleh teman-temannya sendiri, hingga suatu hari, setelah keluarganya terlilit utang demi pengobatannya, Nara kabur dari kejaran rentenir di tengah hujan deras dan tertabrak di dekat halte, dengan payung kuning koyak tergeletak di sampingnya.
+
+
+
+",
+ imageDetail: "./images/nara3.webp",
     imageBackground: "./images/narakbg.webp",
   },
   {
