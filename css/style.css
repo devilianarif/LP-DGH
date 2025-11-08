@@ -1127,8 +1127,6 @@ body::after {
   text-transform: uppercase;
   color: #ffffff;
 }
-
-/* Kontainer utama kiri - line tengah - kanan */
 .bschara-container {
   display: flex;
   align-items: center;
