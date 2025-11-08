@@ -305,7 +305,7 @@ const characterDetails = [
     description:
       "Simbol awal dari derasnya hujan, sosok penuh harapan yang pupus, tanpa nama, tanpa di kenal ialah Sigadis Jubah Kuning, setiap senyumannya menyimpan duka yang belum reda, terdapat secercah penantian di setiap tetes air matanya, hanya satu yang ia kejar, yaitu janji masa kecil, untuk menjadi sahabat selamanya.",
     rightDesc:
-      "Sosok arwah berpayung kuning, muncul di bawah hujan membawa kedamaian dan pesan dari masa lalu.",
+      "Bermula muncul di tengah malam dekat warung kecil di tengah jalanan sepi sekitar halte, sedang menunggu seseorang yang mungkin bisa membantunya menghentikan para pemakan roh penasaran, seseorang yang sangat ia percayai, dan selalu baik padanya orang tersebut menjadi alasan kuat sebelum gadis jubah kuning ini menghilang untuk selamanya.",
     race:
       "Arwah Manusia — entitas yang hidup di antara dua dunia; tidak lagi manusia namun belum siap meninggalkan dunia fana karena ikatan perasaan yang belum terselesaikan.",
     trait:
