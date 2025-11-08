@@ -350,7 +350,7 @@ body::after {
   width: 100%;
   overflow: hidden;
 
-  /* Tambahkan baris di bawah ini */
+  
   background-image: url("../images/bg 2.webp");
   background-size: cover; /* supaya gambar menutupi seluruh area */
   background-position: center; /* posisi gambar di tengah */
