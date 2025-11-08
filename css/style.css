@@ -385,7 +385,7 @@ body::after {
 .about-container {
   position: relative;
   z-index: 10;
-  /* konten di atas efek */
+  
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
