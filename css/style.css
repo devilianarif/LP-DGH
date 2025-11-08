@@ -279,7 +279,7 @@ body::after {
 .video-logo {
   position: absolute;
   top: -33px; 
-  left: 50%; /* tengah horizontal */
+  left: 50%; 
   transform: translateX(-50%);
   z-index: 4; /* di atas video & overlay */
   pointer-events: none; /* tidak bisa diklik */
