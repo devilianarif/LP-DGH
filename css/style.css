@@ -1575,7 +1575,6 @@ body::after {
   margin-right: 120px; /* jarak berhenti sebelum titik pertama */
 }
 
-/* garis kanan: dari setelah titik terakhir ke kanan layar */
 .showcase-dots::after {
   right: calc(-50vw + 50%);
   left: 50%;
