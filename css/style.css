@@ -275,7 +275,7 @@ body::after {
   border-top-right-radius: 12px;
 }
 
-/* ==== LOGO DI ATAS PLAYER ==== */
+
 .video-logo {
   position: absolute;
   top: -33px; /* jarak dari atas player */
