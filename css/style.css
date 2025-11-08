@@ -286,7 +286,7 @@ body::after {
 }
 
 .video-logo img {
-  height: 120px; /* ubah sesuai kebutuhan */
+  height: 120px;
   width: auto;
   opacity: 0.9;
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
