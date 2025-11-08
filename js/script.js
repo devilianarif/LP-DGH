@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     autoSlide = null;
   }
 
-  // Jalankan auto-slide saat awal halaman
+  // run
   startAutoSlide();
 
   // === Integrasi dengan tombol Play & Modal ===
