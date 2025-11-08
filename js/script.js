@@ -299,19 +299,28 @@ let isDragging = false;
 let startX = 0;
 
 const characterDetails = [
-  {
+ {
     id: 0,
     name: "Si Gadis Jubah Kuning",
     description:
-      "Di bawah derasnya hujan, ia berdiri — sosok berpayung kuning yang menjadi lambang antara pengampunan dan kesedihan. Ia bukan sekadar roh, melainkan gema dari rasa yang tak sempat terucap. Nara, nama yang pernah disebut dalam hangatnya masa kecil, kini hanya tinggal dalam tetes air yang jatuh di setiap langkahnya. Setiap tatapan matanya memantulkan kenangan, setiap senyum samar menyimpan duka yang belum reda. Ia hadir bukan untuk menakut-nakuti, melainkan untuk mengingatkan: bahkan roh yang lembut pun bisa tersesat dalam penantian. Dalam keheningan hujan, Nara menuntun jiwa-jiwa yang mencari arti pulang, sekaligus menjadi penawar bagi hati yang telah lama kehilangan dirinya sendiri.",
+      "
+Simbol awal dari derasnya hujan, sosok penuh harapan yang pupus, tanpa nama, tanpa di kenal ialah Sigadis Jubah Kuning, setiap senyumannya menyimpan duka yang belum reda, terdapat secercah penantian di setiap tetes air matanya, hanya satu yang ia kejar, yaitu janji masa kecil, untuk menjadi sahabat selamanya.
+
+
+",
     rightDesc:
-      "Sosok arwah berpayung kuning, muncul di bawah hujan membawa kedamaian dan pesan dari masa lalu.",
+      "Bermula muncul di tengah malam dekat warung kecil di tengah jalanan sepi sekitar halte, sedang menunggu seseorang yang mungkin bisa membantunya menghentikan para pemakan roh penasaran, seseorang yang sangat ia percayai, dan selalu baik padanya orang tersebut menjadi alasan kuat sebelum gadis jubah kuning ini menghilang untuk selamanya.",
     race:
-      "Arwah Manusia — entitas yang hidup di antara dua dunia; tidak lagi manusia namun belum siap meninggalkan dunia fana karena ikatan perasaan yang belum terselesaikan.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
-      "Penyayang, bijak, dan misterius. Tatapannya membawa ketenangan sekaligus kepedihan, seolah tahu rahasia setiap hati yang menatapnya.",
+      "Penyayang, bijak, dan misterius.",
     background:
-      "Nara dulunya adalah gadis ceria yang dikenal oleh semua anak di kampungnya, terutama oleh Arya dan Dinda. Namun di balik senyum lembutnya, ia menyimpan tekanan yang tumbuh dari pengkhianatan dan kesepian. Setelah kematiannya yang tragis, arwahnya tak pernah benar-benar pergi. Ia memilih bertahan di dunia manusia untuk menuntun mereka yang masih hidup agar tak mengulangi kesalahannya. Kini, di setiap hujan yang turun, bayangan jubah kuningnya terlihat samar di tikungan jalan — bukan sebagai kutukan, tapi sebagai doa agar mereka yang menyesal dapat menemukan pengampunan.",
+      "
+Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Arya, Dinda, Rian, Sultan, dan Burhan, namun setelah berpisah karena pindah, janji persahabatan mereka hancur, ketika Nara SMP justru dijauhi dan disakiti oleh teman-temannya sendiri, hingga suatu hari, setelah keluarganya terlilit utang demi pengobatannya, Nara kabur dari kejaran rentenir di tengah hujan deras dan tertabrak di dekat halte, dengan payung kuning koyak tergeletak di sampingnya.
+
+
+
+",
     imageDetail: "./images/nara3.webp",
     imageBackground: "./images/narakbg.webp",
   },
@@ -319,15 +328,18 @@ const characterDetails = [
     id: 1,
     name: "Dinda",
     description:
-      "Hujan selalu mengingatkan Dinda pada satu hal — hari di mana ia memilih untuk diam. Ia yang dulu ceria, kini hidup dalam bayang rasa bersalah. Dalam setiap langkahnya, ada kenangan yang menjerat, dalam setiap senyumnya ada tangisan yang tertahan. Dinda bukan sekadar manusia biasa; ia adalah simbol dari penyesalan yang tumbuh bersama waktu. Di antara gemericik hujan dan dinginnya malam, ia mencari arti pengampunan, bukan dari orang lain, tapi dari dirinya sendiri. Meskipun hatinya retak, ia bertekad untuk tidak lagi menjadi saksi diam dalam tragedi yang berulang.",
+      "
+Hidup seorang diri dengan penuh penyesalan, hari demi hari merupakan rutinitas biasa, Dinda merupakan gadis yang tomboi, dan ceria, namun ketika dewesa setiap langkah sering di hina, hardik, serta rumor buruk lainnya, membuatnya ia berubah drastis menjadi wanita pendiam, diantara hujan deras, Dinda melihat temannya hampir tertabrak kereta sejak saat itu meskipun hatinya retak, Dinda berusaha untuk tidak terikat dengan ucapan orang lain, karena ia tidak ingin mengulangi kejadian masa lalunya.",
     rightDesc:
-      "Wanita yang hidup dengan bayangan masa lalu, mencoba menebus diamnya di masa remaja.",
+      "Wanita Dewasa yang pendiam, yang berusaha membantu Arya keluar dari keterpurukannya, namun malah terlibat dalam insiden supernatural, yang sempat mengira bahwa ini adalah salah Arya atau hukuman baginya, yang faktanya Dinda juga di hantui oleh Si Gadis Jubah kuning.",
     race:
-      "Manusia — makhluk yang menyeberangi batas spiritual dan realitas, dikuasai oleh emosi, dan terus mencari keseimbangan antara luka dan harapan.",
+      "Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh dengan emosi, dan esensi untuk penasaran.",
     trait:
-      "Cerdas, penuh empati, tapi rapuh. Dinda menutupi rasa bersalah dengan tawa, padahal di baliknya ada jiwa yang tak kunjung pulih.",
+      "Cerdas, penuh empati, tapi rapuh.",
     background:
-      "Dinda tumbuh bersama Arya dan Nara dalam persahabatan yang sederhana. Namun ketika dunia mereka mulai berubah, Dinda gagal menjadi penopang bagi sahabatnya. Ia menyaksikan bagaimana Nara hancur, dan dalam ketakutannya, ia memilih berdiam diri. Bertahun kemudian, Dinda kembali ke kota asalnya, hanya untuk disambut oleh kenangan yang menuntut pertanggungjawaban. Ia sadar bahwa menebus masa lalu bukan dengan kata maaf, tapi dengan keberanian untuk menghadapi kebenaran yang dulu ia tolak.",
+      "Teman masa kecil dari Arya dan Nara, dan satu SMP dengan Nara, pertemuannya dengan Nara tidak baik, karena Dinda jauh lebih memiliki circle barunya, dan malahan Nara menjadi sasaran caci makinya, sebaliknya Nara malah tetap berusaha untuk berteman dan siap disuruh-suruh oleh grupnya Dinda, tanpa ada belas kasih membuat Nara harus sering mengalami penindasan, hingga saat SMA mereka bertemu karena Nara pindah, dan saat keluar dari sebuah toko Dinda melihat seorang gadis di kejar oleh orang lain, Dinda yang penasaran dan mengikutinya hingga melihat sebuah kerumunan saat itu juga Dinda terkejut bahwa itu adalah Nara yang telah tewas mengenaskan.
+
+",
     imageDetail: "./images/dinda3.webp",
     imageBackground: "./images/dindakbg.webp",
   },
@@ -335,15 +347,15 @@ const characterDetails = [
     id: 2,
     name: "Arya / Raya",
     description:
-      "Arya adalah representasi manusia yang tenggelam dalam rutinitas, kehilangan makna hidup, dan dibayang-bayangi oleh rasa bersalah masa lalu. Pertemuannya dengan perempuan berpayung kuning membuka luka lama yang selama ini ia tekan. Dalam dirinya terjadi perang batin antara rasionalitas dan spiritualitas, realitas dan ilusi. Ia adalah simbol perjalanan menuju pemulihan — seseorang yang harus menghadapi sisi tergelap dari dirinya sendiri untuk menemukan kembali cahaya dan alasan untuk hidup.",
+      "Kehidupan yang monoton membuat Arya harus mengulanginya terus menerus, tidur, berangkat kerja, lembur, pulang malam, dan seterusnya, hingga suatu hari ia sempat lapar dan mengunjungi sebuah warung untuk makan, usai makan hujan deras mengguyur, membuat Arya terpaksa berlari mencari tempat berteduh yaitu sebuah halte.",
     rightDesc:
-      "Pria muda dengan kepribadian tenang dan introspektif, sering digambarkan membawa beban batin dari masa lalunya.",
+      "Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya teman merepotkan, di balik rutinitasnya ia terpaksa harus bergadang membuat matanya menjadi lebam, namun ia pun tetap menerimanya dan berharap bisa mati dengan cepat, karena ia tidak mempunyai alasan untuk hidup, hingga pertemuaanya dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang mulanya monoton kini menjadi menegangkan, hingga hasrat untuk mati, berubah menjadi hasrat untuk hidup.",
     race:
-      "Manusia — pusat keseimbangan antara cahaya dan kegelapan; setiap keputusan menentukan nasib dunia spiritual di sekitarnya.",
+      "Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh dengan emosi, dan esensi untuk penasaran.",
     trait:
-      "Pendiam, introspektif, dan sering terjebak dalam pikirannya sendiri. Ia mencari makna hidup di antara dosa dan pengampunan.",
+      "Pendiam, introspektif, dan sering terjebak dalam pikirannya sendiri.",
     background:
-      "Arya adalah seorang pria muda yang hidupnya tampak tenang di luar namun porak-poranda di dalam. Di masa kecilnya, ia pernah menjadi bagian dari kelompok sahabat yang akrab — Dinda, R, S, B, dan Nara — hingga satu kejadian di masa remaja membuatnya menyaksikan kehancuran seseorang yang tak mampu ia selamatkan. Rasa takut dan diamnya saat Nara dihina dan tersingkir berubah menjadi penyesalan yang menghantuinya bertahun-tahun kemudian. Setelah kehilangan orang tuanya dan diadopsi oleh keluarga baru, ia hidup dengan nama “Raya,” tapi pergantian identitas itu tak mampu menghapus luka lamanya. Kini, setiap tetes hujan yang turun selalu membawanya kembali pada masa lalu yang ia coba lupakan — masa di mana satu keputusan untuk diam mengubah segalanya.",
+      "Hidup penuh dengan broken home, ditinggal mati kedua orang tua di usia dini membuat Arya harus pindah asuh beberapa kali oleh keluarga hingga yang terakhir ia harus tinggal dengan pamannya, di momen itu tubuh Arya mengalami mati rasa, dan membuatnya harus tinggal di rumah sakit, dan ternyata pamanya menghilang dan Arya terpaksa menjadi anak asuh di panti asuhan hingga ia di adopsi orang lain, dengan nama baru yaitu Raya ketika checkup di rumah sakit ia tak sadar bertemu dan berbicara dengan Nara, Nara yang mencoba bertanya namanya yang menyangka ia adalah Arya, sedikit kecewa karena Arya mengenalkan diri sebagai raya, Nara pun kehilangan semangatnya, namun ia tetap mencoba untuk berteman di Arya hingga mereka berdua membuat janji, jika bertemu lagi akan menjadi teman.",
     imageDetail: "./images/arya3.webp",
     imageBackground: "./images/aryakbg.webp",
   },
@@ -351,15 +363,17 @@ const characterDetails = [
     id: 3,
     name: "Bijo (Penjaga Kota)",
     description:
-      "Makhluk hijau berwujud raksasa dengan sorot mata seperti batu giok purba. Ia bukan iblis, melainkan penjaga — pengawas yang menjaga hukum antara manusia dan dunia roh. Dalam diamnya, ia menilai manusia yang menodai alam, memberi peringatan dengan kekuatan yang tak terukur. Bijo adalah manifestasi kehendak bumi, lahir dari doa dan tangisan para leluhur yang pernah memohon keseimbangan dunia.",
+      "Makhluk hijau besar berwujud raksasa, yang memiliki tugas spesial yang menjadi gerbang Roh, agar roh penasaran tidak masuk kesana, dan roh jahat tidak keluar dari sana, tugas dan peranan Penjaga menjaga agar 2 roh tidak saling bertemu.",
     rightDesc:
-      "Entitas penjaga keseimbangan yang menilai setiap jiwa yang berani menantang hukum alam.",
+      "Entitas penjaga keseimbangan antara 2 roh, yaitu roh penasaran roh dari orang telah tiada, dan roh jahat dari makhluk gaib yang bermutasi dan ingin memakan para manusia agar memakan roh penasaran atau menguasai roh penasaran, peran Bijo cukup penting karena tanpanya dunia akan hancur.",
     race:
-      "Makhluk Gaib — lahir dari energi alam yang murni, bukan dari kegelapan melainkan dari kehendak bumi itu sendiri.",
+      "Makhluk Gaib : makhluk yang terlahir murni dari energi gelap yang memiliki peranan penting mengelola dan menjaga para Roh",
     trait:
-      "Tegas, penuh wibawa, dan bijaksana. Ia tidak mengenal amarah manusia, hanya keseimbangan yang harus ditegakkan.",
+      "Tegas, penuh wibawa, dan Amarah",
     background:
-      "Bijo telah ada jauh sebelum manusia memahami arti waktu. Ia muncul setiap kali batas antara dunia manusia dan arwah mulai kabur. Saat keseimbangan terganggu, ia turun tangan untuk menimbang siapa yang pantas hidup dan siapa yang harus kembali pada tanah. Dalam pertemuannya dengan Arya, Bijo menjadi cermin bagi kemanusiaan: kekuatan sejati tidak datang dari penguasaan, tapi dari kesediaan untuk mengakui sisi gelap dalam diri.",
+      "
+Bijo telah ada sebelum Manusia ada, sosok Bijo di ciptakan untuk sebagai penjaga batas antara dunia Alam Roh dan makhluk gaib, namun kadang makhluk gaib berusaha mempengaruhi Bijo dan melepaskan roh jahat untuk mengambil alih roh penasaran yang nantinya bisa memasuki dunia manusia yaitu Alam Fana, disinilah Bijo bertugas menghentikan para makhluk gaib lepas atau manusia memasuki alam roh, siapapun yang menerobos akan menjadi musuhnya.
+",
     imageDetail: "./images/bijo2.webp",
     imageBackground: "./images/bijokbg.webp",
   },
