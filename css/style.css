@@ -2125,11 +2125,13 @@ body::after {
   }
 
   .bschara-container:hover .bschara-right {
-    transform: transla
+    transform: translateY(0);
+  }
+}
 
 /* ================================================================
    [6] MOBILE / SMARTPHONE (max 767px)
-   ================================================================ *
+   ================================================================ */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   body {
     font-size: 14px;
