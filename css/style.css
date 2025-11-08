@@ -278,7 +278,7 @@ body::after {
 
 .video-logo {
   position: absolute;
-  top: -33px; /* jarak dari atas player */
+  top: -33px; 
   left: 50%; /* tengah horizontal */
   transform: translateX(-50%);
   z-index: 4; /* di atas video & overlay */
