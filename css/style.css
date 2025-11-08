@@ -182,7 +182,6 @@ body::after {
   text-align: center;
 }
 
-/*  MODAL OVERLAY  */
 .custom-modal {
   position: fixed;
   inset: 0;
