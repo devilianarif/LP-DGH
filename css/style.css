@@ -1713,7 +1713,7 @@ body::after {
 }
 
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
-  /* [1] BODY */
+  
   body {
     font-size: 17px;
     overflow-x: hidden;
