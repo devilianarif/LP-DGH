@@ -898,7 +898,7 @@ body::after {
   grid-area: left;
   position: relative;
   z-index: 3;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
