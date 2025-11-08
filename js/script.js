@@ -328,7 +328,7 @@ const characterDetails = [
     background:
       "Teman masa kecil dari Arya dan Nara, dan satu SMP dengan Nara, pertemuannya dengan Nara tidak baik, karena Dinda jauh lebih memiliki circle barunya, dan malahan Nara menjadi sasaran caci makinya, sebaliknya Nara malah tetap berusaha untuk berteman dan siap disuruh-suruh oleh grupnya Dinda, tanpa ada belas kasih membuat Nara harus sering mengalami penindasan, hingga saat SMA mereka bertemu karena Nara pindah, dan saat keluar dari sebuah toko Dinda melihat seorang gadis di kejar oleh orang lain, Dinda yang penasaran dan mengikutinya hingga melihat sebuah kerumunan saat itu juga Dinda terkejut bahwa itu adalah Nara yang telah tewas mengenaskan.
 
-",
+"
     imageDetail: "./images/dinda3.webp",
     imageBackground: "./images/dindakbg.webp",
   },
