@@ -1202,8 +1202,6 @@ body::after {
   text-align: justify;
   max-width: 455px;
 }
-
-/* === Efek hover === */
 .bschara-container:hover {
   transform: scale(1.1);
   filter: brightness(1.05);
