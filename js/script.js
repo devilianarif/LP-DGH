@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const iframe = document.getElementById('youtubePlayer');
   const closeBtn = modal.querySelector('.close-modal');
 
-  // Saat tombol Play diklik
+  //playklik
   playButtons.forEach(btn => {
     btn.addEventListener('click', () => {
       const videoId = btn.getAttribute('data-video');
