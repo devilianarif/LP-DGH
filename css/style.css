@@ -976,7 +976,6 @@ body::after {
   height: auto;
 }
 
-/* === KANAN === */
 .dtchara-right {
   grid-area: right;
   position: relative;
