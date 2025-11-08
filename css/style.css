@@ -898,10 +898,10 @@ body::after {
   grid-area: left;
   position: relative;
   z-index: 3;
-  text-align: right;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
 }
 
 .dtchara-left h2 {
