@@ -960,7 +960,6 @@ body::after {
   padding-top: 20px;
 }
 
-/* === TENGAH === */
 .dtchara-center {
   grid-area: center;
   display: flex;
