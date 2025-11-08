@@ -195,8 +195,6 @@ body::after {
   transition: all 0.4s ease;
   width: 100%;
 }
-
-/*  MODAL AKTIF  */
 .custom-modal.active {
   display: flex;
 }
