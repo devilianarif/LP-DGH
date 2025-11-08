@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Auto slide tiap 5 detik
   let autoPlay = setInterval(nextSlide, 5000);
 
-  // Klik 
+  // Klik manual
   dots.forEach((dot, i) => {
     dot.addEventListener("click", () => {
       index = i;
