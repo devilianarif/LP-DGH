@@ -1572,7 +1572,7 @@ body::after {
 .showcase-dots::before {
   left: calc(-50vw + 50%);
   right: 50%;
-  margin-right: 120px; /* jarak berhenti sebelum titik pertama */
+  margin-right: 120px;
 }
 
 .showcase-dots::after {
