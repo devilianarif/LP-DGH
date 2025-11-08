@@ -418,7 +418,7 @@ body::after {
   pointer-events: none;
   
   z-index: 0;
-  /* di belakang semua konten */
+  
 }
 
 /* Garis Atas */
