@@ -976,8 +976,7 @@ body::after {
 .dtchara-text {
   line-height: 1.4;
   position: relative;
-  text-align: 
-  ;
+  text-align: left;
 }
 
 .dtchara-text h2 {
