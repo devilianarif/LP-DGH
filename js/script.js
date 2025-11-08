@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Mautoslide 
+  // Mautoslide 4dtk
   function startAutoSlide() {
     stopAutoSlide(); // pastikan gak dobel
     autoSlide = setInterval(nextSlide, 8000);
