@@ -311,8 +311,7 @@ const characterDetails = [
    trait:
       "Penyayang, bijak, dan misterius.",
     background:
-      "
-Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Arya, Dinda, Rian, Sultan, dan Burhan, namun setelah berpisah karena pindah, janji persahabatan mereka hancur, ketika Nara SMP justru dijauhi dan disakiti oleh teman-temannya sendiri, hingga suatu hari, setelah keluarganya terlilit utang demi pengobatannya, Nara kabur dari kejaran rentenir di tengah hujan deras dan tertabrak di dekat halte, dengan payung kuning koyak tergeletak di sampingnya.", imageDetail: "./images/nara3.webp",
+      "Si Gadis Jubah Kuning, atau Nara, dulunya bocah ceria yang bersahabat dengan Arya, Dinda, Rian, Sultan, dan Burhan, namun setelah berpisah karena pindah, janji persahabatan mereka hancur, ketika Nara SMP justru dijauhi dan disakiti oleh teman-temannya sendiri, hingga suatu hari, setelah keluarganya terlilit utang demi pengobatannya, Nara kabur dari kejaran rentenir di tengah hujan deras dan tertabrak di dekat halte, dengan payung kuning koyak tergeletak di sampingnya.", imageDetail: "./images/nara3.webp",
     imageBackground: "./images/narakbg.webp",
   },
   {
