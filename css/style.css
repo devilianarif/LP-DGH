@@ -1726,7 +1726,6 @@ body::after {
     overflow-x: hidden;
   }
 
-  /* [2] SECTION 1 — BANNER HEADER */
   #BannerHeader {
     min-height: 100vh;
     background-position: center top;
