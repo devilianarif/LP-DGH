@@ -853,7 +853,6 @@ body::after {
   z-index: 5;
 }
 
-/* ==== gen bawah ==== */
 #detailcharacter .gen.bawah {
   position: absolute;
   left: 0;
