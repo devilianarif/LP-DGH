@@ -2368,7 +2368,7 @@ body::after {
   }
 }
 
-/* ================================================================
+/* 
    [6] MOBILE / SMARTPHONE (max 480px)
     */
 @media screen and (max-width: 480px) {
