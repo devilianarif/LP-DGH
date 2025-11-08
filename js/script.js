@@ -362,6 +362,8 @@ const characterDetails = [
     imageDetail: "./images/bijo2.webp",
     imageBackground: "./images/bijokbg.webp",
   },
+
+  
   {
     id: 4,
     name: "Owo",
