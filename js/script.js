@@ -10,7 +10,7 @@ const numberOfDrops = 200; // jumlah titik hujan
 
 function createRaindrops() {
     for (let i = 0; i < numberOfDrops; i++) {
-        const speed = 0.5 + Math.random() * 0.8; // lebih lambat & acak ringan
+        const speed = 0.5 + Math.random() * 0.8; // spped & acak ringan
         raindrops.push({
             x: Math.random() * width,
             y: Math.random() * height,
