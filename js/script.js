@@ -599,7 +599,7 @@ function updateCharacterDetails(characterId) {
   document.querySelector(".bschara-right h3").textContent = c.name;
   document.querySelector(".bschara-right p").textContent = c.background;
 
-  // scroll halus ke detail
+  // scroll alus ke detail
   document.getElementById("detailcharacter").scrollIntoView({ behavior: "smooth" });
 }
 
