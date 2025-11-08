@@ -36,7 +36,7 @@ function drawRain() {
         d.y += d.velocity * 3; // ubah faktor ini (2–4) untuk kontrol kecepatan umum
         if (d.y > height) {
             d.y = -d.length;
-            d.x = Math.random() * width; // posisi ulang acak biar lebih natural
+            d.x = Math.random() * width; 
         }
     }
 
