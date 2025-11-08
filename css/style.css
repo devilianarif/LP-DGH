@@ -1594,7 +1594,6 @@ body::after {
   z-index: 11;
 }
 
-/* Titik aktif */
 .showcase-dot.active {
   background: radial-gradient(circle at center, #ff2a00 0%, #ff6a00 90%);
   box-shadow: 0 0 12px #ff4c00, 0 0 20px rgba(255, 120, 0, 0.6);
