@@ -897,7 +897,7 @@ body::after {
 .dtchara-section h1 {
   font-size: 56px;
   padding-top: 50px;
-  padding-left: 60px; /* sejajarkan dengan padding konten */
+  padding-left: 60px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
