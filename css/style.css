@@ -1417,7 +1417,7 @@ body::after {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  pointer-events: none; /* biar klik tetap bisa ke elemen bawah */
+  pointer-events: none; 
   z-index: 7;
 }
 
