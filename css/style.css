@@ -314,7 +314,6 @@ body::after {
   pointer-events: auto;
 }
 
-/* ANIMASI HALUS */
 @keyframes fadeIn {
   from {
     opacity: 0;
