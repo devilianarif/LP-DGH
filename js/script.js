@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-// === Halter Rain Effect ===
+// === Halter Rain Effect 
 const halterCount = 100; // jumlah garis hujan
 
 for (let i = 0; i < halterCount; i++) {
