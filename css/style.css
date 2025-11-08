@@ -1654,7 +1654,7 @@ body::after {
 /* Area klik di dalam darah kanan */
 .darah-kanan a {
   position: absolute;
-  inset: 0; /* isi seluruh area parent */
+  inset: 0; 
   cursor: pointer;
   text-indent: -9999px;
 }
