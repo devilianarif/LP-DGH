@@ -1554,7 +1554,6 @@ body::after {
   pointer-events: auto;
 }
 
-/* Garis kiri dan kanan menjulur sampai tepi layar */
 .showcase-dots::before,
 .showcase-dots::after {
   content: "";
