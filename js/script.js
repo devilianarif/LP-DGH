@@ -363,20 +363,19 @@ const characterDetails = [
     imageBackground: "./images/bijokbg.webp",
   },
 
-
-  {
+{
     id: 4,
     name: "Owo",
     description:
-      "Owo adalah kegelapan yang lahir dari manusia — bayangan yang mengikuti di mana cahaya ada. Ia tidak diciptakan, melainkan tumbuh dari setiap penyesalan, kebencian, dan ketakutan manusia. Saat seseorang menolak memaafkan diri, Owo berwujud, menampakkan dirinya sebagai penguasa kegelapan dalam bentuk manusia yang tak berwajah. Ia adalah bisikan di malam hari, penolak cahaya yang hidup dari luka batin manusia.",
+      "Perwujudan mutlak dari kegelapan, makhluk paling berbahaya, sebuah entitas khusus yang di ciptakan untuk mengelabuhi manusia, memiliki tubuh besar, dan kekar dengan bulu gelap ungu, semua yang berbau manusia ia benci, suka dengan duka manusia dan lahap dalam memakan arwah manusia.",
     rightDesc:
-      "Manifestasi kegelapan manusia, tumbuh dari rasa bersalah dan kebencian yang tak terselesaikan.",
+      "Terlahir dari kebencian, tumbuh dari rasa bersalah, sekali Owo muncul semua akan ia makan, tidak ada roh jahat atau makhluk gaib yang berani melawannya, kecuali satu yaitu Si Gadis Jubah Kuning, hanya satu kelemahan Owo yaitu hasrat untuk semangat hidup.",
     race:
-      "Makhluk Gaib — energi hidup dari sisi tergelap kesadaran manusia yang terpisah dan membentuk entitas sendiri.",
+      "Makhluk Gaib : makhluk yang terlahir murni dari energi gelap yang memiliki peranan penting mengelola dan menjaga para Roh",
     trait:
-      "Tenang, licik, dan menyesatkan. Ia menawarkan solusi bagi penderitaan, namun setiap bantuan memiliki harga yang tak terbayar.",
+      "Tenang, licik, dan menyesatkan.",
     background:
-      "Owo dulunya adalah entitas tak bernama yang muncul setiap kali seseorang menolak pengampunan. Ia memberi kekuatan kepada manusia yang putus asa, namun menagih jiwa mereka sebagai imbalan. Dalam perjalanan Arya, Owo menjadi lawan utama — perwujudan dari sisi terdalam jiwanya yang ingin menyerah. Dalam menghadapi Owo, Arya tidak melawan musuh luar, melainkan dirinya sendiri.",
+      "Owo dulunya adalah roh penasaran yang terjebak dengan dendamnya yang tak kunjung usai, memupuk seiring waktu berlalu hingga berubah menjadi ambisi khusus menuntun para roh lain yang tersesat untuk makanannya, kini Owo telah mengalami perubahan dari roh penasaran menjadi makhluk gaib, hingga dunia melupakan muasal dari Owo, dan karena ambisinya juga cara sesatnya membuat manusia cepat mati dan menjadi roh penasaran, membuat Arya tidak ada pilihan lain selain menghentikannya, menjadi lawan utamanya, hanya tasbih yang bisa mengalahkan Owo.",
     imageDetail: "./images/owo2.webp",
     imageBackground: "./images/owokbg.webp",
   },
@@ -384,15 +383,15 @@ const characterDetails = [
     id: 5,
     name: "Arya (Mode Bijo)",
     description:
-      "Saat dunia spiritual dan dunia manusia bertabrakan, Arya menemukan dirinya di ambang kehancuran. Dalam keputusasaan melawan Owo, ia memanggil kekuatan dari Tasbih Al-Muqayyad — artefak kuno yang mengikat energi Bijo. Tubuhnya berubah: uratnya bersinar hijau, matanya berpendar seperti zamrud. Mode ini bukan hanya kekuatan, tapi ujian — karena setiap amarah yang ia keluarkan, mengikis sisi manusianya sedikit demi sedikit.",
+      "Dalam pertarungan sengit di Alam Perbatasan, Bijo berhasil di kalahkan namun, bencana baru malah terlahir, dalam pertarungan terakhir, Arya dan Nara sepakat menggunakan kekuatan Bijo sebagai bentuk kekuatan baru dari Tasbih Mode, namun kekuatan itu tidak lengkap karena wujud tersebut merupakan sisa dari wujud Bijo terakhir kalinya yaitu satu lengan.",
     rightDesc:
-      "Wujud transendental Arya ketika kekuatan Bijo membanjiri tubuh dan jiwanya.",
+      "Salah satu kekuatan Arya dalam Tasbih Mode, yaitu Transformasi Arya berhasil berubah wujud menjadi Bijo dengan satu lengan, kekuatan Tasbih kini hanya bersifat sementara, namun selain kekuatan Arya harus bisa mengendalikan emosinya, karena sifat asli dari Bijo juga perlahan mengambil alih pikiran dan hasrat Arya.",
     race:
-      "Tasbih Mode — perpaduan energi manusia dan makhluk penjaga, wujud paling murni dari kehendak alam yang melebur dengan jiwa manusia.",
+      "Tasbih Mode : adalah salah kekuatan Arya yang dimana setiap butir bisa menyimpan bentuk Roh atau makhluk gaib yang nantinya bisa digunakan Arya sebagai bala bantuan atau kekuatannya.",
     trait:
-      "Kuat, emosional, dan kehilangan batas antara manusia dan roh. Ia bisa menjadi penyelamat atau kehancuran.",
+      "Kuat, emosional, dan kehancuran.",
     background:
-      "Dalam pertarungan terakhir di Kuil Jiwa Gelap, Arya melepaskan segel tasbih yang mengikat kekuatan Bijo. Tubuhnya setengah manusia, setengah roh penjaga. Setiap langkahnya mengguncang bumi, setiap teriakannya membelah langit. Namun di balik kekuatan itu, ada sisi rapuh yang terus berteriak untuk berhenti. Mode Bijo adalah perwujudan manusia yang melampaui batasnya, tapi juga pengingat bahwa kekuatan tanpa kendali bisa menelan jiwanya sendiri.",
+      "Dalam pertarungan terakhir di Kuil Jiwa Gelap, Arya melepaskan segel tasbih yang mengikat kekuatan Bijo. Tubuhnya setengah manusia, setengah Makhluk gaib, setiap emosi dan kekuatan bercampur aduk membuat Arya harus bisa mengendalikan sifat dari Bijo tersebut agar Arya tidak di kendalikan dan terjebak di alam bawah sadar, kekuatan baru ini menjadi penanda bahwa nantinya Arya akan bertemu dengan Makhluk gaib lain atau Roh penasaran lain, untuk persiapan melawan Owo.",
     imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/aryaibg.webp",
   },
