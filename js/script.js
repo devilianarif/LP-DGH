@@ -175,7 +175,8 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1sc.webp",
       title: "Season 1 — Di Balik Guyur Hujan",
       list: [
-        "Pertemuan Arya dengan gadis berpayung kuning di tengah hujan membuka kembali masa lalu yang terkubur. Gadis itu ternyata sudah meninggal tiga tahun lalu dan menjadi kunci rahasia antara rasa bersalah, kehilangan, dan pengkhianatan masa kecil. Dari balik hujan, kenangan lama mulai hidup kembali."
+        "Pertemuan Arya dengan gadis berpayung kuning 
+        di tengah hujan membuka kembali masa lalu yang terkubur. Gadis itu ternyata sudah meninggal tiga tahun lalu dan menjadi kunci rahasia antara rasa bersalah, kehilangan, dan pengkhianatan masa kecil. Dari balik hujan, kenangan lama mulai hidup kembali."
       ]
     },
     {
