@@ -175,35 +175,35 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "../images/s1sc.webp",
       title: "Season 1 — Di Balik Guyur Hujan",
       list: [
-        "Pertemuan Arya dengan gadis berpayung kuning di tengah hujan membuka kembali masa lalu yang terkubur. Gadis itu ternyata sudah meninggal tiga tahun lalu dan menjadi kunci rahasia antara rasa bersalah, kehilangan, dan pengkhianatan masa kecil. Dari balik hujan, kenangan lama mulai hidup kembali."
+        "Pertemuan Arya dengan gadis jubah kuning di tengah hujan membuka kembali masa lalu yang terkubur. Gadis itu muncul karena menagih janji masa kecilnya kepada Arya, yang nantinya membuat Arya harus mengalami insiden supernatural."
       ]
     },
     {
       img: "../images/s2sc.webp",
       title: "Season 2 — Jalan Tanpa Ujung",
       list: [
-        "Terseret ke dunia roh, Arya menghadapi sisi tergelap dalam dirinya. Bersama Dinda dan gadis payung kuning, ia berjuang menyeimbangkan dunia spiritual yang dikendalikan entitas dendam bernama Gundorowo. Namun saat kembali, ia tak tahu apakah dunia yang ia injak masih nyata… atau hanya bayangan roh."
+        "Terseret ke dunia roh, Arya menghadapi sisi tergelap dalam dirinya. Bersama gadis jubah kuning, ia berjuang menyeimbangkan dunia spiritual yang dikendalikan entitas dendam bernama Owo. Namun dalam pertarungan di dunia Roh, Arya malah membunuh penyeimbang terseut membuat bencana besar berdatangan."
       ]
     },
     {
       img: "../images/s3sc.webp",
       title: "Season 3 — Jejak Kematian & Dunia Terbelah",
       list: [
-        "Nara, gadis berpayung kuning, ternyata tidak mati—melainkan terjebak di antara dua dunia. Saat Arya dan Dinda mencoba menyelamatkannya, masa lalu mulai menghapus batas logika. Nara kembali, tapi bukan lagi manusia. Di balik semua itu, sosok misterius mulai mengawasi mereka dari jauh."
+        "Nara, gadis jubah kuning, ternyata tidak benar-benar mati melainkan terjebak di antara dua dunia. Saat Arya dan Dinda mencoba menyelamatkannya, masa lalu mulai menghapus batas logika. diantara para roh Arya dan Dinda harus berhadapan dengan mayat hidup dan bentuk siksaan kubur."
       ]
     },
     {
       img: "../images/s4sc.webp",
       title: "Season 4 — Perburuan Roh",
       list: [
-        "Sebuah proyek di Kalimantan membawa Arya, Dinda, dan Nara ke wilayah roh yang haus jiwa. Batu Segitiga Arya memanggil entitas lama—Kuyang dan Tianak—yang bangkit mencari asal kekuatan mereka. Semakin dalam perburuan berlangsung, semakin jelas bahwa sumber kekacauan ada dalam diri Arya sendiri."
+        "Sebuah proyek di Kalimantan membawa Arya, Dinda, dan Nara ke wilayah roh yang haus jiwa. Dalam perjalanan dinas nya Arya di hadapkan dengan sosok baru yang dikenal dengan istilah wabah. Sosok baru seperti Kuyang dan Tianak menjadi akar dari wabah. Perburuan besar ini kembali melahirkan kebersamaan 5 sahabat."
       ]
     },
      {
       img: "../images/s5sc.webp",
       title: "Season 5 — Perang Tak Beraturan ",
       list: [
-        "Keseimbangan dunia hancur. Bati dan Owo memicu perang antara roh dan manusia, membawa kekacauan hingga kesurupan massal. Bersama sekutu baru, Arya berhadapan dengan makhluk-makhluk legenda: Relta, Sulong, dan Tuyul. Saat kebenaran terungkap—Arya dan Owo berasal dari sumber yang sama—dunia diselamatkan dengan satu harga: kemanusiaan Arya sendiri."
+        "Insiden besar di kota, listrik padam berkepanjangan dan penampakan, serta tabrakan beruntun, dan kerupan massal, menjadi puncak dari keseimbangan dunia hancur, Bati dan Owo muncul di Alam Fana, alamnya manusia, selain tragedi kelam Relta, Sulong, dan Tuyul harus segera di hentikan, bagaimana 5 sahabat ini menghentikan mereka, akankah ada pengorbanan dalam peristiwa ini."
       ]
     }
   ];
