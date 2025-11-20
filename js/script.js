@@ -545,7 +545,6 @@ Relta muncul di antara kabut malam, di rel-rel sunyi yang tak lagi dilalui manus
     imageDetail: "./images/batip.webp",
     imageBackground: "./images/batibg.webp",
   },
-
 ];
 // update view karakter
 function updateCharacter() {
