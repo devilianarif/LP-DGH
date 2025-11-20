@@ -33,7 +33,7 @@ function drawRain() {
         ctx.lineTo(d.x, d.y + d.length);
         ctx.stroke();
 
-        d.y += d.velocity * 3; // ubah faktor ini (2–4) untuk kontrol kecepatan umum
+        d.y += d.velocity * 3; //  (2–4) untuk kontrol kecepatan umum
         if (d.y > height) {
             d.y = -d.length;
             d.x = Math.random() * width; 
