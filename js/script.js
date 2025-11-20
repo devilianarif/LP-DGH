@@ -612,7 +612,7 @@ carCard.forEach((card, index) => {
   });
 });
 
-// === Drag Desktop ===
+//  Drag Desktop ===
 charTrack.addEventListener("mousedown", (e) => {
   isDragging = true;
   startX = e.pageX;
