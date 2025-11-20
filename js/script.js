@@ -395,7 +395,6 @@ const characterDetails = [
     imageDetail: "./images/aryai3.webp",
     imageBackground: "./images/aryaibg.webp",
   },
- 
 {
   id:6,
   name: "Rian",
@@ -418,8 +417,7 @@ const characterDetails = [
   description:
     "Bocah sepermainan Arya, hidupnya yang lebih dari cukup membuat ia menjadi buta akan sekitar di seiring pertumbuhannya, jiwa pemberontak dalamnya selalu menolak untuk dia, tubuh dengan kekerasan dan kehilangan kasih sayang, ia selalu tampil percaya, memanfaatkan harta orang tuanya, namun ia tahu, bahwa mereka yang di dekatnya hanya mengincar uangnya, kecuali teman masa kecilnya.",
   rightDesc:
-    "Pria yang selalu bermain dengan kesombongan dan egonya, membuat ia lupa bahwa dirinya pernah melukai beberapa orang, hingga pada akhirnya sifat buruk tersebut tertutup oleh tingkahnya yang sangat sok baik, berusaha memendam amarah, hingga meninggalkan bekas luka yang dalam pada sekitar korbannya yang tanpa sadar berusaha membalaskan dendam kepadanya.
-Pria keras kepala dan berjiwa pemberontak, membawa amarah dari masa kecil yang penuh luka.",
+    "Pria yang selalu bermain dengan kesombongan dan egonya, membuat ia lupa bahwa dirinya pernah melukai beberapa orang, hingga pada akhirnya sifat buruk tersebut tertutup oleh tingkahnya yang sangat sok baik, berusaha memendam amarah, hingga meninggalkan bekas luka yang dalam pada sekitar korbannya yang tanpa sadar berusaha membalaskan dendam kepadanya.",
   race:
     "Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh dengan emosi, dan esensi untuk penasaran.",
   trait:
