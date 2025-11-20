@@ -115,6 +115,58 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+
+// Halter Rain Effect 
+const halterCount = 100; // jumlah garis hujan
+
+for (let i = 0; i < halterCount; i++) {
+  const line = document.createElement("hr");
+
+  if (i === halterCount - 1) {
+    line.className = "halter-thunder";
+  } else {
+    line.className = "halter-line";
+    line.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+    line.style.animationDuration = 0.2 + Math.random() * 0.3 + "s";
+    line.style.animationDelay = Math.random() * 5 + "s";
+  }
+
+  document.querySelector(".halter-container").appendChild(line);
+}
+
+  const makeDtchaRain = () => {
+    document.querySelectorAll(".dtcharain").forEach(el => el.innerHTML = "");
+
+    let increment = 0;
+    let drops = "";
+    let backDrops = "";
+
+    while (increment < 100) {
+      let randoHundo = Math.floor(Math.random() * 98) + 1;
+      let randoFiver = Math.floor(Math.random() * 4) + 2;
+      increment += randoFiver;
+
+      drops += `
+        <div class="dtcharain-drop" style="left:${increment}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
+          <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+          <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+        </div>`;
+
+      backDrops += `
+        <div class="dtcharain-drop" style="right:${increment}%;animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;">
+          <div class="dtcharain-stem" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+          <div class="dtcharain-splat" style="animation-delay:0.${randoHundo}s;animation-duration:0.5${randoHundo}s;"></div>
+        </div>`;
+    }
+
+    document.querySelector(".dtcharain.front-row").innerHTML = drops;
+    document.querySelector(".dtcharain.back-row").innerHTML = backDrops;
+  };
+
+  makeDtchaRain();
+});
+
 
 //Showcase Section 
 document.addEventListener("DOMContentLoaded", () => {
