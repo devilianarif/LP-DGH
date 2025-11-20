@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const carouselEl = document.querySelector('#picsumCarousel');
   const carousel = new bootstrap.Carousel(carouselEl, { interval: false }); // matikan auto 
 
-  let autoSlide; //var auto-slide
+  let autoSlide; 
   let isPaused = false;
 
  //nextslide
