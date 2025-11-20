@@ -483,7 +483,7 @@ const characterDetails = [
     id: 11,
     name: "Relta (Penunggu Rel)",
     description:
-      "Seatu insiden terjadi di terowongan kereta anak gunung, setiap kabut malam muncul dengan tawa anak kecil, menjadi alasan utamanya yang ingin bermain, namun semua anak menjauhi membuat ia terpaksa bermain sendiri hingga menciptakan teman lain yaitu bonekanya, wadah khusus tempat mereka dikurung untuk jadi temannya, siapun yang menolak akan di paksa untuk jadi bagian dari bonekanya.",
+      "Sesuatu insiden terjadi di terowongan kereta anak gunung, setiap kabut malam muncul dengan tawa anak kecil, menjadi alasan utamanya yang ingin bermain, namun semua anak menjauhi membuat ia terpaksa bermain sendiri hingga menciptakan teman lain yaitu bonekanya, wadah khusus tempat mereka dikurung untuk jadi temannya, siapun yang menolak akan di paksa untuk jadi bagian dari bonekanya.",
     rightDesc:
       "Roh tanpa suara yang menghantui rel kereta, hanya hasrat pertemanan yang berujung insiden, suara roda besi dari rel menjadi penanda dari teriakan setiap anak yang ia culik menjadi bonekanya, setiap bonekanya menjadi perwakilan dari temannya.",
     race:
