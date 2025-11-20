@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // closemodal
   modal.addEventListener('click', (e) => {
-    if (e.target  modal || e.target  closeBtn) {
+    if (e.target === modal || e.target === closeBtn) {
       modal.classList.remove('active');
       iframe.src = "";
       document.body.style.overflow = 'auto';
@@ -123,7 +123,7 @@ const halterCount = 100; // jumlah garis hujan
 for (let i = 0; i < halterCount; i++) {
   const line = document.createElement("hr");
 
-  if (i  halterCount - 1) {
+  if (i === halterCount - 1) {
     line.className = "halter-thunder";
   } else {
     line.className = "halter-line";
@@ -551,14 +551,14 @@ function updateCharacter() {
 
   carCard.forEach((card, index) => {
     const distance = Math.abs(currentCharacter - index);
-    card.classList.toggle("aktif", index  currentCharacter);
+    card.classList.toggle("aktif", index === currentCharacter);
     card.style.transform =
-      index  currentCharacter
+      index === currentCharacter
         ? "scale(1.1) translateY(-10px)"
-        : distance  1
+        : distance === 1
         ? "scale(0.9) translateY(5px)"
         : "scale(0.8) translateY(15px)";
-    card.style.opacity = index  currentCharacter ? "1" : distance  1 ? "0.6" : "0.3";
+    card.style.opacity = index === currentCharacter ? "1" : distance === 1 ? "0.6" : "0.3";
   });
 }
 // update detail karakter
