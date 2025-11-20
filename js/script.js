@@ -446,19 +446,20 @@ const characterDetails = [
   imageBackground: "./images/burhanbg.webp",
 },
 
+
   {
     id: 9,
     name: "Kuyang",
     description:
-      "Kuyang melayang di malam hari, membawa aroma darah dan keheningan. Ia dulunya manusia, seorang perempuan yang menolak tua, menukar jiwanya demi keindahan abadi. Kini, hanya kepala dan organ tubuhnya yang tersisa, berkelana mencari darah segar untuk bertahan hidup. Di balik teriakannya yang menyeramkan, tersimpan kesepian panjang dari jiwa yang kehilangan makna kemanusiaannya.",
+      "Arwah Penasaran berwujud organ tubuh manusia yang berawal dari wabah, pertama kali muncul di arc Kalimantan Ketika Arya dan Dinda bertugas, saat malam hari selalu muncul bertebangan diatas mencari mangsa domba, atau janin, ia selalu membawa aromah darah, berasal dari seroang perempuan yang menolak dirinya menjadi tua, demi keabadiannya, ia menukar jiwanya.",
     rightDesc:
-      "Perempuan yang menukar jiwanya demi keabadian, kini hanya kepala dan organ yang melayang di malam hari.",
+      "Berawal dari penyakit wabah menjadi aksi sacral demi cantik abadi, digambarkan sebagai kepala dengan organ yang selalu memburu ternak warga seperti domba dan janin, kemampuannya dia cukup hebat dalum berubah wujud, jubahnya mampu membuat siapapun melihat dia sebagai gadis cantik.",
     race:
-      "Arwah Manusia — hasil kutukan dari ilmu hitam, entitas yang kehilangan tubuh namun masih terikat pada dunia fana.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
-      "Licik, haus darah, namun penuh kesedihan. Ia menangis di malam hari, bukan karena lapar, tapi karena tak bisa mati.",
+      "Licik, haus darah, selalu menangis di malam hari, bukan karena lapar, tapi karena tak bisa mati.",
     background:
-      "Kuyang dulunya seorang tabib muda yang haus akan kecantikan dan kekuasaan. Ia menolak waktu dan menolak takdir. Setelah melakukan ritual hitam untuk mempertahankan usia mudanya, tubuhnya terlepas dari jiwa. Kini, setiap malam ia berburu darah segar untuk mempertahankan wujudnya. Namun dalam keabadiannya, ia menanggung kesepian tanpa batas, menjadi simbol bahwa keindahan yang dipaksakan hanya melahirkan penderitaan abadi.",
+      "Wanita cantik rupawan karena selingkuhan suaminya, membuat ia tidak puas dengan kecantikannya, demi membalas dendam ke selingkuhan ia malah diserang balik oleh pelakor tersebut, membuat parasnya yang awalnya cantik alami, merubah menjadi jelek, karena menolak takdir, wanita ini memutuskan mempelajari ritual hitam untuk mempertahan usianya dan menambal kejelakannya dengan merebut janin, domba, atau wajah dari para pelakor.",
     imageDetail: "./images/kuyang2.webp",
     imageBackground: "./images/kuyangbg.webp",
   },
@@ -466,15 +467,15 @@ const characterDetails = [
    id: 10,
     name: "Tianak (Kuntilanak)",
     description:
-      "Di tengah malam yang sunyi, terdengar tangisan bayi dari balik pepohonan. Tianak bukan sekadar arwah anak kecil, melainkan dua jiwa dalam satu tubuh — sang ibu dan bayi yang mati bersamaan. Kuntilanak menangis mencari anaknya, dan Tianak tertawa di pelukannya, terjebak dalam lingkaran kematian yang abadi.",
+      "Di tengah malam yang sunyi, terdengar tangisan bayi dari pepohonan terdapat wanita yang sedang kesusahan menenangkan balitanya namun ia bukan sekedar ibu dan anak biasa, melainkan 2 jiwa dalam satu tubuh yang terpaksa keluar karena luka batin dan tuntutan hasrat, setiap tangisannya menjadi penanda bahwa ia bahagia, dan setiap tawanya bentuk dari kesedihannya.",
     rightDesc:
-      "Roh ibu dan anak yang mati bersamaan, menangis mencari satu sama lain di malam sunyi.",
+      "Roh ibu dan anak yang mati bersamaan, yang saling mencari kebahagiannya dari para berondong muda, setiap lelaki menjadi incarannya karena ia hanya ingin membuat keluarga yang harmonis.",
     race:
-      "Arwah Manusia — roh wanita dan anaknya yang terikat karena kematian yang tak adil.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
-      "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu yang abadi.",
+      "Sedih, penuh dendam, namun menyimpan kelembutan kasih ibu.",
     background:
-      "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan. Tangis Kuntilanak menandakan kematian, tawa Tianak adalah panggilan pada jiwa yang akan pergi. Dalam dunia hujan, mereka adalah simbol kehilangan yang tak pernah selesai — cinta yang bahkan kematian pun tak bisa pisahkan.",
+      "Kuntilanak dulunya seorang wanita muda yang dibunuh saat hamil. Bayinya mati bersamanya, dan arwah keduanya menyatu, menjadi roh yang menangis dan tertawa bersamaan, hidupnya yang sangat hampa, membuat ia berusaha menunjukan pada dunia bahwa ia juga manusia, menggiring satu persatu mangsanya agar berempati padanya, hingga menjadi bagian dari keluarganya, namun ia membenci manusia yang tidak setia, dan membuat ia berubah menjadi Tianak Merah, amarah yang berbahaya dengan kekuatan mengendalikan tubuh layaknya mayat hidup.",
     imageDetail: "./images/tianakp.webp",
     imageBackground: "./images/tianakbg.webp",
   },
@@ -482,15 +483,16 @@ const characterDetails = [
     id: 11,
     name: "Relta (Penunggu Rel)",
     description:
-      "Relta muncul di antara kabut malam, di rel-rel sunyi yang tak lagi dilalui manusia. Ia adalah sosok tanpa suara, roh yang menghantui perlintasan kereta. Dalam kematiannya, ia kehilangan kemampuan untuk berteriak, dan kini, ia membuat dunia ikut sunyi bersamanya. Suaranya dicuri oleh roda besi, dan kini ia mencuri suara dari siapa pun yang mendekat.",
+      "Satu insiden terjadi di terowongan kereta anak gunung, setiap kabut malam muncul dengan tawa anak kecil, menjadi alasan utamanya yang ingin bermain, namun semua anak menjauhi membuat ia terpaksa bermain sendiri hingga menciptakan teman lain yaitu bonekanya, wadah khusus tempat mereka dikurung untuk jadi temannya, siapun yang menolak akan di paksa untuk jadi bagian dari bonekanya.
+Relta muncul di antara kabut malam, di rel-rel sunyi yang tak lagi dilalui manusia. Ia adalah sosok tanpa suara, roh yang menghantui perlintasan kereta. Dalam kematiannya, ia kehilangan kemampuan untuk berteriak, dan kini, ia membuat dunia ikut sunyi bersamanya. Suaranya dicuri oleh roda besi, dan kini ia mencuri suara dari siapa pun yang mendekat.",
     rightDesc:
-      "Roh tanpa suara yang menghantui rel kereta, mencuri pendengaran manusia agar merasakan kematiannya.",
+      "Roh tanpa suara yang menghantui rel kereta, hanya hasrat pertemanan yang berujung insiden, suara roda besi dari rel menjadi penanda dari teriakan setiap anak yang ia culik menjadi bonekanya, setiap bonekanya menjadi perwakilan dari temannya.",
     race:
-      "Arwah Manusia — jiwa yang mati secara tragis dan terjebak di lokasi kematian tanpa arah untuk pergi.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
-      "Diam, menakutkan, namun tidak jahat. Ia hanya ingin orang lain mendengar kesepiannya.",
+      "Diam, menakutkan, tidak jahat. butuh teman.",
     background:
-      "Relta dulunya seorang perempuan muda yang menunggu kekasihnya di rel kereta setiap malam. Suatu malam, ia tertabrak tanpa sempat menjerit. Kini, ia menghantui tempat yang sama, membuat orang kehilangan pendengaran seketika. Suara roda kereta bergema di kepala mereka, seolah mengingatkan bahwa waktu tak memberi kesempatan kedua. Dalam kisah Arya, Relta menjadi simbol dari rasa bersalah yang membungkam hati manusia.",
+      "Relta dulunya seroang anak kecil gadis yang menunggu teman bermainnya, namun ia di tipu oleh temanya ia selalu menunggu berhari-hari di rel kereta, hingga muncul sepasang kekasih yang bertengkar mencoba menawarkan pertemanan, namun anak ini malah terjatuh di tengah kereta melaju tanpa sadar anak ini menjadi korban, sepasang kekasih ini pun mencoba kembali berdamai dan mendoakan bocah tersebut sayangnya sepasang ini terlalu termakan rasa bersalah dan memutuskan untuk mati bersama, namun si cowok malahan kabur membuat si wanita tertabrak dan mati sendiri, akhirnya hasrat bocah dan si wanita mejadi menjadi satu ingin pertemanan satu menunggu kekasihnya untuk mati bersama.",
     imageDetail: "./images/relta2.webp",
     imageBackground: "./images/reltabg.webp",
   },
@@ -498,15 +500,15 @@ const characterDetails = [
     id: 12,
     name: "Sulong (Sundel Bolong)",
     description:
-      "Roh wanita bergaun putih dengan punggung berlubang, dulunya korban kejahatan manusia. Namun, waktu mengubah dendamnya menjadi kekuatan spiritual. Kini, ia menjaga batas antara hidup dan mati, menuntun arwah yang tersesat menuju cahaya.",
+      "Para penjahat kelamin yang mengincar wanita kantor di setiap jam malam selalu merajalela membuat salah satu korbannya di lecehkan ia tiada, bahkan dalam kondisi tiadanya pun masih di permainkan hingga pada akhirnya membuang jasad ketempat jurang, demi menuntut balas delam wanita ini mengincar para pria untuk menyatakan dirinya cantik dan bila terdapat ketidak jujuran ia akan memakannya.",
     rightDesc:
-      "Penjaga gerbang arwah yang dulunya mati melahirkan dalam derita dan penghinaan.",
+      "Sempat terpilih menjadi penjaga gerbang pembatas dunia arwah, namun lebih memilih terlahir kembali sebagai roh penasaran, demi hasrat dendam dan penghinaan yang ia punya ia akan membunuh setiap kaum pria di malam hari.",
     race:
-      "Arwah Manusia — roh yang menebus dosanya sendiri, melewati siklus dendam dan pencerahan untuk menjadi cahaya.",
+      "Arwah Manusia : entitas yang hidup di antara dua dunia, Alam Fana dan Alam Roh, terkadang hanya berbuat usil, terkadang juga meminta pertolongan.",
     trait:
-      "Tenang, penyayang, dan bijak. Di balik luka punggungnya yang menganga, ia menyimpan kekuatan pengampunan.",
+      "Tenang, penyayang, dan bijak, dibalik luka punggung ia mempunyai kasih sayang yang mendalam ke setiap wanita.",
     background:
-      "Sundel Bolong dulunya seorang wanita hamil yang mati dalam kehinaan. Arwahnya menuntut balas selama ratusan tahun, hingga akhirnya ia menemukan ketenangan melalui kasih pada roh-roh lain. Ia bereinkarnasi sebagai Sulong, sang penjaga gerbang arwah. Dalam bentuk barunya, ia menjadi cahaya bagi roh yang hilang, mengajarkan bahwa bahkan dari penderitaan terdalam, pengampunan masih bisa tumbuh.",
+      "Wanita Kantor yang hamil muda ini terjebak dalam aksi para pria bejat, membuat ia harus mendapatkan kematian yang tragis dan siksaan yang mendalam, akibat murkanya nya menolak peran besar sebagai penjaga gerbang arwah dan memilih menlindungi para wanita di dunia manusia, saat kembali tubuhnya yang terluka membuat ia terpaksa harus mengunggakan tulang dalam tubuhnya sebagai penopang, dan mulai mengincar para pria malam, pergerakannya yang cepat membuat para pria mati mengenaskan setiap malam.",
     imageDetail: "./images/sulongp.webp",
     imageBackground: "./images/sulongbg.webp",
   },
@@ -514,15 +516,15 @@ const characterDetails = [
   id: 13,
   name: "Tuyul (Bocil Kematian)",
   description:
-    "Makhluk kecil berkulit kelabu yang lahir dari perjanjian manusia dengan kekayaan terlarang. Tuyul tidak mengenal moral — hanya tawa kecil di malam sunyi, saat tangan mungilnya mengambil rezeki yang bukan miliknya. Ia adalah hasil dari keserakahan manusia, wujud polos namun jahat, pengingat bahwa kekayaan tanpa berkah hanyalah kutukan dalam bentuk tawa anak-anak.",
+    "Makhluk kecil hijau yang selalu bersemayam di daun pisang, terpaksa keluar menghancurkan moral manusia karena mereka para manusia dengan seenaknya menghancurkan hutan, bertindak dengan wujud polos dan jahat ia terus menguras harta dan tumbal dari para manusia, berawal dari perjanjian yang menguntungkan dan berujung ketenaran sementara, semua aksi liciknya, menjadi bagian dari rencananya untuk menghancurkan populasi manusia.",
   rightDesc:
-    "Jin kecil hasil pesugihan, suka mencuri uang dan menebar kesialan pada tuannya sendiri.",
+    "berwujud layaknya jin kecil hasil yang selalu memberi janji manis ketuannya, harta kekayaan, ketenaran, namun perlahan ia memakan semua yang dimiliki tuannya, dari keluarga, tetangga, bahkan bila terasa sudah bosan ia memakan tuannya.",
   race:
-    "Makhluk Gaib — entitas bawah yang lahir dari perjanjian manusia untuk kekayaan instan.",
+    "Makhluk Gaib : makhluk yang terlahir murni dari energi gelap yang memiliki peranan penting mengelola dan menjaga para Roh",
   trait:
-    "Usil, licik, dan lincah. Tuyul punya sifat seperti anak kecil: polos tapi berbahaya bila dikendalikan manusia tamak.",
+    "Usil, licik, lincah, polos, dan tamak.",
   background:
-    "Tuyul dikenal sebagai jin pesugihan yang sering dipelihara manusia serakah. Ia diciptakan dari energi kelahiran yang dibatalkan, menjadikannya entitas yang selalu kekurangan kasih sayang. Tuyul takut pada bawang putih, kaca pecah, dan doa malam hari. Dalam dunia 'Di Balik Guyur Hujan', Tuyul menjadi simbol keserakahan modern — di mana manusia masih rela menjual jiwanya hanya demi secarik uang.",
+    "Tugas menjadi kelestarian lingkungan berujung ke pembasmian populasi manusia, selalu indektik dengan ritual gaib atau pesugihan, dan memeras semua duniawi tuannya, kelemahannya ia yaitu bawang putih dan kaca, ia cukup takut melihat dirinya sendiri, namun sekali ia semangat ia bisa membelah diri dan memperbanyak populasinya dia dalam menghancurkan manusia.",
   imageDetail: "./images/tuyulp.webp",
   imageBackground: "./images/tuyulbg.webp",
 },
@@ -531,18 +533,19 @@ const characterDetails = [
     id: 14,
     name: "Bati (Banaspati)",
     description:
-      "Bola api merah membara melayang di langit malam — itu Bati, roh yang lahir dari amarah manusia. Ia bukan api biasa, melainkan nyala kebencian yang tak bisa padam. Ketika dendam manusia mencapai puncaknya, Bati muncul untuk membakar sumber kebencian itu, sekaligus dirinya sendiri.",
+      "Berwujud bola api merah membara melayang dilangit malam, lahir dari amarah manusia dan dendam para roh, menjadi musuh kedua setelah Owo, aksi nekatnya dia jauh lebih berbahaya karena Bati berani muncul ke alam manusia dan menghancurkan dunia manusia, membakar, merusak, menghancurkan ia tidak suka menunggu, ia suka menyalakan sulut kebenciannya secara langsung.",
     rightDesc:
-      "Roh api yang lahir dari dendam manusia, terbakar oleh amarah yang menciptakannya.",
+      "Memiliki wujud api berbagai macam warna dan selalu mengejak, setiap lidahnya keluar satu ruas jalan hancur karena percikan liurnya",
     race:
-      "Makhluk Gaib — entitas elemen api yang muncul dari ritual terlarang dan emosi kebencian manusia.",
+      "Makhluk Gaib : makhluk yang terlahir murni dari energi gelap yang memiliki peranan penting mengelola dan menjaga para Roh",
     trait:
-      "Panas, destruktif, tapi tidak jahat. Ia membakar hanya yang menolak memaafkan.",
+      "Panas, destruktif, jahil, dan amarah.",
     background:
-      "Banaspati dulunya diciptakan melalui ajian hitam untuk membalas dendam. Namun energi kebencian yang menelannya membuatnya hidup tanpa kendali. Kini ia menjelma sebagai Bati, sosok berapi dengan mata bara, berkelana membakar kebencian manusia. Dalam kisah Arya, Bati menjadi lambang pembersihan — bahwa kadang api diperlukan untuk memusnahkan kegelapan sebelum cahaya bisa lahir kembali.",
+      "Berasal dari ritual hitam yang memanggil kumpulan tembak api untuk aksi santet namun membuat para makhluk gaib terinspirasi dan menciptakan sosok baru yang siap jauh lebih ganas dan mematikan, bergerak melawan batasan dan siap menjadi pembersih dunia, melalui aksi nekat para dukun Bati akhirnya bisa muncul ke dunia manusia, dan kekacauan pun terjadi, Arya dan temannya harus melawan para roh penasaran yang di bawa Bati, dan mengevakuasi para warga.",
     imageDetail: "./images/batip.webp",
     imageBackground: "./images/batibg.webp",
   },
+
 ];
 // update view karakter
 function updateCharacter() {
