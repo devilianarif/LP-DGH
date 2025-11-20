@@ -115,7 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
 //Showcase Section 
 document.addEventListener("DOMContentLoaded", () => {
   const data = [
