@@ -543,7 +543,7 @@ const characterDetails = [
       "Berasal dari ritual hitam yang memanggil kumpulan tembak api untuk aksi santet namun membuat para makhluk gaib terinspirasi dan menciptakan sosok baru yang siap jauh lebih ganas dan mematikan, bergerak melawan batasan dan siap menjadi pembersih dunia, melalui aksi nekat para dukun Bati akhirnya bisa muncul ke dunia manusia, dan kekacauan pun terjadi, Arya dan temannya harus melawan para roh penasaran yang di bawa Bati, dan mengevakuasi para warga.",
     imageDetail: "./images/batip.webp",
     imageBackground: "./images/batibg.webp",
-  }
+  },
 ];
 // update view karakter
 function updateCharacter() {
