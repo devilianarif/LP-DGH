@@ -1716,7 +1716,9 @@ body::after {
   .dtchara-left{
     top: -90px;
   }
-  .bschara-container
+  .bschara-container{
+    tra
+  }
 }
 
 
