@@ -1714,7 +1714,7 @@ body::after {
     top: -300px;
   }
   .dtchara-left{
-    top: 200px;
+    top: -200px;
   }
 }
 
