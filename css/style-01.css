@@ -1707,6 +1707,7 @@ body::after {
 
   .dtchara-section h2 {
     transform: scale(1.9);
+    top: 20px;
   }
 }
 
