@@ -1648,6 +1648,11 @@ body::after {
   letter-spacing: 0.5px;
   margin-bottom: 0;
 }
+@media screen and (min-width: 1921px) {
+  #about p {
+    width: 1220px;
+  }
+}
 
 
 @media screen and (min-width: 1921px) {
