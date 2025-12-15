@@ -1671,7 +1671,7 @@ body::after {
   }
 
   #picsumCarousel .carousel-indicators {
-  bottom: 2;
+  bottom: 20px;
   }
 }
 
