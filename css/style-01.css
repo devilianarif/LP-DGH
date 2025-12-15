@@ -1690,7 +1690,7 @@ body::after {
   }
 
   #about h1{
-    top: 20px;
+    top: -20px;
   }
 }
 
