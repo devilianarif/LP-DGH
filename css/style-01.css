@@ -1683,7 +1683,7 @@ body::after {
   }
   .garisbawah {
     position: relative;
-    bottom: -350px;
+    bottom: -300px;
   }
   #about h1, p{
     transform: scale(1.8);
