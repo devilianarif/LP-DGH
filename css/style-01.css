@@ -1675,7 +1675,9 @@ body::after {
   }
 
   .garisatas img,
-  .garisbawah img {}
+  .garisbawah img {
+    
+  }
 
 }
 
