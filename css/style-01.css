@@ -359,8 +359,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 390px;
-  background: url('../images/transisi\ awan.webp') center bottom / cover
-    no-repeat;
+  background: url('../images/transisi\ awan.webp') center bottom / cover no-repeat;
   z-index: 5;
 }
 
@@ -398,8 +397,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 390px;
-  background: url('../images/transisi\ awan.webp') center bottom / cover
-    no-repeat;
+  background: url('../images/transisi\ awan.webp') center bottom / cover no-repeat;
   z-index: 5;
 }
 
@@ -612,6 +610,7 @@ body::after {
   from {
     transform: rotate(105deg) translateX(0);
   }
+
   to {
     transform: rotate(105deg) translateX(calc(100vh + 50px));
   }
@@ -621,12 +620,15 @@ body::after {
   0% {
     background-color: transparent;
   }
+
   1% {
     background-color: white;
   }
+
   2% {
     background-color: rgba(255, 255, 255, 0.8);
   }
+
   8% {
     background-color: transparent;
   }
@@ -685,9 +687,7 @@ body::after {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transform: scale(
-    clamp(1, calc(1 + ((100vw - 320px) / (1920px - 320px)) * 1), 2)
-  );
+  transform: scale(clamp(1, calc(1 + ((100vw - 320px) / (1920px - 320px)) * 1), 2));
 }
 
 .character-track {
@@ -784,12 +784,14 @@ body::after {
 }
 
 @keyframes wantedFade {
+
   0%,
   100% {
     opacity: 0.9;
     text-shadow: 0 0 2px rgba(255, 235, 138, 0.4),
       0 0 6px rgba(255, 200, 50, 0.3), 0 0 12px rgba(255, 190, 30, 0.2);
   }
+
   50% {
     opacity: 0.5;
     text-shadow: 0 0 1px rgba(255, 235, 138, 0.2),
@@ -805,11 +807,9 @@ body::after {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(
-    rgba(255, 240, 150, 0.15),
-    rgba(255, 200, 60, 0.05),
-    transparent
-  );
+  background: linear-gradient(rgba(255, 240, 150, 0.15),
+      rgba(255, 200, 60, 0.05),
+      transparent);
   opacity: 0;
   animation: rainGlow 6s infinite ease-in-out;
   mix-blend-mode: overlay;
@@ -817,11 +817,13 @@ body::after {
 }
 
 @keyframes rainGlow {
+
   0%,
   100% {
     opacity: 0;
     transform: translateY(-20%);
   }
+
   50% {
     opacity: 0.25;
     transform: translateY(10%);
@@ -836,11 +838,9 @@ body::after {
   left: -20px;
   width: 200%;
   height: 200%;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(255, 255, 255, 0.2) 0%,
-    transparent 80%
-  );
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 0.2) 0%,
+      transparent 80%);
   animation: rainFlash 5s infinite linear;
   mix-blend-mode: overlay;
   pointer-events: none;
@@ -851,10 +851,12 @@ body::after {
     opacity: 0;
     transform: translateY(-100%);
   }
+
   50% {
     opacity: 0.3;
     transform: translateY(50%);
   }
+
   100% {
     opacity: 0;
     transform: translateY(100%);
@@ -867,8 +869,7 @@ body::after {
   bottom: -0;
   width: 100%;
   height: 120px;
-  background: url('../images/genangan\ halte\ 2.webp') center bottom / cover
-    no-repeat;
+  background: url('../images/genangan\ halte\ 2.webp') center bottom / cover no-repeat;
   z-index: 5;
 }
 
@@ -878,8 +879,7 @@ body::after {
   top: 0;
   width: 100%;
   height: 64px;
-  background: url('../images/genangan\ halte\ 2b.webp') center top / 100% auto
-    no-repeat;
+  background: url('../images/genangan\ halte\ 2b.webp') center top / 100% auto no-repeat;
   z-index: 5;
 }
 
@@ -1275,9 +1275,11 @@ body::after {
   0% {
     transform: translateY(0vh) rotate(10deg);
   }
+
   75% {
     transform: translateY(90vh) rotate(10deg);
   }
+
   100% {
     transform: translateY(90vh) rotate(10deg);
   }
@@ -1287,19 +1289,19 @@ body::after {
   width: 1px;
   height: 60%;
   margin-left: 7px;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.25)
-  );
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.25));
   animation: dtcharain-stem 0.5s linear infinite;
 }
 
 @keyframes dtcharain-stem {
+
   0%,
   65% {
     opacity: 1;
   }
+
   75%,
   100% {
     opacity: 0;
@@ -1317,15 +1319,18 @@ body::after {
 }
 
 @keyframes dtcharain-splat {
+
   0%,
   80% {
     opacity: 0;
     transform: scale(0);
   }
+
   90% {
     opacity: 0.5;
     transform: scale(1);
   }
+
   100% {
     opacity: 0;
     transform: scale(1.5);
@@ -1402,9 +1407,11 @@ body::after {
     transform: translate(-50%, -50%) scale(0.1);
     opacity: 1;
   }
+
   80% {
     opacity: 0.3;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(4.5);
     opacity: 0;
@@ -1417,6 +1424,7 @@ body::after {
     transform: translate(-50%, -50%) scale(0.2);
     opacity: 1;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(2.8);
     opacity: 0;
@@ -1442,6 +1450,7 @@ body::after {
   justify-content: center;
   align-items: center;
 }
+
 .showcase-paper {
   position: relative;
   width: 100%;
@@ -1602,9 +1611,11 @@ body::after {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -1648,13 +1659,13 @@ body::after {
   letter-spacing: 0.5px;
   margin-bottom: 0;
 }
+
 @media screen and (min-width: 2560px) {
   #about .awan.bawah {
     top: -200px;
   }
-  
-#BannerHeader .awan.atas {
-}
+
+  #BannerHeader .awan.atas {}
 }
 
 
@@ -1700,9 +1711,7 @@ body::after {
   }
 
   #characters .character-wrapper {
-    transform: scale(
-      clamp(1, calc(1 + ((100vw - 320px) / (1920px - 320px)) * 3), 4)
-    );
+    transform: scale(clamp(1, calc(1 + ((100vw - 320px) / (1920px - 320px)) * 3), 4));
   }
 
   #detailcharacter {
@@ -1784,6 +1793,7 @@ body::after {
 }
 
 @media screen and (max-width: 767px) {
+
   #detailcharacter,
   #backgroundcharacter,
   #showcasegalery {
