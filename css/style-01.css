@@ -1670,7 +1670,8 @@ body::after {
     display: none;
   }
 
-  
+  #picsumCarousel .carousel-indicators {
+  }
 }
 
 
