@@ -1689,10 +1689,6 @@ body::after {
     transform: scale(1.8);
   }
 
-  #about h1{
-    top: -200px;
-  }
-  
 }
 
 
