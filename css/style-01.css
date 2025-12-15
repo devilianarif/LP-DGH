@@ -1679,7 +1679,7 @@ body::after {
    transform: scale(50%);
   }
   .garisatas {
-    top: -350px;
+    margin: 0 auto 10px;
   }
   .garisbawah {
     top: -500px;
