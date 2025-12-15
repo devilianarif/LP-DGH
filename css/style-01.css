@@ -1685,7 +1685,7 @@ body::after {
     position: relative;
     bottom: -300px;
   }
-  #about h1, p{
+  #about h1, #about h1p{
     transform: scale(1.8);
   }
 
