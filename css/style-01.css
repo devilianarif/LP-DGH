@@ -1717,7 +1717,7 @@ body::after {
     top: -90px;
   }
   .bschara-container{
-    transform: scale(8);
+    transform: scale();
   }
 }
 
