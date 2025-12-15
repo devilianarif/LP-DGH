@@ -1685,7 +1685,9 @@ body::after {
     position: relative;
     bottom: -350px;
   }
-  #about h1, p
+  #about h1, p{
+    
+  }
 }
 
 
