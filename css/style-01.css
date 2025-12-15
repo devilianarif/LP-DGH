@@ -1719,6 +1719,7 @@ body::after {
   .bschara-container{
     transform: scale(1.5);
   }
+  .bschara-container:hover
 }
 
 
