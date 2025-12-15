@@ -1711,7 +1711,7 @@ body::after {
   }
   .dtchara-wrap{
     transform: scale(1.5);
-    top: -300px;
+    top: -200px;
   }
   .dtchara-left{
     top: -90px;
