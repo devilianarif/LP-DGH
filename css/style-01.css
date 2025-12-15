@@ -1686,7 +1686,7 @@ body::after {
     bottom: -350px;
   }
   #about h1, p{
-    transform: sc;
+    transform: scale();
   }
 }
 
