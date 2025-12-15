@@ -1688,6 +1688,8 @@ body::after {
   #about h1, p{
     transform: scale(1.8);
   }
+
+  #about h1
 }
 
 
