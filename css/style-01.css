@@ -1676,31 +1676,36 @@ body::after {
 
   .garisatas img,
   .garisbawah img {
-   transform: scale(50%);
+    transform: scale(50%);
   }
+
   .garisatas {
     top: -300px;
   }
+
   .garisbawah {
     position: relative;
     bottom: -300px;
   }
-  #about h1, #about p{
+
+  #about h1,
+  #about p {
     transform: scale(1.8);
   }
 
-  #about h1{
+  #about h1 {
     top: -200px;
   }
+
   #logohalte {
-  width: 800px;
+    width: 800px;
   }
-  .halte-text{
-    top : 20px;
+
+  .halte-text {
+    top: 20px;
   }
-  .dtchara-section h2{
-    
-  }
+
+  .dtchara-section h2 {}
 }
 
 
