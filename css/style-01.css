@@ -1686,7 +1686,7 @@ body::after {
     bottom: -350px;
   }
   #about h1, p{
-    transform: scale(80%);
+    transform: scale(100%);
   }
 }
 
