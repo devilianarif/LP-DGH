@@ -1663,7 +1663,7 @@ body::after {
 @media screen and (min-width: 2560px) {
   #about .awan.bawah {
     top: -60px;
-    height: 10px;
+    height: 100px;
   }
 
   #BannerHeader .awan.atas {
