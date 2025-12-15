@@ -1724,7 +1724,7 @@ body::after {
   }
   .showcase-container{
      transform: scale(1.6);
-     ga
+     gap: ;
   }
 }
 
