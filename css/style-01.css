@@ -1710,7 +1710,7 @@ body::after {
     top: 50px;
   }
   .dtchara-wrap{
-    tra;
+    transform: scale(1.5);
   }
 }
 
