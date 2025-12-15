@@ -1650,7 +1650,7 @@ body::after {
 }
 @media screen and (min-width: 2560px) {
   #about .awan.bawah {
-    top: -0px;
+    top: -200px;
   }
 }
 
