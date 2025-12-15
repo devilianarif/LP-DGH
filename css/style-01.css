@@ -1671,11 +1671,11 @@ body::after {
   }
 
   #picsumCarousel .carousel-indicators {
-  bottom: 200px;
+    bottom: 200px;
   }
+
   .garisatas img,
-.garisbawah img {
-}
+  .garisbawah img {}
 
 }
 
