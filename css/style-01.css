@@ -1713,7 +1713,9 @@ body::after {
     transform: scale(1.7);
     top: -300px;
   }
-  .dtchara-left
+  .dtchara-left{
+    
+  }
 }
 
 
