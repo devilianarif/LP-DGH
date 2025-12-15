@@ -1678,7 +1678,9 @@ body::after {
   .garisbawah img {
    transform: scale(50%);
   }
-  .garisatas img
+  .garisatas img{
+    
+  }
 
 }
 
