@@ -1665,7 +1665,9 @@ body::after {
     top: -200px;
   }
 
-  #BannerHeader .awan.atas {}
+  #BannerHeader .awan.atas {
+    
+  }
 }
 
 
