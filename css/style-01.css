@@ -1692,7 +1692,11 @@ body::after {
   #about h1{
     top: -200px;
   }
-  
+  #logohalte {
+  width: 800px;
+  }
+  .halte-text{
+  }
 }
 
 
