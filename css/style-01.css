@@ -2033,24 +2033,34 @@ body::after {
   }
 }
 
-@media screen and (min-width: 2400px) {
-  .showcase-container {
-    transform: scale(1.6);
-    gap: 4%;
-    margin-top: 333px;
-  }
+@media screen and (max-width: 1440px) {
 
-  #showcasegalery {
+  /* SEMUA SECTION TINGGI DITURUNKAN */
+  #about,
+  #characters,
+  #backgroundcharacter,
+  #showcasegalery,
+  #detailcharacter {
     height: auto;
-    padding: 160px 0;
+    min-height: unset;
+    padding: 120px 0;
   }
 
-  .showcase-dual {
-    margin-bottom: 80px !important;
+  /* KHUSUS SHOWCASE */
+  #showcasegalery {
+    padding: 140px 0;
   }
 
-  .showcase-box {
-    transform: scale(0.8);
-    margin-top: -210px;
+  /* KARAKTER SECTION BIAR TIDAK NGAMBANG */
+  #characters {
+    padding: 100px 0;
   }
+
+  /* ABOUT BIAR RAPET */
+  #about {
+    padding: 110px 0;
+  }
+
+}
+
 }
