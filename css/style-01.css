@@ -1569,7 +1569,7 @@ body::after {
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: start;
-  margin
+  margin-top: 200px;
 }
 
 .showcase-box {
