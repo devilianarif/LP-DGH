@@ -1927,6 +1927,7 @@ body::after {
   #showcasegalery .showcase-container {
     flex-wrap: wrap;
     gap: 80px;
+    
   }
 
   #showcasegalery .showcase-container .showcase-left,
