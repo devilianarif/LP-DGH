@@ -1603,7 +1603,7 @@ body::after {
   -webkit-backdrop-filter: blur(6px);
 
   box-shadow: 0 4
-
+}
 
 .showcase-link {
   display: block;
