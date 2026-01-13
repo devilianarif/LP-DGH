@@ -1854,7 +1854,7 @@ body::after {
     transform: scale(clamp(1, calc(1 + ((100vw - 320px) / (1920px - 320px)) * 3), 4));
   }
 
-  #detailcharacter, #backgroundcharacter {
+  #detailcharacter {
     height: auto !important;
   }
 
