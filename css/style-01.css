@@ -1936,7 +1936,9 @@ body::after {
   #showcasegalery .showcase-container .showcase-right {
     width: 100%;
   }
-  showcase-d
+  .showcase-dual{
+    
+  }
 
   .footer-logos {
     gap: 0;
