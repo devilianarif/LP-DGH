@@ -1901,7 +1901,7 @@ body::after {
     margin-top: 500px;
   }
   #backgroundcharacter{
-    height: 800px;
+    height: auto !important;
   }
 
 
