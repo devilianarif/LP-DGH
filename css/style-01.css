@@ -1561,21 +1561,6 @@ body::after {
   flex-wrap: wrap;
 }
 
-.showcase-center {
-  width: 100%;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.showcase-center .showcase-paper {
-  width: 70%;
-  max-width: 420px;
-  height: 360px;
-  margin-bottom: 25px;
-}
 
 /* TEKS */
 .showcase-center h3 {
