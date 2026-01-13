@@ -1796,18 +1796,7 @@ body::after {
     padding: 160px 0;
   }
 
-  .showcase-dual {
-    grid-template-columns: repeat(2, minmax(420px, 1fr));
-    gap: 80px;
-  }
 
-  .showcase-box {
-    max-width: 600px;
-  }
-
-  .showcase-paper {
-    height: 420px;
-  }
 }
 
 
