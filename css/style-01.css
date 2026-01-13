@@ -1581,6 +1581,11 @@ body::after {
   text-align: center;
   gap: 90px;
 }
+.showcase-box .showcase-paper {
+  height: auto;
+  aspect-ratio: 3 / 4; /* rasio buku */
+  overflow: visible;
+}
 
 
 .showcase-title {
