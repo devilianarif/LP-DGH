@@ -2034,7 +2034,8 @@ body::after {
 }
 
 @media screen and (max-width: 1440px) {
-  #about,  #characters  {
+  #about,  #characters, #backgroundcharacter,
+  #detailcharacter  {
     height: 800px;
   }
 
