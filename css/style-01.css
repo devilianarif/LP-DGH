@@ -2090,6 +2090,14 @@ body::after {
     right: 0;
   }
 
+  #showcasegalery {
+    cursor: grab;
+  }
+
+  #showcasegalery:active {
+    cursor: grabbing;
+  }
+
   .showcase-product {
     grid-template-columns: 1fr;
     text-align: center;
