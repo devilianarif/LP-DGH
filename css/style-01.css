@@ -1994,3 +1994,34 @@ body::after {
   max-width: 760px;
   color: #ddd;
 }
+
+.showcase-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.showcase-box {
+  text-align: center;
+}
+
+.showcase-title {
+  margin-top: 20px;
+  color: #ffdf6b;
+  text-transform: uppercase;
+}
+
+.showcase-desc {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+.showcase-link {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.showcase-link:hover {
+  transform: scale(1.03);
+}
