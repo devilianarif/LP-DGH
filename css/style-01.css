@@ -1797,7 +1797,7 @@ body::after {
     padding: 160px 0;
   }
 .showcase-dual{
-  margin-top: 188px;
+  margin-top: 188px !important;
 }
 
 }
