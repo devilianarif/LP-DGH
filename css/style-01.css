@@ -1929,7 +1929,7 @@ body::after {
     gap: 80px;
   }
   #showcasegalery{
-    height: 880px;
+    height: 880px !important;
   }
 
   #showcasegalery .showcase-container .showcase-left,
