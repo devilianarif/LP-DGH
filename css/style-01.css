@@ -1790,7 +1790,19 @@ body::after {
     gap: 4%;
   }
 
-  
+    .showcase-dual {
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+  }
+
+  .showcase-box {
+    max-width: 480px;
+  }
+
+  .showcase-title,
+  .showcase-desc {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
 }
 
 
