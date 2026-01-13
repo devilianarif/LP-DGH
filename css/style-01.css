@@ -1897,7 +1897,9 @@ body::after {
     flex-wrap: wrap;
     width: 85%;
   }
-  .bschara-container
+  .bschara-container{
+    margin-top: 200px;
+  }
   #backgroundcharacter{
     height: auto;
   }
