@@ -1562,13 +1562,13 @@ body::after {
   flex-wrap: wrap;
 }
 
-
 .showcase-dual {
   display: grid;
-  grid-template-columns: 0.5fr .5fr;
+  grid-template-columns: repeat(2, minmax(380px, 1fr));
   gap: 60px;
-  align-items: start;
+  justify-content: center;
 }
+
 .showcase-dual:has(.showcase-box:only-child) {
   grid-template-columns: 1fr;
   justify-items: center;
