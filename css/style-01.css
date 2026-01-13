@@ -1896,11 +1896,12 @@ body::after {
   #backgroundcharacter .bschara-container {
     flex-wrap: wrap;
     width: 85%;
+    margin
   }
   #backgroundcharacter{
     height: auto;
   }
-  
+
 
   #backgroundcharacter .bschara-left {
     height: auto;
