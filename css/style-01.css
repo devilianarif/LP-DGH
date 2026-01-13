@@ -1556,6 +1556,76 @@ body::after {
   transform: scale(1.25);
 }
 
+
+
+/* IZINKAN TURUN BARIS */
+.showcase-container {
+  flex-wrap: wrap;
+}
+
+/* BLOK CENTER DI BAWAH */
+.showcase-center {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* PAPER TENGAH */
+.showcase-center .showcase-paper {
+  width: 70%;
+  max-width: 420px;
+  height: 360px;
+  margin-bottom: 25px;
+}
+
+/* TEKS */
+.showcase-center h3 {
+  color: #ffdf6b;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.showcase-center ul {
+  list-style: none;
+  padding: 0;
+  max-width: 760px;
+  color: #ddd;
+}
+
+.showcase-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.showcase-box {
+  text-align: center;
+}
+
+.showcase-title {
+  margin-top: 20px;
+  color: #ffdf6b;
+  text-transform: uppercase;
+}
+
+.showcase-desc {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+.showcase-link {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.showcase-link:hover {
+  transform: scale(1.03);
+}
+
 #footer {
   position: relative;
   background: url('../images/footer pattern.webp') center/cover no-repeat;
