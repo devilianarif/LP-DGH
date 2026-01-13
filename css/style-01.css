@@ -1364,7 +1364,7 @@ body::after {
   backdrop-filter: blur(5px);
   width: 100%;
   overflow: hidden;
-  height: 128vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
