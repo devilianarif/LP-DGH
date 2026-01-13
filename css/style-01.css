@@ -2032,3 +2032,25 @@ body::after {
     right: 0;
   }
 }
+
+@media screen and (min-width: 2400px) {
+  .showcase-container {
+    transform: scale(1.6);
+    gap: 4%;
+    margin-top: 333px;
+  }
+
+  #showcasegalery {
+    height: auto;
+    padding: 160px 0;
+  }
+
+  .showcase-dual {
+    margin-bottom: 80px !important;
+  }
+
+  .showcase-box {
+    transform: scale(0.8);
+    margin-top: -210px;
+  }
+}
