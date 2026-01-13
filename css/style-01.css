@@ -1569,6 +1569,10 @@ body::after {
   gap: 60px;
   align-items: start;
 }
+.showcase-dual:has(.showcase-box:only-child) {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
 
 .showcase-box {
   text-align: center;
