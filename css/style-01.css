@@ -1575,11 +1575,13 @@ body::after {
 }
 
 .showcase-box {
-  width: 100%;
-  max-width: 520px;
-  margin: 0 auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+  gap: 30px;
 }
+
 
 .showcase-title {
   margin-top: 20px;
