@@ -1709,22 +1709,27 @@ body::after {
     transform: scale(1.9);
     top: 50px;
   }
-  .dtchara-wrap{
+
+  .dtchara-wrap {
     transform: scale(1.5);
     top: -200px;
   }
-  .dtchara-left{
+
+  .dtchara-left {
     top: -90px;
   }
-  .bschara-container{
+
+  .bschara-container {
     transform: scale(1.5);
   }
-  .bschara-container:hover{
+
+  .bschara-container:hover {
     transform: scale(1.6);
   }
-  .showcase-container{
-     transform: scale(1.6);
-     gap: 4%;
+
+  .showcase-container {
+    transform: scale(1.6);
+    gap: 4%;
   }
 }
 
@@ -1952,6 +1957,7 @@ body::after {
     right: 0;
   }
 }
+
 /* IZINKAN TURUN BARIS */
 .showcase-container {
   flex-wrap: wrap;
