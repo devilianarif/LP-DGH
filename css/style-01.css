@@ -1796,14 +1796,15 @@ body::after {
     height: auto;
     padding: 160px 0;
   }
-.showcase-dual{
-  margin-bottom: 80px !important;
-}
 
-.showcase-box{
-  transform: scale(0.8);
-  margin-top: -210px;
-}
+  .showcase-dual {
+    margin-bottom: 80px !important;
+  }
+
+  .showcase-box {
+    transform: scale(0.8);
+    margin-top: -210px;
+  }
 
 }
 
