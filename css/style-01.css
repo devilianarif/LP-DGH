@@ -1952,3 +1952,39 @@ body::after {
     right: 0;
   }
 }
+/* IZINKAN TURUN BARIS */
+.showcase-container {
+  flex-wrap: wrap;
+}
+
+/* BLOK CENTER DI BAWAH */
+.showcase-center {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* PAPER TENGAH */
+.showcase-center .showcase-paper {
+  width: 70%;
+  max-width: 420px;
+  height: 360px;
+  margin-bottom: 25px;
+}
+
+/* TEKS */
+.showcase-center h3 {
+  color: #ffdf6b;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.showcase-center ul {
+  list-style: none;
+  padding: 0;
+  max-width: 760px;
+  color: #ddd;
+}
