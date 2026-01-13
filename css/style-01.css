@@ -1789,6 +1789,7 @@ body::after {
   .showcase-container {
     transform: scale(1.6);
     gap: 4%;
+    margin-top: 333px;
   }
 
   #showcasegalery {
