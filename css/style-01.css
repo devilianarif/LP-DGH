@@ -2035,7 +2035,7 @@ body::after {
 
 @media screen and (max-width: 1440px) {
   #about,  #characters, #backgroundcharacter,
-  #detailcharacter,#showcase-galery  {
+  #detailcharacter,#showcasegalery-galery  {
     height: 800px;
   }
 
