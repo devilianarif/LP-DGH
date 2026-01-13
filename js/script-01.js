@@ -228,6 +228,56 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 300);
   }
 
+  // === SWIPE / DRAG SHOWCASE ===
+  const showcaseArea = document.querySelector('#showcasegalery');
+
+  let startX = 0;
+  let isDragging = false;
+
+  function handleSwipe(diff) {
+    if (Math.abs(diff) < 50) return;
+
+    if (diff < 0) {
+      // swipe kiri → next
+      index = (index + 1) % data.length;
+    } else {
+      // swipe kanan → prev
+      index = (index - 1 + data.length) % data.length;
+    }
+
+    updateShowcase(index);
+    clearInterval(autoPlay);
+    autoPlay = setInterval(nextSlide, 5000);
+  }
+
+  /* TOUCH (MOBILE) */
+  showcaseArea.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+    isDragging = true;
+  });
+
+  showcaseArea.addEventListener('touchend', (e) => {
+    if (!isDragging) return;
+    const endX = e.changedTouches[0].clientX;
+    handleSwipe(endX - startX);
+    isDragging = false;
+  });
+
+  /* MOUSE (DESKTOP) */
+  showcaseArea.addEventListener('mousedown', (e) => {
+    startX = e.clientX;
+    isDragging = true;
+  });
+
+  showcaseArea.addEventListener('mouseup', (e) => {
+    if (!isDragging) return;
+    handleSwipe(e.clientX - startX);
+    isDragging = false;
+  });
+
+  showcaseArea.addEventListener('mouseleave', () => {
+    isDragging = false;
+  });
 
   function nextSlide() {
     index = (index + 1) % data.length;
@@ -533,8 +583,8 @@ function updateCharacter() {
       index === currentCharacter
         ? 'scale(1.1) translateY(-10px)'
         : distance === 1
-        ? 'scale(0.9) translateY(5px)'
-        : 'scale(0.8) translateY(15px)';
+          ? 'scale(0.9) translateY(5px)'
+          : 'scale(0.8) translateY(15px)';
     card.style.opacity =
       index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
   });
