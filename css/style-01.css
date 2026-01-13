@@ -1958,6 +1958,7 @@ body::after {
   }
 }
 
+/* IZINKAN TURUN BARIS */
 .showcase-container {
   flex-wrap: wrap;
 }
