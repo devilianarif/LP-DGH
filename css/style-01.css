@@ -1591,6 +1591,7 @@ body::after {
   color: #ddd;
   font-size: 0.95rem;
 }
+
 .showcase-title,
 .showcase-desc {
   position: relative;
@@ -1790,7 +1791,7 @@ body::after {
     gap: 4%;
   }
 
-   #showcasegalery {
+  #showcasegalery {
     height: auto;
     padding: 160px 0;
   }
