@@ -1591,6 +1591,18 @@ body::after {
   color: #ddd;
   font-size: 0.95rem;
 }
+.showcase-title,
+.showcase-desc {
+  position: relative;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  box-shadow: 0 4
 
 
 .showcase-link {
