@@ -2039,9 +2039,7 @@ body::after {
   }
 
   #characters {
-    height: auto;
-    min-height: 120vh;
-    padding: 140px 0;
+    height: 800px;
   }
 
   #backgroundcharacter,
