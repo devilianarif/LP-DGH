@@ -1563,19 +1563,6 @@ body::after {
 
 
 
-/* TEKS */
-.showcase-center h3 {
-  color: #ffdf6b;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-
-.showcase-center ul {
-  list-style: none;
-  padding: 0;
-  max-width: 760px;
-  color: #ddd;
-}
 
 .showcase-dual {
   display: grid;
