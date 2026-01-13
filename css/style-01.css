@@ -1575,7 +1575,7 @@ body::after {
 .showcase-box {
   text-align: center;
 
-  transform: scale();
+  transform: scale(20px);
 }
 
 .showcase-title {
