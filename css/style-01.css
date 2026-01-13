@@ -1928,7 +1928,9 @@ body::after {
     flex-wrap: wrap;
     gap: 80px;
   }
-  #showcasegalery
+  #showcasegalery{
+    height: ;
+  }
 
   #showcasegalery .showcase-container .showcase-left,
   #showcasegalery .showcase-container .showcase-right {
