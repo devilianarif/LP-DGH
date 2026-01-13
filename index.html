@@ -1,601 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DGH - Dibalik Guyur Hujan</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DGH - Dibalik Guyur Hujan</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
-    />
-<link rel="stylesheet" href="./css/style-01.css?v=1.0.5" />
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style-01.css?v=1.0.5" />
 
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <section id="BannerHeader">
-        <div id="picsumCarousel" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#picsumCarousel"
-              data-bs-slide-to="0"
-              class="active"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#picsumCarousel"
-              data-bs-slide-to="1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#picsumCarousel"
-              data-bs-slide-to="2"
-            ></button>
-          </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./images/T11.webp" class="d-block w-100" alt="Teaser" />
-              <button class="btn-play-center" data-video="_mCFsP0ORBo">
-                <i class="bi bi-play-fill"></i>
-              </button>
-            </div>
-
-            <div class="carousel-item">
-              <img
-                src="./images/T2.webp"
-                class="d-block w-100"
-                alt="Trailer 1"
-              />
-              <button class="btn-play-center" data-video="hvy2AlvZBB4">
-                <i class="bi bi-play-fill"></i>
-              </button>
-            </div>
-
-            <div class="carousel-item">
-              <img
-                src="./images/T3.webp"
-                class="d-block w-100"
-                alt="Trailer 2"
-              />
-              <button class="btn-play-center" data-video="b2ZXmgF17z0">
-                <i class="bi bi-play-fill"></i>
-              </button>
-            </div>
-          </div>
-
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#picsumCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#picsumCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
+<body>
+  <header>
+    <section id="BannerHeader">
+      <div id="picsumCarousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#picsumCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#picsumCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#picsumCarousel" data-bs-slide-to="2"></button>
         </div>
 
-        <div class="awan atas"></div>
-      </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/T11.webp" class="d-block w-100" alt="Teaser" />
+            <button class="btn-play-center" data-video="_mCFsP0ORBo">
+              <i class="bi bi-play-fill"></i>
+            </button>
+          </div>
 
-      <div id="videoModal" class="custom-modal">
-        <div class="modal-content">
-          <button class="close-modal" aria-label="Tutup video">
-            <i class="bi bi-x-lg"></i>
-          </button>
-          <div class="video-wrapper">
-            <img src="./images/bgvideo.webp" alt="" class="bg-video w-100" />
-            <div class="video-logo">
-              <img src="./images/uplogo.webp" alt="Logo DGH" />
-            </div>
+          <div class="carousel-item">
+            <img src="./images/T2.webp" class="d-block w-100" alt="Trailer 1" />
+            <button class="btn-play-center" data-video="hvy2AlvZBB4">
+              <i class="bi bi-play-fill"></i>
+            </button>
+          </div>
 
-            <iframe
-              id="youtubePlayer"
-              class="hidden"
-              src=""
-              frameborder="0"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-            >
-            </iframe>
-            <div class="video-mask"></div>
-            <div class="yt-overlay"></div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main id="top">
-      <section id="about">
-        <div class="awan bawah"></div>
-        <canvas id="rain-canvas"></canvas>
-        <div class="about-container">
-          <div class="garisatas">
-            <img src="./images/upper line.webp" alt="" class="w-100" />
-          </div>
-          <div id="gmbrkiriatas" class="payung">
-            <img src="./images/payung-atas-kiri.webp" alt="" />
-          </div>
-          <div id="gmbrkananatas" class="payung">
-            <img src="./images/payung-atas-kanan.webp" alt="" />
-          </div>
-          <h1>Sinopsis</h1>
-          <p>
-            Ketika masa lalu menjadi alasan utama, luka yang belum sembuh kini
-            menjadi misteri yang sulit dijelaskan. Seandainya peristiwa itu bisa
-            diulang, namun naas, penyesalan selalu datang terlambat. Jika hujan
-            bukan sekadar air yang jatuh dari langit, melainkan penghubung
-            antara trauma dan harapan. Arya, seorang pria muda yang tenggelam
-            dalam hidup monoton dan penuh tekanan, hidupnya berubah ketika ia
-            bertemu seorang gadis berjubah kuning di halte kecil saat hujan
-            lebat. Gadis itu memegang payung kuning yang koyak. Arya
-            mengabaikannya, hingga ia merasa ada yang aneh dan mencoba
-            menawarinya berteduh. Namun gadis itu hanya menyerahkan secarik
-            kertas bertuliskan “Jangan lupa bahagia” sambil tersenyum, lalu
-            pergi. Sejak pertemuan itu, Arya mulai dihantui oleh sosok gadis
-            tersebut dari kejadian aneh di perjalanan pulang hingga di
-            kantornya. Bahkan, rekan kerjanya, Dinda, juga mengalami hal serupa.
-            Melalui serangkaian kilas balik, terungkap bahwa gadis berjubah
-            kuning itu adalah teman masa kecil mereka. Ia datang menagih janji
-            lama yang berubah menjadi pengkhianatan, trauma, dan rahasia kelam.
-            Demi membungkam masa lalu, rasa bersalah dan ketakutan pun bangkit
-            kembali, semua terjadi <strong>Dibalik Guyur Hujan.</strong>
-          </p>
-
-          <div id="gmbrkiribawah" class="payung">
-            <img src="./images/payung-bawah-kiri.webp" alt="" />
-          </div>
-          <div id="gmbrkananbawah" class="payung">
-            <img src="./images/payung-bawah-kanan.webp" alt="" />
-          </div>
-          <div class="garisbawah">
-            <img src="./images/under line.webp" alt="" class="w-100" />
-          </div>
-        </div>
-        <div class="air atas"></div>
-      </section>
-
-      <section id="characters">
-        <div class="air bawah"></div>
-        <div class="halte-container">
-          <div id="logohalte">
-            <img src="./images/bg25.webp" alt="Background Halte" />
-            <h2 class="halte-text">HALTE</h2>
+          <div class="carousel-item">
+            <img src="./images/T3.webp" class="d-block w-100" alt="Trailer 2" />
+            <button class="btn-play-center" data-video="b2ZXmgF17z0">
+              <i class="bi bi-play-fill"></i>
+            </button>
           </div>
         </div>
 
-        <div class="character-wrapper">
-          <div class="character-track">
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img
-                  src="./images/nara-card.webp"
-                  alt="Si Gadis Jubah Kuning"
-                />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Si Gadis <br />Jubah Kuning</h3>
-                <p>Arwah Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/dinda-card.webp" alt="Dinda" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Dinda</h3>
-                <p>Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character aktif">
-              <div class="img-wrap">
-                <img src="./images/arya-card.webp" alt="Arya / Raya" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Arya / Raya</h3>
-                <p>Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/bijo-card.webp" alt="Bijo" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Bijo (Penjaga Kota)</h3>
-                <p>Makhluk Gaib</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/owo-card.webp" alt="Owo" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Owo</h3>
-                <p>Makhluk Gaib</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img
-                  src="./images/Arya-ijo - Copy.webp"
-                  alt="Arya (Mode Bijo)"
-                />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Arya (Mode Bijo)</h3>
-                <p>Tasbih Mode</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/riancard.webp" alt="Rian" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Rian</h3>
-                <p>Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/sultancard.webp" alt="Sultan" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Sultan</h3>
-                <p>Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/burhancard.webp" alt="Burhan" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Burhan</h3>
-                <p>Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/kuyang-card.webp" alt="Kuyang" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Kuyang</h3>
-                <p>Arwah Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/tianakcard.webp" alt="Tianak (Kuntilanak)" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Tianak (Kuntilanak)</h3>
-                <p>Arwah Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/relta1.webp" alt="Relta" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Relta (Rel Kereta)</h3>
-                <p>Arwah Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img
-                  src="./images/sulongcard.webp"
-                  alt="Sulong (Sundel Bolong)"
-                />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>
-                  Sulong <br />
-                  (Sundel Bolong)
-                </h3>
-                <p>Arwah Manusia</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img
-                  src="./images/tuyulcard.webp"
-                  alt="Tuyul (Bocil Kematian)"
-                />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Tuyul <br />(Bocil Kematian)</h3>
-                <p>Makhluk Gaib</p>
-              </div>
-            </div>
-
-            <div class="kartu-character">
-              <div class="img-wrap">
-                <img src="./images/baticard.webp" alt="Bati (Banaspati)" />
-                <div class="overlay"></div>
-              </div>
-              <div class="info-container">
-                <h3>Bati (Banaspati)</h3>
-                <p>Makhluk Gaib</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="halter-container"></div>
-
-        <div class="gen atas"></div>
-      </section>
-      <section id="detailcharacter">
-        <div class="gen bawah"></div>
-        <div class="dtchara-section">
-          <h2 class="section-title">
-            Character <br />
-            Select
-          </h2>
-
-          <div class="dtchara-wrap">
-            <div class="dtchara-left">
-              <div class="dtchara-left-body">
-                <h3>Arya</h3>
-
-                <img
-                  src="./images/3l1.webp"
-                  alt="Line kiri atas"
-                  class="dtchara-line-left-top"
-                />
-
-                <p>
-                  Kehidupan yang monoton membuat Arya harus mengulanginya terus
-                  menerus, tidur, berangkat kerja, lembur, pulang malam, dan
-                  seterusnya, hingga suatu hari ia sempat lapar dan mengunjungi
-                  sebuah warung untuk makan, usai makan hujan deras mengguyur,
-                  membuat Arya terpaksa berlari mencari tempat berteduh yaitu
-                  sebuah halte.
-                </p>
-
-                <img
-                  src="./images/3l1.webp"
-                  alt="Line kiri bawah"
-                  class="dtchara-line-left-bottom"
-                />
-              </div>
-            </div>
-
-            <div class="dtchara-center">
-              <img
-                src="./images/arya3.webp"
-                alt="Character"
-                class="dtchara-img"
-              />
-            </div>
-
-            <div class="dtchara-right">
-              <div class="dtchara-detail" id="right-desc">
-                <img
-                  src="./images/3l3.webp"
-                  alt="Line kanan"
-                  class="dtchara-line-right"
-                />
-                <div class="dtchara-text">
-                  <h5>Deskripsi</h5>
-                  <p>
-                    Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya
-                    teman merepotkan, di balik rutinitasnya ia terpaksa harus
-                    bergadang membuat matanya menjadi lebam, namun ia pun tetap
-                    menerimanya dan berharap bisa mati dengan cepat, karena ia
-                    tidak mempunyai alasan untuk hidup, hingga pertemuaanya
-                    dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang
-                    mulanya monoton kini menjadi menegangkan, hingga hasrat
-                    untuk mati, berubah menjadi hasrat untuk hidup.
-                  </p>
-                </div>
-              </div>
-
-              <div class="dtchara-detail" id="right-race">
-                <img
-                  src="./images/3l4.webp"
-                  alt="Line kanan"
-                  class="dtchara-line-right"
-                />
-                <div class="dtchara-text">
-                  <h5>Ras :</h5>
-                  <p>
-                    Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh
-                    dengan emosi, dan esensi untuk penasaran.
-                  </p>
-                </div>
-              </div>
-
-              <div class="dtchara-detail" id="right-trait">
-                <img
-                  src="./images/3l2.webp"
-                  alt="Line kanan"
-                  class="dtchara-line-right"
-                />
-                <div class="dtchara-text">
-                  <h5>Sifat :</h5>
-                  <p>
-                    Pendiam, introspektif, dan sering terjebak dalam pikirannya
-                    sendiri.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="rumput atas"></div>
-      </section>
-
-      <section id="backgroundcharacter">
-        <div class="rumput bawah"></div>
-        <div class="bschara-container">
-          <div class="bschara-left">
-            <img src="./images/aryakbg.webp" alt="Character" class="char-img" />
-          </div>
-
-          <div class="bschara-middle"></div>
-
-          <div class="bschara-right">
-            <h3>Arya / Raya</h3>
-            <p>
-              Hidup penuh dengan broken home, ditinggal mati kedua orang tua di
-              usia dini membuat Arya harus pindah asuh beberapa kali oleh
-              keluarga hingga yang terakhir ia harus tinggal dengan pamannya, di
-              momen itu tubuh Arya mengalami mati rasa, dan membuatnya harus
-              tinggal di rumah sakit, dan ternyata pamanya menghilang dan Arya
-              terpaksa menjadi anak asuh di panti asuhan hingga ia di adopsi
-              orang lain, dengan nama baru yaitu Raya ketika checkup di rumah
-              sakit ia tak sadar bertemu dan berbicara dengan Nara, Nara yang
-              mencoba bertanya namanya yang menyangka ia adalah Arya, sedikit
-              kecewa karena Arya mengenalkan diri sebagai raya, Nara pun
-              kehilangan semangatnya, namun ia tetap mencoba untuk berteman di
-              Arya hingga mereka berdua membuat janji, jika bertemu lagi akan
-              menjadi teman.
-            </p>
-          </div>
-        </div>
-
-        <div class="dtcharain-container">
-          <div class="dtcharain front-row"></div>
-          <div class="dtcharain back-row"></div>
-        </div>
-
-        <div class="pipa atas"></div>
-      </section>
-
-      <section id="showcasegalery">
-        <div class="pipa bawah"></div>
-        <div class="ripple-overlay" id="ripple-overlay"></div>
-
-        <div class="showcase-container">
-          <div class="showcase-left">
-            <div class="showcase-paper">
-              <img id="showcase-img" src="./images/s3.webp" alt="Wallpaper" />
-              <div class="showcase-overlay"></div>
-            </div>
-
-            <div class="showcase-dots">
-              <span class="showcase-dot active"></span>
-              <span class="showcase-dot"></span>
-              <span class="showcase-dot"></span>
-              <span class="showcase-dot"></span>
-              <span class="showcase-dot"></span>
-            </div>
-          </div>
-
-          <div class="showcase-right">
-            <h3 id="showcase-title">Season 1 — Di Balik Guyur Hujan</h3>
-            <ul id="showcase-text">
-              <li>Pertemuan Arya dengan gadis jubah kuning di tengah hujan membuka kembali masa lalu yang terkubur. Gadis itu muncul karena menagih janji masa kecilnya kepada Arya, yang nantinya membuat Arya harus mengalami insiden supernatural.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <div class="footer-overlay"></div>
-
-      <div class="darah-kiri"></div>
-
-      <div class="darah-kanan">
-        <a href="#top" id="scrollTop"></a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#picsumCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#picsumCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
 
-      <div class="footer-content">
-        <div class="footer-logos">
-          <img
-            src="./images/7D-W.webp"
-            width="120px"
-            height="120px"
-            alt="Logo 1"
-          />
-          <img
-            src="./images/logo-Dibalik-Guyur-HujaN-origin.webp"
-            width="200px"
-            height="130px"
-            alt="Logo 2"
-          />
-        </div>
+      <div class="awan atas"></div>
+    </section>
 
-        <div class="footer-line"></div>
-        <p class="footer-copy">
-          © 2025 Dibalik Guyur Hujan. ALL RIGHTS RESERVED.
+    <div id="videoModal" class="custom-modal">
+      <div class="modal-content">
+        <button class="close-modal" aria-label="Tutup video">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <div class="video-wrapper">
+          <img src="./images/bgvideo.webp" alt="" class="bg-video w-100" />
+          <div class="video-logo">
+            <img src="./images/uplogo.webp" alt="Logo DGH" />
+          </div>
+
+          <iframe id="youtubePlayer" class="hidden" src="" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen>
+          </iframe>
+          <div class="video-mask"></div>
+          <div class="yt-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section id="about">
+      <div class="awan bawah"></div>
+      <canvas id="rain-canvas"></canvas>
+      <div class="about-container">
+        <div class="garisatas">
+          <img src="./images/upper line.webp" alt="" class="w-100" />
+        </div>
+        <div id="gmbrkiriatas" class="payung">
+          <img src="./images/payung-atas-kiri.webp" alt="" />
+        </div>
+        <div id="gmbrkananatas" class="payung">
+          <img src="./images/payung-atas-kanan.webp" alt="" />
+        </div>
+        <h1>Sinopsis</h1>
+        <p>
+          Ketika masa lalu menjadi alasan utama, luka yang belum sembuh kini
+          menjadi misteri yang sulit dijelaskan. Seandainya peristiwa itu bisa
+          diulang, namun naas, penyesalan selalu datang terlambat. Jika hujan
+          bukan sekadar air yang jatuh dari langit, melainkan penghubung
+          antara trauma dan harapan. Arya, seorang pria muda yang tenggelam
+          dalam hidup monoton dan penuh tekanan, hidupnya berubah ketika ia
+          bertemu seorang gadis berjubah kuning di halte kecil saat hujan
+          lebat. Gadis itu memegang payung kuning yang koyak. Arya
+          mengabaikannya, hingga ia merasa ada yang aneh dan mencoba
+          menawarinya berteduh. Namun gadis itu hanya menyerahkan secarik
+          kertas bertuliskan “Jangan lupa bahagia” sambil tersenyum, lalu
+          pergi. Sejak pertemuan itu, Arya mulai dihantui oleh sosok gadis
+          tersebut dari kejadian aneh di perjalanan pulang hingga di
+          kantornya. Bahkan, rekan kerjanya, Dinda, juga mengalami hal serupa.
+          Melalui serangkaian kilas balik, terungkap bahwa gadis berjubah
+          kuning itu adalah teman masa kecil mereka. Ia datang menagih janji
+          lama yang berubah menjadi pengkhianatan, trauma, dan rahasia kelam.
+          Demi membungkam masa lalu, rasa bersalah dan ketakutan pun bangkit
+          kembali, semua terjadi <strong>Dibalik Guyur Hujan.</strong>
         </p>
+
+        <div id="gmbrkiribawah" class="payung">
+          <img src="./images/payung-bawah-kiri.webp" alt="" />
+        </div>
+        <div id="gmbrkananbawah" class="payung">
+          <img src="./images/payung-bawah-kanan.webp" alt="" />
+        </div>
+        <div class="garisbawah">
+          <img src="./images/under line.webp" alt="" class="w-100" />
+        </div>
       </div>
-    </footer>
+      <div class="air atas"></div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <section id="characters">
+      <div class="air bawah"></div>
+      <div class="halte-container">
+        <div id="logohalte">
+          <img src="./images/bg25.webp" alt="Background Halte" />
+          <h2 class="halte-text">HALTE</h2>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/script-01.js" defer></script>
+      <div class="character-wrapper">
+        <div class="character-track">
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/nara-card.webp" alt="Si Gadis Jubah Kuning" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Si Gadis <br />Jubah Kuning</h3>
+              <p>Arwah Manusia</p>
+            </div>
+          </div>
 
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-      data-cf-beacon='{"version":"2024.11.0","token":"ad90c393f52b42e8877941761f9b387f","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/dinda-card.webp" alt="Dinda" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Dinda</h3>
+              <p>Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character aktif">
+            <div class="img-wrap">
+              <img src="./images/arya-card.webp" alt="Arya / Raya" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Arya / Raya</h3>
+              <p>Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/bijo-card.webp" alt="Bijo" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Bijo (Penjaga Kota)</h3>
+              <p>Makhluk Gaib</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/owo-card.webp" alt="Owo" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Owo</h3>
+              <p>Makhluk Gaib</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/Arya-ijo - Copy.webp" alt="Arya (Mode Bijo)" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Arya (Mode Bijo)</h3>
+              <p>Tasbih Mode</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/riancard.webp" alt="Rian" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Rian</h3>
+              <p>Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/sultancard.webp" alt="Sultan" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Sultan</h3>
+              <p>Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/burhancard.webp" alt="Burhan" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Burhan</h3>
+              <p>Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/kuyang-card.webp" alt="Kuyang" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Kuyang</h3>
+              <p>Arwah Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/tianakcard.webp" alt="Tianak (Kuntilanak)" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Tianak (Kuntilanak)</h3>
+              <p>Arwah Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/relta1.webp" alt="Relta" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Relta (Rel Kereta)</h3>
+              <p>Arwah Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/sulongcard.webp" alt="Sulong (Sundel Bolong)" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>
+                Sulong <br />
+                (Sundel Bolong)
+              </h3>
+              <p>Arwah Manusia</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/tuyulcard.webp" alt="Tuyul (Bocil Kematian)" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Tuyul <br />(Bocil Kematian)</h3>
+              <p>Makhluk Gaib</p>
+            </div>
+          </div>
+
+          <div class="kartu-character">
+            <div class="img-wrap">
+              <img src="./images/baticard.webp" alt="Bati (Banaspati)" />
+              <div class="overlay"></div>
+            </div>
+            <div class="info-container">
+              <h3>Bati (Banaspati)</h3>
+              <p>Makhluk Gaib</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="halter-container"></div>
+
+      <div class="gen atas"></div>
+    </section>
+    <section id="detailcharacter">
+      <div class="gen bawah"></div>
+      <div class="dtchara-section">
+        <h2 class="section-title">
+          Character <br />
+          Select
+        </h2>
+
+        <div class="dtchara-wrap">
+          <div class="dtchara-left">
+            <div class="dtchara-left-body">
+              <h3>Arya</h3>
+
+              <img src="./images/3l1.webp" alt="Line kiri atas" class="dtchara-line-left-top" />
+
+              <p>
+                Kehidupan yang monoton membuat Arya harus mengulanginya terus
+                menerus, tidur, berangkat kerja, lembur, pulang malam, dan
+                seterusnya, hingga suatu hari ia sempat lapar dan mengunjungi
+                sebuah warung untuk makan, usai makan hujan deras mengguyur,
+                membuat Arya terpaksa berlari mencari tempat berteduh yaitu
+                sebuah halte.
+              </p>
+
+              <img src="./images/3l1.webp" alt="Line kiri bawah" class="dtchara-line-left-bottom" />
+            </div>
+          </div>
+
+          <div class="dtchara-center">
+            <img src="./images/arya3.webp" alt="Character" class="dtchara-img" />
+          </div>
+
+          <div class="dtchara-right">
+            <div class="dtchara-detail" id="right-desc">
+              <img src="./images/3l3.webp" alt="Line kanan" class="dtchara-line-right" />
+              <div class="dtchara-text">
+                <h5>Deskripsi</h5>
+                <p>
+                  Seorang Pria Dewasa yang pendiam, tanpa pertemanan, baginnya
+                  teman merepotkan, di balik rutinitasnya ia terpaksa harus
+                  bergadang membuat matanya menjadi lebam, namun ia pun tetap
+                  menerimanya dan berharap bisa mati dengan cepat, karena ia
+                  tidak mempunyai alasan untuk hidup, hingga pertemuaanya
+                  dengan Si Gadis Jubah Kuning, mengubahnya segalanya, yang
+                  mulanya monoton kini menjadi menegangkan, hingga hasrat
+                  untuk mati, berubah menjadi hasrat untuk hidup.
+                </p>
+              </div>
+            </div>
+
+            <div class="dtchara-detail" id="right-race">
+              <img src="./images/3l4.webp" alt="Line kanan" class="dtchara-line-right" />
+              <div class="dtchara-text">
+                <h5>Ras :</h5>
+                <p>
+                  Manusia : Sosok makhluk hidup yang rapuh di Alam Fana, penuh
+                  dengan emosi, dan esensi untuk penasaran.
+                </p>
+              </div>
+            </div>
+
+            <div class="dtchara-detail" id="right-trait">
+              <img src="./images/3l2.webp" alt="Line kanan" class="dtchara-line-right" />
+              <div class="dtchara-text">
+                <h5>Sifat :</h5>
+                <p>
+                  Pendiam, introspektif, dan sering terjebak dalam pikirannya
+                  sendiri.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rumput atas"></div>
+    </section>
+
+    <section id="backgroundcharacter">
+      <div class="rumput bawah"></div>
+      <div class="bschara-container">
+        <div class="bschara-left">
+          <img src="./images/aryakbg.webp" alt="Character" class="char-img" />
+        </div>
+
+        <div class="bschara-middle"></div>
+
+        <div class="bschara-right">
+          <h3>Arya / Raya</h3>
+          <p>
+            Hidup penuh dengan broken home, ditinggal mati kedua orang tua di
+            usia dini membuat Arya harus pindah asuh beberapa kali oleh
+            keluarga hingga yang terakhir ia harus tinggal dengan pamannya, di
+            momen itu tubuh Arya mengalami mati rasa, dan membuatnya harus
+            tinggal di rumah sakit, dan ternyata pamanya menghilang dan Arya
+            terpaksa menjadi anak asuh di panti asuhan hingga ia di adopsi
+            orang lain, dengan nama baru yaitu Raya ketika checkup di rumah
+            sakit ia tak sadar bertemu dan berbicara dengan Nara, Nara yang
+            mencoba bertanya namanya yang menyangka ia adalah Arya, sedikit
+            kecewa karena Arya mengenalkan diri sebagai raya, Nara pun
+            kehilangan semangatnya, namun ia tetap mencoba untuk berteman di
+            Arya hingga mereka berdua membuat janji, jika bertemu lagi akan
+            menjadi teman.
+          </p>
+        </div>
+      </div>
+
+      <div class="dtcharain-container">
+        <div class="dtcharain front-row"></div>
+        <div class="dtcharain back-row"></div>
+      </div>
+
+      <div class="pipa atas"></div>
+    </section>
+
+    <section id="showcasegalery">
+      <div class="pipa bawah"></div>
+      <div class="ripple-overlay" id="ripple-overlay"></div>
+
+      <div class="showcase-container">
+        <div class="showcase-left">
+          <div class="showcase-paper">
+            <img id="showcase-img" src="./images/s3.webp" alt="Wallpaper" />
+            <div class="showcase-overlay"></div>
+          </div>
+
+          <div class="showcase-dots">
+            <span class="showcase-dot active"></span>
+            <span class="showcase-dot"></span>
+            <span class="showcase-dot"></span>
+            <span class="showcase-dot"></span>
+            <span class="showcase-dot"></span>
+          </div>
+        </div>
+
+        <div class="showcase-right">
+          <h3 id="showcase-title">Season 1 — Di Balik Guyur Hujan</h3>
+          <ul id="showcase-text">
+            <li>Pertemuan Arya dengan gadis jubah kuning di tengah hujan membuka kembali masa lalu yang terkubur. Gadis
+              itu muncul karena menagih janji masa kecilnya kepada Arya, yang nantinya membuat Arya harus mengalami
+              insiden supernatural.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="showcase-left">
+        <div class="showcase-paper">
+          <img src="./images/comingsoon-book.webp" alt="Buku Cetak Coming Soon" />
+          <div class="showcase-overlay"></div>
+        </div>
+      </div>
+
+      <div class="showcase-right">
+        <h3>Buku Cetak — Dibalik Guyur Hujan</h3>
+        <ul>
+          <li>Coming Soon</li>
+          <li>Versi fisik dari kisah Dibalik Guyur Hujan.</li>
+          <li>Saat ini masih dalam tahap produksi.</li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-overlay"></div>
+
+    <div class="darah-kiri"></div>
+
+    <div class="darah-kanan">
+      <a href="#top" id="scrollTop"></a>
+    </div>
+
+    <div class="footer-content">
+      <div class="footer-logos">
+        <img src="./images/7D-W.webp" width="120px" height="120px" alt="Logo 1" />
+        <img src="./images/logo-Dibalik-Guyur-HujaN-origin.webp" width="200px" height="130px" alt="Logo 2" />
+      </div>
+
+      <div class="footer-line"></div>
+      <p class="footer-copy">
+        © 2025 Dibalik Guyur Hujan. ALL RIGHTS RESERVED.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script-01.js" defer></script>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+    data-cf-beacon='{"version":"2024.11.0","token":"ad90c393f52b42e8877941761f9b387f","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
