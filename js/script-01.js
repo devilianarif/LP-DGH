@@ -530,8 +530,8 @@ function updateCharacter() {
       index === currentCharacter
         ? 'scale(1.1) translateY(-10px)'
         : distance === 1
-          ? 'scale(0.9) translateY(5px)'
-          : 'scale(0.8) translateY(15px)';
+        ? 'scale(0.9) translateY(5px)'
+        : 'scale(0.8) translateY(15px)';
     card.style.opacity =
       index === currentCharacter ? '1' : distance === 1 ? '0.6' : '0.3';
   });
