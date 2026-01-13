@@ -1855,7 +1855,7 @@ body::after {
   }
 
   #detailcharacter {
-    height: auto;
+    height: auto !important;
   }
 
   .dtchara-section:hover .dtchara-right,
