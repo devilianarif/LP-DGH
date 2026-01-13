@@ -228,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 300);
   }
 
+  
   function nextSlide() {
     index = (index + 1) % data.length;
     updateShowcase(index);
