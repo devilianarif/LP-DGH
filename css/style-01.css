@@ -2040,6 +2040,12 @@ body::after {
     padding: 160px 0;
   }
 
+  #characters {
+    height: auto;
+    min-height: 120vh;
+    padding: 140px 0;
+  }
+
   #backgroundcharacter,
   #detailcharacter {
     height: auto;
