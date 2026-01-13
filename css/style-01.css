@@ -1562,8 +1562,6 @@ body::after {
 }
 
 
-
-
 .showcase-dual {
   display: grid;
   grid-template-columns: 0.5fr .5fr;
