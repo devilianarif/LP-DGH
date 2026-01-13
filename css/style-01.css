@@ -1566,7 +1566,7 @@ body::after {
 
 .showcase-dual {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
   gap: 60px;
   align-items: start;
   margin-top: 200px;
