@@ -1583,7 +1583,7 @@ body::after {
 }
 .showcase-box .showcase-paper {
   height: auto;
-  aspect-ratio: 3 / 4; /* rasio buku */
+  aspect-ratio: 3 / 4; 
   overflow: visible;
 }
 
