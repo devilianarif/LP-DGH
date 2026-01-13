@@ -1952,3 +1952,71 @@ body::after {
     right: 0;
   }
 }
+
+#printbook-galery {
+  position: relative;
+  width: 100%;
+  padding: 120px 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  background-image: url('../images/bg-print.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.printbook-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 0 20px;
+}
+
+.printbook-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.printbook-left img {
+  width: 100%;
+  max-width: 360px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.6));
+}
+
+.printbook-right {
+  flex: 1;
+  text-align: left;
+}
+
+.printbook-right h3 {
+  text-transform: uppercase;
+  color: #ffd966;
+  margin-bottom: 10px;
+}
+
+.printbook-right p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.printbook-right span {
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .printbook-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .printbook-right {
+    text-align: center;
+  }
+}
