@@ -1898,7 +1898,7 @@ body::after {
     width: 85%;
   }
   #backgroundcharacter{
-    
+    height: auto;
   }
 
   #backgroundcharacter .bschara-left {
