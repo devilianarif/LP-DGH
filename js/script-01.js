@@ -260,55 +260,7 @@ document.getElementById('scrollTop').addEventListener('click', function (e) {
   });
 });
 
-const showcaseArea = document.querySelector('#showcasegalery');
 
-let startX = 0;
-let isDragging = false;
-
-function handleSwipe(diff) {
-  if (Math.abs(diff) < 50) return;
-
-  if (diff < 0) {
-    // swipe kiri → next
-    index = (index + 1) % data.length;
-  } else {
-    // swipe kanan → prev
-    index = (index - 1 + data.length) % data.length;
-  }
-
-  updateShowcase(index);
-  clearInterval(autoPlay);
-  autoPlay = setInterval(nextSlide, 5000);
-}
-
-/* TOUCH (MOBILE) */
-showcaseArea.addEventListener('touchstart', (e) => {
-  startX = e.touches[0].clientX;
-  isDragging = true;
-});
-
-showcaseArea.addEventListener('touchend', (e) => {
-  if (!isDragging) return;
-  const endX = e.changedTouches[0].clientX;
-  handleSwipe(endX - startX);
-  isDragging = false;
-});
-
-/* MOUSE (DESKTOP) */
-showcaseArea.addEventListener('mousedown', (e) => {
-  startX = e.clientX;
-  isDragging = true;
-});
-
-showcaseArea.addEventListener('mouseup', (e) => {
-  if (!isDragging) return;
-  handleSwipe(e.clientX - startX);
-  isDragging = false;
-});
-
-showcaseArea.addEventListener('mouseleave', () => {
-  isDragging = false;
-});
 
 //  Ripple Overlay Effect
 document.addEventListener('click', function (e) {
