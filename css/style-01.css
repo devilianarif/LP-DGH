@@ -2089,6 +2089,27 @@ body::after {
     top: 0;
     right: 0;
   }
+
+  .showcase-product {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .showcase-product-img {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .showcase-product .showcase-info {
+    align-items: center;
+  }
+
+  .showcase-title,
+  .showcase-desc {
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 1440px) {
